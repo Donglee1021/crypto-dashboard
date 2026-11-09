@@ -150,4 +150,8 @@ details summary { cursor: pointer; color: var(--tx2); min-height: 32px; }
 .hz { border-top: 1px solid var(--line); margin-top: 8px; padding-top: 8px; }
 .card-head h2 { margin: 0; }
 svg text { fill: var(--tx2); font-size: 10px; }
+.eq { width: 100%; height: 180px; display: block; background: #0d1117; border: 1px solid var(--line); border-radius: 8px; }
+.bt-grid { display: grid; gap: 12px; }
+@media (min-width: 860px) { .bt-grid { grid-template-columns: 1fr 1fr; } }
+#btCard .controls { margin: 8px 0; }
 ::selection { background: #1f6feb; color: #fff; }

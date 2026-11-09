@@ -135,6 +135,31 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
     <div class="scroll"><table id="mtfTable"></table></div>
   </section>
 
+  <section class="card" id="btCard">
+    <div class="card-head">
+      <h2>回测与复盘</h2>
+      <span class="muted" id="btMeta"></span>
+    </div>
+    <div class="controls">
+      <div class="seg" id="btCoin" role="group" aria-label="回测币种">
+        <button type="button" class="on" data-v="BTC" aria-pressed="true">BTC</button>
+        <button type="button" data-v="ETH" aria-pressed="false">ETH</button>
+      </div>
+      <div class="seg" id="btHorizon" role="group" aria-label="回测周期">
+        <button type="button" class="on" data-v="综合" aria-pressed="true">综合</button>
+        <button type="button" data-v="15分钟" aria-pressed="false">15分钟</button>
+        <button type="button" data-v="1小时" aria-pressed="false">1小时</button>
+        <button type="button" data-v="4小时" aria-pressed="false">4小时</button>
+        <button type="button" data-v="日线" aria-pressed="false">日线</button>
+      </div>
+    </div>
+    <div id="btBody"><div class="muted">回测数字生成后显示在这里。</div></div>
+    <p class="warn">回测只说明这套规则在过去的行情里怎样，不保证以后还会这样。样本内挑参数容易把历史噪声当成规律，请同时看样本外的结果。这里不下单，也不连接任何账户。</p>
+    <h3 class="subh">最近信号</h3>
+    <div class="scroll"><table id="btSignals"></table></div>
+    <p class="muted">信号每小时记一笔。1 小时、4 小时、24 小时后的涨跌用来对照当时的结论：做多之后上涨、做空之后下跌，记为对。观望不判断对错。新闻和清算没有可靠的长历史，历史分数里没有计入。</p>
+  </section>
+
   <section class="card" id="liqCard">
     <div class="card-head">
       <h2>清算</h2>
