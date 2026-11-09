@@ -36,6 +36,9 @@
     errors: {},
     summary: {}
   };
+  const LIQ = { BTC: [], ETH: [] };
+  const LIQ_SEEN = { BTC: new Set(), ETH: new Set() };
+  const CTVAL = { BTC: 0.01, ETH: 0.1 };
 
   const $ = id => document.getElementById(id);
   const dp = c => c === 'BTC' ? 1 : 2;
@@ -500,6 +503,66 @@
 
   let auxTimer = 0;
 
+  function usdTxt(v) {
+    if (v == null || !isFinite(Number(v))) return '—';
+    const n = Number(v);
+    if (n >= 1e8) return (n / 1e8).toFixed(2) + ' 亿美元';
+    if (n >= 1e4) return (n / 1e4).toFixed(1) + ' 万美元';
+    return n.toFixed(0) + ' 美元';
+  }
+
+  function addLiq(c, ev) {
+    if (!LIQ[c] || !ev || !ev.ts) return;
+    const key = ev.ts + '|' + ev.px + '|' + ev.sz + '|' + ev.posSide;
+    if (LIQ_SEEN[c].has(key)) return;
+    LIQ_SEEN[c].add(key);
+    LIQ[c].push(ev);
+    if (LIQ[c].length > 5000) {
+      LIQ[c] = LIQ[c].slice(-4000);
+      LIQ_SEEN[c] = new Set(LIQ[c].map(x => x.ts + '|' + x.px + '|' + x.sz + '|' + x.posSide));
+    }
+  }
+
+  function ingestDetails(instId, details) {
+    const c = String(instId || '').split('-')[0];
+    if (COINS.indexOf(c) < 0) return;
+    const ct = CTVAL[c] || 0.01;
+    (details || []).forEach(d => {
+      const px = parseFloat(d.bkPx);
+      const sz = parseFloat(d.sz);
+      if (!isFinite(px) || !isFinite(sz)) return;
+      addLiq(c, { ts: Number(d.ts || d.time), px: px, sz: sz, usd: sz * ct * px, posSide: d.posSide === 'short' ? 'short' : 'long' });
+    });
+  }
+
+  function extremeCtx(c, px) {
+    const der = ST.der[c] || {};
+    const fng = ST.fng.length ? ST.fng[ST.fng.length - 1].value : null;
+    const sum = Ind.summarizeLiquidations(LIQ[c] || [], Date.now());
+    const book = ST.tf[c] && ST.tf[c]['4H'] && ST.tf[c]['4H'].levels;
+    const view = book ? Ind.presentLevels(book, px) : null;
+    const near = !!(view && view.supports[0] && Math.abs(view.supports[0].distPct) <= 1);
+    return {
+      funding: der.funding,
+      fundingAvg: der.funding_avg7d,
+      ls: der.ls_ratio,
+      fng: fng,
+      liq: { long1h: sum.h1.long, short1h: sum.h1.short, long4h: sum.h4.long, short4h: sum.h4.short },
+      liqMin: c === 'BTC' ? 1000000 : 300000,
+      nearSupport: near
+    };
+  }
+
+  function countdown(ms) {
+    if (!ms) return '—';
+    let s = Math.floor((Number(ms) - Date.now()) / 1000);
+    if (s < 0) s = 0;
+    const h = Math.floor(s / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+    return h + '小时' + String(m).padStart(2, '0') + '分' + String(sec).padStart(2, '0') + '秒';
+  }
+
   function coinPrice(c) {
     if (live[c] != null) return live[c];
     const tfs = ST.tf[c] || {};
@@ -514,33 +577,44 @@
     srLines = [];
   }
 
+  function zonesFor(c, px) {
+    if (px == null) return null;
+    const h1 = ST.tf[c] && ST.tf[c]['1H'] && ST.tf[c]['1H'].chart;
+    const entries = [];
+    if (h1) {
+      const start = Math.max(0, h1.c.length - 24);
+      for (let i = start; i < h1.c.length; i++) entries.push({ price: h1.c[i], vol: h1.v[i] || 0 });
+    }
+    const der = ST.der[c] || {};
+    return Ind.estimateLiqZones(px, entries, der.oi_usd || 0, der.oi_chg24h);
+  }
+
   function syncSrLines() {
     if (!chartsReady || !candle) return;
     const d = ST.tf[coin] && ST.tf[coin][tf];
-    const show = $('chkSr') && $('chkSr').checked && d && d.levels;
     const price = coinPrice(coin);
+    const show = $('chkSr') && $('chkSr').checked && d && d.levels;
     const view = show ? Ind.presentLevels(d.levels, price) : null;
-    const sig = !view ? 'off' : ['S', 'R'].map((side, idx) => {
+    const zones = $('chkLiq') && $('chkLiq').checked ? zonesFor(coin, price) : null;
+    const sig = (view ? ['S', 'R'].map((side, idx) => {
       const list = idx === 0 ? view.supports : view.resistances;
       return list.map(lv => lv.id + ':' + lv.price.toFixed(2) + ':' + (lv.breakFlag || '')).join(',');
-    }).join('|');
+    }).join('|') : 'off') + '#' + (zones && zones.nearestLong ? zones.nearestLong.price.toFixed(1) : '') + '/' + (zones && zones.nearestShort ? zones.nearestShort.price.toFixed(1) : '');
     if (sig === srSig) return;
     srSig = sig;
     clearSrLines();
-    if (!view) return;
-    function addLine(lv, color) {
-      const broken = !!lv.breakFlag;
+    function addLine(priceLv, title, color, dashed) {
       srLines.push(candle.createPriceLine({
-        price: lv.price,
-        color: broken ? '#d29922' : color,
-        lineWidth: lv.nearest || broken ? 2 : 1,
-        lineStyle: lv.nearest || broken ? 0 : 2,
-        axisLabelVisible: true,
-        title: lv.id
+        price: priceLv, color: color, lineWidth: dashed ? 1 : 2, lineStyle: dashed ? 2 : 0,
+        axisLabelVisible: true, title: title
       }));
     }
-    view.supports.forEach(lv => addLine(lv, '#26a69a'));
-    view.resistances.forEach(lv => addLine(lv, '#ef5350'));
+    if (view) {
+      view.supports.forEach(lv => addLine(lv.price, lv.id, lv.breakFlag ? '#d29922' : '#26a69a', !(lv.nearest || lv.breakFlag)));
+      view.resistances.forEach(lv => addLine(lv.price, lv.id, lv.breakFlag ? '#d29922' : '#ef5350', !(lv.nearest || lv.breakFlag)));
+    }
+    if (zones && zones.nearestLong) addLine(zones.nearestLong.price, '估多' + zones.nearestLong.lev + 'x', '#d29922', true);
+    if (zones && zones.nearestShort) addLine(zones.nearestShort.price, '估空' + zones.nearestShort.lev + 'x', '#c678dd', true);
   }
 
   function checkRow(ok, title, detail) {
@@ -576,10 +650,11 @@
       const tone = plan.verdict === '可以做多' ? 'up' : plan.verdict === '可以做空' ? 'down' : 'muted';
       let ex = '';
       try {
-        const der = ST.der[c] || {};
-        const fng = ST.fng.length ? ST.fng[ST.fng.length - 1].value : null;
-        const ext = Ind.assessExtreme(tfs, px, { funding: der.funding, fundingAvg: der.funding_avg7d, ls: der.ls_ratio, fng: fng });
+        const ext = Ind.assessExtreme(tfs, px, extremeCtx(c, px));
         ex = '<div class="muted">见底/见顶：底部「' + esc(ext.bottom.label) + '」，顶部「' + esc(ext.top.label) + '」。结构确认可以作为入场触发。</div>';
+        const z = zonesFor(c, px);
+        if (z && z.nearestShort) ex += '<div class="muted">上方空头清算估计区 ' + fp(c, z.nearestShort.price) + '（' + z.nearestShort.lev + 'x，约 ' + usdTxt(z.nearestShort.usd) + '，' + pct(z.nearestShort.distPct) + '）。这是估计磁铁，可当作上探参考，不是确定目标。</div>';
+        if (z && z.nearestLong) ex += '<div class="muted">下方多头清算估计区 ' + fp(c, z.nearestLong.price) + '（' + z.nearestLong.lev + 'x，约 ' + usdTxt(z.nearestLong.usd) + '，' + pct(z.nearestLong.distPct) + '）。</div>';
       } catch (e) {}
       return '<div><div class="muted">' + c + '-USDT 永续</div><div class="entry-word ' + tone + '">' + esc(plan.verdict) + '</div>' +
         sideBlock('做多条件', plan.long, c) + sideBlock('做空条件', plan.short, c) + ex + '</div>';
@@ -631,13 +706,11 @@
   function renderExtreme() {
     const box = $('extremeBody');
     if (!box) return;
-    const fng = ST.fng.length ? ST.fng[ST.fng.length - 1].value : null;
     box.innerHTML = COINS.map(c => {
       const tfs = ST.tf[c] || {};
       const px = coinPrice(c);
       if (!tfs['4H'] || !tfs['1D'] || px == null) return '<div class="card"><b>' + c + '</b> 计算中…</div>';
-      const der = ST.der[c] || {};
-      const ext = Ind.assessExtreme(tfs, px, { funding: der.funding, fundingAvg: der.funding_avg7d, ls: der.ls_ratio, fng: fng });
+      const ext = Ind.assessExtreme(tfs, px, extremeCtx(c, px));
       function col(title, pack) {
         const tone = pack.label.indexOf('确认') >= 0 || pack.label.indexOf('较强') >= 0 ? (title === '底部' ? 'up' : 'down') : 'muted';
         const rows = pack.items.map(it => checkRow(it.ok, it.name + (it.ok ? ' +' + it.points : ''), it.detail)).join('');
@@ -649,10 +722,110 @@
     }).join('');
   }
 
+  function liqSvg(buckets) {
+    const w = 300, h = 64;
+    let max = 1;
+    buckets.forEach(b => { if (b.long + b.short > max) max = b.long + b.short; });
+    const bw = w / buckets.length;
+    const rects = buckets.map((b, i) => {
+      const hl = (b.long / max) * (h - 2);
+      const hs = (b.short / max) * (h - 2);
+      const x = i * bw;
+      return '<rect x="' + x.toFixed(1) + '" y="' + (h - hl).toFixed(1) + '" width="' + (bw * 0.42).toFixed(1) + '" height="' + Math.max(0, hl).toFixed(1) + '" fill="#ef5350"/>' +
+        '<rect x="' + (x + bw * 0.48).toFixed(1) + '" y="' + (h - hs).toFixed(1) + '" width="' + (bw * 0.42).toFixed(1) + '" height="' + Math.max(0, hs).toFixed(1) + '" fill="#26a69a"/>';
+    }).join('');
+    return '<svg viewBox="0 0 ' + w + ' ' + h + '" width="100%" height="72" aria-label="每小时清算金额">' + rects + '</svg>';
+  }
+
+  function fundSvg(hist) {
+    const w = 300, h = 72, mid = h / 2;
+    let max = 0.00005;
+    hist.forEach(p => { if (Math.abs(p.rate) > max) max = Math.abs(p.rate); });
+    const bw = w / Math.max(1, hist.length);
+    const bars = hist.map((p, i) => {
+      const bh = Math.abs(p.rate) / max * (mid - 4);
+      const y = p.rate >= 0 ? mid - bh : mid;
+      const color = p.rate >= 0 ? '#ef5350' : '#26a69a';
+      return '<rect x="' + (i * bw + 1).toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + Math.max(1, bw - 2).toFixed(1) + '" height="' + Math.max(1, bh).toFixed(1) + '" fill="' + color + '"/>';
+    }).join('');
+    return '<svg viewBox="0 0 ' + w + ' ' + h + '" width="100%" height="80" aria-label="资金费率历史"><line x1="0" x2="' + w + '" y1="' + mid + '" y2="' + mid + '" stroke="#30363d"/>' + bars + '</svg>';
+  }
+
+  function renderLiq() {
+    const box = $('liqBody');
+    if (!box) return;
+    const now = Date.now();
+    box.innerHTML = COINS.map(c => {
+      const events = LIQ[c] || [];
+      const sum = Ind.summarizeLiquidations(events, now);
+      const buckets = Ind.liqBuckets(events, now);
+      const px = coinPrice(c);
+      const z = px == null ? null : zonesFor(c, px);
+      const spanH = sum.spanMs ? (sum.spanMs / 3600000) : 0;
+      function pair(w) {
+        return '多头 ' + usdTxt(w.long) + ' / 空头 ' + usdTxt(w.short);
+      }
+      const top = events.slice().sort((a, b) => b.usd - a.usd).slice(0, 6);
+      const rows = top.map(ev => '<tr><td>' + (ev.posSide === 'short' ? '空头被清算' : '多头被清算') + '</td><td class="n">' + fp(c, ev.px) + '</td><td class="n">' + usdTxt(ev.usd) + '</td><td class="n">' + fmtMDHM(ev.ts) + '</td></tr>').join('');
+      function zoneRows(list, side) {
+        if (!list || !list.length) return '<div class="muted">暂无</div>';
+        const max = Math.max.apply(null, list.map(x => x.usd || 0)) || 1;
+        return list.map(lv => {
+          const width = lv.usd ? Math.max(8, Math.round((lv.usd / max) * 100)) : 20;
+          const hot = z && ((side === 'long' && z.nearestLong && z.nearestLong.lev === lv.lev) || (side === 'short' && z.nearestShort && z.nearestShort.lev === lv.lev));
+          return '<div class="vrow"><span>' + lv.lev + 'x</span> <b>' + fp(c, lv.price) + '</b> <span class="' + scls(lv.distPct) + '">' + pct(lv.distPct) + '</span> <span class="muted">' + usdTxt(lv.usd) + (hot ? ' · 最近的大区' : '') + '</span></div>' +
+            '<div style="height:6px;background:#21262d;border-radius:4px;margin:2px 0 6px"><div style="height:6px;width:' + width + '%;background:' + (side === 'long' ? '#d29922' : '#c678dd') + ';border-radius:4px"></div></div>';
+        }).join('');
+      }
+      return '<div style="margin-bottom:14px"><b>' + c + '</b> <span class="muted">' + events.length + ' 笔，跨度约 ' + spanH.toFixed(1) + ' 小时</span>' +
+        '<div class="muted">1 小时 ' + pair(sum.h1) + '</div>' +
+        '<div class="muted">4 小时 ' + pair(sum.h4) + '</div>' +
+        '<div class="muted">24 小时 ' + pair(sum.h24) + (spanH < 20 ? '（记录还不满 24 小时）' : '') + '</div>' +
+        liqSvg(buckets) +
+        '<div class="muted">红柱是多头被清算，绿柱是空头被清算，每柱约 1 小时。</div>' +
+        '<div class="scroll"><table><tr><th>方向</th><th class="n">价格</th><th class="n">金额</th><th class="n">时间</th></tr>' + (rows || '<tr><td colspan="4">暂无</td></tr>') + '</table></div>' +
+        '<div class="grid2" style="margin-top:8px"><div><div class="subh">下方多头清算估计区</div>' + (z ? zoneRows(z.longZones, 'long') : '') + '</div><div><div class="subh">上方空头清算估计区</div>' + (z ? zoneRows(z.shortZones, 'short') : '') + '</div></div></div>';
+    }).join('');
+    if ($('liqMeta')) $('liqMeta').textContent = ST.updated.liq ? '记录更新于 ' + fmtHM(ST.updated.liq) : '';
+  }
+
+  function renderFunding() {
+    const box = $('fundBody');
+    if (!box) return;
+    box.innerHTML = COINS.map(c => {
+      const d = ST.der[c] || {};
+      const rate = d.funding;
+      const pct8 = rate == null ? null : rate * 100;
+      const day = pct8 == null ? null : pct8 * 3;
+      const year = rate == null ? null : rate * 3 * 365 * 100;
+      let flag = '';
+      if (pct8 != null && pct8 > 0.05) flag = '<span class="chip warn">多头拥挤 · 轧多风险</span>';
+      else if (pct8 != null && pct8 < -0.03) flag = '<span class="chip near">空头拥挤</span>';
+      const payer = rate == null ? '—' : rate > 0 ? '多头付给空头' : rate < 0 ? '空头付给多头' : '双方都不付';
+      const next = d.next_funding_rate == null || Number.isNaN(d.next_funding_rate) ? '暂未公布' : (d.next_funding_rate * 100).toFixed(4) + '%';
+      const hist = d.funding_hist || [];
+      return '<div class="lv"><div class="vrow"><b>' + c + '</b> <span class="px ' + (rate > 0 ? 'down' : rate < 0 ? 'up' : '') + '">' + (pct8 == null ? '—' : (pct8 > 0 ? '+' : '') + pct8.toFixed(4) + '%') + '</span> ' + flag + '</div>' +
+        '<div class="muted">每 8 小时 · ' + payer + '</div>' +
+        '<div class="kv">' +
+        '<div>预测下期</div><div>' + next + '</div>' +
+        '<div>距下次结算</div><div data-fund-cd="' + (d.funding_time || '') + '">' + countdown(d.funding_time) + '</div>' +
+        '<div>年化（按每天 3 次）</div><div>' + (year == null ? '—' : (year > 0 ? '+' : '') + year.toFixed(2) + '%') + '</div>' +
+        '<div>每 8 小时占名义本金</div><div>' + (pct8 == null ? '—' : Math.abs(pct8).toFixed(4) + '%') + '</div>' +
+        '<div>每天占名义本金</div><div>' + (day == null ? '—' : Math.abs(day).toFixed(4) + '%') + '</div>' +
+        '<div>近 7 天平均</div><div>' + (d.funding_avg7d == null ? '—' : (d.funding_avg7d * 100).toFixed(4) + '%') + '</div>' +
+        '</div>' +
+        (hist.length ? fundSvg(hist) + '<div class="muted">红柱费率为正（多头付费），绿柱为负（空头付费）。每根是一次 8 小时结算。</div>' : '<div class="muted">费率历史加载中。</div>') +
+        '</div>';
+    }).join('');
+    if ($('fundMeta')) $('fundMeta').textContent = ST.updated.funding ? '更新于 ' + fmtHM(ST.updated.funding) : '';
+  }
+
   function renderAll() {
     try { buildSummary(); } catch (err) { console.error(err); }
     renderEntry();
     renderVerdicts();
+    renderLiq();
+    renderFunding();
     renderDetail();
     renderExtreme();
     renderMtf();
@@ -711,10 +884,16 @@
       try {
         const fr = (await okx('/api/v5/public/funding-rate?instId=' + inst))[0];
         out.funding = parseFloat(fr.fundingRate);
+        out.funding_time = Number(fr.fundingTime);
         out.next_funding = fmtHM(Number(fr.fundingTime));
-        const hist = await okx('/api/v5/public/funding-rate-history?instId=' + inst + '&limit=21');
-        const rates = hist.map(x => parseFloat(x.realizedRate)).filter(x => !Number.isNaN(x));
+        out.next_funding_rate = fr.nextFundingRate === '' || fr.nextFundingRate == null ? null : parseFloat(fr.nextFundingRate);
+        const hist = await okx('/api/v5/public/funding-rate-history?instId=' + inst + '&limit=30');
+        const rates = hist.map(x => parseFloat(x.realizedRate != null ? x.realizedRate : x.fundingRate)).filter(x => !Number.isNaN(x));
         if (rates.length) out.funding_avg7d = rates.reduce((a, b) => a + b, 0) / rates.length;
+        out.funding_hist = hist.slice().reverse().map(x => ({
+          t: Number(x.fundingTime),
+          rate: parseFloat(x.realizedRate != null ? x.realizedRate : x.fundingRate)
+        })).filter(x => !Number.isNaN(x.rate));
         setErr('funding ' + c, null);
       } catch (e) { setErr('funding ' + c, e); }
       try {
@@ -768,12 +947,33 @@
     });
     setErr('derivatives', (j.errors || []).length && !((j.coins || {}).BTC || {}).ls_ratio ? (j.errors || []).join('；') : null);
   }
+  function applyLiquidations(j) {
+    COINS.forEach(c => {
+      const coin = (j.coins && j.coins[c]) || {};
+      if (coin.ctVal) CTVAL[c] = Number(coin.ctVal) || CTVAL[c];
+      (coin.events || []).forEach(ev => addLiq(c, ev));
+    });
+    if (j.updated_unix) ST.updated.liq = j.updated_unix * 1000;
+    setErr('liq-file', (j.errors || []).length && !(j.coins && j.coins.BTC && (j.coins.BTC.events || []).length) ? j.errors.join('；') : null);
+  }
+  async function refreshLiq() {
+    await Promise.all(COINS.map(async c => {
+      try {
+        const blocks = await okx('/api/v5/public/liquidation-orders?instType=SWAP&instFamily=' + c + '-USDT&state=filled&limit=100');
+        blocks.forEach(b => ingestDetails(b.instId || (c + '-USDT-SWAP'), b.details));
+        setErr('liq ' + c, null);
+      } catch (e) { setErr('liq ' + c, e); }
+    }));
+    ST.updated.liq = Date.now();
+    renderLiq();
+  }
 
   async function refreshStatic() {
     const jobs = [
       ['news', applyNews],
       ['macro', applyMacro],
-      ['derivatives', applyDerivativesFile]
+      ['derivatives', applyDerivativesFile],
+      ['liquidations', applyLiquidations]
     ];
     await Promise.all(jobs.map(async ([name, fn]) => {
       try { fn(await loadJson(name)); setErr('file ' + name, null); }
@@ -783,7 +983,7 @@
   }
 
   // ---------- websocket ----------
-  let ws, wsOk = false, pingT, wsAttempt = 0;
+  let ws, wsOk = false, pingT, wsAttempt = 0, liqRenderTimer = 0;
   function setWs(ok, text) {
     wsOk = ok;
     $('wsdot').className = 'dot ' + (ok ? 'ok' : 'bad');
@@ -799,7 +999,8 @@
         op: 'subscribe',
         args: [
           { channel: 'tickers', instId: 'BTC-USDT-SWAP' },
-          { channel: 'tickers', instId: 'ETH-USDT-SWAP' }
+          { channel: 'tickers', instId: 'ETH-USDT-SWAP' },
+          { channel: 'liquidation-orders', instType: 'SWAP' }
         ]
       }));
       clearInterval(pingT);
@@ -815,6 +1016,12 @@
       if (!m.data) return;
       const port = url.indexOf(':8443') >= 0 ? '8443' : '443';
       setWs(true, 'OKX 实时价格已连接（' + port + '）');
+      if (m.arg && m.arg.channel === 'liquidation-orders') {
+        m.data.forEach(b => ingestDetails(b.instId, b.details));
+        const now = Date.now();
+        if (now - liqRenderTimer > 1500) { liqRenderTimer = now; renderLiq(); renderExtreme(); }
+        return;
+      }
       m.data.forEach(t => {
         const c = String(t.instId || '').split('-')[0];
         if (COINS.indexOf(c) < 0) return;
@@ -852,6 +1059,9 @@
 
   function tickClock() {
     $('clock').textContent = '维也纳时间 ' + fmtFull(Date.now());
+    document.querySelectorAll('[data-fund-cd]').forEach(el => {
+      el.textContent = countdown(el.getAttribute('data-fund-cd'));
+    });
   }
 
   async function refreshAll() {
@@ -859,6 +1069,7 @@
       refreshStatic().catch(() => {}),
       refreshKlines().catch(() => {}),
       refreshDerivatives().catch(() => {}),
+      refreshLiq().catch(() => {}),
       refreshTickers().catch(() => {})
     ]);
   }
@@ -868,6 +1079,7 @@
   $('chkBoll').addEventListener('change', () => drawChart(false));
   $('chkEma').addEventListener('change', () => drawChart(false));
   $('chkSr').addEventListener('change', () => { srSig = ''; syncSrLines(); });
+  if ($('chkLiq')) $('chkLiq').addEventListener('change', () => { srSig = ''; syncSrLines(); });
   seg('newsFilter', v => { newsFilter = v; renderNews(); });
   $('btnRefresh').addEventListener('click', () => { refreshAll(); });
 
@@ -877,6 +1089,7 @@
   connectWs();
   refreshAll().then(() => drawChart(true));
   setInterval(() => { refreshKlines().catch(() => {}); }, 60000);
+  setInterval(() => { refreshLiq().catch(() => {}); }, 60000);
   setInterval(() => { refreshDerivatives().catch(() => {}); }, 180000);
   setInterval(() => { refreshStatic().catch(() => {}); }, 60000);
   setInterval(() => { if (!wsOk) refreshTickers().catch(() => {}); }, 10000);

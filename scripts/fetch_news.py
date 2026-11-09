@@ -442,6 +442,63 @@ def build_derivatives():
     return changed, coins, errors
 
 
+def build_liquidations():
+    """OKX 每次只返回最近约 100 笔。每 10 分钟合并，保留约 26 小时。"""
+    path = os.path.join(DATA, "liquidations.json")
+    old = load_json(path) or {}
+    now_ms = int(time.time() * 1000)
+    cutoff = now_ms - 26 * 3600 * 1000
+    coins = {}
+    errors = []
+    for ccy in COINS:
+        try:
+            fam = f"{ccy}-USDT"
+            raw = get_json(
+                f"https://www.okx.com/api/v5/public/liquidation-orders?instType=SWAP&instFamily={fam}&state=filled&limit=100"
+            )["data"]
+            inst = get_json(
+                f"https://www.okx.com/api/v5/public/instruments?instType=SWAP&instId={ccy}-USDT-SWAP"
+            )["data"][0]
+            ct = float(inst["ctVal"])
+            fresh = []
+            for block in raw:
+                for d in block.get("details") or []:
+                    px = float(d["bkPx"])
+                    sz = float(d["sz"])
+                    fresh.append({
+                        "posSide": "short" if d.get("posSide") == "short" else "long",
+                        "px": px,
+                        "sz": sz,
+                        "ts": int(d["ts"]),
+                        "usd": round(sz * ct * px, 2),
+                    })
+            prev = ((old.get("coins") or {}).get(ccy) or {}).get("events") or []
+            merged = {}
+            for ev in list(prev) + fresh:
+                if int(ev["ts"]) < cutoff:
+                    continue
+                key = f"{ev['ts']}|{ev['px']}|{ev['sz']}|{ev['posSide']}"
+                merged[key] = {
+                    "posSide": ev["posSide"],
+                    "px": float(ev["px"]),
+                    "sz": float(ev["sz"]),
+                    "ts": int(ev["ts"]),
+                    "usd": round(float(ev["usd"]), 2),
+                }
+            events = sorted(merged.values(), key=lambda x: (x["ts"], x["px"], x["sz"]))[-4000:]
+            coins[ccy] = {"ctVal": ct, "events": events}
+        except Exception as e:
+            errors.append(f"清算 {ccy}: {short_err(e)}")
+            prev_coin = (old.get("coins") or {}).get(ccy)
+            if prev_coin:
+                coins[ccy] = prev_coin
+                errors.append(f"清算 {ccy}: 沿用上次结果")
+    errors = sorted(set(errors))
+    obj = {"coins": coins, "errors": errors}
+    changed = write_if_changed(path, obj)
+    return changed, {k: len((v or {}).get("events") or []) for k, v in coins.items()}, errors
+
+
 def step_summary(lines):
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if not path:
@@ -455,11 +512,13 @@ def main():
     n_changed, n_count, n_failed, n_err = build_news()
     m_changed, fng, names, m_err = build_macro()
     d_changed, coins, d_err = build_derivatives()
+    l_changed, l_counts, l_err = build_liquidations()
     print(f"news changed={n_changed} count={n_count} failed_feeds={n_failed}")
     print(f"macro changed={m_changed} fng={fng} markets={names}")
     for ccy, row in coins.items():
         print(f"der {ccy} ls={row.get('ls_ratio')} oi_chg={row.get('oi_chg24h')}")
-    errs = n_err + m_err + d_err
+    print(f"liq changed={l_changed} counts={l_counts}")
+    errs = n_err + m_err + d_err + l_err
     if errs:
         print("errors:")
         for e in errs:
@@ -469,6 +528,7 @@ def main():
         f"- 新闻 {n_count} 条，源失败 {n_failed}，文件{'已更新' if n_changed else '无变化'}",
         f"- 恐惧贪婪 {fng if fng is not None else '无'}，宏观 {('、'.join(names) if names else '无')}",
         f"- 合约统计 {'已更新' if d_changed else '无变化'}",
+        f"- 清算记录 {l_counts}，文件{'已更新' if l_changed else '无变化'}",
     ])
     if n_count == 0 and not names and not any(coins.get(c) for c in COINS):
         raise SystemExit("所有数据源都失败了")

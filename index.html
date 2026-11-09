@@ -57,6 +57,7 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
       <label><input type="checkbox" id="chkBoll" checked>布林带</label>
       <label><input type="checkbox" id="chkEma" checked>EMA</label>
       <label><input type="checkbox" id="chkSr" checked>支撑阻力</label>
+      <label><input type="checkbox" id="chkLiq" checked>估计清算区</label>
     </div>
     <div class="legend">
       <span><i style="background:#f0b90b"></i>EMA20</span>
@@ -65,6 +66,8 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
       <span><i style="background:#8b949e"></i>布林带(20,2)</span>
       <span><i style="background:#26a69a"></i>支撑 S1–S3</span>
       <span><i style="background:#ef5350"></i>阻力 R1–R3</span>
+      <span><i style="background:#d29922"></i>估计多头清算</span>
+      <span><i style="background:#c678dd"></i>估计空头清算</span>
     </div>
     <div id="main" aria-label="K线图"></div>
     <div class="muted" id="paneMacdLbl">MACD (12,26,9)</div><div id="pMacd" class="pane" aria-label="MACD"></div>
@@ -120,6 +123,24 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
     <div class="scroll"><table id="mtfTable"></table></div>
   </section>
 
+  <section class="card" id="liqCard">
+    <div class="card-head">
+      <h2>清算</h2>
+      <span class="muted" id="liqMeta"></span>
+    </div>
+    <div id="liqBody">加载中…</div>
+    <p class="muted">多头被清算是价格下跌时的强平卖出，空头被清算是上涨时的强平买入。OKX 公开接口每次大约只给最近 100 笔，页面用实时推送补上，定时任务每 10 分钟把新出现的单子拼进历史，所以刚打开时 24 小时合计可能还不完整。估计清算区把近 24 根 1 小时收盘价当成可能的开仓价，按 10/25/50/100 倍和 0.4% 维持保证金粗算强平价，再用持仓量和 24 小时持仓变化分配名义金额。这是估计，不是交易所的真实清算地图。下方多头清算区、上方空头清算区被当成价格磁铁：大量多头清算加上资金费率回落，会计入见底分；上方的空头清算区当作可能的上探位置。</p>
+  </section>
+
+  <section class="card" id="fundCard">
+    <div class="card-head">
+      <h2>资金费率</h2>
+      <span class="muted" id="fundMeta"></span>
+    </div>
+    <div class="grid2" id="fundBody">加载中…</div>
+    <p class="muted">永续资金费率每 8 小时结算一次。费率为正时多头付给空头，为负时空头付给多头。年化按每天 3 次估算。持有成本写成名义本金的百分比，不是仓位或杠杆建议。单次结算高于 0.05% 视为多头拥挤、有轧多风险；低于 −0.03% 视为空头拥挤。负费率又靠近支撑，只作为逆向做多的提示。</p>
+  </section>
+
   <section class="grid2">
     <div class="card">
       <div class="card-head"><h2>市场情绪</h2><span class="muted" id="fngTime"></span></div>
@@ -168,7 +189,7 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
         <p>新闻标签按关键词规则判断（标题命中计 2 分、摘要计 1 分，差值 ≥2 定方向）。标题为原文英文，判断可能出错。</p>
         <p>刷新：实时价格走 OKX 公共 WebSocket（wss://ws.okx.com:8443，失败则改走 443 端口，再失败则每 10 秒用 REST 轮询）。K 线与指标每 60 秒重算。资金费率与当前永续持仓每 3 分钟。多空人数比、全市场持仓 24 小时变化、新闻、恐惧贪婪、美股宏观由 GitHub Actions 每 10 分钟抓取（计划任务可能再延迟几分钟），仅在内容变化时提交。页面大约每分钟重新读取这些 JSON。</p>
         <p>OKX 的 K 线、行情、资金费率、当前持仓允许浏览器跨域；多空比与持仓历史接口不返回跨域头，所以改由定时任务写入。</p>
-        <p>支撑阻力的合并规则、接近和刚突破的判定，以及跌破/突破后的价格参考，写在「支撑位 / 阻力位」一节，不进入趋势分数。入场条件另外要求趋势、触发和位置同时成立。见顶见底是独立的可能性分数，也不替代趋势分数。</p>
+        <p>支撑阻力的合并规则、接近和刚突破的判定，以及跌破/突破后的价格参考，写在「支撑位 / 阻力位」一节，不进入趋势分数。入场条件另外要求趋势、触发和位置同时成立。见顶见底是独立的可能性分数。多头清算瀑布加上资金费率回落会计入见底；资金费率高于 0.05% 或空头清算配合高费率会计入见顶。估计清算区只标位置，不改变趋势分数。</p>
       </div>
     </details>
     <div class="muted" id="updTimes" style="margin-top:8px"></div>
