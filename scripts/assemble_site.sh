@@ -6,4 +6,5 @@ rm -rf _site
 mkdir -p _site
 cp index.html site.webmanifest favicon.svg .nojekyll _site/
 cp -a css js data _site/
+if [ -d reports ]; then cp -a reports _site/; fi
 echo "assembled $(find _site -type f | wc -l) files"

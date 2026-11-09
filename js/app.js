@@ -24,6 +24,10 @@
   let coin = 'BTC';
   let tf = '4H';
   let newsFilter = 'all';
+  let btCoin = 'BTC';
+  let btHorizon = '综合';
+  let btSummary = null;
+  let btSignals = [];
   const live = {};
   const ST = {
     ticker: {},
@@ -1020,6 +1024,110 @@
       (rows || '<tr><td colspan="5">暂无</td></tr>') + '</table></div>';
   }
 
+  function pctRet(v) {
+    if (v == null || Number.isNaN(Number(v))) return '—';
+    return pct(Number(v) * 100);
+  }
+  function holdTxt(h) {
+    if (h == null || Number.isNaN(Number(h))) return '—';
+    if (Number(h) < 48) return Number(h).toFixed(1) + ' 小时';
+    return (Number(h) / 24).toFixed(1) + ' 天';
+  }
+  function equitySvg(eq, bench) {
+    if (!eq || eq.length < 2) return '<div class="muted">权益曲线还没有生成。</div>';
+    const w = 640, h = 180, pad = 8;
+    const vals = eq.map(p => p[1]).concat((bench || []).map(p => p[1]));
+    let lo = Math.min.apply(null, vals);
+    let hi = Math.max.apply(null, vals);
+    if (!(hi > lo)) hi = lo + 1;
+    function line(pts, color) {
+      if (!pts || pts.length < 2) return '';
+      const d = pts.map((p, i) => {
+        const x = pad + (w - pad * 2) * (i / (pts.length - 1));
+        const y = pad + (h - pad * 2) * (1 - (p[1] - lo) / (hi - lo));
+        return (i ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1);
+      }).join(' ');
+      return '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="1.6"/>';
+    }
+    return '<svg class="eq" viewBox="0 0 ' + w + ' ' + h + '" role="img" aria-label="权益曲线">' +
+      line(bench, '#8b949e') + line(eq, '#58a6ff') + '</svg>' +
+      '<div class="legend"><span><i style="background:#58a6ff"></i>默认规则</span><span><i style="background:#8b949e"></i>买入持有</span></div>';
+  }
+  function btCells(row) {
+    if (!row) return '<td colspan="7">—</td>';
+    const win = row.win_rate == null ? '—' : (row.win_rate * 100).toFixed(1) + '%';
+    const pf = row.profit_factor == null ? '—' : Number(row.profit_factor).toFixed(2);
+    return '<td class="n">' + pctRet(row.total_return) + '</td><td class="n">' + pctRet(row.max_drawdown) +
+      '</td><td class="n">' + (row.sharpe == null ? '—' : Number(row.sharpe).toFixed(2)) +
+      '</td><td class="n">' + win + '</td><td class="n">' + (row.trades == null ? '—' : row.trades) +
+      '</td><td class="n">' + pf + '</td><td class="n">' + holdTxt(row.avg_hold_hours) + '</td>';
+  }
+  function renderBacktest() {
+    const body = $('btBody');
+    const table = $('btSignals');
+    if (!body || !table) return;
+    const meta = $('btMeta');
+    if (!btSummary || !btSummary.coins) {
+      if (meta) meta.textContent = '';
+      body.innerHTML = '<div class="muted">每日回测还没有写入结果。页面会在任务完成后显示胜率、收益、回撤和权益曲线。</div>';
+    } else {
+      if (meta) meta.textContent = btSummary.generated ? '生成于 ' + fmtFull(Date.parse(btSummary.generated)) : '';
+      const coinData = (btSummary.coins || {})[btCoin] || {};
+      const hz = (coinData.horizons || {})[btHorizon];
+      if (!hz) {
+        body.innerHTML = '<div class="muted">这个币的「' + esc(btHorizon) + '」还没有足够样本。</div>';
+      } else {
+        const best = hz.best_train || {};
+        const bestTxt = '阈值 ' + (best.threshold == null ? '—' : best.threshold) + '，ATR 止损 ' +
+          (best.atr_mult == null ? '—' : best.atr_mult) + ' 倍';
+        const benchIn = hz.default_train ? pctRet(hz.default_train.bench_return) : '—';
+        const benchOut = hz.default_test ? pctRet(hz.default_test.bench_return) : '—';
+        let links = '';
+        if (btHorizon === '综合') {
+          const slug = btCoin.toLowerCase();
+          links = '<p><a href="' + esc(siteUrl('reports/' + slug + '_default.html')) + '">QuantStats 报告：默认规则</a> · ' +
+            '<a href="' + esc(siteUrl('reports/' + slug + '_best_oos.html')) + '">样本外最佳参数</a></p>';
+        }
+        const notes = (btSummary.notes || []).map(n => '<li>' + esc(n) + '</li>').join('');
+        body.innerHTML =
+          '<div class="muted">' + esc(btCoin) + ' · ' + esc(btHorizon) +
+          (hz.bars ? ' · ' + hz.bars + ' 根 K 线' : '') +
+          (hz.start ? ' · ' + esc(hz.start.slice(0, 10)) + ' 至 ' + esc((hz.end || '').slice(0, 10)) : '') + '</div>' +
+          '<div class="bt-grid">' +
+          '<div><h3 class="subh">默认规则（分数达到 ±3 进场，1.5 倍 ATR 止损）</h3>' +
+          '<div class="scroll"><table><tr><th></th><th class="n">总收益</th><th class="n">最大回撤</th><th class="n">夏普</th><th class="n">胜率</th><th class="n">交易次数</th><th class="n">盈亏比</th><th class="n">平均持仓</th></tr>' +
+          '<tr><td>样本内</td>' + btCells(hz.default_train) + '</tr>' +
+          '<tr><td>样本外</td>' + btCells(hz.default_test) + '</tr>' +
+          '<tr><td>买入持有</td><td class="n" colspan="7">样本内 ' + benchIn + '，样本外 ' + benchOut + '</td></tr>' +
+          '</table></div></div>' +
+          '<div><h3 class="subh">样本内挑出的参数</h3><div>' + esc(bestTxt) + '</div>' +
+          '<div class="scroll"><table><tr><th></th><th class="n">总收益</th><th class="n">最大回撤</th><th class="n">夏普</th><th class="n">胜率</th><th class="n">交易次数</th><th class="n">盈亏比</th><th class="n">平均持仓</th></tr>' +
+          '<tr><td>样本内</td>' + btCells(hz.best_train) + '</tr>' +
+          '<tr><td>样本外</td>' + btCells(hz.best_test) + '</tr></table></div>' +
+          '<p class="warn">参数只在前 70% 的行情里按夏普挑选，后 30% 留作样本外。样本内更好看、样本外变差，就是过拟合，不要把样本内当成以后的成绩。</p></div></div>' +
+          equitySvg(hz.equity_default, hz.equity_bench) +
+          '<div class="muted">曲线是全样本的默认规则，灰线是同一段行情买入持有。上表右侧才是样本外。</div>' +
+          links +
+          (notes ? '<ul class="news">' + notes + '</ul>' : '');
+      }
+    }
+    const head = '<tr><th>时间</th><th>币</th><th>周期</th><th class="n">分数</th><th>结论</th><th class="n">价格</th><th class="n">1小时后</th><th class="n">4小时后</th><th class="n">24小时后</th></tr>';
+    function outcome(ret, hit) {
+      if (ret == null) return '—';
+      const mark = hit == null ? '' : (hit ? ' 对' : ' 错');
+      return pct(ret) + mark;
+    }
+    const rows = (btSignals || []).map(s => {
+      const t = Date.parse(s.ts);
+      return '<tr><td>' + fmtMDHM(t) + '</td><td>' + esc(s.coin) + '</td><td>' + esc(s.horizon) +
+        '</td><td class="n">' + sgn(s.score) + '</td><td>' + esc(s.verdict) + '</td><td class="n">' +
+        (s.price == null ? '—' : Number(s.price).toLocaleString('en-US', { maximumFractionDigits: 2 })) +
+        '</td><td class="n">' + outcome(s.ret_1h, s.hit_1h) + '</td><td class="n">' + outcome(s.ret_4h, s.hit_4h) +
+        '</td><td class="n">' + outcome(s.ret_24h, s.hit_24h) + '</td></tr>';
+    }).join('');
+    table.innerHTML = head + (rows || '<tr><td colspan="9">还没有信号记录。每小时的任务会写入最近 50 条。</td></tr>');
+  }
+
   function renderAll() {
     try { buildSummary(); } catch (err) { console.error(err); }
     renderOverall();
@@ -1035,6 +1143,7 @@
     renderMacro();
     renderNews();
     renderMeta();
+    renderBacktest();
   }
 
   // ---------- market data ----------
@@ -1187,7 +1296,24 @@
     renderLiq();
   }
 
+  async function refreshBacktest() {
+    try {
+      const r = await fetch(siteUrl('data/backtest/summary.json?t=' + Date.now()), { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      btSummary = await r.json();
+      setErr('backtest', null);
+    } catch (e) {
+      btSummary = null;
+      setErr('backtest', e);
+    }
+    try {
+      const r = await fetch(siteUrl('data/backtest/signals.json?t=' + Date.now()), { cache: 'no-store' });
+      if (r.ok) btSignals = ((await r.json()).items) || [];
+    } catch (e) { /* 没有信号文件时表格留空 */ }
+  }
+
   async function refreshStatic() {
+    await refreshBacktest();
     const jobs = [
       ['news', applyNews],
       ['macro', applyMacro],
@@ -1339,6 +1465,8 @@
   $('chkSr').addEventListener('change', () => { srSig = ''; syncSrLines(); });
   if ($('chkLiq')) $('chkLiq').addEventListener('change', () => { srSig = ''; syncSrLines(); });
   seg('newsFilter', v => { newsFilter = v; renderNews(); });
+  if ($('btCoin')) seg('btCoin', v => { btCoin = v; renderBacktest(); });
+  if ($('btHorizon')) seg('btHorizon', v => { btHorizon = v; renderBacktest(); });
   $('btnRefresh').addEventListener('click', () => { refreshAll(); });
 
   tickClock();

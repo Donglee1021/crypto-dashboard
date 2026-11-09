@@ -1277,6 +1277,39 @@
     scoreTf: scoreTf, label: label, sentimentAdj: sentimentAdj, newsAdj: newsAdj,
     analyzeRows: analyzeRows, presentLevels: presentLevels, assessEntry: assessEntry, assessExtreme: assessExtreme,
     estimateLiqZones: estimateLiqZones, summarizeLiquidations: summarizeLiquidations, liqBuckets: liqBuckets,
-    overallCall: overallCall, shortPulse: shortPulse, horizonScalp: horizonScalp, horizonLong: horizonLong
+    overallCall: overallCall, shortPulse: shortPulse, horizonScalp: horizonScalp, horizonLong: horizonLong,
+    scoreSeries: scoreSeries
   };
+
+  function scoreSeries(rows) {
+    if (!rows || rows.length < 60) return [];
+    const o = [], h = [], l = [], c = [], v = [];
+    for (let i = 0; i < rows.length; i++) {
+      const x = rows[i];
+      o.push(Number(x[1])); h.push(Number(x[2])); l.push(Number(x[3])); c.push(Number(x[4])); v.push(Number(x[5]));
+    }
+    const e20 = ema(c, 20), e50 = ema(c, 50), e200 = ema(c, 200);
+    const md = macd(c), rs = rsi(c), bb = boll(c), kd = kdj(h, l, c);
+    const ml = md[0], ms = md[1], mh = md[2];
+    const bu = bb[1], bl = bb[2];
+    const ks = kd[0], ds = kd[1], js = kd[2];
+    const vavg = sma(v, 20);
+    const scores = [];
+    for (let i = 0; i < c.length; i++) {
+      if (e200[i] == null || ml[i] == null || ms[i] == null || mh[i] == null || (i > 0 && mh[i - 1] == null) ||
+          rs[i] == null || ks[i] == null || bu[i] == null || vavg[i] == null || !vavg[i]) {
+        scores.push(null);
+        continue;
+      }
+      const ind = {
+        close: c[i], ema20: e20[i], ema50: e50[i], ema200: e200[i],
+        macd: ml[i], macd_signal: ms[i], macd_hist: mh[i], macd_hist_prev: i > 0 ? mh[i - 1] : mh[i],
+        rsi: rs[i], k: ks[i], d: ds[i], j: js[i],
+        boll_up: bu[i], boll_lo: bl[i],
+        vol_ratio: v[i] / vavg[i], vol_bull: c[i] > o[i]
+      };
+      scores.push(scoreTf(ind)[0]);
+    }
+    return scores;
+  }
 });
