@@ -797,6 +797,91 @@
     return { name: name, ok: !!ok, points: ok ? points : 0, detail: detail };
   }
 
+  function estimateLiqZones(price, entries, oiUsd, oiChg) {
+    const MMR = 0.004;
+    const LEVERS = [10, 25, 50, 100];
+    const SHARES = { 10: 0.4, 25: 0.3, 50: 0.2, 100: 0.1 };
+    const intensity = 1 + Math.max(-0.5, Math.min(1, (oiChg || 0) / 100));
+    const pts = (entries && entries.length) ? entries.filter(e => e && e.price > 0) : [{ price: price, vol: 1 }];
+    let volSum = 0;
+    pts.forEach(e => { volSum += e.vol > 0 ? e.vol : 1; });
+    if (!volSum) volSum = pts.length || 1;
+    const longZones = [];
+    const shortZones = [];
+    LEVERS.forEach(lev => {
+      let wpxL = 0, wL = 0, wpxS = 0, wS = 0;
+      pts.forEach(e => {
+        const w = (e.vol > 0 ? e.vol : 1) / volSum;
+        const longPx = e.price * (1 - 1 / lev + MMR);
+        const shortPx = e.price * (1 + 1 / lev - MMR);
+        if (longPx < price) { wpxL += longPx * w; wL += w; }
+        if (shortPx > price) { wpxS += shortPx * w; wS += w; }
+      });
+      const notion = oiUsd > 0 ? oiUsd * SHARES[lev] * intensity : null;
+      if (wL > 0) {
+        const px = wpxL / wL;
+        longZones.push({ lev: lev, price: px, usd: notion == null ? null : notion * wL, distPct: (px - price) / price * 100 });
+      }
+      if (wS > 0) {
+        const px = wpxS / wS;
+        shortZones.push({ lev: lev, price: px, usd: notion == null ? null : notion * wS, distPct: (px - price) / price * 100 });
+      }
+    });
+    function nearestLarge(zones) {
+      if (!zones.length) return null;
+      const maxUsd = Math.max.apply(null, zones.map(z => z.usd || 0));
+      const large = maxUsd > 0 ? zones.filter(z => (z.usd || 0) >= maxUsd * 0.6) : zones.slice();
+      large.sort((a, b) => Math.abs(a.distPct) - Math.abs(b.distPct));
+      return large[0];
+    }
+    return {
+      mmr: MMR,
+      intensity: intensity,
+      longZones: longZones.sort((a, b) => b.price - a.price),
+      shortZones: shortZones.sort((a, b) => a.price - b.price),
+      nearestLong: nearestLarge(longZones.slice()),
+      nearestShort: nearestLarge(shortZones.slice())
+    };
+  }
+
+  function summarizeLiquidations(events, nowMs) {
+    const windows = { h1: 3600000, h4: 4 * 3600000, h24: 24 * 3600000 };
+    const out = {
+      h1: { long: 0, short: 0 }, h4: { long: 0, short: 0 }, h24: { long: 0, short: 0 },
+      spanMs: 0, count: (events || []).length, oldest: null, newest: null
+    };
+    if (!events || !events.length) return out;
+    let minT = Infinity, maxT = 0;
+    events.forEach(e => {
+      if (e.ts < minT) minT = e.ts;
+      if (e.ts > maxT) maxT = e.ts;
+      const age = nowMs - e.ts;
+      const side = e.posSide === 'short' ? 'short' : 'long';
+      Object.keys(windows).forEach(k => {
+        if (age >= 0 && age <= windows[k]) out[k][side] += e.usd || 0;
+      });
+    });
+    out.spanMs = maxT > minT ? maxT - minT : 0;
+    out.oldest = minT;
+    out.newest = maxT;
+    return out;
+  }
+
+  function liqBuckets(events, nowMs) {
+    const hour = 3600000;
+    const start = nowMs - 24 * hour;
+    const buckets = [];
+    for (let i = 0; i < 24; i++) buckets.push({ t: start + i * hour, long: 0, short: 0 });
+    (events || []).forEach(e => {
+      if (e.ts < start || e.ts > nowMs + 1000) return;
+      let i = Math.floor((e.ts - start) / hour);
+      if (i < 0) i = 0;
+      if (i > 23) i = 23;
+      buckets[i][e.posSide === 'short' ? 'short' : 'long'] += e.usd || 0;
+    });
+    return buckets;
+  }
+
   function assessExtreme(tfMap, price, ctx) {
     ctx = ctx || {};
     function pack(dir) {
@@ -869,20 +954,30 @@
       items.push(item(up ? '放量下跌或长下影' : '放量上涨或长上影', !!volHit, 2, volHit || '已收盘 K 线量比未到 2'));
 
       const funding = ctx.funding, avg = ctx.fundingAvg;
+      const liq = ctx.liq || {};
+      const liqMin = ctx.liqMin || 0;
+      const fundTxt = funding == null ? '暂无' : ((funding * 100).toFixed(4) + '% / 8小时');
       if (up) {
+        const extreme = funding != null && funding < -0.0003;
         const neg = funding != null && funding < 0;
-        const turning = neg && avg != null && funding < avg;
-        const pts = neg ? (turning ? 2 : 1) : 0;
-        items.push(item('资金费率转负', neg, pts, funding == null ? '暂无' : ((funding * 100).toFixed(4) + '%' + (turning ? '，低于近 7 天均值' : ''))));
+        const pts = extreme ? 2 : neg ? 1 : 0;
+        items.push(item('资金费率偏空', neg, pts, fundTxt + (extreme ? '，低于 −0.03%，空头拥挤' : neg ? '，空头付费' : '')));
+        const cascade = (liq.long1h || 0) > 0 && (liq.long1h || 0) >= (liq.short1h || 0) * 1.5 && (liq.long1h || 0) >= liqMin;
+        const reset = funding != null && (funding < 0 || (avg != null && funding < avg));
+        items.push(item('多头清算瀑布且费率回落', cascade && reset, 2, cascade ? '近 1 小时多头被清算明显多于空头，且资金费率转负或低于均值' : '还没有同时出现大量多头清算和费率回落'));
+        const near = !!ctx.nearSupport && neg;
+        items.push(item('负资金费率且靠近支撑', near, 1, near ? '现价离 4 小时最近支撑不超过 1%，负费率作逆向多头提示' : '费率不为负，或现价不在支撑 1% 内'));
         const lsOk = ctx.ls != null && ctx.ls < 0.8;
         items.push(item('多空人数比 < 0.8', lsOk, 1, ctx.ls == null ? '暂无' : Number(ctx.ls).toFixed(2)));
         const fOk = ctx.fng != null && ctx.fng < 20;
         items.push(item('恐惧贪婪 < 20', fOk, 1, ctx.fng == null ? '暂无' : String(ctx.fng)));
       } else {
+        const extreme = funding != null && funding > 0.0005;
         const hot = funding != null && funding > 0.0003;
-        const turning = hot && avg != null && funding > avg;
-        const pts = hot ? (turning ? 2 : 1) : 0;
-        items.push(item('资金费率偏高', hot, pts, funding == null ? '暂无' : ((funding * 100).toFixed(4) + '%' + (turning ? '，高于近 7 天均值' : ''))));
+        const pts = extreme ? 2 : hot ? 1 : 0;
+        items.push(item('资金费率偏高', hot, pts, fundTxt + (extreme ? '，高于 0.05%，多头拥挤，有轧多风险' : hot ? '，多头拥挤' : '')));
+        const cascade = (liq.short1h || 0) > 0 && (liq.short1h || 0) >= (liq.long1h || 0) * 1.5 && (liq.short1h || 0) >= liqMin;
+        items.push(item('空头清算配合高费率', cascade && hot, 2, cascade && hot ? '近 1 小时空头被清算偏多，且资金费率偏高' : '没有同时出现空头清算潮和高费率'));
         const lsOk = ctx.ls != null && ctx.ls > 2.5;
         items.push(item('多空人数比 > 2.5', lsOk, 1, ctx.ls == null ? '暂无' : Number(ctx.ls).toFixed(2)));
         const fOk = ctx.fng != null && ctx.fng >= 80;
@@ -921,6 +1016,7 @@
   return {
     ema: ema, sma: sma, rsi: rsi, macd: macd, boll: boll, kdj: kdj, atr: atr, swings: swings,
     scoreTf: scoreTf, label: label, sentimentAdj: sentimentAdj, newsAdj: newsAdj,
-    analyzeRows: analyzeRows, presentLevels: presentLevels, assessEntry: assessEntry, assessExtreme: assessExtreme
+    analyzeRows: analyzeRows, presentLevels: presentLevels, assessEntry: assessEntry, assessExtreme: assessExtreme,
+    estimateLiqZones: estimateLiqZones, summarizeLiquidations: summarizeLiquidations, liqBuckets: liqBuckets
   };
 });

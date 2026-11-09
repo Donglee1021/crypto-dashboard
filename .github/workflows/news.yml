@@ -44,12 +44,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/macro.json data/derivatives.json
+          git add data/news.json data/macro.json data/derivatives.json data/liquidations.json
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "数据无变化，跳过提交"
           else
-            git commit -m "data: 更新新闻、宏观与合约统计"
+            git commit -m "data: 更新新闻、宏观、合约统计与清算"
             git pull --rebase origin main
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"
