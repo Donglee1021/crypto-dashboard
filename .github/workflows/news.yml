@@ -60,23 +60,25 @@ jobs:
         run: bash scripts/assemble_site.sh
 
       - name: 开启并配置 Pages
+        id: pagescfg
         if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
         uses: actions/configure-pages@v6
         with:
           enablement: true
 
       - name: 上传产物
-        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.pagescfg.outcome == 'success'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
       - name: 部署
-        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.pagescfg.outcome == 'success'
         id: deployment
         uses: actions/deploy-pages@v5
 
-      - name: 若部署失败
-        if: failure()
+      - name: Pages 尚未开启
+        if: steps.pagescfg.outcome == 'failure'
         run: |
-          echo "::error::若日志包含 Create Pages site failed 或 Get Pages site failed：打开 Settings → Pages → Build and deployment，Source 选 GitHub Actions 并保存，然后重新运行本工作流。若提交失败且提示权限不足：Settings → Actions → General → Workflow permissions 选 Read and write permissions。"
+          echo "::warning::新闻已处理。Pages 还不能由 GITHUB_TOKEN 自动打开。请打开 Settings → Pages → Build and deployment，Source 选择 GitHub Actions 并保存，然后重新运行「部署 GitHub Pages」。"
