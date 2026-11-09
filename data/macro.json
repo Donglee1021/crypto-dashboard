@@ -178,7 +178,7 @@
     "bias": 0.223,
     "corr": 0.147,
     "corr_label": "弱",
-    "equity_chg": 3.56,
+    "equity_chg": 3.65,
     "equity_name": "纳指期货",
     "line": "美股休市，纳指期货涨3.6%、VIX下降、美元走弱，相关性低，对加密偏多",
     "session": "after",
@@ -230,31 +230,31 @@
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1794259201,
+      "time_unix": 1794262370,
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": 2.39,
-      "chg_1d": 2.39,
-      "chg_5d": 0.06,
-      "chg_intraday": 2.82,
-      "last": 7578.75,
+      "chg": 2.41,
+      "chg_1d": 2.41,
+      "chg_5d": 0.08,
+      "chg_intraday": 2.84,
+      "last": 7580.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794261300,
+      "time_unix": 1794261600,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 3.56,
-      "chg_1d": 3.56,
-      "chg_5d": -0.27,
-      "chg_intraday": 4.36,
-      "last": 28050.5,
+      "chg": 3.65,
+      "chg_1d": 3.65,
+      "chg_5d": -0.19,
+      "chg_intraday": 4.45,
+      "last": 28073.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794261303,
+      "time_unix": 1794261600,
       "unit": ""
     },
     "纳斯达克100": {
@@ -266,7 +266,7 @@
       "role": "equity",
       "stale": false,
       "symbol": "^NDX",
-      "time_unix": 1794261901,
+      "time_unix": 1794262559,
       "unit": ""
     },
     "美10年期国债收益率": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": -0.62,
-      "chg_1d": -0.62,
-      "chg_5d": -0.08,
-      "chg_intraday": -0.56,
-      "last": 101.664,
+      "chg": -0.6,
+      "chg_1d": -0.6,
+      "chg_5d": -0.06,
+      "chg_intraday": -0.54,
+      "last": 101.686,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794261302,
+      "time_unix": 1794263945,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-09T23:05:05+01:00",
-  "updated_unix": 1794261905
+  "updated": "2026-11-09T23:49:10+01:00",
+  "updated_unix": 1794264550
 }
