@@ -3,9 +3,10 @@
   'use strict';
 
   const COINS = ['BTC', 'ETH'];
-  const TFS = ['15m', '1H', '4H', '1D'];
-  const TF_BAR = { '15m': '15m', '1H': '1H', '4H': '4H', '1D': '1Dutc' };
-  const TFN = { '15m': '15分钟', '1H': '1小时', '4H': '4小时', '1D': '日线' };
+  const TFS = ['5m', '15m', '1H', '4H', '1D', '1W'];
+  const TF_BAR = { '1m': '1m', '5m': '5m', '15m': '15m', '1H': '1H', '4H': '4H', '1D': '1Dutc', '1W': '1Wutc' };
+  const TFN = { '1m': '1分钟', '5m': '5分钟', '15m': '15分钟', '1H': '1小时', '4H': '4小时', '1D': '日线', '1W': '周线' };
+  const FETCH_TFS = ['1m', '5m', '15m', '1H', '4H', '1D', '1W'];
   const CORE_TFS = ['1H', '4H', '1D'];
   const TZ = 'Europe/Vienna';
   const WS_URLS = [
@@ -38,6 +39,8 @@
     summary: {}
   };
   const LIQ = { BTC: [], ETH: [] };
+  ST.book = { BTC: null, ETH: null };
+  ST.rows = {};
   const LIQ_SEEN = { BTC: new Set(), ETH: new Set() };
   const CTVAL = { BTC: 0.01, ETH: 0.1 };
 
@@ -847,6 +850,54 @@
     };
   }
 
+  function recentLiqUsd(c, minutes) {
+    const cut = Date.now() - minutes * 60000;
+    let longUsd = 0;
+    let shortUsd = 0;
+    (LIQ[c] || []).forEach(e => {
+      if (e.ts < cut) return;
+      if (e.posSide === 'short') shortUsd += e.usd || 0;
+      else longUsd += e.usd || 0;
+    });
+    return { longUsd: longUsd, shortUsd: shortUsd };
+  }
+
+  function srUnitFrom(c, keys, px) {
+    let tf = null;
+    let key = null;
+    for (let i = 0; i < keys.length; i++) {
+      if (ST.tf[c] && ST.tf[c][keys[i]] && ST.tf[c][keys[i]].levels) { tf = ST.tf[c][keys[i]]; key = keys[i]; break; }
+    }
+    if (!tf || px == null) return { unit: null, text: '支撑阻力未就绪', line: '支撑阻力未就绪' };
+    const view = Ind.presentLevels(tf.levels, px);
+    const sup = view.supports[0];
+    const res = view.resistances[0];
+    const brokeDown = view.resistances.some(lv => lv.breakFlag === '刚刚跌破');
+    const brokeUp = view.supports.some(lv => lv.breakFlag === '刚刚突破');
+    let unit = 0;
+    let text = TFN[key] || '';
+    if (brokeDown && !brokeUp) { unit = -0.85; text += ' 刚跌破支撑'; }
+    else if (brokeUp && !brokeDown) { unit = 0.85; text += ' 刚向上突破'; }
+    else if (sup && Math.abs(sup.distPct) <= 0.5 && !(res && Math.abs(res.distPct) <= 0.5)) { unit = 0.7; text += ' 靠近支撑'; }
+    else if (res && Math.abs(res.distPct) <= 0.5 && !(sup && Math.abs(sup.distPct) <= 0.5)) { unit = -0.7; text += ' 靠近阻力'; }
+    else if (sup && res) {
+      unit = Math.abs(sup.distPct) < Math.abs(res.distPct) ? 0.25 : -0.25;
+      text += Math.abs(sup.distPct) < Math.abs(res.distPct) ? ' 离支撑更近' : ' 离阻力更近';
+    }
+    const line = [sup ? '支撑 ' + sup.id + ' ' + fp(c, sup.price) + '（' + pct(sup.distPct) + '）' : '', res ? '阻力 ' + res.id + ' ' + fp(c, res.price) + '（' + pct(res.distPct) + '）' : ''].filter(Boolean).join(' · ');
+    return { unit: unit, text: text, line: line || '暂无价位' };
+  }
+
+  function horizonBlock(title, call, srText) {
+    const tone = call.strength.indexOf('做多') >= 0 ? 'up' : call.strength.indexOf('做空') >= 0 ? 'down' : 'muted';
+    const reasons = (call.factors || []).slice().sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution)).slice(0, 3)
+      .map(f => esc(f.name) + ' ' + esc(f.reading)).join('；');
+    return '<div class="hz"><div class="vrow"><b>' + title + '</b> <span class="sig ' + (tone === 'up' ? 's-up' : tone === 'down' ? 's-down' : 's-flat') + '">' + esc(call.strength) + '</span> <span class="' + scls(call.score) + '">' + (call.score == null ? '—' : sgn(call.score)) + '</span> <span class="muted">信心 ' + esc(call.confidence) + '</span></div>' +
+      '<div>' + esc(call.rationale) + '</div>' +
+      '<div class="muted">' + (reasons || '因子还没到齐') + '</div>' +
+      '<div class="muted">' + srText + '</div></div>';
+  }
+
   function renderOverall() {
     const box = $('overallBody');
     if (!box) return;
@@ -854,7 +905,8 @@
       const px = coinPrice(c);
       const tfs = ST.tf[c] || {};
       const s = ST.summary[c];
-      const timeframes = TFS.filter(k => tfs[k]).map(k => ({ name: TFN[k], score: tfs[k].score, signal: tfs[k].signal }));
+      const funding = (ST.der[c] || {}).funding;
+      const inf = ST.influence && ST.influence.bias != null ? ST.influence : null;
       let entry = null;
       let extreme = null;
       if (tfs['1H'] && tfs['4H'] && tfs['1D'] && px != null) {
@@ -866,16 +918,41 @@
           extreme = { bottom: ext.bottom.label, top: ext.top.label };
         } catch (e) {}
       }
+      const pulse = Ind.shortPulse(tfs['1m'], px);
+      const book = ST.book[c];
+      const near = recentLiqUsd(c, 15);
+      let liqUnit = null;
+      let liqText = '近15分钟还没有清算记录';
+      if (near.longUsd + near.shortUsd > 0) {
+        liqUnit = (near.shortUsd - near.longUsd) / (near.longUsd + near.shortUsd);
+        liqText = '多头被清算 ' + usdTxt(near.longUsd) + '，空头被清算 ' + usdTxt(near.shortUsd);
+      }
+      const scalpSr = srUnitFrom(c, ['5m', '15m'], px);
+      const scalp = Ind.horizonScalp({
+        pulse: pulse,
+        m5: tfs['5m'] ? tfs['5m'].score : null,
+        m5Text: tfs['5m'] ? tfs['5m'].signal + ' ' + sgn(tfs['5m'].score) : '',
+        m15: tfs['15m'] ? tfs['15m'].score : null,
+        m15Text: tfs['15m'] ? tfs['15m'].signal + ' ' + sgn(tfs['15m'].score) : '',
+        book: book ? Math.max(-1, Math.min(1, book.imb)) : null,
+        bookText: book ? '买盘 ' + (book.imb >= 0 ? '偏多 ' : '偏空 ') + (book.imb * 100).toFixed(0) + '%' : '',
+        liqUnit: liqUnit,
+        liqText: liqText,
+        funding: funding,
+        srUnit: scalpSr.unit,
+        srText: scalpSr.text
+      });
+      const swingTech = (tfs['1H'] && tfs['4H'] && tfs['1D'])
+        ? round1(tfs['1H'].score * 0.2 + tfs['4H'].score * 0.3 + tfs['1D'].score * 0.5) : null;
       const sum = Ind.summarizeLiquidations(LIQ[c] || [], Date.now());
       const z = px == null ? null : zonesFor(c, px);
-      const inf = ST.influence || {};
-      const call = Ind.overallCall({
-        tech: s ? s.tech : null,
-        timeframes: timeframes,
+      const swing = Ind.overallCall({
+        tech: swingTech,
+        timeframes: ['1H', '4H', '1D'].filter(k => tfs[k]).map(k => ({ name: TFN[k], score: tfs[k].score, signal: tfs[k].signal })),
         sr: srSnapshot(c, px),
         entry: entry,
         extreme: extreme,
-        funding: (ST.der[c] || {}).funding,
+        funding: funding,
         liq: {
           long1h: sum.h1.long, short1h: sum.h1.short,
           longZoneDist: z && z.nearestLong ? z.nearestLong.distPct : null,
@@ -885,14 +962,31 @@
         hasNews: (ST.news || []).length > 0,
         newsAdj: s ? s.news_adj : null,
         newsStat: s ? s.news_stat : null,
-        influence: inf && inf.bias != null ? inf : null
+        influence: inf
       });
-      const tone = call.strength.indexOf('做多') >= 0 ? 'up' : call.strength.indexOf('做空') >= 0 ? 'down' : 'muted';
-      const rows = (call.factors || []).map(f => '<tr><td>' + esc(f.name) + '</td><td>' + esc(f.reading) + '</td><td class="n ' + scls(f.contribution) + '">' + sgn(f.contribution) + '</td></tr>').join('');
-      return '<div><div class="muted">' + c + '-USDT 永续</div><div class="entry-word ' + tone + '">' + esc(call.strength) + '</div>' +
-        '<div class="muted">方向 ' + esc(call.call) + ' · 信心 ' + esc(call.confidence) + ' · 分数 ' + (call.score == null ? '—' : sgn(call.score)) + '</div>' +
-        '<p>' + esc(call.rationale) + '</p>' +
-        '<div class="scroll"><table><tr><th>因子</th><th>读数</th><th class="n">贡献</th></tr>' + rows + '</table></div></div>';
+      const longSr = srUnitFrom(c, ['1W', '1D'], px);
+      const weekly = tfs['1W'];
+      const daily = tfs['1D'];
+      const longer = Ind.horizonLong({
+        weeklyScore: weekly ? weekly.score : null,
+        weeklyText: weekly ? weekly.signal + ' ' + sgn(weekly.score) + (weekly.ind.ema200 != null ? '，EMA200 ' + fp(c, weekly.ind.ema200) : '') : '',
+        dailyScore: daily ? daily.score : null,
+        dailyText: daily ? daily.signal + ' ' + sgn(daily.score) : '',
+        weeklyRsi: weekly ? weekly.ind.rsi : null,
+        aboveEma200: weekly && weekly.ind.ema200 != null ? px > weekly.ind.ema200 : null,
+        srUnit: longSr.unit,
+        srText: longSr.text,
+        influence: inf,
+        fng: ST.fng.length ? ST.fng[ST.fng.length - 1].value : null,
+        extreme: extreme
+      });
+      const bits = [['超短线', scalp], ['中线', swing], ['长线', longer]];
+      const headline = bits.map(b => b[0] + b[1].strength).join('，');
+      const disagree = bits.some(b => b[1].call !== bits[0][1].call);
+      return '<div><div class="muted">' + c + '-USDT 永续</div><div class="' + (disagree ? 'warn' : '') + '" style="font-weight:650;margin:4px 0 8px">' + esc(headline) + '</div>' +
+        horizonBlock('超短线', scalp, scalpSr.line) +
+        horizonBlock('中线', swing, srUnitFrom(c, ['4H', '1H'], px).line) +
+        horizonBlock('长线', longer, longSr.line) + '</div>';
     }).join('');
   }
 
@@ -962,12 +1056,13 @@
 
   async function refreshKlines() {
     const jobs = [];
-    COINS.forEach(c => TFS.forEach(frame => jobs.push([c, frame])));
+    COINS.forEach(c => FETCH_TFS.forEach(frame => jobs.push([c, frame])));
     await Promise.all(jobs.map(async ([c, frame]) => {
       const key = 'klines ' + c + ' ' + frame;
       try {
         const data = await okx('/api/v5/market/candles?instId=' + c + '-USDT-SWAP&bar=' + TF_BAR[frame] + '&limit=300');
         const rows = data.slice().reverse();
+        ST.rows[c + '_' + frame] = rows;
         const res = Ind.analyzeRows(rows);
         if (!res) throw new Error('K线不足');
         res.computed = Date.now();
@@ -1067,6 +1162,19 @@
     if (j.updated_unix) ST.updated.liq = j.updated_unix * 1000;
     setErr('liq-file', (j.errors || []).length && !(j.coins && j.coins.BTC && (j.coins.BTC.events || []).length) ? j.errors.join('；') : null);
   }
+  async function refreshBooks() {
+    await Promise.all(COINS.map(async c => {
+      try {
+        const book = (await okx('/api/v5/market/books?instId=' + c + '-USDT-SWAP&sz=20'))[0];
+        const bid = (book.bids || []).reduce((s, x) => s + parseFloat(x[1] || 0), 0);
+        const ask = (book.asks || []).reduce((s, x) => s + parseFloat(x[1] || 0), 0);
+        const tot = bid + ask;
+        ST.book[c] = { bid: bid, ask: ask, imb: tot ? (bid - ask) / tot : 0, ts: Date.now() };
+        setErr('book ' + c, null);
+      } catch (e) { setErr('book ' + c, e); }
+    }));
+  }
+
   async function refreshLiq() {
     await Promise.all(COINS.map(async c => {
       try {
@@ -1093,6 +1201,36 @@
     renderAll();
   }
 
+  const reanT = {};
+  function applyWsCandle(instId, channel, row) {
+    const c = String(instId || '').split('-')[0];
+    const frame = channel === 'candle1m' ? '1m' : channel === 'candle5m' ? '5m' : null;
+    if (!frame || COINS.indexOf(c) < 0 || !row) return;
+    const key = c + '_' + frame;
+    const rows = ST.rows[key];
+    if (!rows || !rows.length) return;
+    const ts = String(row[0]);
+    const last = rows[rows.length - 1];
+    if (String(last[0]) === ts) rows[rows.length - 1] = row;
+    else if (Number(ts) > Number(last[0])) {
+      rows.push(row);
+      if (rows.length > 320) rows.shift();
+    } else return;
+    clearTimeout(reanT[key]);
+    reanT[key] = setTimeout(() => {
+      try {
+        const res = Ind.analyzeRows(ST.rows[key]);
+        if (!res) return;
+        res.computed = Date.now();
+        if (!ST.tf[c]) ST.tf[c] = {};
+        ST.tf[c][frame] = res;
+        ST.chart[key] = res.chart;
+        if (c === coin && frame === tf) drawChart(false);
+        renderOverall();
+      } catch (e) {}
+    }, 1500);
+  }
+
   // ---------- websocket ----------
   let ws, wsOk = false, pingT, wsAttempt = 0, liqRenderTimer = 0;
   function setWs(ok, text) {
@@ -1111,7 +1249,11 @@
         args: [
           { channel: 'tickers', instId: 'BTC-USDT-SWAP' },
           { channel: 'tickers', instId: 'ETH-USDT-SWAP' },
-          { channel: 'liquidation-orders', instType: 'SWAP' }
+          { channel: 'liquidation-orders', instType: 'SWAP' },
+          { channel: 'candle1m', instId: 'BTC-USDT-SWAP' },
+          { channel: 'candle1m', instId: 'ETH-USDT-SWAP' },
+          { channel: 'candle5m', instId: 'BTC-USDT-SWAP' },
+          { channel: 'candle5m', instId: 'ETH-USDT-SWAP' }
         ]
       }));
       clearInterval(pingT);
@@ -1127,6 +1269,10 @@
       if (!m.data) return;
       const port = url.indexOf(':8443') >= 0 ? '8443' : '443';
       setWs(true, 'OKX 实时价格已连接（' + port + '）');
+      if (m.arg && String(m.arg.channel || '').indexOf('candle') === 0) {
+        (m.data || []).forEach(row => applyWsCandle(m.arg.instId, m.arg.channel, row));
+        return;
+      }
       if (m.arg && m.arg.channel === 'liquidation-orders') {
         m.data.forEach(b => ingestDetails(b.instId, b.details));
         const now = Date.now();
@@ -1181,6 +1327,7 @@
       refreshKlines().catch(() => {}),
       refreshDerivatives().catch(() => {}),
       refreshLiq().catch(() => {}),
+      refreshBooks().catch(() => {}),
       refreshTickers().catch(() => {})
     ]);
   }
@@ -1201,6 +1348,7 @@
   refreshAll().then(() => drawChart(true));
   setInterval(() => { refreshKlines().catch(() => {}); }, 60000);
   setInterval(() => { refreshLiq().catch(() => {}); }, 60000);
+  setInterval(() => { refreshBooks().then(() => renderOverall()).catch(() => {}); }, 15000);
   setInterval(() => { refreshDerivatives().catch(() => {}); }, 180000);
   setInterval(() => { refreshStatic().catch(() => {}); }, 60000);
   setInterval(() => { if (!wsOk) refreshTickers().catch(() => {}); }, 10000);

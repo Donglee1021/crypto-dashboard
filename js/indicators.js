@@ -1126,6 +1126,10 @@
       const inf = src.influence;
       add('美股影响', 0.12, inf.bias, (inf.line || '美股') + (inf.stale ? '（数据偏旧，权重已降低）' : ''));
     }
+    return finishFactors(factors);
+  }
+
+  function finishFactors(factors) {
     if (!factors.length) {
       return { score: null, call: '观望', strength: '观望', confidence: '低', rationale: '数据还没到齐。', factors: [], conflict: false };
     }
@@ -1149,7 +1153,7 @@
     }
     const signed = factors.filter(f => Math.abs(f.unit) >= 0.2);
     let confidence = '低';
-    if (!conflict && signed.length && factors.length >= 4 && call !== '观望') {
+    if (!conflict && signed.length && factors.length >= 3 && call !== '观望') {
       const maj = signed.filter(f => call === '做多' ? f.unit > 0 : f.unit < 0).length;
       const ratio = maj / signed.length;
       confidence = ratio >= 0.75 ? '高' : ratio >= 0.55 ? '中' : '低';
@@ -1162,11 +1166,117 @@
     return { score: score, call: call, strength: strength, confidence: confidence, rationale: rationale, factors: factors, conflict: conflict };
   }
 
+  function shortPulse(an, px) {
+    if (!an || !an.chart || !an.chart.c.length) return null;
+    const ch = an.chart;
+    const n = ch.c.length;
+    const last = px != null ? px : ch.c[n - 1];
+    const prev = ch.c[Math.max(0, n - 11)];
+    const chg = prev ? last / prev - 1 : 0;
+    const rsi = an.ind.rsi;
+    let unit = Math.max(-1, Math.min(1, chg / 0.004));
+    if (rsi >= 70) unit -= 0.25;
+    else if (rsi <= 30) unit += 0.25;
+    else if (rsi > 55) unit += 0.15;
+    else if (rsi < 45) unit -= 0.15;
+    unit = Math.max(-1, Math.min(1, unit));
+    let pv = 0;
+    let vv = 0;
+    const start = Math.max(0, n - 60);
+    for (let i = start; i < n; i++) {
+      const tp = (ch.h[i] + ch.l[i] + ch.c[i]) / 3;
+      const vol = ch.v[i] || 0;
+      pv += tp * vol;
+      vv += vol;
+    }
+    let vwapUnit = null;
+    let vwapText = '';
+    if (vv > 0) {
+      const vwap = pv / vv;
+      const dist = (last - vwap) / last;
+      vwapUnit = Math.max(-1, Math.min(1, dist / 0.003));
+      vwapText = '价格' + (dist >= 0 ? '高于' : '低于') + '近段成交均价 ' + Math.abs(dist * 100).toFixed(2) + '%';
+    }
+    return {
+      mom: unit,
+      momText: '近10根 ' + (chg * 100).toFixed(2) + '%，RSI ' + (rsi == null ? '—' : rsi.toFixed(0)),
+      vwap: vwapUnit,
+      vwapText: vwapText
+    };
+  }
+
+  function horizonScalp(src) {
+    const factors = [];
+    function add(name, weight, unit, reading) {
+      if (unit == null || Number.isNaN(unit)) return;
+      factors.push({ name: name, weight: weight, unit: Math.max(-1, Math.min(1, unit)), reading: reading || '' });
+    }
+    if (src.pulse) {
+      add('1分钟动量', 0.22, src.pulse.mom, src.pulse.momText);
+      if (src.pulse.vwap != null) add('短时均价', 0.12, src.pulse.vwap, src.pulse.vwapText);
+    }
+    if (src.m5 != null) add('5分钟技术', 0.18, src.m5 / 10, src.m5Text || '');
+    if (src.m15 != null) add('15分钟技术', 0.14, src.m15 / 10, src.m15Text || '');
+    if (src.book != null) add('盘口买卖', 0.14, src.book, src.bookText || '');
+    if (src.liqUnit != null) add('近15分钟清算', 0.12, src.liqUnit, src.liqText || '');
+    if (src.funding != null) {
+      const pct = src.funding * 100;
+      let unit = 0;
+      let reading = pct.toFixed(4) + '%';
+      if (pct > 0.05) { unit = -0.8; reading += '，多头拥挤'; }
+      else if (pct < -0.03) { unit = 0.8; reading += '，空头拥挤'; }
+      else if (pct > 0) { unit = -0.2; reading += '，多头付费'; }
+      else if (pct < 0) { unit = 0.2; reading += '，空头付费'; }
+      add('当前资金费率', 0.08, unit, reading);
+    }
+    if (src.srUnit != null) add('短线位置', 0.12, src.srUnit, src.srText || '');
+    return finishFactors(factors);
+  }
+
+  function horizonLong(src) {
+    const factors = [];
+    function add(name, weight, unit, reading) {
+      if (unit == null || Number.isNaN(unit)) return;
+      factors.push({ name: name, weight: weight, unit: Math.max(-1, Math.min(1, unit)), reading: reading || '' });
+    }
+    if (src.weeklyScore != null) add('周线趋势', 0.26, src.weeklyScore / 10, src.weeklyText || '');
+    if (src.dailyScore != null) add('日线趋势', 0.18, src.dailyScore / 10, src.dailyText || '');
+    if (src.weeklyRsi != null) {
+      const r = src.weeklyRsi;
+      let unit = 0;
+      if (r >= 70) unit = 0.55;
+      else if (r >= 55) unit = 0.35;
+      else if (r <= 30) unit = -0.55;
+      else if (r <= 45) unit = -0.35;
+      add('周线RSI', 0.10, unit, 'RSI ' + r.toFixed(0));
+    }
+    if (src.aboveEma200 != null) add('周线EMA200', 0.12, src.aboveEma200 ? 0.7 : -0.7, src.aboveEma200 ? '价格在周线 EMA200 上方' : '价格在周线 EMA200 下方');
+    if (src.srUnit != null) add('大级别位置', 0.12, src.srUnit, src.srText || '');
+    if (src.influence && src.influence.bias != null) add('宏观与相关性', 0.12, src.influence.bias, src.influence.line || '');
+    if (src.fng != null) {
+      const v = src.fng;
+      let unit = 0;
+      let reading = String(v);
+      if (v <= 20) { unit = 1; reading += ' 极度恐惧，逆向偏多'; }
+      else if (v >= 80) { unit = -1; reading += ' 极度贪婪，逆向偏空'; }
+      else reading += '，未到极端，长线不计方向';
+      add('恐惧贪婪', 0.05, unit, reading);
+    }
+    if (src.extreme && src.extreme.bottom && src.extreme.top) {
+      const bmap = { '底部已确认': 1, '底部信号较强': 0.65, '可能在筑底': 0.3, '未见底': 0 };
+      const tmap = { '顶部已确认': -1, '顶部信号较强': -0.65, '可能在筑顶': -0.3, '未见顶': 0 };
+      const bu = bmap[src.extreme.bottom];
+      const tu = tmap[src.extreme.top];
+      if (bu != null || tu != null) add('见底见顶', 0.05, (bu || 0) + (tu || 0), '底部' + src.extreme.bottom + '，顶部' + src.extreme.top);
+    }
+    return finishFactors(factors);
+  }
+
   return {
     ema: ema, sma: sma, rsi: rsi, macd: macd, boll: boll, kdj: kdj, atr: atr, swings: swings,
     scoreTf: scoreTf, label: label, sentimentAdj: sentimentAdj, newsAdj: newsAdj,
     analyzeRows: analyzeRows, presentLevels: presentLevels, assessEntry: assessEntry, assessExtreme: assessExtreme,
     estimateLiqZones: estimateLiqZones, summarizeLiquidations: summarizeLiquidations, liqBuckets: liqBuckets,
-    overallCall: overallCall
+    overallCall: overallCall, shortPulse: shortPulse, horizonScalp: horizonScalp, horizonLong: horizonLong
   };
 });

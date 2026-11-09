@@ -36,7 +36,7 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
       <span class="muted">多项信号合成一个结论</span>
     </div>
     <div class="grid2" id="overallBody">计算中…</div>
-    <p class="muted">分数大约在 −10 到 +10。某一项缺数据就去掉，其余按权重重算。因素明显对着干时结论是观望。这是规则汇总，不是投资建议，也不含仓位或杠杆。</p>
+    <p class="muted">每个币分三档：超短线看 1 分钟、5 分钟、15 分钟、盘口和近 15 分钟清算；中线看 1 小时、4 小时、日线以及资金、清算、恐惧贪婪、新闻和美股；长线看周线、日线、EMA200、宏观和见顶见底。三档不一致时会直接写出来。分数大约 −10 到 +10。缺数据的因子会去掉。这不是投资建议，也不含仓位或杠杆。</p>
   </section>
 
   <section class="card" id="entryCard">
@@ -59,10 +59,12 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
         <button type="button" data-v="ETH" aria-pressed="false">ETH</button>
       </div>
       <div class="seg" id="segTf" role="group" aria-label="周期">
+        <button type="button" data-v="5m" aria-pressed="false">5分钟</button>
         <button type="button" data-v="15m" aria-pressed="false">15分钟</button>
         <button type="button" data-v="1H" aria-pressed="false">1小时</button>
         <button type="button" data-v="4H" class="on" aria-pressed="true">4小时</button>
         <button type="button" data-v="1D" aria-pressed="false">日线</button>
+        <button type="button" data-v="1W" aria-pressed="false">周线</button>
       </div>
       <label><input type="checkbox" id="chkBoll" checked>布林带</label>
       <label><input type="checkbox" id="chkEma" checked>EMA</label>
