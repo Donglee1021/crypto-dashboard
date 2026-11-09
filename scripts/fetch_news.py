@@ -68,11 +68,18 @@ BEAR = [
     ("lowest", "新低"), ("weak", "疲弱"), ("loses", "失守"), ("losses", "亏损"), ("warn", "警告"),
     ("crackdown", "打压"), ("downgrade", "下调评级"), ("hot inflation", "通胀过热"),
 ]
+# role 用来合成「美股影响」：期货优先代表动量，指数用来算相关性。
 MACRO_SYMS = [
-    ("^GSPC", "标普 500", ""),
-    ("^IXIC", "纳斯达克", ""),
-    ("DX-Y.NYB", "美元指数 DXY", ""),
-    ("^TNX", "美10年期国债收益率", "%"),
+    ("ES=F", "标普期货 ES", "", "equity_fut"),
+    ("^GSPC", "标普 500", "", "equity"),
+    ("NQ=F", "纳指期货 NQ", "", "equity_fut"),
+    ("^NDX", "纳斯达克100", "", "equity"),
+    ("^VIX", "VIX", "", "vix"),
+    ("DX-Y.NYB", "美元指数 DXY", "", "dxy"),
+    ("^TNX", "美10年期国债收益率", "%", "yield"),
+    ("COIN", "Coinbase", "", "crypto_eq"),
+    ("MSTR", "MicroStrategy", "", "crypto_eq"),
+    ("IBIT", "贝莱德 IBIT", "", "crypto_eq"),
 ]
 COINS = ["BTC", "ETH"]
 IGNORE_KEYS = {"updated", "updated_unix"}
@@ -255,6 +262,47 @@ def write_if_changed(path, obj):
     return True
 
 
+def translate_zh(text):
+    text = (text or "").strip()
+    if not text:
+        return ""
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text))
+    if cjk >= 4 and cjk >= max(1, len(text)) * 0.3:
+        return text
+    q = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t", "q": text})
+    url = "https://translate.googleapis.com/translate_a/single?" + q
+    req = urllib.request.Request(url, headers={**UA, "Referer": "https://translate.google.com/"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        data = json.loads(r.read().decode("utf-8", "replace"))
+    parts = []
+    if isinstance(data, list) and data and isinstance(data[0], list):
+        for seg in data[0]:
+            if isinstance(seg, list) and seg and seg[0]:
+                parts.append(str(seg[0]))
+    return "".join(parts).strip()
+
+
+def apply_translations(items, old_items):
+    cache = {}
+    for old in old_items.values():
+        title = old.get("title") or ""
+        zh = old.get("title_zh") or ""
+        if title and zh and zh != title:
+            cache[title] = zh
+    for it in items:
+        cached = cache.get(it.get("title") or "")
+        if cached:
+            it["title_zh"] = cached
+            continue
+        try:
+            time.sleep(0.4)
+            zh = translate_zh(it.get("title") or "")
+            it["title_zh"] = zh or it.get("title") or ""
+        except Exception:
+            it["title_zh"] = it.get("title") or ""
+    return items
+
+
 def build_news():
     old = load_json(os.path.join(DATA, "news.json")) or {}
     old_items = {x.get("key"): x for x in old.get("items") or [] if x.get("key")}
@@ -305,6 +353,12 @@ def build_news():
         out = old["items"]
         kept = True
     errors = [f"{k}: {v}" for k, v in sorted(status.items()) if str(v).startswith("失败")]
+    try:
+        apply_translations(out, old_items)
+    except Exception as e:
+        errors.append(f"翻译: {short_err(e)}")
+        for it in out:
+            it.setdefault("title_zh", it.get("title") or "")
     obj = {
         "errors": errors,
         "items": out,
@@ -326,43 +380,263 @@ def fetch_fng():
     return rows
 
 
-def fetch_one_macro(sym, name, unit):
+def yahoo_daily(sym):
     last_err = None
-    j = None
     q = urllib.parse.quote(sym, safe="")
     for host in ("query1.finance.yahoo.com", "query2.finance.yahoo.com"):
-        url = f"https://{host}/v8/finance/chart/{q}?range=5d&interval=1d"
+        url = f"https://{host}/v8/finance/chart/{q}?range=6mo&interval=1d"
         try:
             req = urllib.request.Request(url, headers={**UA, "Referer": "https://finance.yahoo.com/"})
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with urllib.request.urlopen(req, timeout=25) as r:
                 j = json.loads(r.read().decode("utf-8", "replace"))
-            if j.get("chart", {}).get("result"):
-                break
-            j = None
+            result = (j.get("chart") or {}).get("result")
+            if result:
+                return result[0]
         except Exception as e:
             last_err = e
-            j = None
-    if not j or not j.get("chart", {}).get("result"):
-        raise RuntimeError(f"{sym}: {short_err(last_err) if last_err else '无行情'}")
-    res = j["chart"]["result"][0]
+    raise RuntimeError(f"{sym}: {short_err(last_err) if last_err else '无行情'}")
+
+
+def dated_ohlc(result):
+    quote = result["indicators"]["quote"][0]
+    closes = quote.get("close") or []
+    opens = quote.get("open") or []
+    out = []
+    for i, t_ in enumerate(result.get("timestamp") or []):
+        c = closes[i] if i < len(closes) else None
+        if c is None:
+            continue
+        o = opens[i] if i < len(opens) else None
+        d = datetime.datetime.fromtimestamp(t_, NY).date()
+        out.append((d, float(c), None if o is None else float(o)))
+    return out
+
+
+def us_session(now=None):
+    now = now or datetime.datetime.now(NY)
+    if now.weekday() >= 5:
+        return {"code": "closed", "label": "休市"}
+    minutes = now.hour * 60 + now.minute
+    if 4 * 60 <= minutes < 9 * 60 + 30:
+        return {"code": "pre", "label": "盘前"}
+    if 9 * 60 + 30 <= minutes < 16 * 60:
+        return {"code": "open", "label": "交易中"}
+    if 16 * 60 <= minutes < 20 * 60:
+        return {"code": "after", "label": "盘后"}
+    return {"code": "closed", "label": "休市"}
+
+
+def fetch_one_macro(sym, name, unit, role):
+    res = yahoo_daily(sym)
     m = res["meta"]
-    last = m["regularMarketPrice"]
-    quote = res["indicators"]["quote"][0]["close"]
-    tss = res["timestamp"]
+    last = float(m["regularMarketPrice"])
+    bars = dated_ohlc(res)
     day_now = datetime.datetime.fromtimestamp(m["regularMarketTime"], NY).date()
     prev = None
-    for t_, x in zip(tss, quote):
-        if x is not None and datetime.datetime.fromtimestamp(t_, NY).date() < day_now:
-            prev = x
-    closes = [x for x in quote if x is not None]
+    for d, c, _o in bars:
+        if d < day_now:
+            prev = c
+    closes = [c for _d, c, _o in bars]
     if prev is None:
         prev = m.get("chartPreviousClose") or (closes[-2] if len(closes) >= 2 else last)
+    chg_1d = (last / prev - 1) * 100 if prev else 0
+    today = bars[-1] if bars and bars[-1][0] == day_now else None
+    if today and today[2]:
+        chg_intraday = (last / today[2] - 1) * 100
+    else:
+        chg_intraday = chg_1d
+    chg_5d = None
+    if len(bars) >= 6 and bars[-1][1]:
+        chg_5d = (last / bars[-6][1] - 1) * 100
+    age_h = (time.time() - int(m["regularMarketTime"])) / 3600
     return name, {
-        "chg": round((last / prev - 1) * 100, 2),
-        "last": round(float(last), 3),
+        "chg": round(chg_1d, 2),
+        "chg_1d": round(chg_1d, 2),
+        "chg_5d": None if chg_5d is None else round(chg_5d, 2),
+        "chg_intraday": round(chg_intraday, 2),
+        "last": round(last, 3),
+        "role": role,
+        "stale": age_h > 96,
+        "symbol": sym,
         "time_unix": int(m["regularMarketTime"]),
         "unit": unit,
     }
+
+
+def okx_daily_closes(ccy):
+    raw = get_json(f"https://www.okx.com/api/v5/market/candles?instId={ccy}-USDT-SWAP&bar=1Dutc&limit=120")["data"]
+    rows = []
+    for x in raw:
+        d = datetime.datetime.fromtimestamp(int(x[0]) / 1000, datetime.timezone.utc).date()
+        rows.append((d, float(x[4])))
+    rows.sort()
+    return rows
+
+
+def series_for(sym):
+    res = yahoo_daily(sym)
+    return [(d, c) for d, c, _o in dated_ohlc(res)]
+
+
+def paired_returns(a, b):
+    mb = {d: c for d, c in b}
+    closes = [(d, ca, mb[d]) for d, ca in a if d in mb]
+    closes.sort()
+    out = []
+    for i in range(1, len(closes)):
+        prev_a, prev_b = closes[i - 1][1], closes[i - 1][2]
+        if prev_a and prev_b:
+            out.append((closes[i][1] / prev_a - 1, closes[i][2] / prev_b - 1))
+    return out
+
+
+def pearson(pairs):
+    n = len(pairs)
+    if n < 15:
+        return None
+    xs = [p[0] for p in pairs]
+    ys = [p[1] for p in pairs]
+    mx = sum(xs) / n
+    my = sum(ys) / n
+    num = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    dx = sum((x - mx) ** 2 for x in xs) ** 0.5
+    dy = sum((y - my) ** 2 for y in ys) ** 0.5
+    if dx == 0 or dy == 0:
+        return None
+    return num / (dx * dy)
+
+
+def corr_windows(crypto_rows, index_rows):
+    pairs = paired_returns(crypto_rows, index_rows)
+    out = {}
+    if len(pairs) >= 20:
+        out["d30"] = round(pearson(pairs[-30:]), 3)
+    if len(pairs) >= 40:
+        out["d90"] = round(pearson(pairs[-90:]), 3)
+    return out
+
+
+def corr_label(value):
+    if value is None:
+        return "未知"
+    a = abs(value)
+    if a >= 0.6:
+        return "强"
+    if a >= 0.3:
+        return "中"
+    return "弱"
+
+
+def build_influence(markets, correlation, session):
+    def chg(name):
+        row = markets.get(name) or {}
+        v = row.get("chg_1d")
+        if v is None:
+            v = row.get("chg")
+        return v
+
+    equity = chg("纳指期货 NQ")
+    equity_name = "纳指期货"
+    if equity is None:
+        equity = chg("纳斯达克100")
+        equity_name = "纳斯达克100"
+    if equity is None:
+        equity = chg("标普期货 ES")
+        equity_name = "标普期货"
+    vix = chg("VIX")
+    dxy = chg("美元指数 DXY")
+    yld = chg("美10年期国债收益率")
+    parts = []
+    acc = 0.0
+    weight = 0.0
+
+    def take(value, w, scale, sign=1):
+        nonlocal acc, weight
+        if value is None:
+            return
+        unit = max(-1.0, min(1.0, value / scale)) * sign
+        acc += unit * w
+        weight += w
+
+    take(equity, 0.5, 1.2, 1)
+    take(vix, 0.25, 6, -1)
+    take(dxy, 0.15, 0.5, -1)
+    take(yld, 0.10, 1.5, -1)
+    direction = acc / weight if weight else 0.0
+    vals = []
+    for coin in ("BTC", "ETH"):
+        block = correlation.get(coin) or {}
+        for idx in ("SPX", "NDX"):
+            cell = (block.get(idx) or {}).get("d30")
+            if cell is None:
+                cell = (block.get(idx) or {}).get("d90")
+            if cell is not None:
+                vals.append(abs(cell))
+    corr_v = round(sum(vals) / len(vals), 3) if vals else None
+    label = corr_label(corr_v)
+    scale = {"强": 1.0, "中": 0.6, "弱": 0.25, "未知": 0.4}[label]
+    stale = any((markets.get(n) or {}).get("stale") for n in ("纳指期货 NQ", "纳斯达克100", "标普期货 ES", "标普 500"))
+    if stale:
+        scale *= 0.5
+    bias = round(max(-1.0, min(1.0, direction * scale)), 3)
+    bits = []
+    if equity is not None:
+        bits.append(f"{equity_name}{'跌' if equity < 0 else '涨'}{abs(equity):.1f}%")
+    if vix is not None:
+        bits.append("VIX上升" if vix > 0.3 else "VIX下降" if vix < -0.3 else "VIX持平")
+    if dxy is not None and abs(dxy) >= 0.15:
+        bits.append("美元走强" if dxy > 0 else "美元走弱")
+    if yld is not None and abs(yld) >= 0.4:
+        bits.append("美债收益率上升" if yld > 0 else "美债收益率下降")
+    tilt = "偏空" if bias < -0.12 else "偏多" if bias > 0.12 else "影响有限"
+    corr_txt = {"强": "相关性高", "中": "相关性中等", "弱": "相关性低", "未知": "相关性不足"}[label]
+    prefix = "美股休市，" if session.get("code") != "open" else ""
+    stale_txt = "行情偏旧，" if stale else ""
+    line = prefix + stale_txt + "、".join(bits[:3]) + f"，{corr_txt}，对加密{tilt}" if bits else "美股数据不足"
+    return {
+        "bias": bias,
+        "corr": corr_v,
+        "corr_label": label,
+        "equity_chg": None if equity is None else round(equity, 2),
+        "equity_name": equity_name,
+        "line": line,
+        "session": session.get("code"),
+        "stale": stale,
+    }
+
+
+def crypto_daily(ccy):
+    try:
+        return series_for("BTC-USD" if ccy == "BTC" else "ETH-USD")
+    except Exception:
+        return okx_daily_closes(ccy)
+
+
+def build_correlation(errors):
+    indexes = {}
+    for sym, key in (("^GSPC", "SPX"), ("^NDX", "NDX")):
+        try:
+            indexes[key] = series_for(sym)
+        except Exception as e:
+            errors.append(f"相关 {key}: {short_err(e)}")
+            alt = "ES=F" if key == "SPX" else "NQ=F"
+            try:
+                indexes[key] = series_for(alt)
+            except Exception as e2:
+                errors.append(f"相关 {key} 期货: {short_err(e2)}")
+    out = {}
+    for ccy in ("BTC", "ETH"):
+        try:
+            rows = crypto_daily(ccy)
+        except Exception as e:
+            errors.append(f"相关 {ccy}: {short_err(e)}")
+            continue
+        out[ccy] = {}
+        for key, series in indexes.items():
+            windows = corr_windows(rows, series)
+            if windows:
+                out[ccy][key] = windows
+    return out
 
 
 def build_macro():
@@ -374,14 +648,13 @@ def build_macro():
     except Exception as e:
         errors.append(f"恐惧贪婪: {short_err(e)}")
     with ThreadPoolExecutor(max_workers=4) as ex:
-        futs = [ex.submit(fetch_one_macro, s, n, u) for s, n, u in MACRO_SYMS]
+        futs = [ex.submit(fetch_one_macro, s, n, u, role) for s, n, u, role in MACRO_SYMS]
         for fut in as_completed(futs):
             try:
                 name, row = fut.result()
                 markets[name] = row
             except Exception as e:
                 errors.append(f"宏观: {short_err(e)}")
-    errors = sorted(set(errors))
     old = load_json(os.path.join(DATA, "macro.json")) or {}
     if not fng and old.get("fng"):
         fng = old["fng"]
@@ -389,10 +662,32 @@ def build_macro():
     if len(markets) < len(MACRO_SYMS) and old.get("markets"):
         for k, v in old["markets"].items():
             markets.setdefault(k, v)
-        if len(markets) == len(old.get("markets") or {}):
+        if len(markets) < len(MACRO_SYMS):
             errors.append("宏观: 部分沿用上次结果")
+    correlation = {}
+    try:
+        correlation = build_correlation(errors)
+    except Exception as e:
+        errors.append(f"相关性: {short_err(e)}")
+        correlation = old.get("correlation") or {}
+    if not correlation and old.get("correlation"):
+        correlation = old["correlation"]
+    session = us_session()
+    influence = {}
+    try:
+        influence = build_influence(markets, correlation, session)
+    except Exception as e:
+        errors.append(f"美股影响: {short_err(e)}")
+        influence = old.get("influence") or {}
     errors = sorted(set(errors))
-    obj = {"errors": errors, "fng": fng, "markets": markets}
+    obj = {
+        "correlation": correlation,
+        "errors": errors,
+        "fng": fng,
+        "influence": influence,
+        "markets": markets,
+        "session": session,
+    }
     changed = write_if_changed(os.path.join(DATA, "macro.json"), obj)
     return changed, fng[-1]["value"] if fng else None, list(markets), errors
 

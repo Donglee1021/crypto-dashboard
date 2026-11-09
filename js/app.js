@@ -338,7 +338,7 @@
     });
     if (missing && ST.summary.BTC) renderVerdicts();
     const now = Date.now();
-    if (now - auxTimer > 1000) { auxTimer = now; renderEntry(); renderLevels(); renderExtreme(); }
+    if (now - auxTimer > 1000) { auxTimer = now; renderOverall(); renderEntry(); renderLevels(); renderExtreme(); }
   }
 
   function renderDetail() {
@@ -468,8 +468,9 @@
       const fresh = isNew(n);
       return '<li class="' + (fresh ? 'new' : '') + '">' +
         '<div><span class="tag ' + (tcls[n.tag] || 't-neu') + '">' + esc(n.tag) + '</span>' +
-        '<a href="' + esc(safeUrl(n.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title) + '</a>' +
-        (fresh ? '<span class="badge-new">新</span>' : '') + '</div>' +
+        '<a href="' + esc(safeUrl(n.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title_zh && n.title_zh !== n.title ? n.title_zh : n.title) + '</a>' +
+        (fresh ? '<span class="badge-new">新</span>' : '') +
+        (n.title_zh && n.title_zh !== n.title ? '<div class="orig">' + esc(n.title) + '</div>' : '') + '</div>' +
         '<div class="muted">' + fmtMDHM(n.ts * 1000) + ' · ' + rel(n.ts) + ' · ' + esc(n.source) +
         (n.coins && n.coins.length ? ' · ' + esc(n.coins.join('/')) : '') + ' · ' + esc(n.reason) + '</div></li>';
     }).join('') : '<li class="muted">暂无要闻。</li>';
@@ -829,10 +830,108 @@
     if ($('fundMeta')) $('fundMeta').textContent = ST.updated.funding ? '更新于 ' + fmtHM(ST.updated.funding) : '';
   }
 
+  function srSnapshot(c, px) {
+    const tf = ST.tf[c] && (ST.tf[c]['4H'] || ST.tf[c]['1H']);
+    if (!tf || !tf.levels || px == null) return null;
+    const view = Ind.presentLevels(tf.levels, px);
+    const sup = view.supports[0];
+    const res = view.resistances[0];
+    return {
+      nearSupport: !!(sup && Math.abs(sup.distPct) <= 0.5),
+      nearResistance: !!(res && Math.abs(res.distPct) <= 0.5),
+      brokeDown: view.resistances.some(lv => lv.breakFlag === '刚刚跌破'),
+      brokeUp: view.supports.some(lv => lv.breakFlag === '刚刚突破'),
+      supportDist: sup ? sup.distPct : null,
+      resistDist: res ? res.distPct : null,
+      nextDown: sup && sup.next ? sup.next.price : null
+    };
+  }
+
+  function renderOverall() {
+    const box = $('overallBody');
+    if (!box) return;
+    box.innerHTML = COINS.map(c => {
+      const px = coinPrice(c);
+      const tfs = ST.tf[c] || {};
+      const s = ST.summary[c];
+      const timeframes = TFS.filter(k => tfs[k]).map(k => ({ name: TFN[k], score: tfs[k].score, signal: tfs[k].signal }));
+      let entry = null;
+      let extreme = null;
+      if (tfs['1H'] && tfs['4H'] && tfs['1D'] && px != null) {
+        try {
+          const plan = Ind.assessEntry(tfs, px);
+          const hits = side => [side.trend, side.trigger, side.location].filter(x => x && x.ok).length;
+          entry = { ready: plan.ready, verdict: plan.verdict, longHits: hits(plan.long), shortHits: hits(plan.short) };
+          const ext = Ind.assessExtreme(tfs, px, extremeCtx(c, px));
+          extreme = { bottom: ext.bottom.label, top: ext.top.label };
+        } catch (e) {}
+      }
+      const sum = Ind.summarizeLiquidations(LIQ[c] || [], Date.now());
+      const z = px == null ? null : zonesFor(c, px);
+      const inf = ST.influence || {};
+      const call = Ind.overallCall({
+        tech: s ? s.tech : null,
+        timeframes: timeframes,
+        sr: srSnapshot(c, px),
+        entry: entry,
+        extreme: extreme,
+        funding: (ST.der[c] || {}).funding,
+        liq: {
+          long1h: sum.h1.long, short1h: sum.h1.short,
+          longZoneDist: z && z.nearestLong ? z.nearestLong.distPct : null,
+          shortZoneDist: z && z.nearestShort ? z.nearestShort.distPct : null
+        },
+        fng: ST.fng.length ? ST.fng[ST.fng.length - 1].value : null,
+        hasNews: (ST.news || []).length > 0,
+        newsAdj: s ? s.news_adj : null,
+        newsStat: s ? s.news_stat : null,
+        influence: inf && inf.bias != null ? inf : null
+      });
+      const tone = call.strength.indexOf('做多') >= 0 ? 'up' : call.strength.indexOf('做空') >= 0 ? 'down' : 'muted';
+      const rows = (call.factors || []).map(f => '<tr><td>' + esc(f.name) + '</td><td>' + esc(f.reading) + '</td><td class="n ' + scls(f.contribution) + '">' + sgn(f.contribution) + '</td></tr>').join('');
+      return '<div><div class="muted">' + c + '-USDT 永续</div><div class="entry-word ' + tone + '">' + esc(call.strength) + '</div>' +
+        '<div class="muted">方向 ' + esc(call.call) + ' · 信心 ' + esc(call.confidence) + ' · 分数 ' + (call.score == null ? '—' : sgn(call.score)) + '</div>' +
+        '<p>' + esc(call.rationale) + '</p>' +
+        '<div class="scroll"><table><tr><th>因子</th><th>读数</th><th class="n">贡献</th></tr>' + rows + '</table></div></div>';
+    }).join('');
+  }
+
+  function renderUs() {
+    const box = $('usBody');
+    if (!box) return;
+    const inf = ST.influence || {};
+    const session = ST.session || {};
+    const names = ['标普期货 ES', '标普 500', '纳指期货 NQ', '纳斯达克100', 'VIX', '美元指数 DXY', '美10年期国债收益率', 'Coinbase', 'MicroStrategy', '贝莱德 IBIT'];
+    const rows = names.filter(n => ST.macro[n]).map(n => {
+      const v = ST.macro[n];
+      const cell = x => x == null ? '—' : '<span class="' + scls(x) + '">' + pct(x) + '</span>';
+      return '<tr><td>' + esc(n) + (v.stale ? ' <span class="warn">旧</span>' : '') + '</td><td class="n">' +
+        Number(v.last).toLocaleString('en-US', { maximumFractionDigits: 3 }) + esc(v.unit || '') +
+        '</td><td class="n">' + cell(v.chg_intraday) + '</td><td class="n">' + cell(v.chg_1d != null ? v.chg_1d : v.chg) +
+        '</td><td class="n">' + cell(v.chg_5d) + '</td></tr>';
+    }).join('');
+    function corrCell(coin, idx) {
+      const cell = ((ST.correlation || {})[coin] || {})[idx] || {};
+      const v = cell.d30 != null ? cell.d30 : cell.d90;
+      if (v == null) return '—';
+      const a = Math.abs(v);
+      const lab = a >= 0.6 ? '强' : a >= 0.3 ? '中' : '弱';
+      return v.toFixed(2) + ' ' + lab + (cell.d90 != null ? '（90天 ' + cell.d90.toFixed(2) + '）' : '');
+    }
+    $('usMeta').textContent = (session.label || '时段未知') + (ST.updated.macro ? ' · 更新于 ' + fmtHM(ST.updated.macro) : '');
+    box.innerHTML = '<p><b>' + esc(inf.line || '美股数据还没到。') + '</b></p>' +
+      '<div class="muted">30 天相关性：BTC 对标普 ' + esc(corrCell('BTC', 'SPX')) + '，对纳指 ' + esc(corrCell('BTC', 'NDX')) +
+      '；ETH 对标普 ' + esc(corrCell('ETH', 'SPX')) + '，对纳指 ' + esc(corrCell('ETH', 'NDX')) + '。</div>' +
+      '<div class="scroll"><table><tr><th>品种</th><th class="n">最新</th><th class="n">日内</th><th class="n">1日</th><th class="n">5日</th></tr>' +
+      (rows || '<tr><td colspan="5">暂无</td></tr>') + '</table></div>';
+  }
+
   function renderAll() {
     try { buildSummary(); } catch (err) { console.error(err); }
+    renderOverall();
     renderEntry();
     renderVerdicts();
+    renderUs();
     renderLiq();
     renderFunding();
     renderDetail();
@@ -938,6 +1037,9 @@
   function applyMacro(j) {
     ST.fng = j.fng || [];
     ST.macro = j.markets || {};
+    ST.session = j.session || {};
+    ST.correlation = j.correlation || {};
+    ST.influence = j.influence || {};
     const ts = (j.updated_unix || 0) * 1000;
     ST.updated.macro = ts;
     ST.updated.fng = ts;

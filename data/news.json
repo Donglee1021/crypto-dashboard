@@ -13,6 +13,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+      "title_zh": "英伟达首席执行官的动荡为新获得权力的民主党寻求监督提供了新的弹药",
       "ts": 1794241460
     },
     {
@@ -29,6 +30,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
+      "title_zh": "一个比特币区块刚刚接近 2015 年的交易记录，但只支付了 180 美元的费用",
       "ts": 1794241185
     },
     {
@@ -43,6 +45,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Hedge funds cut tech exposure at near-record pace as Nasdaq drops 6.4%",
+      "title_zh": "纳斯达克指数下跌 6.4%，对冲基金以接近创纪录的速度削减科技投资",
       "ts": 1794240940
     },
     {
@@ -57,6 +60,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "S&P 500 Earnings Growth Slows as Revenue Gains Hold Ground, Oppenheimer Says",
+      "title_zh": "奥本海默表示，随着收入增长稳固，标准普尔 500 指数盈利增长放缓",
       "ts": 1794240818
     },
     {
@@ -71,6 +75,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Indices Hunt for Support After Steep Weekly Losses as Volatility Gauge Stays Elevated",
+      "title_zh": "由于波动性指标保持在高位，指数在每周大幅下跌后寻求支撑",
       "ts": 1794240480
     },
     {
@@ -85,6 +90,7 @@
       "source": "The Block",
       "tag": "利多",
       "title": "StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market",
+      "title_zh": "随着 42 亿美元的 Equinit 交易打开代币化市场，StoneX 认为看涨的上涨空间为 97%",
       "ts": 1794240425
     },
     {
@@ -99,6 +105,7 @@
       "source": "Investing.com 股市",
       "tag": "利多",
       "title": "Nasdaq up nearly 3% as Wall Street rebounds after AI rout, but Nvidia excluded",
+      "title_zh": "人工智能溃败后华尔街反弹纳斯达克上涨近3%，但英伟达排除在外",
       "ts": 1794240234
     },
     {
@@ -113,6 +120,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Coinbase and PNC Bank expand partnership with USDC payments for corporate clients",
+      "title_zh": "Coinbase 和 PNC Bank 扩大与 USDC 企业客户支付的合作伙伴关系",
       "ts": 1794240088
     },
     {
@@ -127,6 +135,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Norway stocks higher at close of trade; Oslo OBX up 1.23%",
+      "title_zh": "挪威股市收盘走高；奥斯陆OBX上涨1.23%",
       "ts": 1794239729
     },
     {
@@ -141,6 +150,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Israel stocks higher at close of trade; TA 35 up 1.84%",
+      "title_zh": "以色列股市收盘走高； TA 35 上涨 1.84%",
       "ts": 1794239703
     },
     {
@@ -155,6 +165,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Binance hack launderers mint homemade Elon Musk, animal memecoins to move stolen funds: Elliptic",
+      "title_zh": "币安黑客洗钱者铸造自制埃隆·马斯克和动物模因币来转移被盗资金：Elliptic",
       "ts": 1794239656
     },
     {
@@ -169,6 +180,7 @@
       "source": "Investing.com 股市",
       "tag": "利空",
       "title": "Moody’s and S&P downgrade Akamai on debt-fueled AI infrastructure buildout",
+      "title_zh": "穆迪和标准普尔因债务驱动的人工智能基础设施建设而下调 Akamai 评级",
       "ts": 1794239652
     },
     {
@@ -183,6 +195,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Greece stocks higher at close of trade; Athens General Composite up 2.21%",
+      "title_zh": "希腊股市收盘走高；雅典通用综合指数上涨2.21%",
       "ts": 1794239404
     },
     {
@@ -197,6 +210,7 @@
       "source": "Decrypt",
       "tag": "中性",
       "title": "NYSE Taps Avalanche to Settle Its Planned Tokenized Stock Platform",
+      "title_zh": "纽约证券交易所利用 Avalanche 来解决其计划中的代币化股票平台",
       "ts": 1794239362
     },
     {
@@ -213,6 +227,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Bitcoin ETFs Bleed $1.28B as 2026 Flows Turn Negative",
+      "title_zh": "2026 年流量转为负值，比特币 ETF 损失 $1.28B",
       "ts": 1794238920
     },
     {
@@ -229,6 +244,7 @@
       "source": "The Block",
       "tag": "利多",
       "title": "Ethereum treasury Sharplink’s Q3 net income hits $751 million on unrealized ether gains",
+      "title_zh": "以太坊金库 Sharplink 第三季度净利润因未实现的以太收益而达到 7.51 亿美元",
       "ts": 1794238830
     },
     {
@@ -245,6 +261,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "XRP Price Nears $1 as Binance Hacker Moves 139M XRP: Are New Lows Next?",
+      "title_zh": "随着币安黑客移动 1.39 亿 XRP，XRP 价格接近 1 美元：接下来会出现新低吗？",
       "ts": 1794238563
     },
     {
@@ -259,6 +276,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "SpaceX Stock Needs to Hold This Level as AI Anxiety Rises",
+      "title_zh": "随着人工智能焦虑的加剧，SpaceX 的股票需要保持在这一水平",
       "ts": 1794238380
     },
     {
@@ -273,6 +291,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Weekend trading of Nvidia scandal shines light on new financial products",
+      "title_zh": "英伟达丑闻周末交易凸显新金融产品",
       "ts": 1794238292
     },
     {
@@ -287,6 +306,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Morgan Stanley Says S&P 500 Correction Is In Its ‘Final Innings,’ Calls Chip Selloff An ‘Entry Point’",
+      "title_zh": "摩根士丹利称标普 500 指数调整已进入“最后一局”，称芯片抛售为“切入点”",
       "ts": 1794238138
     },
     {
@@ -301,6 +321,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "Google’s AI chip push adds more pressure on Nvidia",
+      "title_zh": "谷歌推动人工智能芯片给英伟达带来更大压力",
       "ts": 1794237605
     },
     {
@@ -317,6 +338,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Strategy’s Bitcoin Holdings Top 850,000 Tokens",
+      "title_zh": "Strategy的比特币持有量排名前85万的代币",
       "ts": 1794237000
     },
     {
@@ -331,6 +353,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Risk-On: S&P 500 Surges Out of the Gate, Adds $1 Trillion in Market Value",
+      "title_zh": "风险偏好：标普 500 指数飙升，市值增加 1 万亿美元",
       "ts": 1794236949
     },
     {
@@ -345,6 +368,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Coinbase Global Receives U.S. Trust Charter",
+      "title_zh": "Coinbase Global 获得美国信托宪章",
       "ts": 1794236940
     },
     {
@@ -359,6 +383,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "Prediction market broker River Markets registers affiliate as CFTC futures commission merchant",
+      "title_zh": "预测市场经纪商 River Markets 注册附属公司为 CFTC 期货佣金商",
       "ts": 1794236702
     },
     {
@@ -373,6 +398,7 @@
       "source": "CoinDesk",
       "tag": "利空",
       "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+      "title_zh": "朝鲜黑客正在创建 memecoin，以洗刷币安黑客攻击中 63 亿美元的赃物",
       "ts": 1794236444
     },
     {
@@ -389,6 +415,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "3 Reasons Strategy and Other Crypto Stocks Are Dropping",
+      "title_zh": "Strategy 和其他加密货币股票下跌的 3 个原因",
       "ts": 1794235620
     },
     {
@@ -403,6 +430,7 @@
       "source": "MarketWatch",
       "tag": "利空",
       "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+      "title_zh": "随着英伟达股价下跌，华尔街对黄仁勋丑闻的评价如下",
       "ts": 1794235500
     },
     {
@@ -417,6 +445,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Diversification Beyond Wall Street: Global ETFs to Consider Now",
+      "title_zh": "华尔街之外的多元化：现在值得考虑的全球 ETF",
       "ts": 1794235140
     },
     {
@@ -433,6 +462,7 @@
       "source": "The Block",
       "tag": "利多",
       "title": "Tom Lee’s Bitmine nears 5% Ethereum supply target with $20 million ETH buy as he predicts tokenization and AI ‘supercycle’",
+      "title_zh": "Tom Lee 的 Bitmine 预测代币化和人工智能“超级周期”，购买了 2000 万美元的 ETH，接近 5% 的以太坊供应目标",
       "ts": 1794234760
     }
   ],
@@ -454,6 +484,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-09T17:31:02+01:00",
-  "updated_unix": 1794241862
+  "updated": "2026-11-09T17:32:59+01:00",
+  "updated_unix": 1794241979
 }

@@ -1019,10 +1019,154 @@
     return { bottom: pack('bottom'), top: pack('top') };
   }
 
+  function overallCall(src) {
+    const factors = [];
+    function add(name, weight, unit, reading) {
+      if (unit == null || Number.isNaN(unit)) return;
+      factors.push({
+        name: name,
+        weight: weight,
+        unit: Math.max(-1, Math.min(1, unit)),
+        reading: reading || ''
+      });
+    }
+    if (src.tech != null && src.timeframes && src.timeframes.length) {
+      const reading = src.timeframes.map(t => t.name + ' ' + t.signal + ' ' + (t.score > 0 ? '+' : '') + t.score).join('，');
+      add('多周期技术', 0.22, src.tech / 10, reading);
+    }
+    if (src.sr) {
+      const s = src.sr;
+      let unit = null;
+      let reading = '';
+      if (s.brokeDown && !s.brokeUp) {
+        unit = -0.85;
+        reading = '跌破支撑' + (s.nextDown != null ? '，下探参考已在支撑阻力一节' : '');
+      } else if (s.brokeUp && !s.brokeDown) {
+        unit = 0.85;
+        reading = '向上突破，位置偏多';
+      } else if (s.nearSupport && s.nearResistance) {
+        unit = 0;
+        reading = '同时贴近支撑和阻力';
+      } else if (s.nearSupport) {
+        unit = 0.75;
+        reading = '靠近支撑，偏多';
+      } else if (s.nearResistance) {
+        unit = -0.75;
+        reading = '靠近阻力，偏空';
+      } else if (s.supportDist != null && s.resistDist != null) {
+        const ds = Math.abs(s.supportDist);
+        const dr = Math.abs(s.resistDist);
+        unit = ds < dr ? Math.min(0.35, (dr - ds) / 8) : -Math.min(0.35, (ds - dr) / 8);
+        reading = ds < dr ? '离支撑更近' : '离阻力更近';
+      }
+      if (unit != null) add('支撑阻力', 0.14, unit, reading);
+    }
+    if (src.entry && src.entry.ready) {
+      let unit = 0;
+      let reading = src.entry.verdict;
+      if (src.entry.verdict === '可以做多') unit = 1;
+      else if (src.entry.verdict === '可以做空') unit = -1;
+      else {
+        unit = ((src.entry.longHits || 0) - (src.entry.shortHits || 0)) / 3 * 0.4;
+        reading = '暂不入场（做多 ' + (src.entry.longHits || 0) + '/3，做空 ' + (src.entry.shortHits || 0) + '/3）';
+      }
+      add('入场清单', 0.14, unit, reading);
+    }
+    if (src.extreme && src.extreme.bottom && src.extreme.top) {
+      const bmap = { '底部已确认': 1, '底部信号较强': 0.7, '可能在筑底': 0.35, '未见底': 0 };
+      const tmap = { '顶部已确认': -1, '顶部信号较强': -0.7, '可能在筑顶': -0.35, '未见顶': 0 };
+      const bu = bmap[src.extreme.bottom];
+      const tu = tmap[src.extreme.top];
+      if (bu != null || tu != null) add('见底见顶', 0.12, (bu || 0) + (tu || 0), '底部' + src.extreme.bottom + '，顶部' + src.extreme.top);
+    }
+    if (src.funding != null) {
+      const pct = src.funding * 100;
+      let unit = 0;
+      let reading = pct.toFixed(4) + '% / 8小时';
+      if (pct > 0.05) { unit = -1; reading += '，多头拥挤，逆向偏空'; }
+      else if (pct > 0.03) { unit = -0.55; reading += '，多头偏拥挤'; }
+      else if (pct < -0.03) { unit = 1; reading += '，空头拥挤，逆向偏多'; }
+      else if (pct < 0) { unit = 0.35; reading += '，空头付费'; }
+      else if (pct > 0) { unit = -0.25; reading += '，多头付费'; }
+      add('资金费率', 0.08, unit, reading);
+    }
+    if (src.liq && ((src.liq.long1h || 0) + (src.liq.short1h || 0) > 0 || src.liq.longZoneDist != null || src.liq.shortZoneDist != null)) {
+      const L = src.liq.long1h || 0;
+      const S = src.liq.short1h || 0;
+      let imb = L + S > 0 ? (S - L) / (L + S) : 0;
+      let cluster = 0;
+      const bits = [];
+      if (L + S > 0) bits.push('近1小时多头清算额 ' + Math.round(L) + '，空头 ' + Math.round(S));
+      if (src.liq.shortZoneDist != null && src.liq.shortZoneDist > 0 && src.liq.shortZoneDist <= 3) {
+        cluster += 0.5;
+        bits.push('上方空头清算区 ' + src.liq.shortZoneDist.toFixed(1) + '%');
+      }
+      if (src.liq.longZoneDist != null && src.liq.longZoneDist < 0 && src.liq.longZoneDist >= -3) {
+        cluster -= 0.5;
+        bits.push('下方多头清算区 ' + src.liq.longZoneDist.toFixed(1) + '%');
+      }
+      add('清算', 0.10, imb * 0.7 + cluster * 0.3, bits.join('；') || '清算数据不足');
+    }
+    if (src.fng != null) {
+      const v = src.fng;
+      let unit = 0;
+      let reading = String(v);
+      if (v <= 20) { unit = 1; reading += ' 极度恐惧，逆向偏多'; }
+      else if (v <= 30) { unit = 0.45; reading += ' 恐惧，略偏多'; }
+      else if (v >= 80) { unit = -1; reading += ' 极度贪婪，逆向偏空'; }
+      else if (v >= 70) { unit = -0.45; reading += ' 贪婪，略偏空'; }
+      else reading += '，未到极端';
+      add('恐惧贪婪', 0.05, unit, reading);
+    }
+    if (src.hasNews && src.newsAdj != null) {
+      const st = src.newsStat || {};
+      add('新闻', 0.05, src.newsAdj / 2, '近12小时 利多' + (st.bull || 0) + ' / 利空' + (st.bear || 0));
+    }
+    if (src.influence && src.influence.bias != null && !Number.isNaN(src.influence.bias)) {
+      const inf = src.influence;
+      add('美股影响', 0.12, inf.bias, (inf.line || '美股') + (inf.stale ? '（数据偏旧，权重已降低）' : ''));
+    }
+    if (!factors.length) {
+      return { score: null, call: '观望', strength: '观望', confidence: '低', rationale: '数据还没到齐。', factors: [], conflict: false };
+    }
+    const wsum = factors.reduce((a, f) => a + f.weight, 0);
+    let score = 0;
+    factors.forEach(f => {
+      f.contribution = Math.round((f.weight / wsum) * f.unit * 10 * 10) / 10;
+      score += (f.weight / wsum) * f.unit * 10;
+    });
+    score = Math.round(score * 10) / 10;
+    const strongLong = factors.filter(f => f.unit >= 0.45);
+    const strongShort = factors.filter(f => f.unit <= -0.45);
+    const conflict = strongLong.length > 0 && strongShort.length > 0;
+    let call = '观望';
+    let strength = '观望';
+    if (!conflict) {
+      if (score >= 6) { call = '做多'; strength = '强烈做多'; }
+      else if (score >= 2.5) { call = '做多'; strength = '偏多'; }
+      else if (score <= -6) { call = '做空'; strength = '强烈做空'; }
+      else if (score <= -2.5) { call = '做空'; strength = '偏空'; }
+    }
+    const signed = factors.filter(f => Math.abs(f.unit) >= 0.2);
+    let confidence = '低';
+    if (!conflict && signed.length && factors.length >= 4 && call !== '观望') {
+      const maj = signed.filter(f => call === '做多' ? f.unit > 0 : f.unit < 0).length;
+      const ratio = maj / signed.length;
+      confidence = ratio >= 0.75 ? '高' : ratio >= 0.55 ? '中' : '低';
+    }
+    const tops = factors.slice().sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution)).slice(0, 2);
+    let rationale;
+    if (conflict) rationale = '多空因素对着干，先观望。';
+    else if (strength === '观望') rationale = '各方力度都不大，先观望。';
+    else rationale = '主要看' + tops.map(f => f.name).join('和') + '，综合 ' + (score > 0 ? '+' : '') + score + '。';
+    return { score: score, call: call, strength: strength, confidence: confidence, rationale: rationale, factors: factors, conflict: conflict };
+  }
+
   return {
     ema: ema, sma: sma, rsi: rsi, macd: macd, boll: boll, kdj: kdj, atr: atr, swings: swings,
     scoreTf: scoreTf, label: label, sentimentAdj: sentimentAdj, newsAdj: newsAdj,
     analyzeRows: analyzeRows, presentLevels: presentLevels, assessEntry: assessEntry, assessExtreme: assessExtreme,
-    estimateLiqZones: estimateLiqZones, summarizeLiquidations: summarizeLiquidations, liqBuckets: liqBuckets
+    estimateLiqZones: estimateLiqZones, summarizeLiquidations: summarizeLiquidations, liqBuckets: liqBuckets,
+    overallCall: overallCall
   };
 });
