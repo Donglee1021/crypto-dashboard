@@ -178,9 +178,9 @@
     "bias": 0.223,
     "corr": 0.147,
     "corr_label": "弱",
-    "equity_chg": 3.44,
+    "equity_chg": 3.56,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货涨3.4%、VIX下降、美元走弱，相关性低，对加密偏多",
+    "line": "美股休市，纳指期货涨3.6%、VIX下降、美元走弱，相关性低，对加密偏多",
     "session": "after",
     "stale": false
   },
@@ -210,15 +210,15 @@
       "unit": ""
     },
     "VIX": {
-      "chg": -21.88,
-      "chg_1d": -21.88,
-      "chg_5d": -5.3,
-      "chg_intraday": -20.14,
-      "last": 20.03,
+      "chg": -22.31,
+      "chg_1d": -22.31,
+      "chg_5d": -5.82,
+      "chg_intraday": -20.57,
+      "last": 19.92,
       "role": "vix",
       "stale": false,
       "symbol": "^VIX",
-      "time_unix": 1794258256,
+      "time_unix": 1794258901,
       "unit": ""
     },
     "标普 500": {
@@ -230,31 +230,31 @@
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1794259161,
+      "time_unix": 1794259201,
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": 2.34,
-      "chg_1d": 2.34,
-      "chg_5d": 0.01,
-      "chg_intraday": 2.77,
-      "last": 7575.25,
+      "chg": 2.39,
+      "chg_1d": 2.39,
+      "chg_5d": 0.06,
+      "chg_intraday": 2.82,
+      "last": 7578.75,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794258560,
+      "time_unix": 1794261300,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 3.44,
-      "chg_1d": 3.44,
-      "chg_5d": -0.39,
-      "chg_intraday": 4.23,
-      "last": 28016.5,
+      "chg": 3.56,
+      "chg_1d": 3.56,
+      "chg_5d": -0.27,
+      "chg_intraday": 4.36,
+      "last": 28050.5,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794258558,
+      "time_unix": 1794261303,
       "unit": ""
     },
     "纳斯达克100": {
@@ -266,7 +266,7 @@
       "role": "equity",
       "stale": false,
       "symbol": "^NDX",
-      "time_unix": 1794259160,
+      "time_unix": 1794261901,
       "unit": ""
     },
     "美10年期国债收益率": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": -0.61,
-      "chg_1d": -0.61,
-      "chg_5d": -0.07,
-      "chg_intraday": -0.55,
-      "last": 101.675,
+      "chg": -0.62,
+      "chg_1d": -0.62,
+      "chg_5d": -0.08,
+      "chg_intraday": -0.56,
+      "last": 101.664,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794258559,
+      "time_unix": 1794261302,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-09T22:19:22+01:00",
-  "updated_unix": 1794259162
+  "updated": "2026-11-09T23:05:05+01:00",
+  "updated_unix": 1794261905
 }
