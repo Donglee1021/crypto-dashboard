@@ -1,0 +1,82 @@
+name: 刷新新闻与宏观
+
+on:
+  schedule:
+    # GitHub 的计划任务按 UTC，可能比整点晚几分钟。
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+# 用 GITHUB_TOKEN 推送的提交不会再次触发「部署 GitHub Pages」，
+# 所以内容有变化时，由本工作流自己部署，页面才能拿到新的 JSON。
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: 安装 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: 抓取新闻、宏观与合约统计
+        run: python3 scripts/fetch_news.py
+
+      - name: 仅在内容变化时提交
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/macro.json data/derivatives.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "data: 更新新闻、宏观与合约统计"
+            git pull --rebase origin main
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 组装站点
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: bash scripts/assemble_site.sh
+
+      - name: 开启并配置 Pages
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/configure-pages@v6
+        with:
+          enablement: true
+
+      - name: 上传产物
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 部署
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: 若部署失败
+        if: failure()
+        run: |
+          echo "::error::若日志包含 Create Pages site failed 或 Get Pages site failed：打开 Settings → Pages → Build and deployment，Source 选 GitHub Actions 并保存，然后重新运行本工作流。若提交失败且提示权限不足：Settings → Actions → General → Workflow permissions 选 Read and write permissions。"
