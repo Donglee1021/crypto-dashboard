@@ -3,9 +3,10 @@
   'use strict';
 
   const COINS = ['BTC', 'ETH'];
-  const TFS = ['1H', '4H', '1D'];
-  const TF_BAR = { '1H': '1H', '4H': '4H', '1D': '1Dutc' };
-  const TFN = { '1H': '1小时', '4H': '4小时', '1D': '日线' };
+  const TFS = ['15m', '1H', '4H', '1D'];
+  const TF_BAR = { '15m': '15m', '1H': '1H', '4H': '4H', '1D': '1Dutc' };
+  const TFN = { '15m': '15分钟', '1H': '1小时', '4H': '4小时', '1D': '日线' };
+  const CORE_TFS = ['1H', '4H', '1D'];
   const TZ = 'Europe/Vienna';
   const WS_URLS = [
     'wss://ws.okx.com:8443/ws/v5/public',
@@ -283,13 +284,19 @@
     COINS.forEach(c => {
       const tfs = ST.tf[c] || {};
       if (!tfs['1H'] || !tfs['4H'] || !tfs['1D']) { delete ST.summary[c]; return; }
-      const tech = round1(tfs['1H'].score * 0.2 + tfs['4H'].score * 0.3 + tfs['1D'].score * 0.5);
+      const has15 = !!tfs['15m'];
+      const tech = has15
+        ? round1(tfs['15m'].score * 0.1 + tfs['1H'].score * 0.2 + tfs['4H'].score * 0.3 + tfs['1D'].score * 0.4)
+        : round1(tfs['1H'].score * 0.2 + tfs['4H'].score * 0.3 + tfs['1D'].score * 0.5);
+      const weightNote = has15
+        ? '15分钟×0.1 + 1小时×0.2 + 4小时×0.3 + 日线×0.4'
+        : '1小时×0.2 + 4小时×0.3 + 日线×0.5（15分钟未就绪，不挡综合分）';
       let sent = Ind.sentimentAdj(fngNow, ST.der[c] || {});
       if (!fngOk) sent = [['恐惧贪婪指数', 0, '暂无数据']].concat(sent.filter(f => f[0] !== '恐惧贪婪指数'));
       const na = Ind.newsAdj(c, ST.news, now);
       const total = round1(tech + sent.reduce((a, f) => a + f[1], 0) + na[0]);
       ST.summary[c] = {
-        tech: tech, sentiment: sent, news_adj: na[0], news_stat: na[1],
+        tech: tech, weightNote: weightNote, sentiment: sent, news_adj: na[0], news_stat: na[1],
         total: total, verdict: Ind.label(total)
       };
     });
@@ -307,7 +314,7 @@
         '<div class="vrow"><span class="price" id="px_' + c + '">' + fp(c, p) + '</span>' +
         '<span class="' + scls(t.chg24h) + '" id="chg_' + c + '">' + pct(t.chg24h) + '</span>' +
         '<span class="muted">24小时 高 ' + fp(c, t.high24h) + ' / 低 ' + fp(c, t.low24h) + '</span></div>' +
-        '<div class="muted">' + TFS.map(k => TFN[k] + ' <span class="' + scls(tfs[k].score) + '">' + esc(tfs[k].signal) + ' ' + sgn(tfs[k].score) + '</span>').join(' · ') + '</div>' +
+        '<div class="muted">' + TFS.filter(k => tfs[k]).map(k => TFN[k] + ' <span class="' + scls(tfs[k].score) + '">' + esc(tfs[k].signal) + ' ' + sgn(tfs[k].score) + '</span>').join(' · ') + '</div>' +
         '<div class="muted">技术面 ' + sgn(s.tech) + ' · 情绪 ' + sgn(s.sentiment.reduce((a, f) => a + f[1], 0)) + ' · 新闻 ' + sgn(s.news_adj) + ' = 综合 ' + sgn(s.total) + '</div>' +
         '</div>';
     }).join('');
@@ -348,7 +355,7 @@
     if (s) {
       const ns = s.news_stat;
       rows += '<tr><th colspan="3">综合分构成（' + coin + '）</th></tr>';
-      rows += '<tr><td>技术面加权</td><td class="n ' + scls(s.tech) + '">' + sgn(s.tech) + '</td><td>1小时×0.2 + 4小时×0.3 + 日线×0.5</td></tr>';
+      rows += '<tr><td>技术面加权</td><td class="n ' + scls(s.tech) + '">' + sgn(s.tech) + '</td><td>' + esc(s.weightNote || '1小时×0.2 + 4小时×0.3 + 日线×0.5') + '</td></tr>';
       rows += s.sentiment.map(f => '<tr><td>' + esc(f[0]) + '</td><td class="n ' + scls(f[1]) + '">' + sgn(f[1]) + '</td><td>' + esc(f[2]) + '</td></tr>').join('');
       rows += '<tr><td>新闻倾向</td><td class="n ' + scls(s.news_adj) + '">' + sgn(s.news_adj) + '</td><td>近12小时 利多' + ns.bull + ' / 利空' + ns.bear + ' / 中性' + ns.neutral + '</td></tr>';
       rows += '<tr><td><b>综合</b></td><td class="n"><span class="sig ' + cls(s.verdict) + '">' + sgn(s.total) + '</span></td><td>' + esc(s.verdict) + '</td></tr>';
@@ -387,12 +394,14 @@
   }
 
   function renderMtf() {
-    let h = '<tr><th>币种</th><th>1小时</th><th>4小时</th><th>日线</th><th class="n">RSI 1小时/4小时/日线</th><th>综合</th></tr>';
+    let h = '<tr><th>币种</th>' + TFS.map(k => '<th>' + TFN[k] + '</th>').join('') + '<th class="n">RSI ' + TFS.map(k => TFN[k]).join('/') + '</th><th>综合</th></tr>';
     COINS.forEach(c => {
       const t = ST.tf[c], s = ST.summary[c];
-      if (!t || !s || !t['1H']) return;
-      h += '<tr><td>' + c + '</td>' + TFS.map(k => '<td><span class="sig ' + cls(t[k].signal) + '">' + esc(t[k].signal) + ' ' + sgn(t[k].score) + '</span></td>').join('') +
-        '<td class="n">' + TFS.map(k => Number(t[k].ind.rsi).toFixed(0)).join(' / ') + '</td>' +
+      if (!t || !s || !CORE_TFS.every(k => t[k])) return;
+      h += '<tr><td>' + c + '</td>' + TFS.map(k => t[k]
+        ? '<td><span class="sig ' + cls(t[k].signal) + '">' + esc(t[k].signal) + ' ' + sgn(t[k].score) + '</span></td>'
+        : '<td>—</td>').join('') +
+        '<td class="n">' + TFS.map(k => t[k] ? Number(t[k].ind.rsi).toFixed(0) : '—').join(' / ') + '</td>' +
         '<td><span class="sig ' + cls(s.verdict) + '">' + esc(s.verdict) + ' ' + sgn(s.total) + '</span></td></tr>';
     });
     $('mtfTable').innerHTML = h;

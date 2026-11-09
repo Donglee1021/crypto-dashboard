@@ -616,7 +616,7 @@
     return false;
   }
 
-  function tfName(tf) { return tf === '1H' ? '1小时' : tf === '4H' ? '4小时' : '日线'; }
+  function tfName(tf) { return tf === '15m' ? '15分钟' : tf === '1H' ? '1小时' : tf === '4H' ? '4小时' : '日线'; }
 
   function levelPool(tfMap, price, side) {
     const out = [];
@@ -643,7 +643,7 @@
 
   function collectTriggers(tfMap, price, dir) {
     const found = [];
-    ['1H', '4H'].forEach(tf => {
+    ['15m', '1H', '4H'].forEach(tf => {
       const an = tfMap[tf];
       if (!an || !an.chart) return;
       const ch = an.chart;
@@ -719,17 +719,23 @@
     }
     function trend(dir) {
       let up = 0, down = 0;
-      const bits = ['1H', '4H', '1D'].map(tf => {
+      const bits = [];
+      if (tfMap['15m']) {
+        const s15 = tfMap['15m'].score;
+        const word15 = s15 >= 3 ? '做多' : s15 <= -3 ? '做空' : '观望';
+        bits.push('15分钟 ' + (s15 > 0 ? '+' : '') + s15 + ' ' + word15 + '（只展示，不计入方向门槛）');
+      } else bits.push('15分钟 数据未就绪');
+      ['1H', '4H', '1D'].forEach(tf => {
         const s = tfMap[tf].score;
         if (s >= 3) up++;
         else if (s <= -3) down++;
         const word = s >= 3 ? '做多' : s <= -3 ? '做空' : '观望';
-        return tfName(tf) + ' ' + (s > 0 ? '+' : '') + s + ' ' + word;
+        bits.push(tfName(tf) + ' ' + (s > 0 ? '+' : '') + s + ' ' + word);
       });
       const ok = dir === 'long' ? (up >= 2 && down === 0) : (down >= 2 && up === 0);
       const need = dir === 'long'
-        ? '要至少两个周期分数 ≥ 3，且没有周期 ≤ −3。'
-        : '要至少两个周期分数 ≤ −3，且没有周期 ≥ 3。';
+        ? '方向门槛只看 1小时、4小时、日线：要至少两个 ≥ 3，且这三个里没有 ≤ −3。'
+        : '方向门槛只看 1小时、4小时、日线：要至少两个 ≤ −3，且这三个里没有 ≥ 3。';
       return { ok: ok, detail: bits.join('，') + '。' + (ok ? '方向一致。' : need) };
     }
     function geometry(dir) {
@@ -923,7 +929,7 @@
 
       let wick = false;
       const wickNotes = [];
-      ['1H', '4H', '1D'].forEach(tf => {
+      ['15m', '1H', '4H', '1D'].forEach(tf => {
         const an = tfMap[tf];
         if (!an) return;
         const view = presentLevels(an.levels, price);
@@ -939,7 +945,7 @@
       items.push(item(up ? '支撑位长下影' : '阻力位长上影', wick, 2, wick ? wickNotes.filter((x, i, a) => a.indexOf(x) === i).join('、') + ' 影线至少是实体的 2 倍，且碰到价位' : '近 3 根没有这种 K 线'));
 
       let volHit = null;
-      ['4H', '1H'].forEach(tf => {
+      ['4H', '1H', '15m'].forEach(tf => {
         if (volHit) return;
         const an = tfMap[tf];
         if (!an || an.closedIndex == null) return;

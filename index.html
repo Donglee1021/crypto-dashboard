@@ -50,6 +50,7 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
         <button type="button" data-v="ETH" aria-pressed="false">ETH</button>
       </div>
       <div class="seg" id="segTf" role="group" aria-label="周期">
+        <button type="button" data-v="15m" aria-pressed="false">15分钟</button>
         <button type="button" data-v="1H" aria-pressed="false">1小时</button>
         <button type="button" data-v="4H" class="on" aria-pressed="true">4小时</button>
         <button type="button" data-v="1D" aria-pressed="false">日线</button>
@@ -184,7 +185,7 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
       <summary>方法说明与数据刷新频率</summary>
       <div class="muted" style="margin-top:8px">
         <p>单周期技术分（约 ±10）：EMA20/50/200 排列 ±2；价格对 EMA200 ±1；价格对 EMA20 ±1；MACD（DIF 与 DEA 位置、柱体方向）±2；RSI ±1（≥70 或 ≤30 反向计分）；KDJ ±1（J&gt;100 或 &lt;0 反向计分）；布林带位置 ±1（突破上下轨反向计分）；放量方向 ±1。</p>
-        <p>综合分 = 1 小时×0.2 + 4 小时×0.3 + 日线×0.5 + 情绪调整（最多 ±3：恐惧贪婪 ≤20 加 1、≥80 减 1；资金费率 &gt;0.03% 减 1、&lt;0 加 1；多空人数比 &gt;2.5 减 1、&lt;0.8 加 1）+ 新闻调整（最多 ±2：近 12 小时相关新闻里，利多条数减利空条数 ≥3 加 1、≥6 加 2，反之亦然）。</p>
+        <p>综合分在 15 分钟数据齐了的时候是 15 分钟×0.1 + 1 小时×0.2 + 4 小时×0.3 + 日线×0.4。15 分钟还没到时仍用 1 小时×0.2 + 4 小时×0.3 + 日线×0.5，不挡住综合分。然后再加情绪调整（最多 ±3：恐惧贪婪 ≤20 加 1、≥80 减 1；资金费率 &gt;0.03% 减 1、&lt;0 加 1；多空人数比 &gt;2.5 减 1、&lt;0.8 加 1）和新闻调整（最多 ±2：近 12 小时相关新闻里，利多条数减利空条数 ≥3 加 1、≥6 加 2，反之亦然）。</p>
         <p>结论：≥6 强烈做多，≥3 做多，介于 −3 与 3 之间为观望，≤−3 做空，≤−6 强烈做空。</p>
         <p>新闻标签按关键词规则判断（标题命中计 2 分、摘要计 1 分，差值 ≥2 定方向）。标题为原文英文，判断可能出错。</p>
         <p>刷新：实时价格走 OKX 公共 WebSocket（wss://ws.okx.com:8443，失败则改走 443 端口，再失败则每 10 秒用 REST 轮询）。K 线与指标每 60 秒重算。资金费率与当前永续持仓每 3 分钟。多空人数比、全市场持仓 24 小时变化、新闻、恐惧贪婪、美股宏观由 GitHub Actions 每 10 分钟抓取（计划任务可能再延迟几分钟），仅在内容变化时提交。页面大约每分钟重新读取这些 JSON。</p>
