@@ -30,6 +30,15 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
 </header>
 <noscript><p class="muted" style="padding:12px">需要启用 JavaScript 才能加载行情。</p></noscript>
 <main>
+  <section class="card" id="overallCard">
+    <div class="card-head">
+      <h2>综合判断</h2>
+      <span class="muted">多项信号合成一个结论</span>
+    </div>
+    <div class="grid2" id="overallBody">计算中…</div>
+    <p class="muted">分数大约在 −10 到 +10。某一项缺数据就去掉，其余按权重重算。因素明显对着干时结论是观望。这是规则汇总，不是投资建议，也不含仓位或杠杆。</p>
+  </section>
+
   <section class="card" id="entryCard">
     <div class="card-head">
       <h2>入场条件</h2>
@@ -152,6 +161,15 @@ if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) 
       <div class="scroll"><table id="derTable"></table></div>
       <p class="muted" id="derNote"></p>
     </div>
+  </section>
+
+  <section class="card" id="usCard">
+    <div class="card-head">
+      <h2>美股影响</h2>
+      <span class="muted" id="usMeta"></span>
+    </div>
+    <div id="usBody">加载中…</div>
+    <p class="muted">标普期货、纳指期货、VIX、美元指数、美债收益率，以及 Coinbase、MicroStrategy、IBIT。相关性用日收益率和标普、纳斯达克100对齐，约 30 天和 90 天。休市时用最近价格。相关性强时，美股方向对加密的权重更大。</p>
   </section>
 
   <section class="card">
