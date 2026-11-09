@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<meta name="description" content="BTC 与 ETH 永续合约实时指标、规则信号、新闻与宏观。仅供参考，不构成投资建议。">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="交易监测">
+<title>BTC / ETH 实时交易监测</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script>
+if (!/\/$/.test(location.pathname) && !/\.[a-z0-9]+$/i.test(location.pathname)) {
+  location.replace(location.pathname + '/' + location.search + location.hash);
+}
+</script>
+</head>
+<body>
+<header>
+  <div>
+    <h1>BTC / ETH 实时交易监测</h1>
+    <div class="muted" id="clock">维也纳时间 …</div>
+  </div>
+  <div class="muted"><span class="dot" id="wsdot"></span><span id="wsstat">实时价格连接中</span></div>
+  <button type="button" class="ghost" id="btnRefresh">刷新</button>
+  <p class="muted disclaimer">规则自动计算的信号，仅供参考，不构成投资建议，不含仓位或杠杆建议。</p>
+</header>
+<noscript><p class="muted" style="padding:12px">需要启用 JavaScript 才能加载行情。</p></noscript>
+<main>
+  <section class="card" id="entryCard">
+    <div class="card-head">
+      <h2>入场条件</h2>
+      <span class="muted">和趋势分数分开</span>
+    </div>
+    <div class="grid2" id="entryBody"><div>计算中…</div></div>
+    <p class="muted">可以做多、可以做空或暂不入场，要三项同时打勾：趋势（至少两个周期达到该方向的分数，且没有反方向）、触发（近 5 根出现 MACD 交叉、RSI 收回、突破或跌破后的回踩、支撑反弹、阻力受阻，或 4 小时/日线结构确认）、位置（做多不贴在阻力下方 0.5% 内，做空不贴在支撑上方 0.5% 内，并且 0.15%–2.5% 内有失效位）。失效位和下一目标来自支撑阻力。盈亏比 = 目标空间 / 失效距离，不含仓位或杠杆。</p>
+  </section>
+
+  <section class="grid2" id="verdicts">
+    <div class="card">正在加载行情…</div>
+  </section>
+
+  <section class="card">
+    <div class="controls">
+      <div class="seg" id="segCoin" role="group" aria-label="币种">
+        <button type="button" data-v="BTC" class="on" aria-pressed="true">BTC</button>
+        <button type="button" data-v="ETH" aria-pressed="false">ETH</button>
+      </div>
+      <div class="seg" id="segTf" role="group" aria-label="周期">
+        <button type="button" data-v="1H" aria-pressed="false">1小时</button>
+        <button type="button" data-v="4H" class="on" aria-pressed="true">4小时</button>
+        <button type="button" data-v="1D" aria-pressed="false">日线</button>
+      </div>
+      <label><input type="checkbox" id="chkBoll" checked>布林带</label>
+      <label><input type="checkbox" id="chkEma" checked>EMA</label>
+      <label><input type="checkbox" id="chkSr" checked>支撑阻力</label>
+    </div>
+    <div class="legend">
+      <span><i style="background:#f0b90b"></i>EMA20</span>
+      <span><i style="background:#58a6ff"></i>EMA50</span>
+      <span><i style="background:#c678dd"></i>EMA200</span>
+      <span><i style="background:#8b949e"></i>布林带(20,2)</span>
+      <span><i style="background:#26a69a"></i>支撑 S1–S3</span>
+      <span><i style="background:#ef5350"></i>阻力 R1–R3</span>
+    </div>
+    <div id="main" aria-label="K线图"></div>
+    <div class="muted" id="paneMacdLbl">MACD (12,26,9)</div><div id="pMacd" class="pane" aria-label="MACD"></div>
+    <div class="muted">RSI (14)</div><div id="pRsi" class="pane" aria-label="RSI"></div>
+    <div class="muted">KDJ (9,3,3)</div><div id="pKdj" class="pane" aria-label="KDJ"></div>
+    <div class="muted" id="chartNote" style="margin-top:6px">图表时间为维也纳时间。最后一根 K 线随实时价格更新，指标约每 60 秒重算。横线是当前周期的 S1–S3 与 R1–R3，最近一档为实线。</div>
+  </section>
+
+  <section class="card" id="srCard">
+    <div class="card-head">
+      <h2 id="srTitle">支撑位 / 阻力位</h2>
+      <span class="muted" id="srMeta"></span>
+    </div>
+    <div class="sr-flags" id="srFlags"></div>
+    <div class="grid2">
+      <div>
+        <h3 class="subh">支撑</h3>
+        <div id="srSup">计算中…</div>
+      </div>
+      <div>
+        <h3 class="subh">阻力</h3>
+        <div id="srRes">计算中…</div>
+      </div>
+    </div>
+    <div class="muted" style="margin-top:8px">
+      <p>S1–S3、R1–R3 是把四类价位合并后，取现价下方最近三条和上方最近三条。摆动高低点：左右各 5 根 K 线的局部极值，看近 120 根。枢轴：上一根已收盘 K 线，P=(高+低+收)/3，R1=2P−低，S1=2P−高，R2=P+(高−低)，S2=P−(高−低)，R3=高+2(P−低)，S3=低−2(高−P)。成交密集：近 120 根按价格分成 24 档，成交量记在这根 K 线的中价上，取局部放量高点。整数关口：BTC 每 1000（附近再看 500），ETH 每 100（附近再看 50），只保留现价大约 4% 以内。</p>
+      <p>相距不超过 0.15% 与 0.25×ATR 里较大的那个，就合成一条，来源并列。距离 = (价位 − 现价) / 现价。绝对值在 0.5% 以内标「接近」。近 3 根 K 线的收盘刚穿过、并且现价仍在突破方向 1.5% 以内，标「刚刚突破」或「刚刚跌破」。</p>
+      <p>跌破支撑后的下探参考有三个：下一档更低支撑；跌破位减去近 20 根已收盘 K 线的高低幅度；跌破位减去 1.5×ATR(14)。突破阻力后的上探参考与此对称。这些只说明价格可能走到哪里，不是仓位、杠杆或下单建议。</p>
+    </div>
+  </section>
+
+  <section class="card" id="extremeCard">
+    <div class="card-head">
+      <h2>是否到底 / 见顶</h2>
+      <span class="muted">可能性，不是定论</span>
+    </div>
+    <div id="extremeBody">计算中…</div>
+    <p class="muted">底部和顶部各用一套固定分数：4 小时和日线的 RSI 极值、RSI/MACD 背离、布林轨外收回、支撑或阻力上的长影线、放量、资金费率、多空人数比、恐惧贪婪，以及更高低点或更低高点。不到 3 分为未见底/未见顶，3 到 5 分为可能在筑底/筑顶，6 分及以上为信号较强。只有结构已经确认，才写成底部已确认或顶部已确认。这是规则估出来的可能性，价格可以不按这个走。</p>
+  </section>
+
+  <section class="grid3">
+    <div class="card"><h2 id="bdTitle">信号拆解</h2><div class="scroll"><table id="bdTable"></table></div></div>
+    <div class="card"><h2>指标读数</h2><div class="kv" id="indKv"></div></div>
+    <div class="card">
+      <h2>参考价位</h2>
+      <div class="kv" id="lvKv"></div>
+      <p class="muted">止损参考 = 现价 ± 1.5 × ATR(14)，只是价格距离，不是下单指令。多档支撑阻力、跌破后的下探和突破后的上探见上方专节。不含仓位建议。</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>多周期信号总览</h2>
+    <div class="scroll"><table id="mtfTable"></table></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card">
+      <div class="card-head"><h2>市场情绪</h2><span class="muted" id="fngTime"></span></div>
+      <div id="fngBox">加载中…</div>
+    </div>
+    <div class="card">
+      <div class="card-head"><h2>合约数据（OKX）</h2><span class="muted" id="derTime"></span></div>
+      <div class="scroll"><table id="derTable"></table></div>
+      <p class="muted" id="derNote"></p>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><h2>美股与宏观</h2><span class="muted" id="macroTime"></span></div>
+    <div class="scroll"><table id="macroTable"></table></div>
+    <div class="muted">美股常规交易时段为维也纳时间 15:30–22:00，非交易时段显示最近价格。数据来自定时任务（Yahoo Finance 不允许浏览器跨域）。</div>
+  </section>
+
+  <section class="card">
+    <div class="card-head">
+      <h2>最新要闻 <span class="muted" id="newsMeta"></span></h2>
+    </div>
+    <div class="controls" style="margin:8px 0">
+      <div class="seg" id="newsFilter" role="group" aria-label="新闻筛选">
+        <button type="button" data-v="all" class="on" aria-pressed="true">全部</button>
+        <button type="button" data-v="利多" aria-pressed="false">利多</button>
+        <button type="button" data-v="利空" aria-pressed="false">利空</button>
+        <button type="button" data-v="中性" aria-pressed="false">中性</button>
+      </div>
+    </div>
+    <div class="muted" id="newsTilt"></div>
+    <ul class="news" id="newsList"></ul>
+    <details>
+      <summary>新闻源状态</summary>
+      <div class="muted" id="newsSrc"></div>
+    </details>
+  </section>
+
+  <section class="card">
+    <details>
+      <summary>方法说明与数据刷新频率</summary>
+      <div class="muted" style="margin-top:8px">
+        <p>单周期技术分（约 ±10）：EMA20/50/200 排列 ±2；价格对 EMA200 ±1；价格对 EMA20 ±1；MACD（DIF 与 DEA 位置、柱体方向）±2；RSI ±1（≥70 或 ≤30 反向计分）；KDJ ±1（J&gt;100 或 &lt;0 反向计分）；布林带位置 ±1（突破上下轨反向计分）；放量方向 ±1。</p>
+        <p>综合分 = 1 小时×0.2 + 4 小时×0.3 + 日线×0.5 + 情绪调整（最多 ±3：恐惧贪婪 ≤20 加 1、≥80 减 1；资金费率 &gt;0.03% 减 1、&lt;0 加 1；多空人数比 &gt;2.5 减 1、&lt;0.8 加 1）+ 新闻调整（最多 ±2：近 12 小时相关新闻里，利多条数减利空条数 ≥3 加 1、≥6 加 2，反之亦然）。</p>
+        <p>结论：≥6 强烈做多，≥3 做多，介于 −3 与 3 之间为观望，≤−3 做空，≤−6 强烈做空。</p>
+        <p>新闻标签按关键词规则判断（标题命中计 2 分、摘要计 1 分，差值 ≥2 定方向）。标题为原文英文，判断可能出错。</p>
+        <p>刷新：实时价格走 OKX 公共 WebSocket（wss://ws.okx.com:8443，失败则改走 443 端口，再失败则每 10 秒用 REST 轮询）。K 线与指标每 60 秒重算。资金费率与当前永续持仓每 3 分钟。多空人数比、全市场持仓 24 小时变化、新闻、恐惧贪婪、美股宏观由 GitHub Actions 每 10 分钟抓取（计划任务可能再延迟几分钟），仅在内容变化时提交。页面大约每分钟重新读取这些 JSON。</p>
+        <p>OKX 的 K 线、行情、资金费率、当前持仓允许浏览器跨域；多空比与持仓历史接口不返回跨域头，所以改由定时任务写入。</p>
+        <p>支撑阻力的合并规则、接近和刚突破的判定，以及跌破/突破后的价格参考，写在「支撑位 / 阻力位」一节，不进入趋势分数。入场条件另外要求趋势、触发和位置同时成立。见顶见底是独立的可能性分数，也不替代趋势分数。</p>
+      </div>
+    </details>
+    <div class="muted" id="updTimes" style="margin-top:8px"></div>
+    <div class="muted warn" id="errs"></div>
+    <p class="muted">免责声明：信号完全由上述规则自动计算，仅供参考，不构成投资建议或邀约。本页不给出仓位、杠杆或下单数量。合约交易可能损失全部本金。</p>
+  </section>
+</main>
+<script src="js/lightweight-charts.standalone.production.js"></script>
+<script src="js/indicators.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
