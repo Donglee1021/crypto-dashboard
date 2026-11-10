@@ -3,18 +3,63 @@
   "items": [
     {
       "coins": [],
-      "desc": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China, told CNBC he expects answers about Jensen Huang's relationship.",
-      "first_seen": 1794351994,
-      "key": "schumeraccusestrumpofdefendingnvidiaceojensenhuangatcostofnationalsecurity",
+      "desc": "The stock market fell Tuesday as Fed rate-hike fears sent Treasury yields soaring while Nvidia kept falling. Indexes did come off lows though. CoreWeave retreated late on results.",
+      "first_seen": 1794349490,
+      "key": "dowjonesfuturesstockmarketfallsonsurgingtreasuryyieldsnvidiaselloffcoreweaverise",
       "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures%3A-stock.html?.tsrc=rss",
+      "reason": "利多词: 飙升、上升；利空词: 下跌、抛售、加息、恐慌",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
+      "title_zh": "道琼斯期货：美国国债收益率飙升、英伟达抛售导致股市下跌； CoreWeave 崛起较晚",
+      "ts": 1794353468
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.",
+      "first_seen": 1794354026,
+      "key": "nvidiashuangtriestoprojectbusinessasusualinreturntoofficeafteraffairrevelation",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
       "reason": "未命中方向关键词",
       "score": 0,
       "source": "CNBC 头条",
       "tag": "中性",
-      "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-      "title_zh": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-      "ts": 1794351969
+      "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+      "title_zh": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+      "ts": 1794352294
+    },
+    {
+      "coins": [],
+      "desc": "Project Faro, backed by Goldman Sachs, Citigroup and BBVA, has secured $270 million in funding to launch a US dollar stablecoin in the first half of 2027.",
+      "first_seen": 1794354026,
+      "key": "globalbankscommit270mtostablecoinventuretargeting2027launch",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/banks-270m-project-faro-stablecoin-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
+      "title_zh": "Global banks commit $270M to stablecoin venture targeting 2027 launch",
+      "ts": 1794352108
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794349490,
+      "key": "uslawmakerspushchinachiprulesafternvidiaceoallegations",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/schumer-says-congress-must-have-answers-on-trump-defense-of-nvidia-ceo-5016683",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "US lawmakers push China chip rules after Nvidia CEO allegations",
+      "title_zh": "英伟达首席执行官指控后，美国立法者推动中国芯片规则",
+      "ts": 1794351989
     },
     {
       "coins": [],
@@ -30,21 +75,6 @@
       "title": "Stock Market Today, Nov. 10: Wall Street's Rally Hits a Roadblock as Hot Inflation Raises the Stakes for the Fed",
       "title_zh": "Stock Market Today, Nov. 10: Wall Street's Rally Hits a Roadblock as Hot Inflation Raises the Stakes for the Fed",
       "ts": 1794351007
-    },
-    {
-      "coins": [],
-      "desc": "The stock market fell Tuesday as Fed rate-hike fears sent Treasury yields soaring while Nvidia kept falling. Indexes did come off lows though. CoreWeave retreated late on results.",
-      "first_seen": 1794349490,
-      "key": "dowjonesfuturesstockmarketfallsonsurgingtreasuryyieldsnvidiaselloffcoreweaverise",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures%3A-stock.html?.tsrc=rss",
-      "reason": "利多词: 飙升、上升；利空词: 下跌、抛售、加息、恐慌",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
-      "title_zh": "道琼斯期货：美国国债收益率飙升、英伟达抛售导致股市下跌； CoreWeave 崛起较晚",
-      "ts": 1794350898
     },
     {
       "coins": [
@@ -353,36 +383,19 @@
       "ts": 1794349306
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Crypto markets extended losses as hotter-than-expected inflation hit Wall Street, raising fresh concerns about interest rates and the outlook for risk assets.",
-      "first_seen": 1794351994,
-      "key": "cryptomarkettodaynov10bitcoinslidesbelow74000ashotinflationdatasendscryptomarket",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/10/crypto-market-today-nov-10-hot-inflation-data-drags-crypto-lower-as-fed-hike-bets-grow/?.tsrc=rss",
-      "reason": "利空词: 下滑、亏损、通胀过热",
-      "score": -5,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Crypto Market Today, Nov. 10: Bitcoin Slides Below $74,000 as Hot Inflation Data Sends Crypto Markets Tumbling",
-      "title_zh": "Crypto Market Today, Nov. 10: Bitcoin Slides Below $74,000 as Hot Inflation Data Sends Crypto Markets Tumbling",
-      "ts": 1794349202
-    },
-    {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794349490,
-      "key": "uslawmakerspushchinachiprulesafternvidiaceoallegations",
+      "desc": "Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
+      "first_seen": 1794354026,
+      "key": "nvidiasellsoffforseconddayinfalloutfromjensenhuangsaffairwithallegedspy",
       "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/schumer-says-congress-must-have-answers-on-trump-defense-of-nvidia-ceo-5016683",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "US lawmakers push China chip rules after Nvidia CEO allegations",
-      "title_zh": "英伟达首席执行官指控后，美国立法者推动中国芯片规则",
-      "ts": 1794348442
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+      "title_zh": "Nvidia sells off for second day in fallout from Jensen Huang’s affair with alleged spy",
+      "ts": 1794348505
     },
     {
       "coins": [
@@ -435,40 +448,25 @@
     },
     {
       "coins": [],
-      "desc": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "first_seen": 1794347080,
-      "key": "stocksfallasthe10yeartreasuryyieldnears5mark",
+      "desc": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
+      "first_seen": 1794354026,
+      "key": "whitehousevowstopressaheadwithtariffsdespitemidtermbacklashoverrisingprices",
       "kind": "macro",
-      "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-      "title_zh": "10年期国债收益率接近5%，股市下跌",
-      "ts": 1794346920
-    },
-    {
-      "coins": [],
-      "desc": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
-      "first_seen": 1794347080,
-      "key": "homeownerstapequityashelocbalancespostbiggestjumpsince2005newyorkfedreport",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
-      "reason": "利多词: 跳涨、上升；利空词: 禁令",
-      "score": 2,
+      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+      "reason": "利空词: 关税、警告",
+      "score": -3,
       "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
-      "title_zh": "纽约联储报告称，HELOC 余额出现 2005 年以来最大增幅，房主开始利用股本",
-      "ts": 1794346663
+      "tag": "利空",
+      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "title_zh": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "ts": 1794347146
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 10",
+      "CNBC 头条": "ok 12",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
@@ -476,12 +474,12 @@
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 1",
-      "MarketWatch": "ok 7",
+      "MarketWatch": "ok 5",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 20",
+      "Yahoo Finance": "ok 19",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T00:06:53+01:00",
-  "updated_unix": 1794352013
+  "updated": "2026-11-11T00:40:46+01:00",
+  "updated_unix": 1794354046
 }
