@@ -2,6 +2,200 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
+      "first_seen": 1794310014,
+      "key": "bitcoinlagsstockreboundinadvanceofusinflationreport",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-lags-stock-rebound-in-advance-of-u-s-inflation-report",
+      "reason": "利多词: 反弹",
+      "score": 2,
+      "source": "CoinDesk",
+      "tag": "利多",
+      "title": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+      "title_zh": "Bitcoin lags stock rebound in advance of U.S. inflation report",
+      "ts": 1794309850
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Paying off its $750 million in bitcoin-collateralized loans left MARA Holdings with about $350 million from its bitcoin sale, by Unchained’s calculation.",
+      "first_seen": 1794310014,
+      "key": "bitcoinminermaraclearsitsbtcbackeddebtandapproves500millionbuybackafterq3profit",
+      "kind": "macro",
+      "link": "https://unchainedcrypto.com/bitcoin-miner-mara-clears-its-btc-backed-debt-and-approves-500-million-buyback-after-q3-profit/?.tsrc=rss",
+      "reason": "利多词: 获批、买入",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Bitcoin Miner MARA Clears Its BTC-Backed Debt and Approves $500 Million Buyback After Q3 Profit",
+      "title_zh": "Bitcoin Miner MARA Clears Its BTC-Backed Debt and Approves $500 Million Buyback After Q3 Profit",
+      "ts": 1794309352
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794310014,
+      "key": "analysisnvidiasclubbyboardfacesastickyhoneypottest",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/analysisnvidias-clubby-board-faces-a-sticky-honey-pot-test-5014779",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Analysis-Nvidia’s clubby board faces a sticky ’honey pot’ test",
+      "title_zh": "Analysis-Nvidia’s clubby board faces a sticky ’honey pot’ test",
+      "ts": 1794309183
+    },
+    {
+      "coins": [],
+      "desc": "Wall Street futures were mixed and muted pre-bell Tuesday, as crude prices extended declines and as",
+      "first_seen": 1794310014,
+      "key": "cpicrudeviewssupportwallstreetprebellasiaeuropeup",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/economy/articles/cpi-crude-views-support-wall-111250477.html?.tsrc=rss",
+      "reason": "利空词: 下降",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "CPI, Crude Views Support Wall Street Pre-Bell; Asia, Europe Up",
+      "title_zh": "CPI, Crude Views Support Wall Street Pre-Bell; Asia, Europe Up",
+      "ts": 1794309170
+    },
+    {
+      "coins": [],
+      "desc": "The healthcare stock has soared past the S&P 500 this year as its results have been strong in recent quarters.",
+      "first_seen": 1794310014,
+      "key": "gileadsciencesstockhitsanewalltimehighisitstillagoodbuy",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/10/gilead-sciences-stock-hits-a-new-all-time-high-is-it-still-a-good-buy/?.tsrc=rss",
+      "reason": "利多词: 飙升、创新高、买入",
+      "score": 5,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Gilead Sciences Stock Hits a New All-Time High: Is it Still a Good Buy?",
+      "title_zh": "Gilead Sciences Stock Hits a New All-Time High: Is it Still a Good Buy?",
+      "ts": 1794308942
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Kayleen Fulton alleges she was fired less than two weeks after disclosing a cancer diagnosis and helping organize a staff letter challenging a requirement to endorse the foundation’s new mandate.",
+      "first_seen": 1794310014,
+      "key": "exemployeesuesethereumfoundationandvitalikbuterinoverfiring",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/ex-employee-sues-ethereum-foundation-vitalik-buterin-over-firing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 起诉",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing",
+      "title_zh": "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing",
+      "ts": 1794308211
+    },
+    {
+      "coins": [],
+      "desc": "Exodus shares rose 10% as the company reported third-quarter revenue of $32.5 million and a net loss of $8.3 million.",
+      "first_seen": 1794310014,
+      "key": "exodussharesrise10aheadofq3earningsshowing7revenuegrowth83millionloss",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-10-exodus-shares-rise-10-ahead-of-q3-earnings-showing-7-revenue-growth-8-3-million-loss-437012",
+      "reason": "利多词: 上升",
+      "score": 2,
+      "source": "The Block",
+      "tag": "利多",
+      "title": "Exodus shares rise 10% ahead of Q3 earnings showing 7% revenue growth, $8.3 million loss",
+      "title_zh": "Exodus shares rise 10% ahead of Q3 earnings showing 7% revenue growth, $8.3 million loss",
+      "ts": 1794308037
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
+      "first_seen": 1794310014,
+      "key": "bitcoinslipsbeforeusinflationreportastraderspriceinfedrateincrease",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/10/bitcoin-slips-before-u-s-inflation-report-as-traders-price-in-fed-rate-increase",
+      "reason": "利多词: 降温；利空词: 下跌（多空相抵）",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
+      "title_zh": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
+      "ts": 1794307717
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+      "first_seen": 1794310014,
+      "key": "livenewstraderspriceinfedratehikefordecemberasbitcoingoldretreat",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat",
+      "reason": "利多词: 宽松；利空词: 下跌、加息",
+      "score": -4,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
+      "title_zh": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
+      "ts": 1794307305
+    },
+    {
+      "coins": [],
+      "desc": "An aide said Trump family crypto businesses should \"preserve their documents\" as Warren prepares to take over the Senate Banking Committee.",
+      "first_seen": 1794310014,
+      "key": "toughquestionsaheadwarrentargetspredictionmarketstrumpcryptoasbankingchair",
+      "kind": "crypto",
+      "link": "https://decrypt.co/382910/tough-questions-ahead-warren-targets-prediction-markets-trump-crypto-as-banking-chair",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Decrypt",
+      "tag": "利空",
+      "title": "'Tough Questions' Ahead: Warren Targets Prediction Markets, Trump Crypto as Banking Chair",
+      "title_zh": "'Tough Questions' Ahead: Warren Targets Prediction Markets, Trump Crypto as Banking Chair",
+      "ts": 1794307266
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Cathie Wood's Ark Invest sold $6.1 million worth of Block shares and $1.13 million worth of Bullish shares through its ETFs on Monday.",
+      "first_seen": 1794310014,
+      "key": "arkinvesttrimsblockbullishanditsownbitcoinetfholdingswhilebuyingnvidiasofi",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-10-ark-invest-trims-block-bullish-holdings-437003",
+      "reason": "利多词: 看涨、买入",
+      "score": 4,
+      "source": "The Block",
+      "tag": "利多",
+      "title": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+      "title_zh": "Ark Invest trims Block, Bullish and its own bitcoin ETF holdings while buying Nvidia, SoFi",
+      "ts": 1794307013
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "I/O Fund has maintained its $2 million Bitcoin target while warning of a potential decline toward $30,000–$40,000. Its bearish outlook depends on key price levels.…",
+      "first_seen": 1794310014,
+      "key": "bitcointo2minvestmentfirmbackshugetargetbutwarnsof30kcrashfirst",
+      "kind": "macro",
+      "link": "https://www.ccn.com/news/crypto/bitcoin-2m-investment-firm-target-warns-30k-crash-first/?.tsrc=rss",
+      "reason": "利空词: 崩跌、下降、看跌、警告",
+      "score": -6,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin to $2M? Investment Firm Backs Huge Target but Warns of $30K Crash First",
+      "title_zh": "Bitcoin to $2M? Investment Firm Backs Huge Target but Warns of $30K Crash First",
+      "ts": 1794306287
+    },
+    {
       "coins": [],
       "desc": "Value stocks are crushing growth stocks as investors sour on the artificial intelligence trade.",
       "first_seen": 1794306918,
@@ -15,6 +209,23 @@
       "title": "Stock Market Sell-Off: Meet the Unstoppable Vanguard ETF Obliterating the S&P 500 in 2026",
       "title_zh": "股市抛售：Vanguard ETF 势不可挡，将在 2026 年摧毁标准普尔 500 指数",
       "ts": 1794306120
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "",
+      "first_seen": 1794310014,
+      "key": "bitcoinsubduedbelow75kasregulatoryuncertaintyetfoutflowspersist",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-75k-as-regulatory-uncertainty-etf-outflows-persist-5014179",
+      "reason": "利空词: 资金流出",
+      "score": -2,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Bitcoin subdued below $75k as regulatory uncertainty, ETF outflows persist",
+      "title_zh": "Bitcoin subdued below $75k as regulatory uncertainty, ETF outflows persist",
+      "ts": 1794306052
     },
     {
       "coins": [],
@@ -45,6 +256,21 @@
       "title": "NEAR AI says SGLang vulnerability exposed user account details in security breach",
       "title_zh": "NEAR AI 称 SGLang 漏洞暴露了安全漏洞中的用户帐户详细信息",
       "ts": 1794305833
+    },
+    {
+      "coins": [],
+      "desc": "US stock futures were mixed on Tuesday as investors awaited October inflation figures, assessed developments in the conflict involving Iran and monitored corporate news affecting the artificial intelligence sector. Oil prices continued to d",
+      "first_seen": 1794310014,
+      "key": "usstockfuturesmixedaheadofinflationdataasoilfallsandnvidiafacesscrutinyoverceoin",
+      "kind": "macro",
+      "link": "https://investorshub.advfn.com/market-news/article/39594/us-stock-futures-mixed-ahead-of-inflation-data-as-oil-falls-and-nvidia-faces-scrutiny-over-ceo-investigation-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+      "reason": "利空词: 下跌、调查",
+      "score": -6,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street",
+      "title_zh": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street",
+      "ts": 1794305336
     },
     {
       "coins": [
@@ -112,33 +338,18 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794306918,
-      "key": "astechstumblesisthistelecoms62dividendyieldasafehaven",
+      "desc": "Wall Street ended higher on Monday as falling oil prices and upcoming inflation data lifted sentiment, while Nvidia remained in focus over an investigation involving its CEO.",
+      "first_seen": 1794310014,
+      "key": "stockmarketnewsfornov102026",
       "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/as-tech-stumbles-is-this-telecoms-62-dividend-yield-a-safe-haven-5014499",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "As tech stumbles, is this telecom’s 6.2% dividend yield a safe haven?",
-      "title_zh": "随着科技股陷入困境，这家电信公司 6.2% 的股息收益率是否是避风港？",
-      "ts": 1794304741
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794306918,
-      "key": "nvidiafacesincreasedchipexportcontrolsamidhuangscandaltheinformation",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-faces-increased-chip-export-controls-amid-huang-scandal-the-information-93CH-5013845",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia faces increased chip export controls amid Huang scandal- The Information",
-      "title_zh": "因黄丑闻，英伟达面临加强芯片出口管制 - The Information",
-      "ts": 1794304370
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-10-094800346.html?.tsrc=rss",
+      "reason": "利空词: 下跌、调查",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Stock Market News for Nov 10, 2026",
+      "title_zh": "Stock Market News for Nov 10, 2026",
+      "ts": 1794304080
     },
     {
       "coins": [],
@@ -259,235 +470,26 @@
       "title": "EOS Climbs 20% In a Green Day",
       "title_zh": "EOS 在绿日上涨 20%",
       "ts": 1794301263
-    },
-    {
-      "coins": [],
-      "desc": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
-      "first_seen": 1794303524,
-      "key": "fedgovernorwallerseesdecemberhikelikelyopensdoortopossiblehalfpointincrease",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-      "reason": "利空词: 加息",
-      "score": -2,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "title_zh": "美联储理事沃勒预计 12 月可能加息，为可能加息半个百分点打开大门",
-      "ts": 1794301201
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin price is struggling to regain momentum as gold extends its recovery above $4,100. But the growing demand for scarce assets could eventually put crypto back on the radar. Gold climbed 1.4% to $4,123 per ounce, extending gains from th",
-      "first_seen": 1794303524,
-      "key": "blackrockbitcoinetfsees213moutflowascpireporttestscryptomarkets",
-      "kind": "macro",
-      "link": "https://99bitcoins.com/news/bitcoin-btc/blackrock-bitcoin-etf-outflows-cpi-report/?.tsrc=rss",
-      "reason": "利多词: 上涨、攀升、回升；利空词: 资金流出（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "BlackRock Bitcoin ETF Sees $213M Outflow as CPI Report Tests Crypto Markets",
-      "title_zh": "CPI 报告测试加密市场，贝莱德比特币 ETF 资金流出 2.13 亿美元",
-      "ts": 1794300954
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Global equity funds drew a record $266B in four weeks while Bitcoin lagged. Fed hike odds for December now sit at 84.4%.",
-      "first_seen": 1794303524,
-      "key": "bitcoinsitsoutequityfundrushasfedhikeoddsreach84",
-      "kind": "macro",
-      "link": "https://beincrypto.com/bitcoin-equity-fund-inflows-fed-hike/?.tsrc=rss",
-      "reason": "利空词: 加息",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin Sits Out Equity Fund Rush as Fed Hike Odds Reach 84%",
-      "title_zh": "美联储加息几率高达 84%，比特币不受股票基金热潮影响",
-      "ts": 1794300707
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin holders split as retail wallets fell by 109,000 since mid-October while smart money added over 14,200 coins.",
-      "first_seen": 1794303524,
-      "key": "bitcoinholderssplitintwoasretailleavesandsmartmoneykeepsbuying",
-      "kind": "macro",
-      "link": "https://beincrypto.com/bitcoin-holders-split-smart-money-retail/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Bitcoin Holders Split in Two as Retail Leaves and Smart Money Keeps Buying",
-      "title_zh": "随着零售业的退出和精明的资金不断购买，比特币持有者一分为二",
-      "ts": 1794300115
-    },
-    {
-      "coins": [],
-      "desc": "The revenue decline was driven by continued soft crypto trading environment and a higher mix of lower-margin stablecoin transactions.",
-      "first_seen": 1794300016,
-      "key": "bitgorevenuefalls51inq3astradingslowsnetincomerisesontreasurygains",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
-      "reason": "利多词: 上涨、上升；利空词: 下跌、下降（多空相抵）",
-      "score": 1,
-      "source": "The Block",
-      "tag": "中性",
-      "title": "BitGo revenue falls 51% in Q3 as trading slows; net income rises on treasury gains",
-      "title_zh": "由于交易放缓，BitGo 第三季度收入下降 51%；净收入因财政收益而增加",
-      "ts": 1794298853
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "US spot Bitcoin ETFs shed $201 million Monday, with seven straight sessions of net withdrawals from BlackRock’s IBIT totaling $1.66 billion.",
-      "first_seen": 1794300016,
-      "key": "blackrockbitcoinetfoutflowshit166boverseventradingsessions",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/blackrock-ibit-bitcoin-etf-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 资金流出",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
-      "title_zh": "贝莱德比特币 ETF 七个交易日流出额达到 $1.66B",
-      "ts": 1794297725
-    },
-    {
-      "coins": [],
-      "desc": "Securitize agreed to buy River One to bring stablecoin funding to asset-backed lending and expects the deal to close in the fourth quarter of 2026.",
-      "first_seen": 1794300016,
-      "key": "securitizeagreestobuyriveronetoexpandintoassetbackedlending",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/securitize-river-one-asset-backed-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利多词: 买入、达成协议",
-      "score": 3,
-      "source": "Cointelegraph",
-      "tag": "利多",
-      "title": "Securitize agrees to buy River One to expand into asset-backed lending",
-      "title_zh": "Securitize 同意收购 River One 以拓展资产支持贷款业务",
-      "ts": 1794296954
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-      "first_seen": 1794296593,
-      "key": "an11yearoldethereumwalletmoved46millionanddodgedascamsetupinminutes",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/tech/2026/11/10/an-11-year-old-ethereum-wallet-moved-usd4-6-million-and-dodged-a-scam-set-up-in-minutes",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-      "title_zh": "一个已有 11 年历史的以太坊钱包转移了 460 万美元，并在几分钟内躲过了一场骗局",
-      "ts": 1794294066
-    },
-    {
-      "coins": [],
-      "desc": "“Iran militarily is effectively over,” Trump said, citing the destruction of its navy and surging inflation that he said has hollowed out Tehran's economy.",
-      "first_seen": 1794296593,
-      "key": "trumpsaysiranwartoendfairlysoonplaysdownprospectsofnewstrikes",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
-      "title_zh": "特朗普称伊朗战争“很快”结束，淡化新打击的前景",
-      "ts": 1794294002
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Investing.com-- Bitcoin moved little on Tuesday amid continued uncertainty over the regulatory outlook under a Democrat-led U.S. Congress, which spurred sustained outflows from spot exchange-traded funds.",
-      "first_seen": 1794292013,
-      "key": "bitcoinpinnedbelow75kasregulatoryuncertaintyetfoutflowspersist",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-pinned-below-75k-regulatory-063403850.html?.tsrc=rss",
-      "reason": "利空词: 资金流出",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin pinned below $75k as regulatory uncertainty, ETF outflows persist",
-      "title_zh": "由于监管不确定性和 ETF 资金外流持续，比特币跌破 7.5 万美元",
-      "ts": 1794292443
-    },
-    {
-      "coins": [],
-      "desc": "The crypto firms moved for leave to file an amicus brief defending the CFTC's authority to regulate single-stock perpetual futures in the US.",
-      "first_seen": 1794292013,
-      "key": "coinbasekalshiandpaywardbackscftcinlawsuitoversinglestockperpfutures",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/regulation/2026-11-10-coinbase-kalshi-payward-back-cftc-perps-436971",
-      "reason": "利空词: 诉讼",
-      "score": -2,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "Coinbase, Kalshi and Payward backs CFTC in lawsuit over single-stock perp futures",
-      "title_zh": "Coinbase、Kalshi 和 Payward 在单一股票永续期货诉讼中支持 CFTC",
-      "ts": 1794291550
-    },
-    {
-      "coins": [],
-      "desc": "Jefferies lowered the price target on TeraWulf, Hut 8 and Cipher Digital as part of a broader re-rating of AI Data Center companies.",
-      "first_seen": 1794292013,
-      "key": "wulfhutcifrstocksgetpricetargetcutsfromjefferieshereswhytheanalystisstillbullish",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/wulf-hut-cifr-stocks-get-price-target-cuts-from-jefferies-here-s-why-the-analyst-is-still-bullish-on-these-ai-infra-firms/cNGuIUkR97m?.tsrc=rss",
-      "reason": "利多词: 看涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "WULF, HUT, CIFR Stocks Get Price Target Cuts From Jefferies: Here’s Why The Analyst Is Still Bullish On These AI Infra Firms",
-      "title_zh": "Jefferies 下调 WULF、HUT、CIFR 股票目标价：这就是分析师仍然看好这些人工智能基础设施公司的原因",
-      "ts": 1794291343
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794292013,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794290400
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 9",
+      "CNBC 头条": "ok 10",
       "CNBC 经济": "ok 20",
       "CNBC 金融": "ok 19",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 3",
+      "Investing.com 股市": "ok 1",
+      "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 20",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-10T11:35:29+01:00",
-  "updated_unix": 1794306929
+  "updated": "2026-11-10T12:27:06+01:00",
+  "updated_unix": 1794310026
 }
