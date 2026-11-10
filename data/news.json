@@ -3,6 +3,83 @@
   "items": [
     {
       "coins": [],
+      "desc": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+      "first_seen": 1794276383,
+      "key": "softbankgroupsharessurge11asasiantechstockstrackwallstreetrebound",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "reason": "利多词: 大涨、反弹、买入；利空词: 下降、抛售",
+      "score": 3,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "SoftBank Group shares surge 11% as Asian tech stocks track Wall Street rebound",
+      "title_zh": "SoftBank Group shares surge 11% as Asian tech stocks track Wall Street rebound",
+      "ts": 1794275457
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794264542,
+      "key": "trumpsclosetiestonvidiashuangscrutinizedafterforeignintelligenceconcerns",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/trumps-close-ties-to-nvidias-huang-scrutinized-after-foreign-intelligence-concerns-5012979",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Trump’s close ties to Nvidia’s Huang scrutinized after foreign intelligence concerns",
+      "title_zh": "因外国情报担忧，特朗普与英伟达黄仁勋的密切关系受到审查",
+      "ts": 1794275369
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794264542,
+      "key": "trumpsaysnvidiaceotoldhimhedidnotknowthewomanlinkedtohimwasaspy",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/trump-says-nvidia-ceo-told-him-he-did-not-know-the-woman-linked-to-him-was-a-spy-5013538",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Trump says Nvidia CEO told him he did not know the woman linked to him was a spy",
+      "title_zh": "特朗普称英伟达首席执行官告诉他，他不知道与他有联系的女人是间谍",
+      "ts": 1794275309
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "MARA (NASDAQ:MARA) reported a sharp rise in third-quarter profit despite lower revenue, as gains in the value of its Bitcoin holdings boosted results. The company also outlined plans to expand its power portfolio and convert sites into arti",
+      "first_seen": 1794276383,
+      "key": "maraq3earningscallhighlights",
+      "kind": "macro",
+      "link": "https://www.marketbeat.com/instant-alerts/transcript-mara-q3-earnings-call-highlights-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "reason": "利多词: 上涨、上升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "MARA Q3 Earnings Call Highlights",
+      "title_zh": "MARA Q3 Earnings Call Highlights",
+      "ts": 1794273284
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794276383,
+      "key": "nvidiafacesincreasedchipexportcontrolsamidhuangscandaltheinformation",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-faces-increased-chip-export-controls-amid-huang-scandal-the-information-93CH-5013845",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia faces increased chip export controls amid Huang scandal- The Information",
+      "title_zh": "Nvidia faces increased chip export controls amid Huang scandal- The Information",
+      "ts": 1794273076
+    },
+    {
+      "coins": [],
       "desc": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
       "first_seen": 1794272528,
       "key": "theshortsellerwhosawsignsofnvidiaschinascandalmonthsagoclaimsmegaspeedisnttheonl",
@@ -15,21 +92,6 @@
       "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
       "title_zh": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
       "ts": 1794271680
-    },
-    {
-      "coins": [],
-      "desc": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
-      "first_seen": 1794272528,
-      "key": "softbankgroupsharessurge11asasiantechstocksrallyafterwallstreetrebounds",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
-      "reason": "利多词: 大涨、反弹/上涨、反弹、买入；利空词: 下降、抛售",
-      "score": 5,
-      "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "SoftBank Group shares surge 11% as Asian tech stocks rally after Wall Street rebounds",
-      "title_zh": "SoftBank Group shares surge 11% as Asian tech stocks rally after Wall Street rebounds",
-      "ts": 1794271438
     },
     {
       "coins": [],
@@ -50,17 +112,17 @@
       "coins": [
         "BTC"
       ],
-      "desc": "HIVE’s mining revenue fell 7.4% despite higher production, while its AI hosting business grew 71%.",
-      "first_seen": 1794272528,
-      "key": "hivesbitcoinoutputjumps49butminingrevenuestillfalls",
+      "desc": "Both miners reported higher Bitcoin production but lower mining revenue and rising electricity costs as they expanded their AI infrastructure businesses.",
+      "first_seen": 1794276383,
+      "key": "hivemaraminemorebitcoinbutearnlessascryptopricesfall",
       "kind": "crypto",
-      "link": "https://cointelegraph.com/news/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利多词: 跳涨；利空词: 下跌",
+      "link": "https://cointelegraph.com/markets/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下跌",
       "score": -2,
       "source": "Cointelegraph",
       "tag": "利空",
-      "title": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
-      "title_zh": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
+      "title": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
+      "title_zh": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
       "ts": 1794271359
     },
     {
@@ -251,21 +313,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794266744,
-      "key": "nvidiaceohuangsuedoverdisclosuresrelatedtosuspectedchinesespy",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy-5013619",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
-      "title_zh": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
-      "ts": 1794264506
-    },
-    {
-      "coins": [],
       "desc": "On Nov. 9, 2026, Southeast Asian super-app Grab drew investor attention after a Taiwan deal rejection and fresh AI-infrastructure partnership plans.",
       "first_seen": 1794266744,
       "key": "stockmarkettodaynov9grabholdingsjumpsonrecordadjustedebitdaandq3revenuebeat",
@@ -344,21 +391,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794264542,
-      "key": "trumpsaysnvidiaceotoldhimhedidnotknowthewomanlinkedtohimwasaspy",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/trump-says-nvidia-ceo-told-him-he-did-not-know-the-woman-linked-to-him-was-a-spy-5013538",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Trump says Nvidia CEO told him he did not know the woman linked to him was a spy",
-      "title_zh": "特朗普称英伟达首席执行官告诉他，他不知道与他有联系的女人是间谍",
-      "ts": 1794263065
-    },
-    {
-      "coins": [],
       "desc": "Today, Nov. 9, 2026, traders weighed Plug Power's upcoming results against a backdrop of tight margins and steady cash use.",
       "first_seen": 1794264542,
       "key": "stockmarkettodaynov9plugpowerrises345onpositioningaheadofq3report",
@@ -404,21 +436,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794264542,
-      "key": "trumpsclosetiestonvidiashuangscrutinizedafterforeignintelligenceconcerns",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/trumps-close-ties-to-nvidias-huang-scrutinized-after-foreign-intelligence-concerns-5012979",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Trump’s close ties to Nvidia’s Huang scrutinized after foreign intelligence concerns",
-      "title_zh": "因外国情报担忧，特朗普与英伟达黄仁勋的密切关系受到审查",
-      "ts": 1794262746
-    },
-    {
-      "coins": [],
       "desc": "The latest trading day saw Dollar General (DG) settling at $136.68, representing a +2.19% change from its previous close.",
       "first_seen": 1794266744,
       "key": "dollargeneraldgincreasesyetfallsbehindmarketwhatinvestorsneedtoknow",
@@ -448,23 +465,6 @@
       "title": "MARA posts $634 million Q3 net profit on bitcoin gains, sells 13,597 BTC to pay off loans",
       "title_zh": "MARA 因比特币收益而公布第三季度净利润 6.34 亿美元，出售 13,597 比特币以偿还贷款",
       "ts": 1794262020
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794264542,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794261986
     }
   ],
   "meta": {
@@ -478,13 +478,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-10T02:02:23+01:00",
-  "updated_unix": 1794272543
+  "updated": "2026-11-10T03:06:37+01:00",
+  "updated_unix": 1794276397
 }
