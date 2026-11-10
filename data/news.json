@@ -2,6 +2,51 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+      "first_seen": 1794264542,
+      "key": "nvidiastrumptiesdrawscrutinyafterreportshuangwastargetedbychineseintelligence",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
+      "title_zh": "有报道称黄仁勋成为中国情报部门的目标后，英伟达与特朗普的关系受到密切关注",
+      "ts": 1794268461
+    },
+    {
+      "coins": [],
+      "desc": "AST SpaceMobile stock jumped on a Japan joint venture with Rakuten, but the company's quarterly revenue missed Wall Street's expectations even as it held its full-year forecast.",
+      "first_seen": 1794268848,
+      "key": "whyastspacemobilestockjumped141today",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/09/why-ast-spacemobile-stock-jumped-14-1-today/?.tsrc=rss",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Why AST SpaceMobile Stock Jumped 14.1% Today",
+      "title_zh": "Why AST SpaceMobile Stock Jumped 14.1% Today",
+      "ts": 1794267302
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia's board is investigating CEO Jensen Huang after reports that he was the target of a foreign intelligence effort.",
+      "first_seen": 1794268848,
+      "key": "whynvidiastockwasdowntoday",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/09/why-nvidia-stock-was-down-today/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Why Nvidia Stock Was Down Today",
+      "title_zh": "Why Nvidia Stock Was Down Today",
+      "ts": 1794267002
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -156,21 +201,6 @@
       "ts": 1794264069
     },
     {
-      "coins": [],
-      "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
-      "first_seen": 1794264542,
-      "key": "nvidiastrumptiesdrawscrutinyafterreportshuangwastargetedbychineseintelligence",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-china-spy-trump-lobbying.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Nvidia’s Trump ties draw scrutiny after reports Huang was targeted by Chinese intelligence",
-      "title_zh": "有报道称黄仁勋成为中国情报部门的目标后，英伟达与特朗普的关系受到密切关注",
-      "ts": 1794264004
-    },
-    {
       "coins": [
         "BTC",
         "ETH"
@@ -202,6 +232,21 @@
       "title": "Anthropic's Claude Fable 5.2 and Mythos 5.0 Are Impressive, But Be Prepared to Sell a Kidney to Afford Them",
       "title_zh": "Anthropic 的克劳德寓言 5.2 和神话 5.0 令人印象深刻，但要准备好卖肾来买得起它们",
       "ts": 1794263762
+    },
+    {
+      "coins": [],
+      "desc": "Wall Street rallied sharply on Monday, despite a 4% decline in Nvidia shares, as markets continued to rebound from last week’s steep sell-off.",
+      "first_seen": 1794268848,
+      "key": "nvidiastockfallsafterinvestigationintoceobuckingmarketrally",
+      "kind": "macro",
+      "link": "https://www.cnn.com/2026/11/09/investing/nvidia-stock-huang-investigation?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、反弹；利空词: 下跌、下降、抛售、调查",
+      "score": -5,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Nvidia stock falls after investigation into CEO, bucking market rally",
+      "title_zh": "Nvidia stock falls after investigation into CEO, bucking market rally",
+      "ts": 1794263730
     },
     {
       "coins": [],
@@ -392,36 +437,6 @@
     },
     {
       "coins": [],
-      "desc": "(Updates with market moves at the end of the day, and other changes, if any.) US benchmark equity",
-      "first_seen": 1794261888,
-      "key": "updatewallstreetreboundsfromlastweeksselloffnvidiatumbles",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-rebounds-last-week-215121889.html?.tsrc=rss",
-      "reason": "利多词: 反弹；利空词: 大跌、抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Update: Wall Street Rebounds From Last Week's Sell-Off; Nvidia Tumbles",
-      "title_zh": "更新：华尔街从上周的抛售中反弹；英伟达重挫",
-      "ts": 1794261081
-    },
-    {
-      "coins": [],
-      "desc": "C3.ai, Inc. (AI) concluded the recent trading session at $12, signifying a +2.65% move from its prior day's close.",
-      "first_seen": 1794266744,
-      "key": "c3aiincaibeatsstockmarketupswingwhatinvestorsneedtoknow",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-ai-beats-215001090.html?.tsrc=rss",
-      "reason": "利多词: 超预期",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "C3.ai, Inc. (AI) Beats Stock Market Upswing: What Investors Need to Know",
-      "title_zh": "C3.ai, Inc. (AI) Beats Stock Market Upswing: What Investors Need to Know",
-      "ts": 1794261001
-    },
-    {
-      "coins": [],
       "desc": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
       "first_seen": 1794261888,
       "key": "areamdandbroadcomtherealwinnersofthenvidiaspyscandal",
@@ -449,21 +464,6 @@
       "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
       "title_zh": "股市的上涨继续蔓延到大型科技公司之外。十月份的通胀数据可能会对其进行考验。",
       "ts": 1794259440
-    },
-    {
-      "coins": [],
-      "desc": "A shortage of new gas turbines is pushing AI developers toward refurbished power equipment and jet-engine-based generators, even as high prices, pollution concerns, and permitting delays threaten their expansion plans.",
-      "first_seen": 1794259150,
-      "key": "aidatacentersarebuyingusedjetenginesasnewpowerturbinestakesixyears",
-      "kind": "crypto",
-      "link": "https://decrypt.co/382890/ai-data-centers-used-jet-engines-power-turbines",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Decrypt",
-      "tag": "利多",
-      "title": "AI Data Centers Are Buying Used Jet Engines as New Power Turbines Take Six Years",
-      "title_zh": "人工智能数据中心正在购买二手喷气发动机，因为新的动力涡轮机需要六年时间",
-      "ts": 1794258963
     }
   ],
   "meta": {
@@ -480,10 +480,10 @@
       "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 12",
+      "Yahoo Finance": "ok 13",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-10T00:25:54+01:00",
-  "updated_unix": 1794266754
+  "updated": "2026-11-10T01:01:00+01:00",
+  "updated_unix": 1794268860
 }
