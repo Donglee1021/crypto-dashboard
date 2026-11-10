@@ -3,6 +3,85 @@
   "items": [
     {
       "coins": [],
+      "desc": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
+      "first_seen": 1794272528,
+      "key": "theshortsellerwhosawsignsofnvidiaschinascandalmonthsagoclaimsmegaspeedisnttheonl",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "title_zh": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
+      "ts": 1794271680
+    },
+    {
+      "coins": [],
+      "desc": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+      "first_seen": 1794272528,
+      "key": "softbankgroupsharessurge11asasiantechstocksrallyafterwallstreetrebounds",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html",
+      "reason": "利多词: 大涨、反弹/上涨、反弹、买入；利空词: 下降、抛售",
+      "score": 5,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "SoftBank Group shares surge 11% as Asian tech stocks rally after Wall Street rebounds",
+      "title_zh": "SoftBank Group shares surge 11% as Asian tech stocks rally after Wall Street rebounds",
+      "ts": 1794271438
+    },
+    {
+      "coins": [],
+      "desc": "Investing.com-- U.S. stock futures were little changed on Monday evening after Wall Street closed sharply higher, with technology shares rebounding from last week's steep selloff, as investors awaited a key consumer inflation report due on ",
+      "first_seen": 1794272528,
+      "key": "usstockfuturessteadyaftertechledreboundcpiinfocus",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-tech-004342905.html?.tsrc=rss",
+      "reason": "利多词: 反弹；利空词: 抛售（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+      "title_zh": "U.S. stock futures steady after tech-led rebound; CPI in focus",
+      "ts": 1794271422
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "HIVE’s mining revenue fell 7.4% despite higher production, while its AI hosting business grew 71%.",
+      "first_seen": 1794272528,
+      "key": "hivesbitcoinoutputjumps49butminingrevenuestillfalls",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/hives-bitcoin-output-jumps-49-but-mining-revenue-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利多词: 跳涨；利空词: 下跌",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
+      "title_zh": "HIVE’s Bitcoin output jumps 49%, but mining revenue still falls",
+      "ts": 1794271359
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin miner and digital infrastructure company MARA Holdings (NASDAQ: $MARA) reported third-quarter net income of...",
+      "first_seen": 1794272528,
+      "key": "marabooks632mq3profitsells13597bitcointopaydowndebt",
+      "kind": "macro",
+      "link": "https://www.cryptoprowl.com/releases/mara-books-632m-q3-profit-sells-13597-bitcoin-to-pay-down-debt-7784?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "MARA Books $632M Q3 Profit, Sells 13,597 Bitcoin to Pay Down Debt",
+      "title_zh": "MARA Books $632M Q3 Profit, Sells 13,597 Bitcoin to Pay Down Debt",
+      "ts": 1794268560
+    },
+    {
+      "coins": [],
       "desc": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
       "first_seen": 1794264542,
       "key": "nvidiastrumptiesdrawscrutinyafterreportshuangwastargetedbychineseintelligence",
@@ -386,104 +465,26 @@
       "title": "Here’s what happened in crypto today",
       "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794261986
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "Schwab’s crypto accounts now go beyond Bitcoin and Ethereum, and its trading fee is among the lowest in the industry.",
-      "first_seen": 1794264542,
-      "key": "13trillionbrokeragegiantofferscheapestwaystotradecrypto",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/13-trillion-brokerage-giant-offers-cheapest-ways-to-trade-crypto?.tsrc=rss",
-      "reason": "利空词: 新低",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "$13 trillion brokerage giant offers cheapest ways to trade crypto",
-      "title_zh": "价值 13 万亿美元的经纪巨头提供最便宜的加密货币交易方式",
-      "ts": 1794261677
-    },
-    {
-      "coins": [],
-      "desc": "The fallout from the board’s new investigation could become “a longer-lasting problem for the company,” analysts say.",
-      "first_seen": 1794261888,
-      "key": "asnvidiasstockfallshereswhatwallstreethastosayaboutthejensenhuangscandal",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-      "reason": "利空词: 下跌、调查",
-      "score": -5,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-      "title_zh": "随着英伟达股价下跌，华尔街对黄仁勋丑闻的评价如下",
-      "ts": 1794261300
-    },
-    {
-      "coins": [],
-      "desc": "“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.",
-      "first_seen": 1794261888,
-      "key": "dowseesitsthird1000pointswinginfourdayswhythevolatilityisntoveryet",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-      "title_zh": "道指四天内第三次突破 1,000 点。为什么波动还没有结束。",
-      "ts": 1794261120
-    },
-    {
-      "coins": [],
-      "desc": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-      "first_seen": 1794261888,
-      "key": "areamdandbroadcomtherealwinnersofthenvidiaspyscandal",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-      "title_zh": "AMD 和博通是 Nvidia 间谍丑闻的真正赢家吗？",
-      "ts": 1794260580
-    },
-    {
-      "coins": [],
-      "desc": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
-      "first_seen": 1794259150,
-      "key": "thestockmarketrallykeepsspreadingbeyondbigtechoctoberinflationdatacouldputittoth",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "MarketWatch",
-      "tag": "利多",
-      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-      "title_zh": "股市的上涨继续蔓延到大型科技公司之外。十月份的通胀数据可能会对其进行考验。",
-      "ts": 1794259440
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 12",
+      "CNBC 头条": "ok 13",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 13",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-10T01:01:00+01:00",
-  "updated_unix": 1794268860
+  "updated": "2026-11-10T02:02:23+01:00",
+  "updated_unix": 1794272543
 }
