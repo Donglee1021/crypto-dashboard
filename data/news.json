@@ -1,6 +1,38 @@
 {
-  "errors": [],
+  "errors": [
+    "美联储: 失败: HTTPError: HTTP Error 404: Not Found"
+  ],
   "items": [
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794386405,
+      "key": "ftse100climbsasoilreboundsaheadofukgdptest",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-climbs-as-oil-rebounds-ahead-of-uk-gdp-test-5017989",
+      "reason": "利多词: 攀升、反弹",
+      "score": 4,
+      "source": "Investing.com 股市",
+      "tag": "利多",
+      "title": "FTSE 100 climbs as oil rebounds ahead of UK GDP test",
+      "title_zh": "FTSE 100 climbs as oil rebounds ahead of UK GDP test",
+      "ts": 1794384766
+    },
+    {
+      "coins": [],
+      "desc": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
+      "first_seen": 1794367128,
+      "key": "alibabaannouncesplanstolisttheaditsnvidiachiprival",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "title_zh": "阿里巴巴宣布计划让英伟达芯片竞争对手 T-Head 上市",
+      "ts": 1794383274
+    },
     {
       "coins": [
         "BTC"
@@ -19,21 +51,6 @@
       "ts": 1794380473
     },
     {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794383071,
-      "key": "japanstockshigheratcloseoftradenikkei225up142",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-142-5017843",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Japan stocks higher at close of trade; Nikkei 225 up 1.42%",
-      "title_zh": "Japan stocks higher at close of trade; Nikkei 225 up 1.42%",
-      "ts": 1794380404
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -49,21 +66,6 @@
       "title": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
       "title_zh": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
       "ts": 1794380267
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794378224,
-      "key": "indiagarmentmakersrethinkrelianceonusaftertariffshock",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/india-garment-makers-rethink-reliance-onusafter-tariff-shock-5017723",
-      "reason": "利空词: 关税",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "India garment makers rethink reliance on US after tariff shock",
-      "title_zh": "India garment makers rethink reliance on US after tariff shock",
-      "ts": 1794380064
     },
     {
       "coins": [
@@ -338,21 +340,6 @@
     },
     {
       "coins": [],
-      "desc": "Alibaba noted it had already filed confidentially on Sept. 11 to list T-Head on the Hong Kong Stock Exchange.",
-      "first_seen": 1794367128,
-      "key": "alibabaannouncesplanstolisttheaditsnvidiachiprival",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 金融",
-      "tag": "中性",
-      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
-      "title_zh": "阿里巴巴宣布计划让英伟达芯片竞争对手 T-Head 上市",
-      "ts": 1794366497
-    },
-    {
-      "coins": [],
       "desc": "The Minnesota lawmaker, who helped establish the Congressional Crypto Caucus, will stay on as Republican whip after Democrats won the midterms.",
       "first_seen": 1794367128,
       "key": "cryptoallytomemmerelectedhousegopminoritywhip",
@@ -472,26 +459,41 @@
       "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
       "title_zh": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
       "ts": 1794354395
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia employees described the mood as \"sad\" as CEO Jensen Huang returned to the office after disclosing an affair.",
+      "first_seen": 1794386405,
+      "key": "nvidiashuangtriestoprojectbusinessasusualinreturntoofficeafteraffairrevelation",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+      "title_zh": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+      "ts": 1794352294
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 13",
+      "CNBC 头条": "ok 12",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 19",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 4",
       "The Block": "ok 19",
       "Yahoo Finance": "ok 16",
-      "美联储": "ok 1"
+      "美联储": "失败: HTTPError: HTTP Error 404: Not Found"
     }
   },
-  "updated": "2026-11-11T08:44:48+01:00",
-  "updated_unix": 1794383088
+  "updated": "2026-11-11T09:40:20+01:00",
+  "updated_unix": 1794386420
 }
