@@ -14,7 +14,37 @@
       "tag": "利空",
       "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
       "title_zh": "道琼斯期货：美国国债收益率飙升、英伟达抛售导致股市下跌； CoreWeave 崛起较晚",
-      "ts": 1794353468
+      "ts": 1794355674
+    },
+    {
+      "coins": [],
+      "desc": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
+      "first_seen": 1794356495,
+      "key": "consumerpricesrose04inoctobermorethanexpectedcomplicatingfedsinflationfight",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 经济",
+      "tag": "中性",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "title_zh": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "ts": 1794354838
+    },
+    {
+      "coins": [],
+      "desc": "The prediction markets operator says the issue involves procedural errors affecting a handful of contracts, many of which weren’t live, according to Politico.",
+      "first_seen": 1794356495,
+      "key": "cftcwarnskalshiofimminentchargesovernotificationofcontractspolitico",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 警告",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+      "title_zh": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+      "ts": 1794354591
     },
     {
       "coins": [],
@@ -369,21 +399,6 @@
     },
     {
       "coins": [],
-      "desc": "Wall Street spent last Thursday reminding investors how quickly a favorite theme can turn. Worries that Democratic midterm wins could bring tighter rules for artificial intelligence and data centers sent technology stocks sharply lower. The",
-      "first_seen": 1794351994,
-      "key": "5stocksanalystsjustupgraded",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-analysts-just-upgraded-222146322.html?.tsrc=rss",
-      "reason": "利多词: 上调评级",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "5 Stocks Analysts Just Upgraded",
-      "title_zh": "5 Stocks Analysts Just Upgraded",
-      "ts": 1794349306
-    },
-    {
-      "coins": [],
       "desc": "Investors continue to weigh the potential fallout from CEO Jensen Huang's affair with an alleged Chinese spy.",
       "first_seen": 1794354026,
       "key": "nvidiasellsoffforseconddayinfalloutfromjensenhuangsaffairwithallegedspy",
@@ -445,21 +460,6 @@
       "title": "Forward Industries grows SOL treasury to 8.7 million as token hits nearly three-month low",
       "title_zh": "随着代币触及近三个月低点，Forward Industries 将 SOL 金库增加至 870 万枚",
       "ts": 1794347479
-    },
-    {
-      "coins": [],
-      "desc": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
-      "first_seen": 1794354026,
-      "key": "whitehousevowstopressaheadwithtariffsdespitemidtermbacklashoverrisingprices",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
-      "reason": "利空词: 关税、警告",
-      "score": -3,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-      "title_zh": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
-      "ts": 1794347146
     }
   ],
   "meta": {
@@ -476,10 +476,10 @@
       "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 5",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T00:40:46+01:00",
-  "updated_unix": 1794354046
+  "updated": "2026-11-11T01:21:56+01:00",
+  "updated_unix": 1794356516
 }
