@@ -3,33 +3,226 @@
   "items": [
     {
       "coins": [],
+      "desc": "Following Tuesday’s hot CPI data , Goldman Sachs is now pencilling in additional Fed tightening.",
+      "first_seen": 1794393534,
+      "key": "whygoldmansachsisnowchangingitsfederalreserveinterestrateforecast",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+      "title_zh": "为什么高盛现在改变其美联储利率预测",
+      "ts": 1794393420
+    },
+    {
+      "coins": [],
+      "desc": "Robert Barr planned to have accomplices force a crypto investor to install remote-access software so he could drain the wallet from prison.",
+      "first_seen": 1794393534,
+      "key": "prisonerjailedfor8yearsover27mcryptotheftplotrunfromhiscell",
+      "kind": "crypto",
+      "link": "https://decrypt.co/382984/prisoner-jailed-for-8-years-over-2-7m-crypto-theft-plot-run-from-his-cell",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "Prisoner Jailed for 8 Years Over $2.7M Crypto Theft Plot Run From His Cell",
+      "title_zh": "囚犯因牢房盗窃 270 万美元加密货币被判入狱 8 年",
+      "ts": 1794392453
+    },
+    {
+      "coins": [],
       "desc": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
-      "first_seen": 1794389888,
-      "key": "coreweavestockpops13afteroutlookraiseeasesaislowdownconcerns",
+      "first_seen": 1794393534,
+      "key": "coreweavestockpops11afteroutlookraiseeasesaislowdownconcerns",
       "kind": "macro",
       "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
       "reason": "利多词: 缓和",
       "score": 2,
       "source": "CNBC 头条",
       "tag": "利多",
-      "title": "CoreWeave stock pops 13% after outlook raise eases AI slowdown concerns",
-      "title_zh": "CoreWeave stock pops 13% after outlook raise eases AI slowdown concerns",
-      "ts": 1794389658
+      "title": "CoreWeave stock pops 11% after outlook raise eases AI slowdown concerns",
+      "title_zh": "展望上调缓解人工智能放缓担忧后，CoreWeave 股价上涨 11%",
+      "ts": 1794391897
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "BlackRock (NYSE:BLK) reports substantial inflows into its Bitcoin ETF as holders move coins off private wallets for perceived safety. Investors citing kidnapping and custody risks are shifting Bitcoin into BlackRock’s fund structure, accord",
+      "first_seen": 1794393534,
+      "key": "blackrockblkdrawsbitcoininflowsassafetyfearsmeetaiandcanadapush",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-draws-bitcoin-inflows-101056473.html?.tsrc=rss",
+      "reason": "利多词: 资金流入；利空词: 恐慌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "BlackRock (BLK) Draws Bitcoin Inflows As Safety Fears Meet AI And Canada Push",
+      "title_zh": "随着安全担忧、人工智能和加拿大的推动，贝莱德（BLK）吸引了比特币流入",
+      "ts": 1794391856
     },
     {
       "coins": [],
       "desc": "",
-      "first_seen": 1794389888,
-      "key": "germaninflationeasesto28inoctoberfromseptember",
+      "first_seen": 1794393534,
+      "key": "wetoldyoufirsttheseaipickedsmallcapstocksareup49and28mtd",
       "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/german-inflation-eases-to-28-in-october-from-september-93CH-5018083",
-      "reason": "利多词: 缓和",
-      "score": 2,
+      "link": "https://www.investing.com/news/stock-market-news/we-told-you-first-these-aipicked-smallcap-stocks-are-up-49-and-28-mtd-5018176",
+      "reason": "未命中方向关键词",
+      "score": 0,
       "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "We told you first: these AI-picked small-cap stocks are up +49% and +28% MTD",
+      "title_zh": "我们首先告诉你：这些人工智能挑选的小盘股MTD上涨了+49%和+28%",
+      "ts": 1794391515
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
+      "first_seen": 1794393534,
+      "key": "nvidiasharesrebound4ashuangfacesscrutinyaheadofearnings",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "reason": "利多词: 反弹",
+      "score": 2,
+      "source": "CNBC 头条",
       "tag": "利多",
-      "title": "German inflation eases to 2.8% in October from September",
-      "title_zh": "German inflation eases to 2.8% in October from September",
-      "ts": 1794388109
+      "title": "Nvidia shares rebound 4% as Huang faces scrutiny ahead of earnings",
+      "title_zh": "黄仁勋在财报公布前面临审查，英伟达股价反弹 4%",
+      "ts": 1794391409
+    },
+    {
+      "coins": [],
+      "desc": "The wallet flagged about 37,000 signing requests a week for phishing in Q3 and said better monitoring likely contributed to the increase.",
+      "first_seen": 1794393534,
+      "key": "bitgetwalletreportssevenfoldjumpincryptophishingriskalerts",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/bitget-wallet-crypto-phishing-risk-detections-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "Cointelegraph",
+      "tag": "利多",
+      "title": "Bitget Wallet reports sevenfold jump in crypto phishing risk alerts",
+      "title_zh": "Bitget Wallet 报告加密货币网络钓鱼风险警报增加了七倍",
+      "ts": 1794391200
+    },
+    {
+      "coins": [],
+      "desc": "Oil prices recovered from two-month lows, with both Brent crude futures and WTI futures rising as attacks on shipping in and around the Strait of Hormuz kept supply concerns alive.",
+      "first_seen": 1794393534,
+      "key": "sp500nasdaqfuturesrisepremarketcrwvgprospcxnvdanlststocksinfocus",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7?.tsrc=rss",
+      "reason": "利多词: 上升、回升",
+      "score": 3,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "S&P 500, Nasdaq Futures Rise Premarket — CRWV, GPRO, SPCX, NVDA, NLST Stocks In Focus",
+      "title_zh": "标准普尔 500 指数、纳斯达克期货盘前上涨 — CRWV、GPRO、SPCX、NVDA、NLST 股票成为焦点",
+      "ts": 1794391175
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Bitmine booked $6.2 billion in unrealized losses on digital assets. It held 6.07 million ETH on Sunday, or 4.97% of Ether’s supply.",
+      "first_seen": 1794393534,
+      "key": "bitmineposts63bnetlossforfiscal2026asetherpricesslide",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/bitmine-6b-net-loss-eth-treasury-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下滑、亏损",
+      "score": -3,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
+      "title_zh": "随着以太坊价格下滑，Bitmine 2026 财年净亏损 6.3B 美元",
+      "ts": 1794391095
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "",
+      "first_seen": 1794393534,
+      "key": "bitcoinslipsbelow74kashotcpidataspursratehikebets",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-below-74k-as-hot-cpi-data-spurs-rate-hike-bets-5017791",
+      "reason": "利空词: 加息",
+      "score": -4,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Bitcoin slips below $74k as hot CPI data spurs rate hike bets",
+      "title_zh": "由于热门 CPI 数据刺激加息押注，比特币跌破 7.4 万美元",
+      "ts": 1794390830
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Why is crypto crashing on Wednesday, November 11? The sell-off that began with Tuesday’s hotter-than-expected U.S. inflation report has carried into today, and almost every major coin is lower. Bitcoin (BTC) dropped below $73,000 on Tuesday",
+      "first_seen": 1794393534,
+      "key": "whyiscryptocrashingtodaybitcoinfallsbelow73kaszcashzecleadscryptolosses",
+      "kind": "macro",
+      "link": "https://www.coinspeaker.com/why-is-crypto-crashing-today-bitcoin-falls-below-73k-as-zcash-zec-leads-crypto-losses/?.tsrc=rss",
+      "reason": "利空词: 崩跌、下跌、抛售、亏损",
+      "score": -10,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Why Is Crypto Crashing Today? Bitcoin Falls Below $73K as Zcash (ZEC) Leads Crypto Losses",
+      "title_zh": "为什么今天加密货币崩溃了？ Zcash (ZEC) 导致加密货币损失，比特币跌破 7.3 万美元",
+      "ts": 1794390504
+    },
+    {
+      "coins": [],
+      "desc": "A federal judge ruled New York can enforce gambling laws against Novig after finding its sports contracts are not swaps.",
+      "first_seen": 1794393534,
+      "key": "newyorkfederaljudgedeniesnovigsinjunctionbidrulesitssportseventcontractsarenotsw",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/regulation/2026-11-11-new-york-judge-denies-novig-injunction-bid-437828",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "New York federal judge denies Novig’s injunction bid, rules its sports event contracts are not swaps",
+      "title_zh": "纽约联邦法官驳回诺维格的禁令，裁定其体育赛事合同不属于互换",
+      "ts": 1794390046
+    },
+    {
+      "coins": [],
+      "desc": "Investing.com - Futures linked to the main U.S. stock indices rise, as investor sentiment around artificial intelligence brightens following upbeat guidance from neocloud player CoreWeave, although bets on Federal Reserve interest rate hike",
+      "first_seen": 1794393534,
+      "key": "coreweaveoutlookopenaisrevenuereportedlyspikeswhatsmovingmarkets",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-outlook-openai-revenue-reportedly-093752988.html?.tsrc=rss",
+      "reason": "利多词: 上升；利空词: 加息（多空相抵）",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "CoreWeave outlook; OpenAI’s revenue reportedly spikes - what’s moving markets",
+      "title_zh": "CoreWeave 展望；据报道 OpenAI 的收入飙升——是什么在推动市场发展",
+      "ts": 1794389872
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Deutsche Bank launched crypto custody for Bitcoin, Ethereum, and stablecoins. Here is who can use it and what comes next.",
+      "first_seen": 1794393534,
+      "key": "germanysbiggestbankgoescryptodeutschebanklaunchesbitcoincustody",
+      "kind": "macro",
+      "link": "https://beincrypto.com/deutsche-bank-launches-crypto-custody-bitcoin-ethereum/?.tsrc=rss",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Germany’s Biggest Bank Goes Crypto: Deutsche Bank Launches Bitcoin Custody",
+      "title_zh": "德国最大银行转向加密货币：德意志银行推出比特币托管服务",
+      "ts": 1794389415
     },
     {
       "coins": [],
@@ -43,23 +236,8 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "ECB warns legislative delays could postpone digital euro launch",
-      "title_zh": "ECB warns legislative delays could postpone digital euro launch",
+      "title_zh": "欧洲央行警告立法拖延可能会推迟数字欧元的推出",
       "ts": 1794387829
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794389888,
-      "key": "indiagarmentmakersrethinkrelianceonusaftertariffshock",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/india-garment-makers-rethink-reliance-onusafter-tariff-shock-5017723",
-      "reason": "利空词: 关税",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "India garment makers rethink reliance on US after tariff shock",
-      "title_zh": "India garment makers rethink reliance on US after tariff shock",
-      "ts": 1794387620
     },
     {
       "coins": [
@@ -75,14 +253,15 @@
       "source": "Cointelegraph",
       "tag": "利多",
       "title": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
-      "title_zh": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
+      "title_zh": "比特币基金流失 16 亿美元，股票 ETF 买家逢低买入",
       "ts": 1794387331
     },
     {
       "coins": [
-        "BTC"
+        "BTC",
+        "ETH"
       ],
-      "desc": "Bitcoin (BTC) is trading near $74,500 after a period of consolidation and selling pressure, yet the upside case still leaves room for an extraordinary outcome. Elon Musk’s Grok AI predicts that while the market has faced headwinds from mixe",
+      "desc": "BlackRock Bitcoin and Ethereum investment products(ETF) recorded huge withdrawals as investors prepared for another important US CPI report. The asset manager’s iShares Bitcoin Trust (IBIT) recorded $213.2 million in outflows. Its iShares E",
       "first_seen": 1794389888,
       "key": "bitcoinsafehavennarrativeisfallingapartliquidationsandetfoutflowswipeoutbulls",
       "kind": "macro",
@@ -92,23 +271,8 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin Safe-Haven Narrative Is Falling Apart? Liquidations and ETF Outflows Wipe Out Bulls",
-      "title_zh": "Bitcoin Safe-Haven Narrative Is Falling Apart? Liquidations and ETF Outflows Wipe Out Bulls",
+      "title_zh": "比特币避险叙事正在崩溃？清算和 ETF 资金外流消灭了多头",
       "ts": 1794387271
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794389888,
-      "key": "asbanksretreatwhyblueowls87dividendyieldstandsout",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/as-banks-retreat-why-blue-owls-87-dividend-yield-stands-out-5016730",
-      "reason": "利空词: 禁令",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "As banks retreat, why Blue Owl’s 8.7% dividend yield stands out",
-      "title_zh": "As banks retreat, why Blue Owl’s 8.7% dividend yield stands out",
-      "ts": 1794386809
     },
     {
       "coins": [
@@ -124,7 +288,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "SEC enforcement actions fall 24%, crypto cases in spotlight",
-      "title_zh": "SEC enforcement actions fall 24%, crypto cases in spotlight",
+      "title_zh": "SEC 执法行动下降 24%，加密案件成为焦点",
       "ts": 1794386610
     },
     {
@@ -139,7 +303,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "History Says Dividend ETFs Can Protect Your Portfolio if a Stock Market Slump Is Coming",
-      "title_zh": "History Says Dividend ETFs Can Protect Your Portfolio if a Stock Market Slump Is Coming",
+      "title_zh": "历史表明，如果股市暴跌来临，股息 ETF 可以保护您的投资组合",
       "ts": 1794386102
     },
     {
@@ -151,28 +315,11 @@
       "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
       "title_zh": "阿里巴巴宣布计划让英伟达芯片竞争对手 T-Head 上市",
       "ts": 1794383274
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Investing.com-- Bitcoin fell on Wednesday, pressured chiefly by increasing conviction that the U.S. Federal Reserve will hike interest rates further in the coming months to quell sticky inflation.",
-      "first_seen": 1794383071,
-      "key": "bitcoinfallsbelow74kashotcpidataspursratehikebets",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-74k-hot-070113807.html?.tsrc=rss",
-      "reason": "利空词: 下跌、加息",
-      "score": -8,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin falls below $74k as hot CPI data spurs rate hike bets",
-      "title_zh": "Bitcoin falls below $74k as hot CPI data spurs rate hike bets",
-      "ts": 1794380473
     },
     {
       "coins": [
@@ -188,7 +335,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
-      "title_zh": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
+      "title_zh": "比特币接近 7.4 万美元：Van De Poppe 看到买入机会，Peter Schiff 警告历史性损失",
       "ts": 1794380267
     },
     {
@@ -205,7 +352,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Bitmine reports $6.3 billion net loss in latest fiscal year, driven by 44% ether decline",
-      "title_zh": "Bitmine reports $6.3 billion net loss in latest fiscal year, driven by 44% ether decline",
+      "title_zh": "Bitmine 报告上一财年净亏损 63 亿美元，以太坊价格下跌 44%",
       "ts": 1794378152
     },
     {
@@ -220,7 +367,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "title_zh": "股市：今天标普 500 指数会上涨还是下跌？",
       "ts": 1794377963
     },
     {
@@ -235,7 +382,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
-      "title_zh": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
+      "title_zh": "道琼斯期货上涨，科技股因 CoreWeave 盈利而上涨；寻找这个看涨信号",
       "ts": 1794377395
     },
     {
@@ -250,7 +397,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
-      "title_zh": "Investors pivot to defensive stocks as markets enter a ‘state of alert’",
+      "title_zh": "随着市场进入“警戒状态”，投资者转向防御性股票",
       "ts": 1794376801
     },
     {
@@ -267,7 +414,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Fidelity's Timmer Says Selloff Pushed Bitcoin Correlation With Stocks Higher",
-      "title_zh": "Fidelity's Timmer Says Selloff Pushed Bitcoin Correlation With Stocks Higher",
+      "title_zh": "富达的蒂默表示，抛售推高了比特币与股票的相关性",
       "ts": 1794376800
     },
     {
@@ -284,7 +431,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Here’s what happened in crypto today",
-      "title_zh": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794376800
     },
     {
@@ -299,7 +446,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
-      "title_zh": "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack",
+      "title_zh": "Initia 确认 3 周内发生第二次攻击，在最新攻击中被盗 327 万美元",
       "ts": 1794376334
     },
     {
@@ -317,7 +464,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Ripple Ex-CTO David Schwartz Reveals How Much XRP, Ethereum, and Bitcoin He Owns",
-      "title_zh": "Ripple Ex-CTO David Schwartz Reveals How Much XRP, Ethereum, and Bitcoin He Owns",
+      "title_zh": "Ripple 前 CTO David Schwartz 透露他拥有多少 XRP、以太坊和比特币",
       "ts": 1794375969
     },
     {
@@ -335,167 +482,28 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time",
-      "title_zh": "Bitcoin Chatter Flips Back to Bearish. Here’s What Price Did Last Time",
+      "title_zh": "比特币的讨论又转回看跌。这是 Price 上次的表现",
       "ts": 1794374596
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Fold Holdings Inc (FLD) posted a 44% revenue drop to $4.2 million but saw custody and trading revenue nearly quadruple, driven by its TikTok-partnered Bitcoin gift card and new deposit products.",
-      "first_seen": 1794378224,
-      "key": "foldholdingsincfldq32026earningscallhighlightsbitcoingiftcardmomentumand",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/fold-holdings-inc-fld-q3-050706987.html?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Fold Holdings Inc (FLD) (Q3 2026) Earnings Call Highlights: Bitcoin Gift Card Momentum and ...",
-      "title_zh": "Fold Holdings Inc (FLD) (Q3 2026) Earnings Call Highlights: Bitcoin Gift Card Momentum and ...",
-      "ts": 1794373626
-    },
-    {
-      "coins": [],
-      "desc": "HONG KONG (AP) — World shares were mostly higher Wednesday after a retreat on Wall Street as U. inflation rose higher than expected in October, while U.",
-      "first_seen": 1794389888,
-      "key": "globalmarketsbroadlyriseonaichipdemanddespitewallstreetsretreatoninflationdata",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-rise-ai-044620054.html?.tsrc=rss",
-      "reason": "利多词: 上升",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
-      "title_zh": "Global markets broadly rise on AI chip demand despite Wall Street's retreat on inflation data",
-      "ts": 1794372380
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Hyperscale Data projected third-quarter revenue at approximately $40 million, up approximately 64% from a year ago.",
-      "first_seen": 1794374500,
-      "key": "hyperscaledatasellslastbitcoinabandons100mbtctreasuryplantofundmichiganaidatacen",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/hyperscale-data-sells-last-bitcoin-abandons-100-m-btc-treasury-plan-to-fund-michigan-ai-data-center/cNGDfnCR9JA?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Hyperscale Data Sells Last Bitcoin, Abandons $100M BTC Treasury Plan To Fund Michigan AI Data Center",
-      "title_zh": "Hyperscale Data Sells Last Bitcoin, Abandons $100M BTC Treasury Plan To Fund Michigan AI Data Center",
-      "ts": 1794372318
-    },
-    {
-      "coins": [],
-      "desc": "The cross-chain bridge said a social engineering attack targeting domain registrar Namecheap allowed hackers to redirect users to a phishing site.",
-      "first_seen": 1794374500,
-      "key": "acrossprotocolrestoreswebsiteafterhackershijackdomain",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/across-protocol-restores-website-after-hackers-hijack-domain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 被黑",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Across Protocol restores website after hackers hijack domain",
-      "title_zh": "Across Protocol restores website after hackers hijack domain",
-      "ts": 1794372150
-    },
-    {
-      "coins": [],
-      "desc": "Investing.com -- Asian stocks were mixed on Wednesday as semiconductor shares rallied in Japan, South Korea and Taiwan, while Hong Kong and Chinese technology stocks came under pressure.",
-      "first_seen": 1794370790,
-      "key": "asianstocksmixedascoreweaveliftschipmakershotusinflationweighs",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-mixed-coreweave-lifts-042658517.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Asian stocks mixed as CoreWeave lifts chipmakers; hot U.S. inflation weighs",
-      "title_zh": "CoreWeave 提振芯片制造商，亚洲股市涨跌互现；美国通胀压力加大",
-      "ts": 1794371218
-    },
-    {
-      "coins": [],
-      "desc": "Jim Cramer ties CPI relief to $40 oil, but Brent trades near $91 and core inflation still ran hot in October.",
-      "first_seen": 1794374500,
-      "key": "jimcramertiescpireliefto40oilbutbrenttradesover92",
-      "kind": "macro",
-      "link": "https://beincrypto.com/jim-cramer-40-oil-cpi-relief/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Jim Cramer Ties CPI Relief to $40 Oil, but Brent Trades Over $92",
-      "title_zh": "Jim Cramer Ties CPI Relief to $40 Oil, but Brent Trades Over $92",
-      "ts": 1794371130
-    },
-    {
-      "coins": [],
-      "desc": "The Nasdaq Composite is 11% off its recent high.",
-      "first_seen": 1794374500,
-      "key": "ifthetechstockselloffturnsintoabearmarkethistorysaysthisinvestingstrategyhasneve",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/10/if-the-tech-stock-sell-off-turns-into-a-bear-marke/?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "If the Tech Stock Sell-Off Turns Into a Bear Market, History Says This Investing Strategy Has Never Failed",
-      "title_zh": "If the Tech Stock Sell-Off Turns Into a Bear Market, History Says This Investing Strategy Has Never Failed",
-      "ts": 1794370800
-    },
-    {
-      "coins": [],
-      "desc": "The company reported Q3 2026 net income of $14.9 million, up 22% year-over-year, with a nine-month net income of $39.4 million, up 203%.",
-      "first_seen": 1794370790,
-      "key": "tronincreports22riseinq3netincomeasunrealizedstakingrevenuegrows",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/business/2026-11-10-tron-inc-q3-net-income-437786",
-      "reason": "利多词: 上升",
-      "score": 2,
-      "source": "The Block",
-      "tag": "利多",
-      "title": "Tron Inc reports 22% rise in Q3 net income as unrealized staking revenue grows",
-      "title_zh": "Tron Inc 报告称，随着未实现质押收入的增长，第三季度净利润增长 22%",
-      "ts": 1794369722
-    },
-    {
-      "coins": [],
-      "desc": "October’s Consumer Price Index data came in red hot, rising 0.4% month-on-month, ahead of the consensus estimates.",
-      "first_seen": 1794370790,
-      "key": "dowsp500nasdaqfuturesedgehigherafterredhotinflationdataandnvidialossescrwvttwonl",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-after-red-hot-inflation-data-and-nvidia-losses-crwv-ttwo-nlst-nbis-in-focus/cNGDaIOR9J8?.tsrc=rss",
-      "reason": "利空词: 亏损、通胀过热",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus",
-      "title_zh": "道琼斯指数、标准普尔 500 指数、纳斯达克期货在炙手可热的通胀数据和英伟达亏损后小幅走高：CRWV、TTWO、NLST、NBIS 成为焦点",
-      "ts": 1794369075
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 13",
+      "CNBC 头条": "ok 12",
       "CNBC 经济": "ok 21",
-      "CNBC 金融": "ok 19",
+      "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 4",
+      "Investing.com 股市": "ok 1",
+      "MarketWatch": "ok 1",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T10:38:29+01:00",
-  "updated_unix": 1794389909
+  "updated": "2026-11-11T11:39:11+01:00",
+  "updated_unix": 1794393551
 }
