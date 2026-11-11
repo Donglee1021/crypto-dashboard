@@ -2,6 +2,53 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Futures rose while AI stocks rallied overnight on CoreWeave earnings: The stock market fell on Nvidia and surging Treasury yields.",
+      "first_seen": 1794363953,
+      "key": "dowjonesfuturesriseascorewavejumpsliftsaistocksafternvidiasurgingyieldshitstocks",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures-rise-as.html?.tsrc=rss",
+      "reason": "利多词: 跳涨、上升",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks After Nvidia, Surging Yields Hit Stocks",
+      "title_zh": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks After Nvidia, Surging Yields Hit Stocks",
+      "ts": 1794362872
+    },
+    {
+      "coins": [],
+      "desc": "These three blue chip dividend stocks offer higher yields while standing out in terms of dividend coverage and growth.",
+      "first_seen": 1794363953,
+      "key": "3magnificentdividendstocksyielding4ormoretobuyinnovember",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/10/3-magnificent-dividend-stocks-yielding-4-or-more-t/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "3 Magnificent Dividend Stocks Yielding 4% or More to Buy in November",
+      "title_zh": "3 Magnificent Dividend Stocks Yielding 4% or More to Buy in November",
+      "ts": 1794361800
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Peter Brandt says the 30-year yield could reach 7%. See what that would mean for mortgages, stocks and Bitcoin prices.",
+      "first_seen": 1794363953,
+      "key": "peterbrandtsees30yearyieldat7wouldbitcoinandstockssurvive",
+      "kind": "macro",
+      "link": "https://beincrypto.com/brandt-30-year-yield-7-percent/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Peter Brandt Sees 30-Year Yield at 7%. Would Bitcoin and Stocks Survive?",
+      "title_zh": "Peter Brandt Sees 30-Year Yield at 7%. Would Bitcoin and Stocks Survive?",
+      "ts": 1794361500
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -17,21 +64,6 @@
       "title": "TikTok boosts bitcoin firm as revenue falls 44%",
       "title_zh": "TikTok boosts bitcoin firm as revenue falls 44%",
       "ts": 1794360394
-    },
-    {
-      "coins": [],
-      "desc": "The stock market fell Tuesday as Fed rate-hike fears sent Treasury yields soaring while Nvidia kept falling. Indexes did come off lows though. CoreWeave retreated late on results.",
-      "first_seen": 1794360831,
-      "key": "dowjonesfuturesrisecorewavejumpsafterstocksfallonnvidiasurgingtreasuryyields",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/656fca57-9896-3dfb-96e8-e0af2bc227df/dow-jones-futures-rise%2C.html?.tsrc=rss",
-      "reason": "利多词: 飙升、跳涨、上升；利空词: 下跌、加息、恐慌（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures Rise, CoreWave Jumps After Stocks Fall On Nvidia, Surging Treasury Yields",
-      "title_zh": "Dow Jones Futures Rise, CoreWave Jumps After Stocks Fall On Nvidia, Surging Treasury Yields",
-      "ts": 1794360350
     },
     {
       "coins": [],
@@ -218,21 +250,6 @@
       "ts": 1794352108
     },
     {
-      "coins": [],
-      "desc": "Yesterday's rebound lost momentum as rising Treasury yields and renewed inflation concerns weighed on stocks",
-      "first_seen": 1794351994,
-      "key": "stockmarkettodaynov10wallstreetsrallyhitsaroadblockashotinflationraisesthestakes",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-today-nov-10-wall-street-s-rally-hits-a-roadblock-as-hot-inflation-raises-the-stakes-for-the-fed/?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、反弹；利空词: 通胀过热（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Today, Nov. 10: Wall Street's Rally Hits a Roadblock as Hot Inflation Raises the Stakes for the Fed",
-      "title_zh": "Stock Market Today, Nov. 10: Wall Street's Rally Hits a Roadblock as Hot Inflation Raises the Stakes for the Fed",
-      "ts": 1794351007
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -267,21 +284,6 @@
       "ts": 1794350220
     },
     {
-      "coins": [],
-      "desc": "Nvidia shares extended their sell-off as an investigation involving CEO Jensen Huang raised fresh concerns about corporate governance, leadership uncertainty, and the AI chipmaker's future.",
-      "first_seen": 1794351994,
-      "key": "stockmarkettodaynov10nvidiastockplunges55asceoscandalovershadowsitsupcomingearni",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/10/stock-market-today-nov-10-nvidia-stock-plunges-5-5-as-ceo-scandal-overshadows-its-upcoming-earnings-report/?.tsrc=rss",
-      "reason": "利空词: 暴跌、抛售、调查",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 10: Nvidia Stock Plunges 5.5% as CEO Scandal Overshadows Its Upcoming Earnings Report",
-      "title_zh": "Stock Market Today, Nov. 10: Nvidia Stock Plunges 5.5% as CEO Scandal Overshadows Its Upcoming Earnings Report",
-      "ts": 1794350102
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -300,21 +302,6 @@
     },
     {
       "coins": [],
-      "desc": "We just published a list of the 10 Stocks Analysts Just Downgraded and PDD Holdings (NASDAQ:PDD) ranked 8th on this list. Wall Street has had a rough start to November. The Nasdaq Composite fell 5.52% on November 5, its steepest one-day dro",
-      "first_seen": 1794351994,
-      "key": "whymorganstanleydowngradedpddholdingspdd",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-downgraded-pdd-223358866.html?.tsrc=rss",
-      "reason": "利空词: 下调评级",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Why Morgan Stanley Downgraded PDD Holdings (PDD)",
-      "title_zh": "Why Morgan Stanley Downgraded PDD Holdings (PDD)",
-      "ts": 1794350038
-    },
-    {
-      "coins": [],
       "desc": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key “lines in the sand,” that define technical battleground areas above and below current levels.",
       "first_seen": 1794351994,
       "key": "lookingtobuythedipinchipstockshereshowtoavoidbuyingtoosoon",
@@ -327,36 +314,6 @@
       "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
       "title_zh": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
       "ts": 1794349800
-    },
-    {
-      "coins": [],
-      "desc": "The eight weak starts before this one split evenly. What separated the winters that went badly?",
-      "first_seen": 1794351994,
-      "key": "only2novemberssince1950havestartedworseforthesp500thanthisonehereswhatfollowedth",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/10/only-2-novembers-since-1950-have-started-worse-for-the-s-and-p-500-than-this-one-here-s-what-followed-the-other-weak-starts/?.tsrc=rss",
-      "reason": "利空词: 疲弱",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Only 2 Novembers Since 1950 Have Started Worse for the S&P 500 Than This One. Here's What Followed the Other Weak Starts.",
-      "title_zh": "Only 2 Novembers Since 1950 Have Started Worse for the S&P 500 Than This One. Here's What Followed the Other Weak Starts.",
-      "ts": 1794349621
-    },
-    {
-      "coins": [],
-      "desc": "October inflation cooled, but not as much as Wall Street expected, and now investors have to take a half-point Fed hike in December more seriously. That could be a problem for an AI trade that already looks wobbly.",
-      "first_seen": 1794351994,
-      "key": "thestockmarketjustgotbadnewsoninflation",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/10/the-stock-market-just-got-bad-news-on-inflation/?.tsrc=rss",
-      "reason": "利多词: 降温；利空词: 加息（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The Stock Market Just Got Bad News on Inflation.",
-      "title_zh": "The Stock Market Just Got Bad News on Inflation.",
-      "ts": 1794349502
     },
     {
       "coins": [],
@@ -466,6 +423,53 @@
       "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
       "title_zh": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
       "ts": 1794346663
+    },
+    {
+      "coins": [],
+      "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "first_seen": 1794363953,
+      "key": "gevernovasellershaveitallwrongpluswhyfedratehikeoddsaresoaring",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/investingclub/2026/11/10/ge-vernova-sellers-have-it-all-wrong-plus-why-fed-rate-hike-odds-are-soaring.html",
+      "reason": "利多词: 飙升；利空词: 加息",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+      "title_zh": "GE Vernova sellers have it all wrong — plus, why Fed rate hike odds are soaring",
+      "ts": 1794346573
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Truth Social’s parent booked $409.7 million in quarterly income largely from crypto investments, even as its stock remained more than 94% below its March 2024 peak.",
+      "first_seen": 1794363953,
+      "key": "trumpmediaposts410millionprofitbitcoingainsdidtheheavylifting",
+      "kind": "crypto",
+      "link": "https://decrypt.co/382967/trump-media-posts-410-million-profit-bitcoin-gains",
+      "reason": "利多词: 上涨",
+      "score": 2,
+      "source": "Decrypt",
+      "tag": "利多",
+      "title": "Trump Media Posts $410 Million Profit. Bitcoin Gains Did the Heavy Lifting",
+      "title_zh": "Trump Media Posts $410 Million Profit. Bitcoin Gains Did the Heavy Lifting",
+      "ts": 1794346563
+    },
+    {
+      "coins": [],
+      "desc": "Crypto custodians are moving into a market handling billions in daily settlements, but regulatory relief and a shift in congressional control leave questions over their long-term role.",
+      "first_seen": 1794363953,
+      "key": "cancryptotrustfirmscompetewithbanksinusderivativessettlements",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/crypto-trust-firms-compete-banks-us-derivatives-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Can crypto trust firms compete with banks in US derivatives settlements?",
+      "title_zh": "Can crypto trust firms compete with banks in US derivatives settlements?",
+      "ts": 1794346480
     }
   ],
   "meta": {
@@ -482,10 +486,10 @@
       "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 4",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 12",
+      "Yahoo Finance": "ok 8",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T02:34:11+01:00",
-  "updated_unix": 1794360851
+  "updated": "2026-11-11T03:26:14+01:00",
+  "updated_unix": 1794363974
 }
