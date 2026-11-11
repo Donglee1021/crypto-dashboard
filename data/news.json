@@ -3,6 +3,70 @@
   "items": [
     {
       "coins": [
+        "BTC"
+      ],
+      "desc": "Investing.com-- Bitcoin fell on Wednesday, pressured chiefly by increasing conviction that the U.S. Federal Reserve will hike interest rates further in the coming months to quell sticky inflation.",
+      "first_seen": 1794383071,
+      "key": "bitcoinfallsbelow74kashotcpidataspursratehikebets",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-74k-hot-070113807.html?.tsrc=rss",
+      "reason": "利空词: 下跌、加息",
+      "score": -8,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin falls below $74k as hot CPI data spurs rate hike bets",
+      "title_zh": "Bitcoin falls below $74k as hot CPI data spurs rate hike bets",
+      "ts": 1794380473
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794383071,
+      "key": "japanstockshigheratcloseoftradenikkei225up142",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/japan-stocks-higher-at-close-of-trade-nikkei-225-up-142-5017843",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Japan stocks higher at close of trade; Nikkei 225 up 1.42%",
+      "title_zh": "Japan stocks higher at close of trade; Nikkei 225 up 1.42%",
+      "ts": 1794380404
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Peter Schiff said Bitcoin had never fallen in two calendar years in a row, but it has now.",
+      "first_seen": 1794383071,
+      "key": "bitcoinnears74kvandepoppeseesbuyingopportunitypeterschiffwarnsofhistoriclosses",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-nears-74-k-van-de-poppe-sees-buying-opportunity-peter-schiff-warns-of-historic-losses/cNGDLEgR9Jy?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 下跌、亏损、警告",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
+      "title_zh": "Bitcoin Nears $74K: Van De Poppe Sees Buying Opportunity, Peter Schiff Warns Of Historic Losses",
+      "ts": 1794380267
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794378224,
+      "key": "indiagarmentmakersrethinkrelianceonusaftertariffshock",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/india-garment-makers-rethink-reliance-onusafter-tariff-shock-5017723",
+      "reason": "利空词: 关税",
+      "score": -2,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "India garment makers rethink reliance on US after tariff shock",
+      "title_zh": "India garment makers rethink reliance on US after tariff shock",
+      "ts": 1794380064
+    },
+    {
+      "coins": [
         "ETH"
       ],
       "desc": "According to its SEC filing, nearly $6.23 billion of the net losses came from unrealized fair value losses on digital asset holdings.",
@@ -20,6 +84,21 @@
     },
     {
       "coins": [],
+      "desc": "U.S. stock futures are surging early Wednesday as tech shares lead a broad market rally amid ongoing diplomatic maneuvering in the Middle East and hawkish Federal Reserve chatter. The Polymarket traders, a Polygon (CRYPTO: POL) based predic",
+      "first_seen": 1794383071,
+      "key": "stockmarketwillsp500openupordowntoday",
+      "kind": "macro",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63130550/stock-market-will-sp-500-open-up-or-down-today-75?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "reason": "利多词: 反弹/上涨；利空词: 鹰派（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "ts": 1794377963
+    },
+    {
+      "coins": [],
       "desc": "Futures rose while AI stocks rallied overnight on CoreWeave earnings: The stock market fell on Nvidia and surging Treasury yields.",
       "first_seen": 1794378224,
       "key": "dowjonesfuturesrisetechsjumponcoreweaveearningslookforthisbullishsignal",
@@ -32,36 +111,6 @@
       "title": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
       "title_zh": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Signal",
       "ts": 1794377395
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794378224,
-      "key": "chinaopticalstocksrallyasmicrosoftchallengesproposedusimportcurbs",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/china-optical-stocks-rally-as-microsoft-challenges-proposed-us-import-curbs-5017749",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "China optical stocks rally as Microsoft challenges proposed U.S. import curbs",
-      "title_zh": "China optical stocks rally as Microsoft challenges proposed U.S. import curbs",
-      "ts": 1794376831
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794378224,
-      "key": "taiwanstockshigheratcloseoftradetaiwanweightedup311",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-higher-at-close-of-trade-taiwan-weighted-up-311-5017744",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Taiwan stocks higher at close of trade; Taiwan Weighted up 3.11%",
-      "title_zh": "Taiwan stocks higher at close of trade; Taiwan Weighted up 3.11%",
-      "ts": 1794376805
     },
     {
       "coins": [],
@@ -128,21 +177,6 @@
       "ts": 1794376334
     },
     {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794378224,
-      "key": "chinaplalinkeduniversityboughtnvidiah200chipsdespiteuscurbsreuters",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/china-plalinked-university-bought-nvidia-h200-chips-despite-us-curbs--reuters-5017739",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "China PLA-linked university bought Nvidia H200 chips despite U.S. curbs - Reuters",
-      "title_zh": "China PLA-linked university bought Nvidia H200 chips despite U.S. curbs - Reuters",
-      "ts": 1794376262
-    },
-    {
       "coins": [
         "BTC",
         "ETH"
@@ -159,21 +193,6 @@
       "title": "Ripple Ex-CTO David Schwartz Reveals How Much XRP, Ethereum, and Bitcoin He Owns",
       "title_zh": "Ripple Ex-CTO David Schwartz Reveals How Much XRP, Ethereum, and Bitcoin He Owns",
       "ts": 1794375969
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794378224,
-      "key": "indiagarmentmakersrethinkrelianceonusaftertariffshock",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/india-garment-makers-rethink-reliance-onusafter-tariff-shock-5017723",
-      "reason": "利空词: 关税",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "India garment makers rethink reliance on US after tariff shock",
-      "title_zh": "India garment makers rethink reliance on US after tariff shock",
-      "ts": 1794375739
     },
     {
       "coins": [
@@ -326,7 +345,7 @@
       "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
       "title_zh": "阿里巴巴宣布计划让英伟达芯片竞争对手 T-Head 上市",
@@ -393,53 +412,6 @@
       "ts": 1794365478
     },
     {
-      "coins": [],
-      "desc": "Riot Platforms did not only talk about AI in 2026. It signed a 20 year, multi billion dollar Anthropic lease that turned its Texas power sites into long term compute real estate. Investors who held Riot Platforms from the start of the year ",
-      "first_seen": 1794367128,
-      "key": "whatriotplatformsdoubtersgotwrong",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-doubters-got-wrong-021645466.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "What Riot Platforms Doubters Got Wrong",
-      "title_zh": "防暴平台怀疑者错在哪里",
-      "ts": 1794363405
-    },
-    {
-      "coins": [],
-      "desc": "These three blue chip dividend stocks offer higher yields while standing out in terms of dividend coverage and growth.",
-      "first_seen": 1794363953,
-      "key": "3magnificentdividendstocksyielding4ormoretobuyinnovember",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/10/3-magnificent-dividend-stocks-yielding-4-or-more-t/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "3 Magnificent Dividend Stocks Yielding 4% or More to Buy in November",
-      "title_zh": "11 月份值得买入的 3 只股息率高达 4% 或更高的股票",
-      "ts": 1794361800
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Peter Brandt says the 30-year yield could reach 7%. See what that would mean for mortgages, stocks and Bitcoin prices.",
-      "first_seen": 1794363953,
-      "key": "peterbrandtsees30yearyieldat7wouldbitcoinandstockssurvive",
-      "kind": "macro",
-      "link": "https://beincrypto.com/brandt-30-year-yield-7-percent/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Peter Brandt Sees 30-Year Yield at 7%. Would Bitcoin and Stocks Survive?",
-      "title_zh": "Peter Brandt 预计 30 年收益率为 7%。比特币和股票会生存吗？",
-      "ts": 1794361500
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -470,6 +442,36 @@
       "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
       "title_zh": "10月份消费者价格上涨0.4%，超出预期，使美联储的通胀斗争变得更加复杂",
       "ts": 1794354838
+    },
+    {
+      "coins": [],
+      "desc": "The prediction markets operator says the issue involves procedural errors affecting a handful of contracts, many of which weren’t live, according to Politico.",
+      "first_seen": 1794383071,
+      "key": "cftcwarnskalshiofimminentchargesovernotificationofcontractspolitico",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/cftc-warns-kalshi-imminent-charges-over-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 警告",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+      "title_zh": "CFTC warns Kalshi of imminent charges over notification of contracts: Politico",
+      "ts": 1794354591
+    },
+    {
+      "coins": [],
+      "desc": "\"The fact that this deal is on is bullish for tech and the AI trade,\" CNBC's Jim Cramer said Tuesday.",
+      "first_seen": 1794383071,
+      "key": "jimcramersaysanthropicsexplosivegrowthcouldjustifyarecordbreakingipo",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/10/anthropic-ipo-revenue-growth-cramer.html",
+      "reason": "利多词: 看涨、达成协议",
+      "score": 2,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+      "title_zh": "Jim Cramer says Anthropic's explosive growth could justify a record-breaking IPO",
+      "ts": 1794354395
     }
   ],
   "meta": {
@@ -483,13 +485,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 4",
       "The Block": "ok 19",
       "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T07:23:57+01:00",
-  "updated_unix": 1794378237
+  "updated": "2026-11-11T08:44:48+01:00",
+  "updated_unix": 1794383088
 }
