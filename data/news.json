@@ -3,6 +3,192 @@
   "items": [
     {
       "coins": [],
+      "desc": "StoneX maintained its Buy rating on Securitize, citing tokenized equities, fund demand, and structured credit as growth drivers.",
+      "first_seen": 1794414626,
+      "key": "stonexsees111upsideforsecuritizesharesastokenizationrevenuerebounds",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/markets/2026-11-11-stonex-sees-111-upside-for-securitize-shares-as-tokenization-revenue-rebounds-437910",
+      "reason": "利多词: 反弹、买入",
+      "score": 3,
+      "source": "The Block",
+      "tag": "利多",
+      "title": "StoneX sees 111% upside for Securitize shares as tokenization revenue rebounds",
+      "title_zh": "StoneX sees 111% upside for Securitize shares as tokenization revenue rebounds",
+      "ts": 1794414133
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Algorand CEO William Herkelrath on the rising quantum threat for Bitcoin — and lessons from ALGO",
+      "first_seen": 1794414626,
+      "key": "whybitcoinisstillunderestimatingthequantumthreatalgorandceo",
+      "kind": "macro",
+      "link": "https://www.coinage.media/2026/why-bitcoin-is-still-underestimating-the-quantum-threat-algorand-ceo?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Why Bitcoin Is Still Underestimating the Quantum Threat: Algorand CEO",
+      "title_zh": "Why Bitcoin Is Still Underestimating the Quantum Threat: Algorand CEO",
+      "ts": 1794413820
+    },
+    {
+      "coins": [],
+      "desc": "OKXICE will open its tokenized securities venue Nov. 23 with more than 70 assets, led by crypto companies like Coinbase, Circle, Robinhood and Strategy, after 67 companies objected to having their shares listed.",
+      "first_seen": 1794414626,
+      "key": "okxicetokenizedstockvenuesetslaunchturningtocryptocompaniesafterbigtechoptsout",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383040/okx-ice-tokenized-stock-venue-sets-launch-crypto-companies-big-tech-opts-out",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "OKX-ICE Tokenized Stock Venue Sets Launch, Turning to Crypto Companies After Big Tech Opts Out",
+      "title_zh": "OKX-ICE Tokenized Stock Venue Sets Launch, Turning to Crypto Companies After Big Tech Opts Out",
+      "ts": 1794413641
+    },
+    {
+      "coins": [],
+      "desc": "NEW YORK & LONDON, November 11, 2026--Eighth paragraph, the first sentence should read: ...a decline of about 37% in its stock price during October... (instead of ...a decline of about 37% in its stock price during September...).",
+      "first_seen": 1794414626,
+      "key": "correctingandreplacinghedgefundsshiftpositioninginoctoberamidsharprotationoutofl",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-shift-positioning-october-140000517.html?.tsrc=rss",
+      "reason": "利空词: 下降",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "CORRECTING and REPLACING Hedge Funds Shift Positioning in October Amid Sharp Rotation Out of Large Technology Stocks, Data Insights Reports",
+      "title_zh": "CORRECTING and REPLACING Hedge Funds Shift Positioning in October Amid Sharp Rotation Out of Large Technology Stocks, Data Insights Reports",
+      "ts": 1794413400
+    },
+    {
+      "coins": [],
+      "desc": "Despite nagging concerns over the AI trade, Anthropic’s IPO is reportedly seeing very strong demand.",
+      "first_seen": 1794414626,
+      "key": "anthropicsiporoadshowkicksoffandthebigmoneyisalreadyliningup",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up-7cdd4f8b?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Anthropic’s IPO roadshow kicks off — and the big money is already lining up",
+      "title_zh": "Anthropic’s IPO roadshow kicks off — and the big money is already lining up",
+      "ts": 1794412980
+    },
+    {
+      "coins": [],
+      "desc": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+      "first_seen": 1794414626,
+      "key": "cryptolongshortthegeniusactsguaranteesdontcoverdefilending",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+      "title_zh": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+      "ts": 1794412845
+    },
+    {
+      "coins": [],
+      "desc": "The Nasdaq is crushing the Dow, and you can probably guess why.",
+      "first_seen": 1794414626,
+      "key": "thedowismissingoutonthecoreweaveearningsairebound",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/0f13a4c7-1995-3729-b3ef-a062adff3c1a/the-dow-is-missing-out-on-the.html?.tsrc=rss",
+      "reason": "利多词: 反弹",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "The Dow Is Missing Out on the CoreWeave Earnings AI Rebound",
+      "title_zh": "The Dow Is Missing Out on the CoreWeave Earnings AI Rebound",
+      "ts": 1794412420
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Key TakeawaysJefferies upgraded Riot Platforms to Buy on Nov. 10 and raised its price target to $28 from $13, 53% above today’s price.",
+      "first_seen": 1794414626,
+      "key": "jefferiessees53upsideinriotplatformsandthereasonhasnothingtodowithbitcoin",
+      "kind": "macro",
+      "link": "https://www.tikr.com/blog/jefferies-sees-53-upside-in-riot-platforms-and-the-reason-has-nothing-to-do-with-bitcoin?ref=yahoofinance&tlnk=yf-261111-jmg5q4p8&.tsrc=rss",
+      "reason": "利多词: 上调评级、买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Jefferies Sees 53% Upside in Riot Platforms, and the Reason Has Nothing to Do With Bitcoin",
+      "title_zh": "Jefferies Sees 53% Upside in Riot Platforms, and the Reason Has Nothing to Do With Bitcoin",
+      "ts": 1794412179
+    },
+    {
+      "coins": [],
+      "desc": "Planning 20 years out for anything is difficult, but Monster, Freshpet, and Costco have business traits that make them built to last.",
+      "first_seen": 1794414626,
+      "key": "3consumerstockstobuyinnovemberandholdforthenext20years",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/11/3-consumer-stocks-to-buy-in-november-and-hold-for/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "3 Consumer Stocks to Buy in November and Hold for the Next 20 Years",
+      "title_zh": "3 Consumer Stocks to Buy in November and Hold for the Next 20 Years",
+      "ts": 1794411300
+    },
+    {
+      "coins": [],
+      "desc": "Bond yields can’t get in the way of a stock market rebound today.",
+      "first_seen": 1794408316,
+      "key": "coreweaveearningsreigniteaitradesendingstockshigher",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/eed8d29b-5b89-3599-a17f-0eecffc63360/coreweave-earnings-reignite.html?.tsrc=rss",
+      "reason": "利多词: 反弹",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "CoreWeave Earnings Reignite AI Trade, Sending Stocks Higher",
+      "title_zh": "CoreWeave 盈利重新点燃人工智能交易，推动股市走高",
+      "ts": 1794411100
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Just because someone says the law is on the line doesn’t make it so.",
+      "first_seen": 1794414626,
+      "key": "flwomangaveherhomeand15mingoldbarsandbitcointofakefederalagentsnowsheliveswithaf",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/fl-woman-gave-her-home-153000673.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "FL woman gave her home and $1.5M in gold bars and bitcoin to fake federal agents. Now she lives with a friend",
+      "title_zh": "FL woman gave her home and $1.5M in gold bars and bitcoin to fake federal agents. Now she lives with a friend",
+      "ts": 1794411000
+    },
+    {
+      "coins": [],
+      "desc": "AI cloud provider CoreWeave (NASDAQ: $CRWV) reported third-quarter revenue of $3.66 billion on Tuesday, up 168% fro...",
+      "first_seen": 1794414626,
+      "key": "coreweaverevenueclimbs168to366billionraises2026guidance",
+      "kind": "macro",
+      "link": "https://www.cryptoprowl.com/releases/coreweave-revenue-climbs-168-to-366-billion-raises-2026-guidance-7844?.tsrc=rss",
+      "reason": "利多词: 攀升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "CoreWeave Revenue Climbs 168% to $3.66 Billion, Raises 2026 Guidance",
+      "title_zh": "CoreWeave Revenue Climbs 168% to $3.66 Billion, Raises 2026 Guidance",
+      "ts": 1794410940
+    },
+    {
+      "coins": [],
       "desc": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
       "first_seen": 1794411018,
       "key": "coreweavejustgaveashotinthearmtomicronlumentumandtherestoftheaitrade",
@@ -32,6 +218,24 @@
       "ts": 1794410485
     },
     {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Charles Schwab (NYSE:SCHW) is expanding retail crypto trading to include Solana, Avalanche, and Chainlink on its platform. The new tokens are being offered alongside Bitcoin and Ethereum within existing brokerage accounts for eligible Schwa",
+      "first_seen": 1794414626,
+      "key": "whatischarlesschwabschwsignalingbyaddingsolanaavalancheandchainlink",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/charles-schwab-schw-signaling-adding-151715734.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "What Is Charles Schwab (SCHW) Signaling By Adding Solana, Avalanche And Chainlink?",
+      "title_zh": "What Is Charles Schwab (SCHW) Signaling By Adding Solana, Avalanche And Chainlink?",
+      "ts": 1794410235
+    },
+    {
       "coins": [],
       "desc": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
       "first_seen": 1794411018,
@@ -48,51 +252,6 @@
     },
     {
       "coins": [],
-      "desc": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
-      "first_seen": 1794411018,
-      "key": "coreweavesoars20asceoreaffirmsaicomputedemandafterstrongq3report",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-      "reason": "利多词: 飙升",
-      "score": 2,
-      "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "CoreWeave soars 20% as CEO reaffirms AI compute demand after strong Q3 report",
-      "title_zh": "CoreWeave 首席执行官在强劲的第三季度报告后重申人工智能计算需求，股价飙升 20%",
-      "ts": 1794410019
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794411018,
-      "key": "nvidiaemployeesoverwhelminglywanthuangtoremainceodespitespyaffair",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-employees-overwhelmingly-want-huang-to-remain-ceo-despite-spy-affair-5019392",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia employees overwhelmingly want Huang to remain CEO despite spy affair",
-      "title_zh": "尽管间谍事件，英伟达员工绝大多数希望黄仁勋继续担任首席执行官",
-      "ts": 1794409845
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794411018,
-      "key": "moroccostocksloweratcloseoftrademoroccanallsharesdown109",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-lower-at-close-of-trade-moroccan-all-shares-down-109-5019390",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Morocco stocks lower at close of trade; Moroccan All Shares down 1.09%",
-      "title_zh": "摩洛哥股市收盘走低；摩洛哥全股下跌1.09%",
-      "ts": 1794409804
-    },
-    {
-      "coins": [],
       "desc": "German lender Deutsche Bank (NYSE: $DB) has officially launched its cryptocurrency custody service for institutiona...",
       "first_seen": 1794411018,
       "key": "deutschebanklaunchescryptocustodyforinstitutions",
@@ -105,53 +264,6 @@
       "title": "Deutsche Bank Launches Crypto Custody For Institutions",
       "title_zh": "德意志银行为机构推出加密货币托管服务",
       "ts": 1794409680
-    },
-    {
-      "coins": [],
-      "desc": "It could get rocky, but the long-term appeal remains strong.",
-      "first_seen": 1794411018,
-      "key": "thenasdaqjustenteredcorrectionterritory2etfstobuyonthedip",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/11/nasdaq-just-entered-correction-territory-2-etfs/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "The Nasdaq Just Entered Correction Territory. 2 ETFs to Buy on the Dip.",
-      "title_zh": "纳斯达克刚刚进入调整区域。逢低买入 2 只 ETF。",
-      "ts": 1794409500
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Russia opens Bitcoin trading Nov. 22, but its biggest exchange is under US sanctions. See what that means for Russian buyers.",
-      "first_seen": 1794411018,
-      "key": "russiaopensbitcointradingbutitsbiggestexchangeisunderussanctions",
-      "kind": "macro",
-      "link": "https://beincrypto.com/russia-bitcoin-trading-biggest-exchange-sanctions/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Russia Opens Bitcoin Trading, but Its Biggest Exchange Is Under US Sanctions",
-      "title_zh": "俄罗斯开放比特币交易，但其最大的交易所受到美国制裁",
-      "ts": 1794408941
-    },
-    {
-      "coins": [],
-      "desc": "Shares of Axon, Toast, and Spotify have tumbled in 2026, yet each company is continuing to expand and deliver above-average revenue growth.",
-      "first_seen": 1794411018,
-      "key": "3superiorgrowthstocksthatcanoutperformforthenext10years",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/11/3-superior-growth-stocks-outperform-next-10-years/?.tsrc=rss",
-      "reason": "利空词: 大跌",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "3 Superior Growth Stocks That Can Outperform for the Next 10 Years",
-      "title_zh": "未来 10 年表现强劲的 3 只成长型股票",
-      "ts": 1794408422
     },
     {
       "coins": [
@@ -172,38 +284,6 @@
     },
     {
       "coins": [
-        "BTC"
-      ],
-      "desc": "Exchange-traded funds (ETFs) that track the spot price of Bitcoin (CRYPTO: $BTC) continue to experience steady outf...",
-      "first_seen": 1794411018,
-      "key": "bitcoinetfoutflowscontinueascryptopricessink",
-      "kind": "macro",
-      "link": "https://www.cryptoprowl.com/releases/bitcoin-etf-outflows-continue-as-crypto-prices-sink-7831?.tsrc=rss",
-      "reason": "利空词: 下沉、资金流出",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin ETF Outflows Continue As Crypto Prices Sink",
-      "title_zh": "随着加密货币价格下跌，比特币 ETF 资金继续流出",
-      "ts": 1794407880
-    },
-    {
-      "coins": [],
-      "desc": "Berkshire Hathaway stock has performed twice as well as the S&P 500 over the years.",
-      "first_seen": 1794408316,
-      "key": "whatyouactuallyownwhenyoubuyashareofberkshirehathaway",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/11/what-you-actually-own-when-you-buy-a-share-of-berkshire-hathaway/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "What You Actually Own When You Buy a Share of Berkshire Hathaway",
-      "title_zh": "当您购买伯克希尔哈撒韦公司的股票时，您实际上拥有什么",
-      "ts": 1794407822
-    },
-    {
-      "coins": [
         "ETH"
       ],
       "desc": "Investors are assessing whether CEO Jensen Huang's affair will have spillover effects on Nvidia's business.",
@@ -218,36 +298,6 @@
       "title": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
       "title_zh": "黄仁勋在财报公布前面临审查，英伟达股价反弹",
       "ts": 1794407723
-    },
-    {
-      "coins": [],
-      "desc": "Credo Technology just lost a third of its value in a month, yet analysts keep raising earnings estimates and one growth engine is gaining speed. Can a volatile AI connectivity stock really double before 2027 ends?",
-      "first_seen": 1794408316,
-      "key": "predictiontheaistockwallstreetcouldbeunderestimatingfor2027",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/11/prediction-the-ai-stock-wall-street-could-be-underestimating-for-2027/?.tsrc=rss",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Prediction: The AI Stock Wall Street Could Be Underestimating for 2027",
-      "title_zh": "预测：2027 年华尔街人工智能股票可能被低估",
-      "ts": 1794407620
-    },
-    {
-      "coins": [],
-      "desc": "Bond yields can’t get in the way of a stock market rebound today.",
-      "first_seen": 1794408316,
-      "key": "coreweaveearningsreigniteaitradesendingstockshigher",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/eed8d29b-5b89-3599-a17f-0eecffc63360/coreweave-earnings-reignite.html?.tsrc=rss",
-      "reason": "利多词: 反弹",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "CoreWeave Earnings Reignite AI Trade, Sending Stocks Higher",
-      "title_zh": "CoreWeave 盈利重新点燃人工智能交易，推动股市走高",
-      "ts": 1794407517
     },
     {
       "coins": [
@@ -295,21 +345,6 @@
       "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
       "title_zh": "吉姆·克莱默 (Jim Cramer) 周三股市最值得关注的 10 件事",
       "ts": 1794406405
-    },
-    {
-      "coins": [],
-      "desc": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1% and the actively traded",
-      "first_seen": 1794408316,
-      "key": "exchangetradedfundsequityfutureshigherprebellwednesdayasnvidiastockrecovers",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141131269.html?.tsrc=rss",
-      "reason": "利多词: 回升",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday as Nvidia Stock Recovers",
-      "title_zh": "随着英伟达股价回升，周三盘前交易基金和股票期货走高",
-      "ts": 1794406291
     },
     {
       "coins": [],
@@ -363,21 +398,6 @@
     },
     {
       "coins": [],
-      "desc": "NEW YORK & LONDON, November 11, 2026--Markets saw a sharp rotation, particularly in the largest technology stocks, with the Nasdaq Composite down about 5% and the S&P 500 down about 1%. Yet the broader market outside of tech performed well,",
-      "first_seen": 1794408316,
-      "key": "hedgefundsshiftpositioninginoctoberamidsharprotationoutoflargetechnologystocksda",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-shift-positioning-october-140000517.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Hedge Funds Shift Positioning in October Amid Sharp Rotation Out of Large Technology Stocks, Data Insights Reports",
-      "title_zh": "Data Insights 报告称，由于大型科技股大幅撤资，对冲基金 10 月份调整仓位",
-      "ts": 1794405600
-    },
-    {
-      "coins": [],
       "desc": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
       "first_seen": 1794408316,
       "key": "corporateamericaismakingatrilliondollarmistakeaboutretirement",
@@ -390,36 +410,6 @@
       "title": "Corporate America is making a trillion-dollar mistake about retirement",
       "title_zh": "美国企业界在退休问题上犯了万亿美元的错误",
       "ts": 1794405120
-    },
-    {
-      "coins": [],
-      "desc": "(Updates with economic data, recent oil price movement, world markets' overview and corporate stock",
-      "first_seen": 1794408316,
-      "key": "updateusequityfuturesriseprebellwithnvidiacoreweavegainingamidtechsectorrebound",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-rise-pre-135149232.html?.tsrc=rss",
-      "reason": "利多词: 上涨、上升、反弹",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Update: US Equity Futures Rise Pre-Bell With Nvidia, CoreWeave Gaining Amid Tech Sector Rebound",
-      "title_zh": "更新：美国股指期货开盘前上涨，英伟达、CoreWeave 在科技板块反弹中上涨",
-      "ts": 1794405109
-    },
-    {
-      "coins": [],
-      "desc": "The strong business models of these five companies can offer peace of mind even amid broad sell-offs.",
-      "first_seen": 1794408316,
-      "key": "stockmarketselloffthe5beststockstobuyinnovember",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/11/stock-market-sell-off-the-6-best-stocks-to-buy-in/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 抛售（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Sell-Off: The 5 Best Stocks to Buy in November",
-      "title_zh": "股市抛售：11 月最值得买入的 5 只股票",
-      "ts": 1794405000
     },
     {
       "coins": [],
@@ -467,26 +457,41 @@
       "title": "Nomura’s Laser Digital helps launch Saudi SME credit vault targeting $100 million on BNB Chain",
       "title_zh": "野村证券 Laser Digital 帮助沙特中小企业信用金库在 BNB 链上推出 1 亿美元目标",
       "ts": 1794404102
+    },
+    {
+      "coins": [],
+      "desc": "Ueno’s collapse exposed the fragility of digital banking in Paraguay, as customers scrambled for access to their money and stablecoins offered a lifeline.",
+      "first_seen": 1794414626,
+      "key": "paraguaybankcollapseshowsstablecoinscanofferalifelineofsorts",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/magazine/paraguay-bank-collapse-shows-stablecoins-can-offer-a-lifeline-of-sorts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts",
+      "title_zh": "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts",
+      "ts": 1794403800
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 11",
+      "CNBC 头条": "ok 10",
       "CNBC 经济": "ok 20",
       "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 36",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 3",
+      "Investing.com 股市": "ok 0",
+      "MarketWatch": "ok 4",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 11",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-11T16:30:35+01:00",
-  "updated_unix": 1794411035
+  "updated": "2026-11-11T17:30:36+01:00",
+  "updated_unix": 1794414636
 }
