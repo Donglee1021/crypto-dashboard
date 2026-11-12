@@ -2,6 +2,230 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+      "first_seen": 1794470137,
+      "key": "canaanmaysellmorebitcoinforstockbuybacksasminingrigrevenuefalls96",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/12/canaan-may-sell-more-bitcoin-for-stock-buybacks-as-mining-rig-revenue-falls-96",
+      "reason": "利多词: 买入；利空词: 下跌",
+      "score": -2,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+      "title_zh": "由于矿机收入下降 96%，嘉楠耘智可能会出售更多比特币用于股票回购",
+      "ts": 1794469278
+    },
+    {
+      "coins": [],
+      "desc": "Treasury yields rose as bond markets reopened following Veterans Day.",
+      "first_seen": 1794470137,
+      "key": "treasuryyieldsedgehigherasinvestorsawaitfreshinflationandhousingdata",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "title_zh": "由于投资者等待新的通胀和住房数据，美国国债收益率小幅走高",
+      "ts": 1794469125
+    },
+    {
+      "coins": [],
+      "desc": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
+      "first_seen": 1794470137,
+      "key": "jensenhuangbuiltnvidiaintoabehemothhisscandalputstheentireaiboominjeopardy",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
+      "reason": "利多词: 达成协议",
+      "score": 1,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.",
+      "title_zh": "黄仁勋将 Nvidia 打造成一个庞然大物。他的丑闻使整个人工智能热潮陷入危险之中。",
+      "ts": 1794468600
+    },
+    {
+      "coins": [],
+      "desc": "China's Ministry of State Security is getting attention after news of Nvidia CEO Jensen Huang's affair with an alleged MSS spy.",
+      "first_seen": 1794470137,
+      "key": "chinasministryofstatesecuritythrustintothespotlightbynvidiaceoaffair",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/12/china-ministry-state-security-nvidia-ceo.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 金融",
+      "tag": "中性",
+      "title": "China's Ministry of State Security thrust into the spotlight by Nvidia CEO affair",
+      "title_zh": "英伟达CEO事件让中国国家安全部成为焦点",
+      "ts": 1794468528
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "The group said it aims to make Ethereum post-AI by 2027 as well, resistant to cryptographic risks that AI development is bringing.",
+      "first_seen": 1794470137,
+      "key": "ethlabsproposesadvancingethereumspostquantumto2027citingaiacceleration",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/defi/2026-11-12-ethlabs-proposes-ethereum-post-quantum-2027-438494",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Ethlabs proposes advancing Ethereum’s post-quantum to 2027, citing AI acceleration",
+      "title_zh": "Ethlabs 提议将以太坊的后量子推进到 2027 年，理由是人工智能加速",
+      "ts": 1794468444
+    },
+    {
+      "coins": [],
+      "desc": "The U.K. economy grew 0.7% in the third quarter of the year, in line with estimates.",
+      "first_seen": 1794470137,
+      "key": "ukeconomicgrowthpicksupto07inthirdquarter",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 经济",
+      "tag": "中性",
+      "title": "UK economic growth picks up to 0.7% in third quarter",
+      "title_zh": "英国第三季度经济增速回升至0.7%",
+      "ts": 1794468399
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794470137,
+      "key": "wallstfuturesfallasnvidiaslidesonreportofpossibleceoouster",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/wall-st-futures-fall-as-nvidia-slides-on-report-of-possible-ceo-ouster-5020125",
+      "reason": "利空词: 下滑、下跌",
+      "score": -4,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "Wall St futures fall as Nvidia slides on report of possible CEO ouster",
+      "title_zh": "英伟达因首席执行官可能被罢免的报道而下跌，华尔街期货下跌",
+      "ts": 1794468298
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Investing.com -- MSCI confirmed on Nov 11 that Strategy Inc (MSTR) will be dropped from its global indexes, effective Dec 1. Removal doesn’t touch Strategy’s Bitcoin holdings directly. The danger is the financing chain behind them. Read mor",
+      "first_seen": 1794470137,
+      "key": "strategytoberemovedfrommsciindexeswhataretherisksforbitcoin",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-removed-msci-indexes-risks-071828604.html?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Strategy to be removed from MSCI indexes: What are the risks for Bitcoin?",
+      "title_zh": "从 MSCI 指数中删除的策略：比特币有哪些风险？",
+      "ts": 1794467908
+    },
+    {
+      "coins": [],
+      "desc": "AI-related investment is drawing massive capital into digital infrastructure, and the same appetite for computing power is keeping interest in crypto rails and blockchain plumbing alive. Large public funds targeting data and digitization ar",
+      "first_seen": 1794470137,
+      "key": "riotplatformsand2cryptostockstowatch",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/riot-platforms-2-crypto-stocks-071428221.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Riot Platforms And 2 Crypto Stocks To Watch",
+      "title_zh": "Riot 平台和 2 只值得关注的加密货币股票",
+      "ts": 1794467668
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Investing.com-- Bitcoin fell on Thursday as sentiment towards cryptocurrencies remained quashed by risks from higher U.S. interest rates and a less favorable regulatory outlook.",
+      "first_seen": 1794470137,
+      "key": "bitcoinslipsto736kstrategydropsonmsciindexremoval",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slips-73-6k-strategy-071122081.html?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin slips to $73.6k; Strategy drops on MSCI index removal",
+      "title_zh": "比特币跌至 7.36 万美元； MSCI 指数被移除后策略下跌",
+      "ts": 1794467482
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+      "first_seen": 1794470137,
+      "key": "msciisdroppingstrategyfromitsindexandtheexclusioncouldhititsbitcoinbuyingmachine",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/12/msci-is-dropping-strategy-from-its-index-and-the-exclusion-could-hit-its-bitcoin-buying-machine",
+      "reason": "利多词: 买入；利空词: 下跌（多空相抵）",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+      "title_zh": "MSCI 正在将 Strategy 从其指数中剔除，这一排除可能会打击其比特币购买机器",
+      "ts": 1794466837
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Glassnode said open interest had rebuilt to its September high even as Bitcoin fell about 15%.",
+      "first_seen": 1794470137,
+      "key": "bitcoinisrepeatingits2023playbooksaysanalystbutglassnodespotsa14bliquiditydrain",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-is-repeating-its-2023-playbook-says-analyst-but-glassnode-spots-a-14-b-liquidity-drain/cNGzVXKR99Y?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin Is Repeating Its 2023 Playbook, Says Analyst — But Glassnode Spots A $14B Liquidity Drain",
+      "title_zh": "分析师表示，比特币正在重蹈 2023 年的覆辙——但 Glassnode 发现 14B 美元的流动性流失",
+      "ts": 1794466777
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin sentiment has slipped into fear, but Willy Woo says that rules out a Bitcoin bear market. See his test and what would break it.",
+      "first_seen": 1794470137,
+      "key": "isbitcoininabearmarketwillywoosanswerhingesononetest",
+      "kind": "macro",
+      "link": "https://beincrypto.com/willy-woo-fear-bitcoin-bear-market/?.tsrc=rss",
+      "reason": "利空词: 恐慌",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Is Bitcoin in a Bear Market? Willy Woo’s Answer Hinges on One Test",
+      "title_zh": "比特币正处于熊市吗？吴威利 (Willy Woo) 的答案取决于一项测试",
+      "ts": 1794465789
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794470137,
+      "key": "midchainsandstandardcharteredestablishstrategicbankingpartnership",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/midchains-and-standard-chartered-establish-strategic-banking-partnership-5020443",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "MidChains and Standard Chartered establish strategic banking partnership",
+      "title_zh": "MidChains 与渣打银行建立战略银行合作伙伴关系",
+      "ts": 1794465012
+    },
+    {
       "coins": [],
       "desc": "Analysts see a 20% Nvidia drop if Jensen Huang is fired. Four past CEO ousters suggest bigger losses came later.",
       "first_seen": 1794465477,
@@ -13,7 +237,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "What Happens to Nvidia Stock if Jensen Huang Is Fired? History Has a Warning",
-      "title_zh": "What Happens to Nvidia Stock if Jensen Huang Is Fired? History Has a Warning",
+      "title_zh": "如果黄仁勋被解雇，英伟达股票会怎样？历史有前车之鉴",
       "ts": 1794464148
     },
     {
@@ -45,23 +269,8 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Fidelity's MSTR Holdings Jump 132% In Q3 — But There's More To Its Bitcoin Bet",
-      "title_zh": "Fidelity's MSTR Holdings Jump 132% In Q3 — But There's More To Its Bitcoin Bet",
+      "title_zh": "富达旗下 MSTR 控股公司第三季度股价上涨 132%，但其比特币押注还有更多",
       "ts": 1794463746
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794465477,
-      "key": "chinachipstocksrallyasusweighscurbsonremoteaiaccess",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/china-chip-stocks-rally-as-us-weighs-curbs-on-remote-ai-access-5020425",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "China chip stocks rally as U.S. weighs curbs on remote AI access",
-      "title_zh": "China chip stocks rally as U.S. weighs curbs on remote AI access",
-      "ts": 1794463711
     },
     {
       "coins": [],
@@ -75,23 +284,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "title_zh": "股市：今天标普 500 指数会上涨还是下跌？",
       "ts": 1794463243
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794465477,
-      "key": "taiwanstocksloweratcloseoftradetaiwanweighteddown279",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-lower-at-close-of-trade-taiwan-weighted-down-279-5020418",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Taiwan stocks lower at close of trade; Taiwan Weighted down 2.79%",
-      "title_zh": "Taiwan stocks lower at close of trade; Taiwan Weighted down 2.79%",
-      "ts": 1794463204
     },
     {
       "coins": [
@@ -107,7 +301,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Here’s what happened in crypto today",
-      "title_zh": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794463200
     },
     {
@@ -124,7 +318,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "5 Days of Bitcoin ETF Outflows, Brought to You Mostly by BlackRock",
-      "title_zh": "5 Days of Bitcoin ETF Outflows, Brought to You Mostly by BlackRock",
+      "title_zh": "比特币 ETF 流出的 5 天，主要由贝莱德为您带来",
       "ts": 1794462970
     },
     {
@@ -139,7 +333,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "South Korea to permit crypto withdrawal freezes during hacking threats",
-      "title_zh": "South Korea to permit crypto withdrawal freezes during hacking threats",
+      "title_zh": "韩国允许在黑客威胁期间冻结加密提款",
       "ts": 1794462888
     },
     {
@@ -154,38 +348,8 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-      "title_zh": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+      "title_zh": "Zcash 持有者投票决定从赠款金库中提取 50,000 个 ZEC，价值 5000 万美元",
       "ts": 1794462584
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794465477,
-      "key": "nvidiafacesgovernanceriskswatchthese2chipstocksforbuyopportunities",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-faces-governance-risks-watch-these-2-chip-stocks-for-buy-opportunities-93CH-5020413",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "Nvidia faces governance risks; watch these 2 chip stocks for buy opportunities",
-      "title_zh": "Nvidia faces governance risks; watch these 2 chip stocks for buy opportunities",
-      "ts": 1794462269
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794465477,
-      "key": "australiastocksloweratcloseoftradespasx200down007",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-007-5020392",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.07%",
-      "title_zh": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.07%",
-      "ts": 1794461403
     },
     {
       "coins": [
@@ -201,7 +365,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-      "title_zh": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+      "title_zh": "Bitcoin Core 揭示了导致数千个节点信任 Tor 上任何陌生人的错误",
       "ts": 1794460951
     },
     {
@@ -216,7 +380,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-      "title_zh": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+      "title_zh": "Ripple 的银行借贷系统即将在 XRP Ledger 上推出",
       "ts": 1794460723
     },
     {
@@ -231,7 +395,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
-      "title_zh": "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack",
+      "title_zh": "Binance CSO 在攻击前几个月无意中预示了 $6.3B 的黑客策略",
       "ts": 1794460031
     },
     {
@@ -246,7 +410,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "NVDA Fallout Pressures Tech Trade As Investors Turn To Cerebras, Applied Materials For Chip Demand Cues",
-      "title_zh": "NVDA Fallout Pressures Tech Trade As Investors Turn To Cerebras, Applied Materials For Chip Demand Cues",
+      "title_zh": "随着投资者转向 Cerebras、Applied Materials 寻找芯片需求线索，NVDA 的影响给科技贸易带来压力",
       "ts": 1794459963
     },
     {
@@ -264,7 +428,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Bitcoin traders raise odds of sub-$70,000 Christmas, Bitmine reports $6.3 billion annual net loss, and more",
-      "title_zh": "Bitcoin traders raise odds of sub-$70,000 Christmas, Bitmine reports $6.3 billion annual net loss, and more",
+      "title_zh": "比特币交易员将圣诞节赔率提高到 7 万美元以下，Bitmine 报告年度净亏损 63 亿美元等等",
       "ts": 1794459300
     },
     {
@@ -279,7 +443,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Schwab's Dividend ETF Pays About 3%. Here's What $5,000 in It Could Be Worth by 2030.",
-      "title_zh": "Schwab's Dividend ETF Pays About 3%. Here's What $5,000 in It Could Be Worth by 2030.",
+      "title_zh": "嘉信理财 ETF 的股息率约为 3%。到 2030 年，5000 美元的价值可能是这样的。",
       "ts": 1794458582
     },
     {
@@ -299,194 +463,38 @@
     },
     {
       "coins": [],
-      "desc": "Investing.com -- Asian stocks held modest gains on Thursday as investors weighed resilient technology shares against fresh uncertainty over Nvidia’s leadership, after reports that its board was discussing the future of Chief Executive Jense",
-      "first_seen": 1794458056,
-      "key": "asiastocksholdupasnvidialeadershipcrisiscloudsaitrade",
+      "desc": "Investing.com -- Asian stocks came under pressure on Thursday as uncertainty over Nvidia’s leadership unsettled the artificial intelligence trade, while investors tracked a shift towards domestic semiconductor suppliers in China amid growin",
+      "first_seen": 1794470137,
+      "key": "asiastocksslipasnvidiaturmoilcloudsaitradechinachipmakersrally",
       "kind": "macro",
       "link": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-hold-nvidia-leadership-043951157.html?.tsrc=rss",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Asia stocks hold up as Nvidia leadership crisis clouds AI trade",
-      "title_zh": "英伟达领导力危机给人工智能贸易带来阴影，亚洲股市坚挺",
-      "ts": 1794458391
-    },
-    {
-      "coins": [],
-      "desc": "Techs fell as Nvidia dived on news that it may oust CEO Jensen Huang. AMD extended gains. Will that spoil Wednesday's rally?",
-      "first_seen": 1794451278,
-      "key": "dowjonesfuturesrisetechsfallasnvidiamayoustceohuangaftercorewaveleadsrally",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、上涨、上升；利空词: 下跌",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-      "title_zh": "道琼斯期货上涨，科技股下跌，因 CoreWave 领涨后英伟达可能罢免首席执行官黄",
-      "ts": 1794456527
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
-      "first_seen": 1794465477,
-      "key": "nvidiaperpscrash7asceojensenhuangreportedlyfacestheaxe",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "CoinDesk",
-      "tag": "利空",
-      "title": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "title_zh": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "ts": 1794456227
-    },
-    {
-      "coins": [],
-      "desc": "The post on X comes amid reports that Nvidia's board is preparing to oust Huang.",
-      "first_seen": 1794454478,
-      "key": "elonmusksaysitwouldbeanhonortohirenvidiasjensenhuang",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-      "title_zh": "埃隆·马斯克表示，聘请英伟达的黄仁勋将是一种“荣幸”",
-      "ts": 1794453905
-    },
-    {
-      "coins": [],
-      "desc": "Warren Buffett's favorite holding period is forever. Grace Groner, a secretary at Abbott, paid $180 for three shares in 1935, reinvested every dividend, never sold, and left Lake Forest College $7 million when she died at 100 in 2010. Here ",
-      "first_seen": 1794454478,
-      "key": "warrenbuffettsayshisfavoriteholdingperiodisforeverasecretarywhopaid180for3shares",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/11/warren-buffett-says-his-favorite-holding-period-is-forever-a-secretary-who-paid-180-for-3-shares-in-1935-and-never-sold-died-worth-7-million-heres-what-her-rule-does-for-600000-in-one-stock-to/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Warren Buffett Says His Favorite Holding Period Is Forever. A Secretary Who Paid $180 for 3 Shares in 1935 and Never Sold Died Worth $7 Million. Here’s What Her Rule Does for $600,000 in One Stock Today",
-      "title_zh": "沃伦·巴菲特表示，他最喜欢的持有期是永远。 1935 年，一位秘书以 180 美元购买了 3 股股票，但从未出售过，去世时身价为 700 万美元。今天，她的规则对一只股票价值 60 万美元的影响如下",
-      "ts": 1794453780
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "One annual screening for companies on the watchlist has already failed. If they fail the next one, they may be removed, and crypto treasury firms not included in the indexes cannot be added while failing either of their last two screens.",
-      "first_seen": 1794454478,
-      "key": "whymsciremovedmstrfromitsindexesandwhatitmeansforbitcoinstocks",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/why-msci-removed-mstr-from-its-indexes-and-what-it-means-for-bitcoin-stocks/cNGzKhOR99h?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks",
-      "title_zh": "为什么 MSCI 将 MSTR 从其指数中删除 – 以及这对比特币股票意味着什么",
-      "ts": 1794453317
-    },
-    {
-      "coins": [],
-      "desc": "Media reports suggest that Nvidia’s board is looking to replace CEO Jensen Huang after additional news indicated that he had an affair with a company executive.",
-      "first_seen": 1794454478,
-      "key": "dowsp500nasdaqfuturesmixedastechreboundsdespitenvidiaceocrisisamdcscoamatinfocus",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-mixed-as-tech-rebounds-despite-nvidia-ceo-crisis-amd-csco-amat-in-focus/cNGzKh7R99W?.tsrc=rss",
-      "reason": "利多词: 反弹",
+      "reason": "利多词: 反弹/上涨",
       "score": 2,
       "source": "Yahoo Finance",
       "tag": "利多",
-      "title": "Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus",
-      "title_zh": "尽管英伟达首席执行官危机，道琼斯指数、标准普尔 500 指数和纳斯达克期货涨跌互现，科技股仍在反弹：AMD、CSCO、AMAT 成为焦点",
-      "ts": 1794453312
-    },
-    {
-      "coins": [],
-      "desc": "Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.",
-      "first_seen": 1794454478,
-      "key": "whatweknowsofaraboutnvidiapartnermegaspeedsasiafootprint",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
-      "reason": "利空词: 调查",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
-      "title_zh": "到目前为止，我们对 Nvidia 合作伙伴 Megaspeed 亚洲足迹的了解",
-      "ts": 1794452523
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin dominance tests a 61% breakout as the weekly Supertrend flips bullish. Here is what it means for altcoins.",
-      "first_seen": 1794454478,
-      "key": "bitcoindominancetests61breakoutandthatsbadnewsforaltcoins",
-      "kind": "macro",
-      "link": "https://beincrypto.com/bitcoin-dominance-breakout-altcoin-season-analysis/?.tsrc=rss",
-      "reason": "利多词: 看涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitcoin Dominance Tests 61% Breakout, and That's Bad News for Altcoins",
-      "title_zh": "比特币主导地位测试 61% 突破，这对山寨币来说是个坏消息",
-      "ts": 1794452400
-    },
-    {
-      "coins": [],
-      "desc": "Investing.com -- Susquehanna Financial Group sees opportunity in U.S.-listed IT services amid a rotation away from semiconductor stocks.",
-      "first_seen": 1794454478,
-      "key": "susquehannafinancialnamesitsaierawinners9itstockstowatch",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-financial-names-ai-era-025606869.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Susquehanna Financial names its AI-era winners: 9 IT stocks to watch",
-      "title_zh": "Susquehanna Financial 公布人工智能时代的赢家：9 只值得关注的 IT 股票",
-      "ts": 1794452166
-    },
-    {
-      "coins": [],
-      "desc": "Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.",
-      "first_seen": 1794440212,
-      "key": "nvidiasstockdropsastheboardreportedlypreparestoremoveceojensenhuang",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-      "title_zh": "据报道，英伟达董事会准备罢免首席执行官黄仁勋，股价下跌",
-      "ts": 1794451920
+      "title": "Asia stocks slip as Nvidia turmoil clouds AI trade; China chipmakers rally",
+      "title_zh": "英伟达的动荡给人工智能交易带来阴影，亚洲股市下滑；中国芯片制造商集会",
+      "ts": 1794458391
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 10",
+      "CNBC 头条": "ok 11",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 17",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 5",
       "The Block": "ok 19",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 19",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-12T07:38:11+01:00",
-  "updated_unix": 1794465491
+  "updated": "2026-11-12T08:55:51+01:00",
+  "updated_unix": 1794470151
 }
