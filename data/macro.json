@@ -2,22 +2,22 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.235,
-        "d90": -0.088
+        "d30": -0.24,
+        "d90": -0.09
       },
       "SPX": {
-        "d30": -0.299,
-        "d90": -0.114
+        "d30": -0.302,
+        "d90": -0.116
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.312,
-        "d90": -0.145
+        "d30": -0.311,
+        "d90": -0.144
       },
       "SPX": {
-        "d30": -0.379,
-        "d90": -0.182
+        "d30": -0.378,
+        "d90": -0.181
       }
     }
   },
@@ -175,134 +175,134 @@
     }
   ],
   "influence": {
-    "bias": -0.289,
-    "corr": 0.306,
+    "bias": -0.337,
+    "corr": 0.308,
     "corr_label": "中",
-    "equity_chg": -0.42,
+    "equity_chg": -0.52,
     "equity_name": "纳指期货",
-    "line": "纳指期货跌0.4%、VIX上升、美债收益率上升，相关性中等，对加密偏空",
+    "line": "纳指期货跌0.5%、VIX上升、美元走强，相关性中等，对加密偏空",
     "session": "open",
     "stale": false
   },
   "markets": {
     "Coinbase": {
-      "chg": -3.92,
-      "chg_1d": -3.92,
+      "chg": -3.93,
+      "chg_1d": -3.93,
       "chg_5d": -4.31,
       "chg_intraday": 0.73,
-      "last": 130.923,
+      "last": 130.92,
       "role": "crypto_eq",
       "stale": false,
       "symbol": "COIN",
-      "time_unix": 1794495058,
+      "time_unix": 1794498603,
       "unit": ""
     },
     "MicroStrategy": {
-      "chg": -7.33,
-      "chg_1d": -7.33,
-      "chg_5d": -12.31,
-      "chg_intraday": -0.6,
-      "last": 113.38,
+      "chg": -6.01,
+      "chg_1d": -6.01,
+      "chg_5d": -11.06,
+      "chg_intraday": 0.82,
+      "last": 115.001,
       "role": "crypto_eq",
       "stale": false,
       "symbol": "MSTR",
-      "time_unix": 1794495058,
+      "time_unix": 1794498607,
       "unit": ""
     },
     "VIX": {
-      "chg": 6.98,
-      "chg_1d": 6.98,
-      "chg_5d": -33.61,
-      "chg_intraday": 1.91,
-      "last": 18.71,
+      "chg": 4.35,
+      "chg_1d": 4.35,
+      "chg_5d": -35.24,
+      "chg_intraday": -0.6,
+      "last": 18.25,
       "role": "vix",
       "stale": false,
       "symbol": "^VIX",
-      "time_unix": 1794494131,
+      "time_unix": 1794497701,
       "unit": ""
     },
     "标普 500": {
-      "chg": -0.25,
-      "chg_1d": -0.25,
-      "chg_5d": 3.35,
-      "chg_intraday": 0.65,
-      "last": 7599.97,
+      "chg": -0.18,
+      "chg_1d": -0.18,
+      "chg_5d": 3.43,
+      "chg_intraday": 0.73,
+      "last": 7605.65,
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1794495059,
+      "time_unix": 1794498605,
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -0.31,
-      "chg_1d": -0.31,
-      "chg_5d": 3.16,
-      "chg_intraday": -0.0,
-      "last": 7616.5,
+      "chg": -0.23,
+      "chg_1d": -0.23,
+      "chg_5d": 3.25,
+      "chg_intraday": 0.08,
+      "last": 7622.75,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794494446,
+      "time_unix": 1794498005,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": -0.42,
-      "chg_1d": -0.42,
-      "chg_5d": 5.98,
-      "chg_intraday": 0.16,
-      "last": 28352.25,
+      "chg": -0.52,
+      "chg_1d": -0.52,
+      "chg_5d": 5.88,
+      "chg_intraday": 0.06,
+      "last": 28324.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794494446,
+      "time_unix": 1794498007,
       "unit": ""
     },
     "纳斯达克100": {
-      "chg": -0.56,
-      "chg_1d": -0.56,
-      "chg_5d": 5.95,
-      "chg_intraday": 0.93,
-      "last": 28214.332,
+      "chg": -0.47,
+      "chg_1d": -0.47,
+      "chg_5d": 6.05,
+      "chg_intraday": 1.03,
+      "last": 28241.64,
       "role": "equity",
       "stale": false,
       "symbol": "^NDX",
-      "time_unix": 1794495059,
+      "time_unix": 1794498604,
       "unit": ""
     },
     "美10年期国债收益率": {
-      "chg": 0.68,
-      "chg_1d": 0.68,
-      "chg_5d": 4.03,
-      "chg_intraday": -0.47,
-      "last": 5.032,
+      "chg": 1.28,
+      "chg_1d": 1.28,
+      "chg_5d": 4.65,
+      "chg_intraday": 0.12,
+      "last": 5.062,
       "role": "yield",
       "stale": false,
       "symbol": "^TNX",
-      "time_unix": 1794494144,
+      "time_unix": 1794497704,
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": 0.04,
-      "chg_1d": 0.04,
-      "chg_5d": 1.38,
-      "chg_intraday": 0.09,
-      "last": 102.955,
+      "chg": 0.26,
+      "chg_1d": 0.26,
+      "chg_5d": 1.6,
+      "chg_intraday": 0.31,
+      "last": 103.178,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794494457,
+      "time_unix": 1794498006,
       "unit": ""
     },
     "贝莱德 IBIT": {
-      "chg": -4.33,
-      "chg_1d": -4.33,
-      "chg_5d": -6.09,
-      "chg_intraday": -0.47,
-      "last": 40.41,
+      "chg": -4.59,
+      "chg_1d": -4.59,
+      "chg_5d": -6.34,
+      "chg_intraday": -0.74,
+      "last": 40.3,
       "role": "crypto_eq",
       "stale": false,
       "symbol": "IBIT",
-      "time_unix": 1794495058,
+      "time_unix": 1794498605,
       "unit": ""
     }
   },
@@ -310,6 +310,6 @@
     "code": "open",
     "label": "交易中"
   },
-  "updated": "2026-11-12T15:51:02+01:00",
-  "updated_unix": 1794495062
+  "updated": "2026-11-12T16:50:08+01:00",
+  "updated_unix": 1794498608
 }
