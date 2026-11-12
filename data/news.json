@@ -4,17 +4,109 @@
     {
       "coins": [],
       "desc": "Techs fell as Nvidia dived on news that it may oust CEO Jensen Huang. AMD extended gains. Will that spoil Wednesday's rally?",
-      "first_seen": 1794443398,
-      "key": "dowjonesfuturestechstumbleasnvidiamayoustceohuangaistocksslidebutnotamd",
+      "first_seen": 1794451278,
+      "key": "dowjonesfuturesrisetechsfallasnvidiamayoustceohuangaftercorewaveleadsrally",
       "kind": "macro",
-      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures%3A-techs.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、上涨；利空词: 大跌、下滑",
+      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、上涨、上升；利空词: 下跌",
+      "score": 3,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
+      "title_zh": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
+      "ts": 1794450676
+    },
+    {
+      "coins": [],
+      "desc": "A board with no chair, no succession plan, and a CEO under fire. When Salomon Brothers hit a similar crisis in 1991, Warren Buffett stepped in with a strict rule. Nvidia's directors may need the same one.",
+      "first_seen": 1794451278,
+      "key": "warrenbuffetts1991playbookpointsthepathforwardasnvidiareportedlypreparestooustje",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/11/warren-buffetts-1991-playbook-points-the-path-forward-as-nvidia-reportedly-prepares-to-oust-jensen-huang-buffett-said-he-could-forgive-losses-but-there-was-one-thing-he-would-be-ruthless-about/?.tsrc=rss",
+      "reason": "利空词: 亏损",
       "score": -2,
       "source": "Yahoo Finance",
       "tag": "利空",
-      "title": "Dow Jones Futures: Techs Tumble As Nvidia May Oust CEO Huang; AI Stocks Slide, But Not AMD",
-      "title_zh": "Dow Jones Futures: Techs Tumble As Nvidia May Oust CEO Huang; AI Stocks Slide, But Not AMD",
-      "ts": 1794447411
+      "title": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
+      "title_zh": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
+      "ts": 1794450366
+    },
+    {
+      "coins": [],
+      "desc": "The digital asset treasury firm posted $3.4 million in quarterly revenue, compared with $697,000 in the same period last year.",
+      "first_seen": 1794451278,
+      "key": "milestonequartersolanacompanyreportsq3revenuegrowthdrivenbystakingrewards",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-11-solana-company-reports-q3-revenue-growth-438448",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
+      "title_zh": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
+      "ts": 1794450314
+    },
+    {
+      "coins": [],
+      "desc": "The Wall Street Journal reported that Nvidia's board is preparing to oust CEO Jensen Huang over two extramarital affairs.",
+      "first_seen": 1794451278,
+      "key": "nvidiaperpsplunge10onhyperliquidasboardreportedlyweighsoustingjensenhuang",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-11-nvidia-perps-board-weighs-ousting-jensen-huang-438447",
+      "reason": "利空词: 暴跌",
+      "score": -2,
+      "source": "The Block",
+      "tag": "利空",
+      "title": "Nvidia perps plunge 10% on Hyperliquid as board reportedly weighs ousting Jensen Huang",
+      "title_zh": "Nvidia perps plunge 10% on Hyperliquid as board reportedly weighs ousting Jensen Huang",
+      "ts": 1794450225
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794451278,
+      "key": "trumpstiestonvidiaceojensenhuanginthespotlight",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/trumps-ties-to-nvidia-ceo-jensen-huang-in-the-spotlight-5020179",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Trump’s ties to Nvidia CEO Jensen Huang in the spotlight",
+      "title_zh": "Trump’s ties to Nvidia CEO Jensen Huang in the spotlight",
+      "ts": 1794448847
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794443398,
+      "key": "nvidiaboardmeetstodecideceohuangsfuturesourcesays",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia board meets to decide CEO Huang’s future, source says",
+      "title_zh": "Nvidia board meets to decide CEO Huang’s future, source says",
+      "ts": 1794448829
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Japan could hike rates three times in 2026 for the first time in 37 years. What does it mean for Bitcoin and US stocks?",
+      "first_seen": 1794451278,
+      "key": "japannearsa37yearratehikefirstwillbitcoinandstockssuffer",
+      "kind": "macro",
+      "link": "https://beincrypto.com/japan-rate-hike-37-year-first-bitcoin-us-stocks-risk/?.tsrc=rss",
+      "reason": "利空词: 加息",
+      "score": -4,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Japan Nears a 37-Year Rate Hike First: Will Bitcoin and Stocks Suffer?",
+      "title_zh": "Japan Nears a 37-Year Rate Hike First: Will Bitcoin and Stocks Suffer?",
+      "ts": 1794447666
     },
     {
       "coins": [],
@@ -75,21 +167,6 @@
       "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
       "title_zh": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
       "ts": 1794446061
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794443398,
-      "key": "nvidiaboardmeetstodecideceohuangsfuturesourcesays",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia board meets to decide CEO Huang’s future, source says",
-      "title_zh": "Nvidia board meets to decide CEO Huang’s future, source says",
-      "ts": 1794445971
     },
     {
       "coins": [],
@@ -260,21 +337,6 @@
     },
     {
       "coins": [],
-      "desc": "Nvidia's board is preparing to oust Jensen Huang, the Wall Street Journal reported, after a Times report of his relationship with executive Kimberly Powell; Nvidia fell 7.4% after hours to $160.95. When Intel (2018) and McDonald's (2019) pu",
-      "first_seen": 1794443398,
-      "key": "nvidiasboardisreportedlypreparingtooustjensenhuangwhenintelandmcdonaldspushedout",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/11/nvidias-board-is-reportedly-preparing-to-oust-jensen-huang-when-intel-and-mcdonalds-pushed-out-ceos-over-workplace-relationships-shareholders-got-opposite-results/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
-      "title_zh": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
-      "ts": 1794440059
-    },
-    {
-      "coins": [],
       "desc": "The government may have lost a month of inflation data, but don’t expect your credit card’s annual percentage rate to decline because of it.",
       "first_seen": 1794440212,
       "key": "yourholidaycreditcardbillsaregoingupwhatyoucandotoeasethepain",
@@ -337,21 +399,6 @@
     },
     {
       "coins": [],
-      "desc": "Today, Nov. 11, 2026, Intel shares rallied as CoreWeave's stronger results reinforced AI chip demand across the semiconductor group.",
-      "first_seen": 1794440212,
-      "key": "stockmarkettodaynov11intelclimbsonbroaderchiprallyasaiinfrastructuredemandliftss",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-intel-climbs-on-broader-chip-rally-as-ai-infrastructure-demand-lifts-semiconductor-stocks/?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、攀升",
-      "score": 4,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stock Market Today, Nov. 11: Intel Climbs on Broader Chip Rally as AI Infrastructure Demand Lifts Semiconductor Stocks",
-      "title_zh": "今日股市，11 月 11 日：人工智能基础设施需求提振半导体股票，英特尔芯片股上涨",
-      "ts": 1794438274
-    },
-    {
-      "coins": [],
       "desc": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
       "first_seen": 1794421653,
       "key": "analysisisnvidiatoobigtofailitsaifinancingwebraisesthestakes",
@@ -409,55 +456,6 @@
       "title": "Nvidia-Backed CoreWeave Is Surging: Here’s What It Means for the AI Boom",
       "title_zh": "Nvidia 支持的 CoreWeave 正在蓬勃发展：这对 AI 热潮意味着什么",
       "ts": 1794436563
-    },
-    {
-      "coins": [],
-      "desc": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
-      "first_seen": 1794437266,
-      "key": "canadasambassadorwarnstrumptariffsaredrivingupcoststhreateningusinvestment",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-      "reason": "利空词: 关税、警告",
-      "score": -4,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-      "title_zh": "加拿大大使警告特朗普关税正在推高成本，威胁美国投资",
-      "ts": 1794436257
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794448231,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "Here’s what happened in crypto today",
-      "ts": 1794435326
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "The SEC is stepping into the brewing fight over whether its sister agency should have approved perpetual derivatives on individual stocks.",
-      "first_seen": 1794448231,
-      "key": "secentersfightoverwhoregulatesperpetualderivativesonstocksintheus",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/regulation/2026-11-11-sec-enters-fight-who-regulates-perpetual-derivatives-stocks-in-us-438427",
-      "reason": "利多词: 获批",
-      "score": 1,
-      "source": "The Block",
-      "tag": "中性",
-      "title": "SEC enters fight over who regulates perpetual derivatives on stocks in the US",
-      "title_zh": "SEC enters fight over who regulates perpetual derivatives on stocks in the US",
-      "ts": 1794434807
     }
   ],
   "meta": {
@@ -471,13 +469,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 5",
       "MarketWatch": "ok 5",
       "The Block": "ok 19",
       "Yahoo Finance": "ok 10",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-12T02:50:45+01:00",
-  "updated_unix": 1794448245
+  "updated": "2026-11-12T03:41:35+01:00",
+  "updated_unix": 1794451295
 }
