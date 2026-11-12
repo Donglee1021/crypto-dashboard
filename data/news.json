@@ -3,6 +3,113 @@
   "items": [
     {
       "coins": [],
+      "desc": "",
+      "first_seen": 1794458056,
+      "key": "nvidiaworth25lesswithoutjensenhuangasceoyorkvilleivessays",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-worth-25-less-without-jensen-huang-as-ceo-yorkville-ives-says-5020308",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia worth 25% less without Jensen Huang as CEO, Yorkville Ives says",
+      "title_zh": "约克维尔·艾夫斯 (Yorkville Ives) 表示，如果黄仁勋 (Jensen Huang) 担任首席执行官，英伟达 (Nvidia) 的价值将下降 25%",
+      "ts": 1794456892
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794454478,
+      "key": "nvidiaboardmeetstodecideceohuangsfutureasleadershipcrisisdeepens",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia board meets to decide CEO Huang’s future as leadership crisis deepens",
+      "title_zh": "随着领导层危机加深，英伟达董事会召开会议决定首席执行官黄的未来",
+      "ts": 1794456743
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794458056,
+      "key": "asiastocksholdupasnvidialeadershipcrisiscloudsaitrade",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/asia-stocks-hold-up-as-nvidia-leadership-crisis-clouds-ai-trade-5020307",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Asia stocks hold up as Nvidia leadership crisis clouds AI trade",
+      "title_zh": "英伟达领导力危机给人工智能贸易带来阴影，亚洲股市坚挺",
+      "ts": 1794456591
+    },
+    {
+      "coins": [],
+      "desc": "Techs fell as Nvidia dived on news that it may oust CEO Jensen Huang. AMD extended gains. Will that spoil Wednesday's rally?",
+      "first_seen": 1794451278,
+      "key": "dowjonesfuturesrisetechsfallasnvidiamayoustceohuangaftercorewaveleadsrally",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、上涨、上升；利空词: 下跌",
+      "score": 3,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
+      "title_zh": "道琼斯期货上涨，科技股下跌，因 CoreWave 领涨后英伟达可能罢免首席执行官黄",
+      "ts": 1794456527
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+      "first_seen": 1794458056,
+      "key": "bitcoinlistlessnvidiaperpscrash7asceojensenhuangreportedlyfacestheaxe",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+      "title_zh": "比特币无精打采，英伟达员工股价暴跌 7%，据报道 CEO 黄仁勋面临被解雇",
+      "ts": 1794456227
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794458056,
+      "key": "seniorusdemocraticsenatorsurgeadministrationtopreservenvidiaexportrecordsamidchi",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/senior-us-democratic-senators-urge-administration-to-preserve-nvidia-export-records-amid-china-security-concerns-5020284",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Senior US Democratic senators urge administration to preserve Nvidia export records amid China security concerns",
+      "title_zh": "美国民主党资深参议员敦促政府在中国安全担忧中保留英伟达的出口记录",
+      "ts": 1794455301
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia's board is meeting days after CEO Jensen Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
+      "first_seen": 1794458056,
+      "key": "nvidiaboardmeetingtodecideceojensenhuangsfatestretchesintoevening",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
+      "title_zh": "英伟达董事会会议决定首席执行官黄仁勋的命运持续到晚上",
+      "ts": 1794455216
+    },
+    {
+      "coins": [],
       "desc": "The post on X comes amid reports that Nvidia's board is preparing to oust Huang.",
       "first_seen": 1794454478,
       "key": "elonmusksaysitwouldbeanhonortohirenvidiasjensenhuang",
@@ -13,7 +120,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-      "title_zh": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
+      "title_zh": "埃隆·马斯克表示，聘请英伟达的黄仁勋将是一种“荣幸”",
       "ts": 1794453905
     },
     {
@@ -28,7 +135,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Warren Buffett Says His Favorite Holding Period Is Forever. A Secretary Who Paid $180 for 3 Shares in 1935 and Never Sold Died Worth $7 Million. Here’s What Her Rule Does for $600,000 in One Stock Today",
-      "title_zh": "Warren Buffett Says His Favorite Holding Period Is Forever. A Secretary Who Paid $180 for 3 Shares in 1935 and Never Sold Died Worth $7 Million. Here’s What Her Rule Does for $600,000 in One Stock Today",
+      "title_zh": "沃伦·巴菲特表示，他最喜欢的持有期是永远。 1935 年，一位秘书以 180 美元购买了 3 股股票，但从未出售过，去世时身价为 700 万美元。今天，她的规则对一只股票价值 60 万美元的影响如下",
       "ts": 1794453780
     },
     {
@@ -45,7 +152,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks",
-      "title_zh": "Why MSCI Removed MSTR From Its Indexes – And What It Means For Bitcoin Stocks",
+      "title_zh": "为什么 MSCI 将 MSTR 从其指数中删除 – 以及这对比特币股票意味着什么",
       "ts": 1794453317
     },
     {
@@ -60,23 +167,8 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus",
-      "title_zh": "Dow, S&P 500, Nasdaq Futures Mixed As Tech Rebounds Despite Nvidia CEO Crisis: AMD, CSCO, AMAT In Focus",
+      "title_zh": "尽管英伟达首席执行官危机，道琼斯指数、标准普尔 500 指数和纳斯达克期货涨跌互现，科技股仍在反弹：AMD、CSCO、AMAT 成为焦点",
       "ts": 1794453312
-    },
-    {
-      "coins": [],
-      "desc": "Techs fell as Nvidia dived on news that it may oust CEO Jensen Huang. AMD extended gains. Will that spoil Wednesday's rally?",
-      "first_seen": 1794451278,
-      "key": "dowjonesfuturesrisetechsfallasnvidiamayoustceohuangaftercorewaveleadsrally",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/672e6ef4-2ba3-319b-b948-a356a7f1fcbe/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、上涨、上升；利空词: 下跌",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-      "title_zh": "Dow Jones Futures Rise, Techs Fall As Nvidia May Oust CEO Huang After CoreWave Leads Rally",
-      "ts": 1794452840
     },
     {
       "coins": [],
@@ -90,7 +182,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
-      "title_zh": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
+      "title_zh": "到目前为止，我们对 Nvidia 合作伙伴 Megaspeed 亚洲足迹的了解",
       "ts": 1794452523
     },
     {
@@ -107,7 +199,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Bitcoin Dominance Tests 61% Breakout, and That's Bad News for Altcoins",
-      "title_zh": "Bitcoin Dominance Tests 61% Breakout, and That's Bad News for Altcoins",
+      "title_zh": "比特币主导地位测试 61% 突破，这对山寨币来说是个坏消息",
       "ts": 1794452400
     },
     {
@@ -122,7 +214,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Susquehanna Financial names its AI-era winners: 9 IT stocks to watch",
-      "title_zh": "Susquehanna Financial names its AI-era winners: 9 IT stocks to watch",
+      "title_zh": "Susquehanna Financial 公布人工智能时代的赢家：9 只值得关注的 IT 股票",
       "ts": 1794452166
     },
     {
@@ -142,21 +234,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794454478,
-      "key": "nvidiaboardmeetstodecideceohuangsfutureasleadershipcrisisdeepens",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia board meets to decide CEO Huang’s future as leadership crisis deepens",
-      "title_zh": "Nvidia board meets to decide CEO Huang’s future as leadership crisis deepens",
-      "ts": 1794450623
-    },
-    {
-      "coins": [],
       "desc": "A board with no chair, no succession plan, and a CEO under fire. When Salomon Brothers hit a similar crisis in 1991, Warren Buffett stepped in with a strict rule. Nvidia's directors may need the same one.",
       "first_seen": 1794451278,
       "key": "warrenbuffetts1991playbookpointsthepathforwardasnvidiareportedlypreparestooustje",
@@ -167,7 +244,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
-      "title_zh": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
+      "title_zh": "据报道，英伟达准备罢免黄仁勋，沃伦·巴菲特 1991 年的剧本指出了前进的道路。巴菲特说他可以原谅损失，但有一件事他会毫不留情",
       "ts": 1794450366
     },
     {
@@ -182,7 +259,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
-      "title_zh": "‘Milestone quarter’: Solana Company reports Q3 revenue growth driven by staking rewards",
+      "title_zh": "“里程碑季度”：Solana 公司报告第三季度收入增长受质押奖励推动",
       "ts": 1794450314
     },
     {
@@ -197,7 +274,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Nvidia perps plunge 10% on Hyperliquid as board reportedly weighs ousting Jensen Huang",
-      "title_zh": "Nvidia perps plunge 10% on Hyperliquid as board reportedly weighs ousting Jensen Huang",
+      "title_zh": "据报道，英伟达董事会考虑罢免黄仁勋，Hyperliquid 股价暴跌 10%",
       "ts": 1794450225
     },
     {
@@ -214,7 +291,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Japan Nears a 37-Year Rate Hike First: Will Bitcoin and Stocks Suffer?",
-      "title_zh": "Japan Nears a 37-Year Rate Hike First: Will Bitcoin and Stocks Suffer?",
+      "title_zh": "日本首次接近37年加息：比特币和股票会受到影响吗？",
       "ts": 1794447666
     },
     {
@@ -229,7 +306,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "These 5 Dividend Aristocrats® Have Raised Payouts for Decades",
-      "title_zh": "These 5 Dividend Aristocrats® Have Raised Payouts for Decades",
+      "title_zh": "这 5 位股息贵族®数十年来一直提高派息",
       "ts": 1794447300
     },
     {
@@ -244,7 +321,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Wall St futures fall as Nvidia slides on report of possible CEO ouster",
-      "title_zh": "Wall St futures fall as Nvidia slides on report of possible CEO ouster",
+      "title_zh": "英伟达因首席执行官可能被罢免的报道而下跌，华尔街期货下跌",
       "ts": 1794446140
     },
     {
@@ -259,7 +336,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
-      "title_zh": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
+      "title_zh": "有报道称首席执行官黄仁勋可能被罢免，克莱默对英伟达股票的立场",
       "ts": 1794446061
     },
     {
@@ -274,7 +351,7 @@
       "source": "MarketWatch",
       "tag": "利空",
       "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-      "title_zh": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+      "title_zh": "纳斯达克期货下跌，英伟达盘后下跌 8%，报告董事会可能驱逐黄",
       "ts": 1794445920
     },
     {
@@ -289,7 +366,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Nvidia Stock Tumbles. Jensen Huang Could Be Out Soon.",
-      "title_zh": "Nvidia Stock Tumbles. Jensen Huang Could Be Out Soon.",
+      "title_zh": "英伟达股价暴跌。黄仁勋可能很快就会出局。",
       "ts": 1794445560
     },
     {
@@ -304,23 +381,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Review & Preview: RenAIssance",
-      "title_zh": "Review & Preview: RenAIssance",
+      "title_zh": "回顾与预览：RenAIssance",
       "ts": 1794444900
-    },
-    {
-      "coins": [],
-      "desc": "The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
-      "first_seen": 1794437266,
-      "key": "nvidiapreparestooustjensenhuangwsjreportsstocksinks",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-      "reason": "利空词: 下沉",
-      "score": -2,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
-      "title_zh": "据《华尔街日报》报道，英伟达准备罢免黄仁勋——股价下跌",
-      "ts": 1794442887
     },
     {
       "coins": [],
@@ -334,7 +396,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "MSCI confirms Strategy’s removal from indexes at end of November",
-      "title_zh": "MSCI confirms Strategy’s removal from indexes at end of November",
+      "title_zh": "MSCI 确认 Strategy 将于 11 月底从指数中剔除",
       "ts": 1794442153
     },
     {
@@ -349,7 +411,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
-      "title_zh": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+      "title_zh": "印度内部通讯：特朗普的民调受挫点燃了美印年底前达成贸易协议的希望",
       "ts": 1794441458
     },
     {
@@ -398,86 +460,26 @@
       "title": "Suiet wallet to shut down in latest exit from Sui ecosystem",
       "title_zh": "Suiet 钱包将在 Sui 生态系统的最新退出中关闭",
       "ts": 1794439124
-    },
-    {
-      "coins": [],
-      "desc": "Strategy had opposed MSCI’s rules, arguing exclusion would harm its reputation as a neutral provider.",
-      "first_seen": 1794440212,
-      "key": "strategymetaplanetlosemsciindexmembershipinnovemberreshuffle",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "The Block",
-      "tag": "中性",
-      "title": "Strategy, Metaplanet lose MSCI index membership in November reshuffle",
-      "title_zh": "策略、Metaplanet 11 月洗牌失去 MSCI 指数会员资格",
-      "ts": 1794438563
-    },
-    {
-      "coins": [],
-      "desc": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-      "first_seen": 1794421653,
-      "key": "analysisisnvidiatoobigtofailitsaifinancingwebraisesthestakes",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 经济",
-      "tag": "中性",
-      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-      "title_zh": "分析：英伟达是否太大而不能倒？其人工智能融资网络提高了赌注",
-      "ts": 1794437973
-    },
-    {
-      "coins": [],
-      "desc": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
-      "first_seen": 1794437266,
-      "key": "jensenhuangaffairindcresignationcallsandmovestotightennvidiachinaexports",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-      "title_zh": "黄仁勋在华盛顿事件：辞职呼吁和收紧英伟达中国出口的举措",
-      "ts": 1794437189
-    },
-    {
-      "coins": [],
-      "desc": "The report about Huang’s possible departure came after the New York Times reported that he had a second extramarital affair.",
-      "first_seen": 1794440212,
-      "key": "nvidiapreparingtooustceojensenhuangafteraffairswsj",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/nvidia-preparing-to-oust-ceo-jensen-huang-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ",
-      "title_zh": "英伟达准备在事件发生后罢免首席执行官黄仁勋：《华尔街日报》",
-      "ts": 1794437087
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 11",
+      "CNBC 头条": "ok 10",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 17",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 5",
       "The Block": "ok 19",
       "Yahoo Finance": "ok 12",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-12T04:34:56+01:00",
-  "updated_unix": 1794454496
+  "updated": "2026-11-12T05:34:30+01:00",
+  "updated_unix": 1794458070
 }
