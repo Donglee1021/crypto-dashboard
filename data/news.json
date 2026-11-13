@@ -3,6 +3,100 @@
   "items": [
     {
       "coins": [],
+      "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+      "first_seen": 1794611543,
+      "key": "nvidiaisdonewithjensenhuangthefalloutinwashingtonisjustbeginning",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "title_zh": "Nvidia 与黄仁勋的关系结束了。华盛顿的余波才刚刚开始",
+      "ts": 1794613415
+    },
+    {
+      "coins": [],
+      "desc": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+      "first_seen": 1794614002,
+      "key": "lutnickfacesquestionsovernvidiaspyscandalhissonsfirmhasdeeptiestothechipmaker",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 金融",
+      "tag": "中性",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
+      "ts": 1794613338
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia saw its worst week since April last year after Jensen Huang stepped down as CEO, and its board is looking for candidates.",
+      "first_seen": 1794614002,
+      "key": "sp500downasdaqendloweramidnvidiaturmoilbutrecordbestweeksinceaugustspcxnvdaarmaz",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August — SPCX, NVDA, ARM, AZN In Focus",
+      "title_zh": "标准普尔 500 指数、道琼斯指数、纳斯达克指数因 Nvidia 动荡而收低，但创 8 月以来最佳单周 — SPCX、NVDA、ARM、AZN 成为焦点",
+      "ts": 1794613049
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Contracts that sell power to a 4% slice of the world’s bitcoin mining at $44 a megawatt-hour expire on Dec. 31, 2027. Paraguay’s state utility calls the date final, and it has just signed a 15-year deal to power a Founders Fund-backed AI ca",
+      "first_seen": 1794614002,
+      "key": "bitcoinminerspayparaguay350millionayearbutaiispushingthemout",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
+      "reason": "利多词: 达成协议",
+      "score": 1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
+      "title_zh": "比特币矿工每年向巴拉圭支付 3.5 亿美元，但人工智能正在将他们赶走",
+      "ts": 1794612600
+    },
+    {
+      "coins": [],
+      "desc": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
+      "first_seen": 1794608872,
+      "key": "dowjonesfuturesmarketrallyshakyasnvidiaearningsanthropicipoloomspacexstarshipfli",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
+      "title_zh": "道琼斯期货：随着 Nvidia 盈利、Anthropic IPO 临近，市场反弹摇摇欲坠； SpaceX 星舰 15 号航班助推器转向。",
+      "ts": 1794611853
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "",
+      "first_seen": 1794614002,
+      "key": "bitcoinsetforworstweeksinceearlyjuneaftermorethan10slide",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-drops-below-70k-as-crypto-appetite-sours-5024070",
+      "reason": "利空词: 下滑",
+      "score": -2,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Bitcoin set for worst week since early June after more than 10% slide",
+      "title_zh": "比特币跌幅超过 10%，创 6 月初以来最糟糕一周",
+      "ts": 1794611407
+    },
+    {
+      "coins": [],
       "desc": "Today, Nov. 13, 2026, CoreWeave's shares slid as investors weighed a possible equipment-backed loan against its rapid buildout.",
       "first_seen": 1794611543,
       "key": "stockmarkettodaynov13coreweavefallsover6onaicloudsellingandreported4billionloant",
@@ -13,7 +107,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks",
-      "title_zh": "Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks",
+      "title_zh": "今日股市，11 月 13 日：CoreWeave 因 AI 云抛售和 40 亿美元贷款谈判而下跌超过 6%",
       "ts": 1794611069
     },
     {
@@ -30,7 +124,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "PowerCompute Inc (PWCM) Q3 2026 Earnings Call Highlights: Mining Margins Surge to 50. ...",
-      "title_zh": "PowerCompute Inc (PWCM) Q3 2026 Earnings Call Highlights: Mining Margins Surge to 50. ...",
+      "title_zh": "PowerCompute Inc (PWCM) 2026 年第三季度收益电话会议亮点：挖矿利润率飙升至 50。...",
       "ts": 1794610973
     },
     {
@@ -45,7 +139,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit",
-      "title_zh": "Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit",
+      "title_zh": "Robinhood 21 亿美元的 IPO 再次困扰。最高法院提起投资者诉讼",
       "ts": 1794610531
     },
     {
@@ -60,23 +154,8 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Nvidia Has Real Problems—but Don’t Fall For Fear Mongering",
-      "title_zh": "Nvidia Has Real Problems—but Don’t Fall For Fear Mongering",
+      "title_zh": "英伟达确实存在问题，但不要被散布恐惧所迷惑",
       "ts": 1794609600
-    },
-    {
-      "coins": [],
-      "desc": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
-      "first_seen": 1794608872,
-      "key": "dowjonesfuturesmarketrallyshakyasnvidiaearningsanthropicipoloomspacexstarshipfli",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
-      "title_zh": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
-      "ts": 1794609594
     },
     {
       "coins": [],
@@ -90,23 +169,8 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance",
-      "title_zh": "Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance",
+      "title_zh": "今日股市，11 月 13 日：Cerebras 飙升超过 11%，第三季度收入创纪录并上调 2026 年指引",
       "ts": 1794609028
-    },
-    {
-      "coins": [],
-      "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
-      "first_seen": 1794611543,
-      "key": "nvidiaisdonewithjensenhuangthefalloutinwashingtonisjustbeginning",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-      "title_zh": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-      "ts": 1794608899
     },
     {
       "coins": [],
@@ -120,7 +184,7 @@
       "source": "Investing.com 股市",
       "tag": "利多",
       "title": "Chime Financial stock rises after S&P MidCap 400 inclusion announcement",
-      "title_zh": "Chime Financial stock rises after S&P MidCap 400 inclusion announcement",
+      "title_zh": "宣布纳入标普中盘 400 指数后 Chime Financial 股价上涨",
       "ts": 1794608826
     },
     {
@@ -135,7 +199,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
-      "title_zh": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+      "title_zh": "英伟达的股价正经历 14 年来未见的连续下跌。接下来会发生什么？",
       "ts": 1794608460
     },
     {
@@ -150,7 +214,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
-      "title_zh": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
+      "title_zh": "今日股市，11 月 13 日：汇丰银行下调股票评级以维持首席执行官的不确定性后，英伟达股价下跌",
       "ts": 1794608402
     },
     {
@@ -165,7 +229,7 @@
       "source": "CNBC 头条",
       "tag": "利空",
       "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-      "title_zh": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+      "title_zh": "英伟达股价遭遇 2012 年以来最长单周下跌，市值下跌 1.7 万亿美元",
       "ts": 1794608323
     },
     {
@@ -180,7 +244,7 @@
       "source": "Decrypt",
       "tag": "中性",
       "title": "Could a Former Nvidia Executive Replace Jensen Huang? Arm’s Rene Haas Emerges as Candidate",
-      "title_zh": "Could a Former Nvidia Executive Replace Jensen Huang? Arm’s Rene Haas Emerges as Candidate",
+      "title_zh": "英伟达前高管能否取代黄仁勋？ Arm 的雷内·哈斯 (Rene Haas) 成为候选人",
       "ts": 1794608163
     },
     {
@@ -197,7 +261,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Cipher Digital (CIFR) Stock Looks Stretched As AI Infrastructure Rally Lifts Interest",
-      "title_zh": "Cipher Digital (CIFR) Stock Looks Stretched As AI Infrastructure Rally Lifts Interest",
+      "title_zh": "随着人工智能基础设施上涨提振人们的兴趣，Cipher Digital (CIFR) 股票看起来紧张",
       "ts": 1794608122
     },
     {
@@ -212,7 +276,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
-      "title_zh": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
+      "title_zh": "今日股市，11 月 13 日：早期涨幅逆转后，AMD 因 AI 芯片行业抛售而下跌 8.75%",
       "ts": 1794608035
     },
     {
@@ -227,7 +291,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue",
-      "title_zh": "Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue",
+      "title_zh": "今日股市，11 月 13 日：在强劲收入的推动下，Nu Holdings 第三季度盈利飙升，创历史新高",
       "ts": 1794607982
     },
     {
@@ -244,7 +308,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Here’s what happened in crypto today",
-      "title_zh": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794607717
     },
     {
@@ -259,7 +323,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-      "title_zh": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+      "title_zh": "OpenAI 与 Visa、Mastercard 和 Amex 合作在 ChatGPT 中推出人工智能支付",
       "ts": 1794607263
     },
     {
@@ -274,7 +338,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Update: US Equity Indexes Mixed as Nvidia Turmoil Hits Chipmakers, Producer Prices 'Elevated",
-      "title_zh": "Update: US Equity Indexes Mixed as Nvidia Turmoil Hits Chipmakers, Producer Prices 'Elevated",
+      "title_zh": "更新：英伟达动荡打击芯片制造商，美国股指涨跌互现，生产者价格“上涨”",
       "ts": 1794606780
     },
     {
@@ -289,7 +353,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
-      "title_zh": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility",
+      "title_zh": "今日股市：尽管波动剧烈，但指数仍减少损失，每周仍录得涨幅",
       "ts": 1794606593
     },
     {
@@ -304,7 +368,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Update: Wall Street Notches Weekly Gains Despite Nvidia Sell-Off",
-      "title_zh": "Update: Wall Street Notches Weekly Gains Despite Nvidia Sell-Off",
+      "title_zh": "更新：尽管英伟达遭到抛售，华尔街仍录得每周涨幅",
       "ts": 1794606575
     },
     {
@@ -321,7 +385,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
-      "title_zh": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
+      "title_zh": "随着 Blockstream 推出比特币托管系统，Adam Back 提出了更简单的安全性",
       "ts": 1794606567
     },
     {
@@ -336,23 +400,8 @@
       "source": "CNBC 头条",
       "tag": "利多",
       "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
-      "title_zh": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
+      "title_zh": "高盛希望通过两次大型IPO获利。 Anthropic 的历史性交易是其下一次机会",
       "ts": 1794606247
-    },
-    {
-      "coins": [],
-      "desc": "Microsoft rose even as a global outage across the company’s tools impact millions of people.",
-      "first_seen": 1794611543,
-      "key": "nvidiaamdmicrosoftcerebrasciscomodineandmorestocksthatexplaintodaysmarket",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/fa0293c5-bebc-3c34-924d-04a0b56c1b18/nvidia%2C-amd%2C-microsoft%2C.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
-      "title_zh": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
-      "ts": 1794606000
     },
     {
       "coins": [],
@@ -366,7 +415,7 @@
       "source": "Decrypt",
       "tag": "利空",
       "title": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
-      "title_zh": "Should Government Officials Be Banned From Prediction Markets? House Oversight Says Maybe",
+      "title_zh": "政府官员应该被禁止进入预测市场吗？众议院监督说也许",
       "ts": 1794605763
     },
     {
@@ -383,7 +432,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
-      "title_zh": "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO",
+      "title_zh": "比特币目前低于 69,000 美元，如果投资者套现购买 Anthropic IPO，比特币可能会进一步下跌",
       "ts": 1794605160
     },
     {
@@ -398,7 +447,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "title_zh": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
+      "title_zh": "英伟达首席执行官黄仁勋离职后，人工智能融资前景如何",
       "ts": 1794604744
     },
     {
@@ -410,56 +459,11 @@
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
-      "title_zh": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "title_zh": "美联储调查发现人工智能风险是金融体系的最大威胁",
       "ts": 1794604710
-    },
-    {
-      "coins": [],
-      "desc": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
-      "first_seen": 1794606045,
-      "key": "amdandotherchipstocksslideaswallstreetrethinkstheaitradewithoutjensenhuang",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-      "reason": "利多词: 上涨；利空词: 下滑（多空相抵）",
-      "score": -1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "title_zh": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "ts": 1794604200
-    },
-    {
-      "coins": [],
-      "desc": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "first_seen": 1794611543,
-      "key": "thetrilliondollarmistakecorporateamericaismakingaboutretirement",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "title_zh": "The trillion-dollar mistake corporate America is making about retirement",
-      "ts": 1794604140
-    },
-    {
-      "coins": [],
-      "desc": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-      "first_seen": 1794611543,
-      "key": "10yeartreasuryyieldmovesto517astradersweighproducerpricereport",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-      "reason": "利多词: 上涨；利空词: 加息（多空相抵）",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "title_zh": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "ts": 1794604100
     }
   ],
   "meta": {
@@ -480,6 +484,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T00:12:48+01:00",
-  "updated_unix": 1794611568
+  "updated": "2026-11-14T00:53:38+01:00",
+  "updated_unix": 1794614018
 }
