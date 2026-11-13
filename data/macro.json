@@ -2,22 +2,22 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.257,
-        "d90": -0.099
+        "d30": -0.267,
+        "d90": -0.106
       },
       "SPX": {
-        "d30": -0.297,
-        "d90": -0.117
+        "d30": -0.298,
+        "d90": -0.122
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.319,
-        "d90": -0.146
+        "d30": -0.339,
+        "d90": -0.155
       },
       "SPX": {
-        "d30": -0.38,
-        "d90": -0.181
+        "d30": -0.389,
+        "d90": -0.187
       }
     }
   },
@@ -175,12 +175,12 @@
     }
   ],
   "influence": {
-    "bias": -0.23,
-    "corr": 0.313,
+    "bias": -0.379,
+    "corr": 0.323,
     "corr_label": "中",
-    "equity_chg": 0.1,
+    "equity_chg": -0.51,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货涨0.1%、VIX上升、美元走强，相关性中等，对加密偏空",
+    "line": "美股休市，纳指期货跌0.5%、VIX上升、美元走强，相关性中等，对加密偏空",
     "session": "closed",
     "stale": false
   },
@@ -218,7 +218,7 @@
       "role": "vix",
       "stale": false,
       "symbol": "^VIX",
-      "time_unix": 1794518101,
+      "time_unix": 1794518100,
       "unit": ""
     },
     "标普 500": {
@@ -230,31 +230,31 @@
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1794520703,
+      "time_unix": 1794517200,
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -0.01,
-      "chg_1d": -0.01,
-      "chg_5d": 3.21,
-      "chg_intraday": 0.26,
-      "last": 7639.75,
+      "chg": -0.31,
+      "chg_1d": -0.31,
+      "chg_5d": 2.9,
+      "chg_intraday": -0.04,
+      "last": 7617.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794539095,
+      "time_unix": 1794542584,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 0.1,
-      "chg_1d": 0.1,
-      "chg_5d": 5.23,
-      "chg_intraday": 0.36,
-      "last": 28502.0,
+      "chg": -0.51,
+      "chg_1d": -0.51,
+      "chg_5d": 4.59,
+      "chg_intraday": -0.25,
+      "last": 28328.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794539097,
+      "time_unix": 1794542585,
       "unit": ""
     },
     "纳斯达克100": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": 0.25,
-      "chg_1d": 0.25,
-      "chg_5d": 0.84,
-      "chg_intraday": -0.06,
-      "last": 103.163,
+      "chg": 0.23,
+      "chg_1d": 0.23,
+      "chg_5d": 0.83,
+      "chg_intraday": -0.08,
+      "last": 103.145,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794539098,
+      "time_unix": 1794542583,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-13T04:15:00+01:00",
-  "updated_unix": 1794539700
+  "updated": "2026-11-13T05:13:06+01:00",
+  "updated_unix": 1794543186
 }

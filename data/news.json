@@ -3,6 +3,21 @@
   "items": [
     {
       "coins": [],
+      "desc": "The retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.",
+      "first_seen": 1794543180,
+      "key": "nvidiaexprosecutorjoonkimandwachtellliptonbringbigtrackrecordtoinvestigation",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+      "reason": "利空词: 调查",
+      "score": -3,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+      "title_zh": "Nvidia：前检察官 Joon Kim 和 Wachtell、Lipton 为调查带来了良好记录",
+      "ts": 1794542864
+    },
+    {
+      "coins": [],
       "desc": "The stock market held up well given Nvidia CEO Jensen Huang's exit, surging yields and more. Cisco led key earnings reports late.",
       "first_seen": 1794539696,
       "key": "dowjonesfuturesriseaftermarketweathersnvidiaceohuangsexitsurgingyields",
@@ -13,8 +28,71 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
-      "title_zh": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
-      "ts": 1794539169
+      "title_zh": "英伟达首席执行官黄仁勋离职、收益率飙升，道琼斯期货上涨",
+      "ts": 1794542201
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "The crypto market selloff gathered pace early Friday. Bitcoin dropped below $70,000 and ether traded below $2,000, triggering large liquidations in futures market.",
+      "first_seen": 1794543180,
+      "key": "bitcoindipsbelow70000asdollarindexhits19monthhigh",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-dips-below-usd70-000-as-selloff-gathers-pace",
+      "reason": "利空词: 下跌、抛售、爆仓",
+      "score": -3,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
+      "title_zh": "美元指数创 19 个月新高，比特币跌破 70,000 美元",
+      "ts": 1794541020
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia’s CEO scandal continued to rock markets on Thursday, with Jensen Huang resigning from his position following multiple reports of infidelity.",
+      "first_seen": 1794543180,
+      "key": "dowsp500nasdaqfuturesedgehigherasmarketsattempttorecoverfromnvidiaroutslsmsftcad",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-as-markets-attempt-to-recover-from-nvidia-rout-sls-msft-cadl-mstr-in-focus/cNbb8QDR9OW?.tsrc=rss",
+      "reason": "利多词: 回升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Markets Attempt To Recover From Nvidia Rout: SLS, MSFT, CADL, MSTR In Focus",
+      "title_zh": "随着市场试图从英伟达溃败中恢复过来，道指、标准普尔 500 指数、纳斯达克期货小幅走高：SLS、MSFT、CADL、MSTR 成为焦点",
+      "ts": 1794539265
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794536525,
+      "key": "colettekressthecfowhochallengedhuangsbetsisnvidiasinterimceo",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO",
+      "title_zh": "挑战黄的赌注的首席财务官科莱特·克雷斯(Colette Kress)是英伟达的临时首席执行官",
+      "ts": 1794539181
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794543180,
+      "key": "singaporechargesfifthpersoninnvidiachipprobestraitstimesreports",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/singapore-charges-fifth-person-in-nvidia-chip-probe-straits-times-reports-5024006",
+      "reason": "利空词: 调查",
+      "score": -2,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "Singapore charges fifth person in Nvidia chip probe, Straits Times reports",
+      "title_zh": "据《海峡时报》报道，新加坡对英伟达芯片调查中的第五人提出指控",
+      "ts": 1794539131
     },
     {
       "coins": [],
@@ -28,7 +106,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Treasury Bonds Now Pay More Than Stocks Earn by a Gap Last Seen in 2009. Warren Buffett Warned in 1999 What That Does to Stock Prices",
-      "title_zh": "Treasury Bonds Now Pay More Than Stocks Earn by a Gap Last Seen in 2009. Warren Buffett Warned in 1999 What That Does to Stock Prices",
+      "title_zh": "现在国债的收益率高于股票的收益率，上次出现的差距是在 2009 年。沃伦·巴菲特在 1999 年警告说这会对股价产生什么影响",
       "ts": 1794538020
     },
     {
@@ -43,7 +121,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
-      "title_zh": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
+      "title_zh": "特朗普在 SEC 和 CFTC 人选中提名 Hester Peirce 继任者",
       "ts": 1794536967
     },
     {
@@ -64,21 +142,6 @@
     {
       "coins": [],
       "desc": "",
-      "first_seen": 1794536525,
-      "key": "colettekressthecfowhochallengedhuangsbetsisnvidiasinterimceo",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO",
-      "title_zh": "挑战黄的赌注的首席财务官科莱特·克雷斯(Colette Kress)是英伟达的临时首席执行官",
-      "ts": 1794536663
-    },
-    {
-      "coins": [],
-      "desc": "",
       "first_seen": 1794539696,
       "key": "trumpsinteractionswithexnvidiaceojensenhuanginthespotlight",
       "kind": "macro",
@@ -88,7 +151,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Trump’s interactions with ex-Nvidia CEO Jensen Huang in the spotlight",
-      "title_zh": "Trump’s interactions with ex-Nvidia CEO Jensen Huang in the spotlight",
+      "title_zh": "特朗普与英伟达前首席执行官黄仁勋的互动成为焦点",
       "ts": 1794536354
     },
     {
@@ -106,7 +169,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
-      "title_zh": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
+      "title_zh": "比特币和以太坊跌至 8 月低点，近 6 亿美元的加密货币多头被清算",
       "ts": 1794534869
     },
     {
@@ -138,36 +201,6 @@
       "title": "Former Nvidia CEO Huang had third alleged affair: Reuters",
       "title_zh": "英伟达前首席执行官黄有第三次被指控的婚外情：路透社",
       "ts": 1794533187
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794526018,
-      "key": "chinasaccesstonvidiachipsindoubtascurbsgaintractioninuscongress",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/speaker-johnson-says-congress-developing-consensus-on-limiting-chip-exports-to-china-5022288",
-      "reason": "利多词: 上涨",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "China’s access to Nvidia chips in doubt as curbs gain traction in US Congress",
-      "title_zh": "随着限制措施在美国国会获得关注，中国获得英伟达芯片的机会受到质疑",
-      "ts": 1794532387
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794528666,
-      "key": "equitiescloselowerasnvidiadropoutweighsenergygains",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks-5020761",
-      "reason": "利多词: 上涨；利空词: 下跌（多空相抵）",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Equities close lower as Nvidia drop outweighs energy gains",
-      "title_zh": "由于英伟达股价下跌超过能源涨幅，股市收低",
-      "ts": 1794532370
     },
     {
       "coins": [],
@@ -392,7 +425,7 @@
       "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
       "reason": "利空词: 禁令",
       "score": -2,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "利空",
       "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
       "title_zh": "分析：英伟达的领导力危机考验该芯片制造商作为“AI中央银行”的角色",
@@ -429,36 +462,6 @@
       "title": "AI Prediction: ChatGPT Predicts When XRP Could Get Back to Its $3.65 All-Time High",
       "title_zh": "AI 预测：ChatGPT 预测 XRP 何时会回到 3.65 美元的历史高点",
       "ts": 1794524651
-    },
-    {
-      "coins": [],
-      "desc": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
-      "first_seen": 1794526018,
-      "key": "whocanreplacejensenhuangasnvidiaceothesefournamesarebuzzinginaicircles",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
-      "title_zh": "谁能取代黄仁勋出任英伟达首席执行官？这四个名字在人工智能圈子里很热闹。",
-      "ts": 1794524220
-    },
-    {
-      "coins": [],
-      "desc": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
-      "first_seen": 1794526018,
-      "key": "northkoreasbinancehackfacesuscrackdownasdojtargets12billioninstolencrypto",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
-      "reason": "利空词: 被黑、打压",
-      "score": -4,
-      "source": "CoinDesk",
-      "tag": "利空",
-      "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
-      "title_zh": "朝鲜币安网黑客攻击事件面临美国打击，司法部目标追缴价值 12 亿美元的被盗加密货币",
-      "ts": 1794524152
     }
   ],
   "meta": {
@@ -472,13 +475,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 5",
+      "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 19",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-13T04:14:59+01:00",
-  "updated_unix": 1794539699
+  "updated": "2026-11-13T05:13:05+01:00",
+  "updated_unix": 1794543185
 }
