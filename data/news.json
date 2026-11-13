@@ -3,6 +3,66 @@
   "items": [
     {
       "coins": [],
+      "desc": "The stock market held up well given Nvidia CEO Jensen Huang's exit, surging yields and more. Cisco led key earnings reports late.",
+      "first_seen": 1794539696,
+      "key": "dowjonesfuturesriseaftermarketweathersnvidiaceohuangsexitsurgingyields",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
+      "reason": "利多词: 上升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+      "title_zh": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+      "ts": 1794539169
+    },
+    {
+      "coins": [],
+      "desc": "A 10-year Treasury at 4.98% now pays more than the S&P 500 earns at 26 times earnings, a 1.13-point gap last seen in 2009. On $100,000 that is $4,980 of interest against $3,850 of company profit. Warren Buffett called interest rates gravity",
+      "first_seen": 1794539696,
+      "key": "treasurybondsnowpaymorethanstocksearnbyagaplastseenin2009warrenbuffettwarnedin19",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/12/treasury-bonds-now-pay-more-than-stocks-earn-by-a-gap-last-seen-in-2009-warren-buffett-warned-in-1999-what-that-does-to-stock-prices/?.tsrc=rss",
+      "reason": "利空词: 警告",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Treasury Bonds Now Pay More Than Stocks Earn by a Gap Last Seen in 2009. Warren Buffett Warned in 1999 What That Does to Stock Prices",
+      "title_zh": "Treasury Bonds Now Pay More Than Stocks Earn by a Gap Last Seen in 2009. Warren Buffett Warned in 1999 What That Does to Stock Prices",
+      "ts": 1794538020
+    },
+    {
+      "coins": [],
+      "desc": "The White House also named a former CFTC commissioner and two CLARITY Act veterans as nominees to fill vacancies at the SEC and CFTC.",
+      "first_seen": 1794539696,
+      "key": "trumpnominateshesterpeircesuccessoramongseccftcpicks",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/trump-nominates-hester-peirce-successor-among-sec-cftc-picks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
+      "title_zh": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
+      "ts": 1794536967
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794533281,
+      "key": "nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
+      "title_zh": "英伟达首席执行官黄仁勋辞职，对他帮助培育的人工智能热潮造成打击",
+      "ts": 1794536691
+    },
+    {
+      "coins": [],
       "desc": "",
       "first_seen": 1794536525,
       "key": "colettekressthecfowhochallengedhuangsbetsisnvidiasinterimceo",
@@ -14,22 +74,40 @@
       "tag": "中性",
       "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO",
       "title_zh": "挑战黄的赌注的首席财务官科莱特·克雷斯(Colette Kress)是英伟达的临时首席执行官",
-      "ts": 1794535957
+      "ts": 1794536663
     },
     {
       "coins": [],
-      "desc": "The stock market held up well given Nvidia CEO Jensen Huang's exit, surging yields and more. Cisco led key earnings reports late.",
-      "first_seen": 1794526018,
-      "key": "dowjonesfuturesriseaftermarketweathersnvidiaceohuangsexitsurgingyieldsspacextesl",
+      "desc": "",
+      "first_seen": 1794539696,
+      "key": "trumpsinteractionswithexnvidiaceojensenhuanginthespotlight",
       "kind": "macro",
-      "link": "https://finance.yahoo.com/m/4a3dff17-3e8e-33ca-823f-8ac12eff6a4a/dow-jones-futures-rise-after.html?.tsrc=rss",
-      "reason": "利多词: 上升、达成协议",
-      "score": 4,
+      "link": "https://www.investing.com/news/stock-market-news/trumps-interactions-with-exnvidia-ceo-jensen-huang-in-the-spotlight-5023947",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Trump’s interactions with ex-Nvidia CEO Jensen Huang in the spotlight",
+      "title_zh": "Trump’s interactions with ex-Nvidia CEO Jensen Huang in the spotlight",
+      "ts": 1794536354
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Crypto liquidations reached $680.81 million as Bitcoin and Ethereum fell to 3-month lows ahead of Friday's PPI data.",
+      "first_seen": 1794539696,
+      "key": "nearly600millionincryptolongsliquidatedasbitcoinandethereumfalltoaugustlows",
+      "kind": "macro",
+      "link": "https://beincrypto.com/crypto-liquidations-bitcoin-ethereum-3-month-low/?.tsrc=rss",
+      "reason": "利空词: 下跌、爆仓",
+      "score": -4,
       "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-      "title_zh": "英伟达首席执行官黄仁勋离职、收益率飙升，道琼斯期货上涨； SpaceX 与特斯拉合并交易完成",
-      "ts": 1794534924
+      "tag": "利空",
+      "title": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
+      "title_zh": "Nearly $600 Million in Crypto Longs Liquidated as Bitcoin and Ethereum Fall to August Lows",
+      "ts": 1794534869
     },
     {
       "coins": [],
@@ -90,21 +168,6 @@
       "title": "Equities close lower as Nvidia drop outweighs energy gains",
       "title_zh": "由于英伟达股价下跌超过能源涨幅，股市收低",
       "ts": 1794532370
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794533281,
-      "key": "nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
-      "title_zh": "英伟达首席执行官黄仁勋辞职，对他帮助培育的人工智能热潮造成打击",
-      "ts": 1794531622
     },
     {
       "coins": [],
@@ -329,7 +392,7 @@
       "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
       "reason": "利空词: 禁令",
       "score": -2,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "利空",
       "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
       "title_zh": "分析：英伟达的领导力危机考验该芯片制造商作为“AI中央银行”的角色",
@@ -396,68 +459,6 @@
       "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
       "title_zh": "朝鲜币安网黑客攻击事件面临美国打击，司法部目标追缴价值 12 亿美元的被盗加密货币",
       "ts": 1794524152
-    },
-    {
-      "coins": [],
-      "desc": "The S&P 500 has held up through Nvidia’s steep decline. But Huang’s departure raises new questions about the AI trade and the broader market outlook.",
-      "first_seen": 1794533281,
-      "key": "nowcomesthehardpartforthestockmarket",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/29a9f4ff-d04d-3c7e-9047-57cab19ef788/now-comes-the-hard-part-for.html?.tsrc=rss",
-      "reason": "利空词: 下降",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Now Comes the Hard Part for the Stock Market",
-      "title_zh": "现在是股市最困难的部分",
-      "ts": 1794523980
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Hive lays out a path to $500 million in annual revenue run-rate, pairing Bitcoin mining with a fast-growing AI cloud business.",
-      "first_seen": 1794526018,
-      "key": "hivesets500millionannualrevenuerunrategoalforearly2027",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/innovation/hive-sets-500-million-annual-revenue-run-rate-goal-for-early-2027?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Hive sets $500 million annual revenue run-rate goal for early 2027",
-      "title_zh": "Hive 设定 2027 年初年收入运行目标为 5 亿美元",
-      "ts": 1794523737
-    },
-    {
-      "coins": [],
-      "desc": "Investors are weighing delivery timing and 2026 revenue execution after the AI cloud provider trimmed its outlook, today, Nov. 12, 2026.",
-      "first_seen": 1794526018,
-      "key": "stockmarkettodaynov12nebiusgroupsinksnearly17afterlowering2026outlook",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nebius-group-sinks-nearly-17-after-lowering-2026-outlook/?.tsrc=rss",
-      "reason": "利空词: 下沉",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 12: Nebius Group Sinks Nearly 17% After Lowering 2026 Outlook",
-      "title_zh": "今日股市，11 月 12 日：Nebius Group 下调 2026 年展望后股价下跌近 17%",
-      "ts": 1794523720
-    },
-    {
-      "coins": [],
-      "desc": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
-      "first_seen": 1794526018,
-      "key": "uspresidenttrumpnamescftcsecnomineesforfirsttimeinayear",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
-      "title_zh": "美国总统特朗普一年来首次提名 CFTC 和 SEC 提名人",
-      "ts": 1794523661
     }
   ],
   "meta": {
@@ -471,13 +472,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 5",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 19",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-13T03:22:07+01:00",
-  "updated_unix": 1794536527
+  "updated": "2026-11-13T04:14:59+01:00",
+  "updated_unix": 1794539699
 }
