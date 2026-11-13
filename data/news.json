@@ -2,6 +2,173 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "The draft rules also require that stablecoins be transferred only between accounts or wallets belonging to the same person.",
+      "first_seen": 1794566601,
+      "key": "thailandseeks148000dailycaponcertainstablecointransferstocurbmoneylaundering",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/regulation/2026-11-13-thailand-seeks-daily-stablecoin-cap-439676",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
+      "title_zh": "Thailand seeks $148,000 daily cap on certain stablecoin transfers to curb money laundering",
+      "ts": 1794564964
+    },
+    {
+      "coins": [],
+      "desc": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration. Goldman recommends investors focus closely on those companies still delivering strong growth – as strong growth bec",
+      "first_seen": 1794566601,
+      "key": "earningsgrowthissettopeteroutbutnotthebullmarketsaysgoldmansachshereswhatthefirm",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
+      "title_zh": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
+      "ts": 1794564840
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794566601,
+      "key": "southkoreasaysnvidiawillkeepgpupledgesafterhuangsresignation",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/south-korea-says-nvidia-will-keep-gpu-pledges-after-huangs-resignation-5024668",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "South Korea says Nvidia will keep GPU pledges after Huang’s resignation",
+      "title_zh": "South Korea says Nvidia will keep GPU pledges after Huang’s resignation",
+      "ts": 1794564814
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794562869,
+      "key": "huangexitandusscrutinyimperil3billioninchineseaiprojectsreliantonnvidia",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
+      "title_zh": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
+      "ts": 1794564747
+    },
+    {
+      "coins": [],
+      "desc": "With stocks arguably priced like it's 1999, these three dividend payers could help you weather what comes next.",
+      "first_seen": 1794566601,
+      "key": "3dividendstocksbuiltforamarketpricedlikeits1999",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/13/3-dividend-stocks-built-for-a-market-priced-like-i/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "3 Dividend Stocks Built for a Market Priced Like It's 1999",
+      "title_zh": "3 Dividend Stocks Built for a Market Priced Like It's 1999",
+      "ts": 1794564240
+    },
+    {
+      "coins": [],
+      "desc": "Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
+      "first_seen": 1794562869,
+      "key": "nvidiastockincheshigherasinvestorscontinuetoweighjensenhuangsdeparture",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+      "title_zh": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
+      "ts": 1794564037
+    },
+    {
+      "coins": [],
+      "desc": "The most recent inflation reading for October had beaten expectations, coming in at 0.4% for the month.",
+      "first_seen": 1794566601,
+      "key": "thefedexpectedratecutsthisyearnowitsbracingforanotherinflationfight",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+      "reason": "利多词: 降息",
+      "score": 2,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+      "title_zh": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+      "ts": 1794564026
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "JPMorgan reported 224,545 more Strategy shares in the third quarter as its BlackRock bitcoin ETF holdings climbed to 11.4 million shares.",
+      "first_seen": 1794566601,
+      "key": "jpmorganreports36riseinstrategyshareholdingsand540millioninblackrocksbitcoinetf",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-13-jpmorgan-reports-36-rise-in-strategy-share-holdings-and-540-million-in-blackrocks-bitcoin-etf-439671",
+      "reason": "利多词: 上升、攀升",
+      "score": 3,
+      "source": "The Block",
+      "tag": "利多",
+      "title": "JPMorgan reports 36% rise in Strategy share holdings and $540 million in BlackRock’s bitcoin ETF",
+      "title_zh": "JPMorgan reports 36% rise in Strategy share holdings and $540 million in BlackRock’s bitcoin ETF",
+      "ts": 1794563956
+    },
+    {
+      "coins": [],
+      "desc": "Unocoin said the transfers were signed outside BitGo’s platform while its account was frozen, possibly via a wallet recovery feature.",
+      "first_seen": 1794566601,
+      "key": "unocoinkeepsdepositsandwithdrawalshaltedoversuspecttransfers",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/unocoin-withdrawals-halted-bitgo-wallet-transfer-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利多词: 回升",
+      "score": 1,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
+      "title_zh": "Unocoin keeps deposits and withdrawals halted over suspect transfers",
+      "ts": 1794563901
+    },
+    {
+      "coins": [],
+      "desc": "US stock index futures traded slightly lower on Friday as investors assessed developments surrounding Nvidia (NASDAQ:NVDA), alongside financial updates from Cisco Systems (NASDAQ:CSCO) and Applied Materials (NASDAQ:AMAT), disruptions affect",
+      "first_seen": 1794566601,
+      "key": "usstockfuturesedgelowerasnvidialeadershipchangesoffsetciscoandappliedmaterialsfo",
+      "kind": "macro",
+      "link": "https://investorshub.advfn.com/market-news/article/39930/us-stock-futures-edge-lower-as-nvidia-leadership-changes-offset-cisco-and-applied-materials-forecasts-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "US Stock Futures Edge Lower as Nvidia Leadership Changes Offset Cisco and Applied Materials Forecasts: Dow Jones, S&P, Nasdaq, Wall Street",
+      "title_zh": "US Stock Futures Edge Lower as Nvidia Leadership Changes Offset Cisco and Applied Materials Forecasts: Dow Jones, S&P, Nasdaq, Wall Street",
+      "ts": 1794563695
+    },
+    {
+      "coins": [],
+      "desc": "The dispute comes after Stellantis scrapped planned Jeep Compass production in Brampton and shifted future output to Illinois amid U.S. auto tariffs.",
+      "first_seen": 1794566601,
+      "key": "wewillsuethemcanadathreatensstellantisastrumptradewarreshapesjeepproductionplans",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
+      "reason": "利空词: 关税",
+      "score": -1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "‘We will sue them’: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+      "title_zh": "‘We will sue them’: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans",
+      "ts": 1794563104
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -50,48 +217,18 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794562869,
-      "key": "huangexitandusscrutinyimperil3billioninchineseaiprojectsreliantonnvidia",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivehuang-exit-and-us-scrutiny-imperil-3-billion-in-chinese-ai-projects-reliant-on-nvidia-5024462",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
-      "title_zh": "Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
-      "ts": 1794561894
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794562869,
-      "key": "europeansharesretreatfromrecordhighsafternvidiaceosexit",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/european-shares-retreat-from-record-highs-ai-uncertainty-weighs-5024437",
-      "reason": "利多词: 创新高",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "European shares retreat from record highs after Nvidia CEO’s exit",
-      "title_zh": "European shares retreat from record highs after Nvidia CEO’s exit",
-      "ts": 1794561863
-    },
-    {
-      "coins": [],
-      "desc": "Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
-      "first_seen": 1794562869,
-      "key": "nvidiastockincheshigherasinvestorscontinuetoweighjensenhuangsdeparture",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
-      "title_zh": "Nvidia stock inches higher as investors continue to weigh Jensen Huang’s departure",
-      "ts": 1794561589
+      "desc": "Authorities froze over $2.7 billion in Binance hack proceeds, while the separate FaceStealer scam stole over $400 million in 18 months.",
+      "first_seen": 1794566601,
+      "key": "dojmovestoseize12bfrombinancehackdisruptsfacestealerscam",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/doj-12b-north-korean-crypto-seizure-400m-facestealer-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 被黑",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
+      "title_zh": "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam",
+      "ts": 1794562034
     },
     {
       "coins": [
@@ -143,21 +280,6 @@
       "title": "Why Is Bitcoin Crashing? 5 Pressures That Pushed BTC Below $69,000",
       "title_zh": "Why Is Bitcoin Crashing? 5 Pressures That Pushed BTC Below $69,000",
       "ts": 1794560669
-    },
-    {
-      "coins": [],
-      "desc": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-      "first_seen": 1794562869,
-      "key": "treasuryyieldsriseastradersstrengthenfedratehikebets",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-      "reason": "利多词: 上涨、上升；利空词: 加息（多空相抵）",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Treasury yields rise as traders strengthen Fed rate hike bets",
-      "title_zh": "Treasury yields rise as traders strengthen Fed rate hike bets",
-      "ts": 1794559843
     },
     {
       "coins": [],
@@ -349,145 +471,13 @@
       "title": "Jensen Huang's exit sends Bitcoin to 12-week low",
       "title_zh": "Jensen Huang's exit sends Bitcoin to 12-week low",
       "ts": 1794552405
-    },
-    {
-      "coins": [],
-      "desc": "U.S. stock futures are nearly flat early Friday as Wall Street digests an intense week of geopolitical maneuvering, inflation data, and the dramatic resignation of Nvidia Corp.‘s (NASDAQ:NVDA) CEO. The Polymarket traders, a Polygon (CRYPTO:",
-      "first_seen": 1794555698,
-      "key": "stockmarketwillsp500openupordowntoday",
-      "kind": "macro",
-      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63229873/stock-market-will-sp-500-open-up-or-down-today-77?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
-      "ts": 1794551171
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "A total of $798 million in crypto positions has been liquidated over the past four hours, including $718.5 million in long positions.",
-      "first_seen": 1794555698,
-      "key": "bitcointumblesbelow69000asnvidiaturmoiladdstofeddrivenmarketjitters",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643",
-      "reason": "利空词: 大跌、爆仓",
-      "score": -3,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
-      "title_zh": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
-      "ts": 1794551023
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794550734,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794550606
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
-      "first_seen": 1794550734,
-      "key": "bitcoinfirmnakamotooweskraken165millionmorethanitsentiremarketvalue",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
-      "title_zh": "比特币公司 Nakamoto 欠 Kraken 1.65 亿美元，超过其整个市值",
-      "ts": 1794549821
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin fell below $70,000 as crypto sentiment hit its lowest level in more than four months, with analysts warning of institutional outflows, thinning liquidity and elevated leverage.",
-      "first_seen": 1794550734,
-      "key": "bitcoinslidesbelow70kamidthinliquidityetfoutflows",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下滑、资金流出、新低、警告",
-      "score": -6,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
-      "title_zh": "由于流动性稀薄、ETF 流出，比特币跌破 7 万美元",
-      "ts": 1794549615
-    },
-    {
-      "coins": [],
-      "desc": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-      "first_seen": 1794550734,
-      "key": "nvidiaontrackforlongestweeklylosingstreaksince2012asmarketvaluesinksby16trillion",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-      "reason": "利空词: 下滑、下沉",
-      "score": -3,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
-      "title_zh": "英伟达市值下跌 1.6 万亿美元，有望录得自 2012 年以来最长的单周亏损",
-      "ts": 1794549094
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
-      "first_seen": 1794550734,
-      "key": "bitcoinetfsarenowdownover15billioninnetoutflowsfortheyear",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
-      "reason": "利空词: 资金流出、新低",
-      "score": -3,
-      "source": "CoinDesk",
-      "tag": "利空",
-      "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
-      "title_zh": "比特币 ETF 今年净流出已减少超过 15 亿美元",
-      "ts": 1794548726
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Robinhood said its funded customers at the end of October were 28.9 million, up about 130,000 from September and up around 1.8 million year-over-year.",
-      "first_seen": 1794550734,
-      "key": "hoodstockdropsovernightamidbitcoinweaknessrobinhoodreports289mfundedcustomersino",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/hood-stock-drops-overnight-amid-bitcoin-weakness-robinhood-reports-28-9-m-funded-customers-in-october/cNbbr2nR9ON?.tsrc=rss",
-      "reason": "利空词: 下跌、疲弱",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "HOOD Stock Drops Overnight Amid Bitcoin Weakness: Robinhood Reports 28.9M Funded Customers In October",
-      "title_zh": "由于比特币疲软，HOOD 股票一夜之间下跌：Robinhood 报告 10 月份有 2890 万资助客户",
-      "ts": 1794547681
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 20",
+      "CNBC 头条": "ok 18",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
@@ -497,10 +487,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-13T10:41:27+01:00",
-  "updated_unix": 1794562887
+  "updated": "2026-11-13T11:43:45+01:00",
+  "updated_unix": 1794566625
 }
