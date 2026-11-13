@@ -5,6 +5,136 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "first_seen": 1794550734,
+      "key": "hereswhathappenedincryptotoday",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
+      "ts": 1794550606
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+      "first_seen": 1794550734,
+      "key": "bitcoinfirmnakamotooweskraken165millionmorethanitsentiremarketvalue",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+      "title_zh": "比特币公司 Nakamoto 欠 Kraken 1.65 亿美元，超过其整个市值",
+      "ts": 1794549821
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin fell below $70,000 as crypto sentiment hit its lowest level in more than four months, with analysts warning of institutional outflows, thinning liquidity and elevated leverage.",
+      "first_seen": 1794550734,
+      "key": "bitcoinslidesbelow70kamidthinliquidityetfoutflows",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下滑、资金流出、新低、警告",
+      "score": -6,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+      "title_zh": "由于流动性稀薄、ETF 流出，比特币跌破 7 万美元",
+      "ts": 1794549615
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794550734,
+      "key": "taiwanstockshigheratcloseoftradetaiwanweightedup155",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-higher-at-close-of-trade-taiwan-weighted-up-155-5024189",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Taiwan stocks higher at close of trade; Taiwan Weighted up 1.55%",
+      "title_zh": "台湾股市收盘走高；台湾权重上涨1.55%",
+      "ts": 1794549604
+    },
+    {
+      "coins": [],
+      "desc": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "first_seen": 1794550734,
+      "key": "nvidiaontrackforlongestweeklylosingstreaksince2012asmarketvaluesinksby16trillion",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "reason": "利空词: 下滑、下沉",
+      "score": -3,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+      "title_zh": "英伟达市值下跌 1.6 万亿美元，有望录得自 2012 年以来最长的单周亏损",
+      "ts": 1794549094
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+      "first_seen": 1794550734,
+      "key": "bitcoinetfsarenowdownover15billioninnetoutflowsfortheyear",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-etfs-are-now-down-over-usd1-5-billion-in-net-outflows-for-the-year",
+      "reason": "利空词: 资金流出、新低",
+      "score": -3,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+      "title_zh": "比特币 ETF 今年净流出已减少超过 15 亿美元",
+      "ts": 1794548726
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794550734,
+      "key": "australiastocksloweratcloseoftradespasx200down071",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-071-5024165",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.71%",
+      "title_zh": "澳大利亚股市收盘走低；标准普尔/澳大利亚证券交易所 200 指数下跌 0.71%",
+      "ts": 1794547804
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Robinhood said its funded customers at the end of October were 28.9 million, up about 130,000 from September and up around 1.8 million year-over-year.",
+      "first_seen": 1794550734,
+      "key": "hoodstockdropsovernightamidbitcoinweaknessrobinhoodreports289mfundedcustomersino",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/hood-stock-drops-overnight-amid-bitcoin-weakness-robinhood-reports-28-9-m-funded-customers-in-october/cNbbr2nR9ON?.tsrc=rss",
+      "reason": "利空词: 下跌、疲弱",
+      "score": -4,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "HOOD Stock Drops Overnight Amid Bitcoin Weakness: Robinhood Reports 28.9M Funded Customers In October",
+      "title_zh": "由于比特币疲软，HOOD 股票一夜之间下跌：Robinhood 报告 10 月份有 2890 万资助客户",
+      "ts": 1794547681
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
       "first_seen": 1794547031,
       "key": "spacexteslamergertalksput30000bitcoinbackinfocus",
@@ -15,7 +145,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-      "title_zh": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+      "title_zh": "SpaceX-特斯拉合并谈判让 30,000 比特币重新成为焦点",
       "ts": 1794546539
     },
     {
@@ -30,7 +160,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "TRM Labs launches new service to help police seize stolen crypto in minutes",
-      "title_zh": "TRM Labs launches new service to help police seize stolen crypto in minutes",
+      "title_zh": "TRM Labs 推出新服务，帮助警方在几分钟内查获被盗加密货币",
       "ts": 1794546505
     },
     {
@@ -45,7 +175,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Better U.S. Bank ETF: State Street's KBE vs. First Trust's FTXO",
-      "title_zh": "Better U.S. Bank ETF: State Street's KBE vs. First Trust's FTXO",
+      "title_zh": "更好的美国银行 ETF：道富银行的 KBE 与 First Trust 的 FTXO",
       "ts": 1794546221
     },
     {
@@ -60,7 +190,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "White House sends crypto-relevant picks to fill SEC and CFTC seats",
-      "title_zh": "White House sends crypto-relevant picks to fill SEC and CFTC seats",
+      "title_zh": "白宫发送与加密货币相关的人选来填补 SEC 和 CFTC 席位",
       "ts": 1794545807
     },
     {
@@ -77,7 +207,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin drops below $70k as crypto appetite sours",
-      "title_zh": "Bitcoin drops below $70k as crypto appetite sours",
+      "title_zh": "随着加密货币需求下降，比特币跌破 7 万美元",
       "ts": 1794544461
     },
     {
@@ -94,7 +224,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "How Bitcoin Gains Will Impact Trump Media Stock Investors",
-      "title_zh": "How Bitcoin Gains Will Impact Trump Media Stock Investors",
+      "title_zh": "比特币收益将如何影响特朗普媒体股票投资者",
       "ts": 1794544368
     },
     {
@@ -109,7 +239,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Asia stocks steady as chipmakers rebound after Nvidia leadership shock",
-      "title_zh": "Asia stocks steady as chipmakers rebound after Nvidia leadership shock",
+      "title_zh": "芯片制造商在英伟达领导地位受到冲击后反弹，亚洲股市稳定",
       "ts": 1794543920
     },
     {
@@ -126,7 +256,7 @@
       "source": "The Block",
       "tag": "利空",
       "title": "Bitcoin falls to 12-week low, Strategy and Metaplanet to lose MSCI index membership, and more",
-      "title_zh": "Bitcoin falls to 12-week low, Strategy and Metaplanet to lose MSCI index membership, and more",
+      "title_zh": "比特币跌至 12 周低点，Strategy 和 Metaplanet 失去 MSCI 指数会员资格等",
       "ts": 1794543600
     },
     {
@@ -156,7 +286,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "As Nvidia reels from Huang's affairs, who stands to gain?",
-      "title_zh": "As Nvidia reels from Huang's affairs, who stands to gain?",
+      "title_zh": "当英伟达因黄的事件而陷入困境时，谁会受益？",
       "ts": 1794542380
     },
     {
@@ -209,36 +339,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794536525,
-      "key": "colettekressthecfowhochallengedhuangsbetsisnvidiasinterimceo",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO",
-      "title_zh": "挑战黄的赌注的首席财务官科莱特·克雷斯(Colette Kress)是英伟达的临时首席执行官",
-      "ts": 1794539181
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794543180,
-      "key": "singaporechargesfifthpersoninnvidiachipprobestraitstimesreports",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/singapore-charges-fifth-person-in-nvidia-chip-probe-straits-times-reports-5024006",
-      "reason": "利空词: 调查",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "Singapore charges fifth person in Nvidia chip probe, Straits Times reports",
-      "title_zh": "据《海峡时报》报道，新加坡对英伟达芯片调查中的第五人提出指控",
-      "ts": 1794539131
-    },
-    {
-      "coins": [],
       "desc": "A 10-year Treasury at 4.98% now pays more than the S&P 500 earns at 26 times earnings, a 1.13-point gap last seen in 2009. On $100,000 that is $4,980 of interest against $3,850 of company profit. Warren Buffett called interest rates gravity",
       "first_seen": 1794539696,
       "key": "treasurybondsnowpaymorethanstocksearnbyagaplastseenin2009warrenbuffettwarnedin19",
@@ -266,21 +366,6 @@
       "title": "Trump nominates Hester Peirce successor among SEC, CFTC picks",
       "title_zh": "特朗普在 SEC 和 CFTC 人选中提名 Hester Peirce 继任者",
       "ts": 1794536967
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794533281,
-      "key": "nvidiaceojensenhuangresignsinblowtoaiboomhehelpedfoster",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
-      "title_zh": "英伟达首席执行官黄仁勋辞职，对他帮助培育的人工智能热潮造成打击",
-      "ts": 1794536691
     },
     {
       "coins": [
@@ -391,103 +476,26 @@
       "title": "What If You Had Invested $10,000 in Bitcoin 5 Years Ago?",
       "title_zh": "如果您 5 年前投资 10,000 美元购买比特币会怎样？",
       "ts": 1794526196
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitdeer Technologies Group reported third quarter 2026 sales of US$320.75 million and a net loss of US$125.5 million, alongside September hash rate under management of 86.4 EH/s and 3,855 Bitcoin mined. The business highlighted a sizeable A",
-      "first_seen": 1794528666,
-      "key": "bitdeerstockisrecordrevenueenoughtooffsetawiderloss",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bitdeer-stock-record-revenue-enough-232130233.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitdeer Stock Is Record Revenue Enough To Offset A Wider Loss",
-      "title_zh": "Bitdeer股票创纪录的收入足以抵消更广泛的损失",
-      "ts": 1794525690
-    },
-    {
-      "coins": [],
-      "desc": "Without Huang, Cramer said Thursday, \"There won't be a better Nvidia, just a different one.\"",
-      "first_seen": 1794528666,
-      "key": "cramersaysjensenhuangbetrayednvidiashareholdershowtopickupthepieces",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
-      "title_zh": "克莱默表示，黄仁勋背叛了英伟达股东。如何拾取碎片",
-      "ts": 1794525296
-    },
-    {
-      "coins": [],
-      "desc": "We just published a list of the 10 Best Growth Stocks for the Next 5 Years and Block (NYSE:XYZ) ranked 10th on this list. Technology stocks went from celebration to rout within two sessions this month. On Wednesday, November 4, equities ral",
-      "first_seen": 1794526018,
-      "key": "bankofamericasmatthewoneillispositiveonblockxyzforearly2027onequestionremains",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-matthew-o-neill-231307777.html?.tsrc=rss",
-      "reason": "利空词: 禁令",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bank of America’s Matthew O’Neill Is Positive on Block (XYZ) for Early 2027. One Question Remains",
-      "title_zh": "美国银行 (Bank of America) 的 Matthew O’Neill 对 2027 年初的 Block (XYZ) 持积极态度。仍有一个问题",
-      "ts": 1794525187
-    },
-    {
-      "coins": [],
-      "desc": "Maple Finance co-founder Joe Flanagan and COO Ryan O’Shea are leaving over disagreements about the firm’s direction as SYRUP falls despite revenue growth.",
-      "first_seen": 1794526018,
-      "key": "maplefinancesstrategyriftsendscofoundercoototheexits",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/maple-finance-strategy-rift-co-founder-coo-exit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Maple Finance’s strategy rift sends co-founder, COO to the exits",
-      "title_zh": "Maple Finance的战略分歧导致联合创始人、首席运营官退出",
-      "ts": 1794525175
-    },
-    {
-      "coins": [],
-      "desc": "We just published a list of the 10 Best Growth Stocks for the Next 5 Years and Shopify (NASDAQ:SHOP) ranked 9th on this list. Technology stocks went from celebration to rout within two sessions this month. On Wednesday, November 4, equities",
-      "first_seen": 1794526018,
-      "key": "rbcspaultreiberheldfirmonshopifyshopafteraslightmissherestheaipitch",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/technology/ai/articles/rbc-paul-treiber-held-firm-231241818.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "RBC’s Paul Treiber Held Firm on Shopify (SHOP) After a Slight Miss. Here’s the AI Pitch",
-      "title_zh": "加拿大皇家银行 (RBC) 的保罗·特雷伯 (Paul Treiber) 在稍稍失误后坚定支持 Shopify (SHOP)。以下是 AI 推介",
-      "ts": 1794525161
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 18",
+      "CNBC 头条": "ok 19",
       "CNBC 经济": "ok 21",
       "CNBC 金融": "ok 18",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 20",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-13T06:17:19+01:00",
-  "updated_unix": 1794547039
+  "updated": "2026-11-13T07:19:01+01:00",
+  "updated_unix": 1794550741
 }
