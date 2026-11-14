@@ -3,6 +3,51 @@
   "items": [
     {
       "coins": [],
+      "desc": "Two major events are on the agenda.",
+      "first_seen": 1794648982,
+      "key": "predictionnov18willbeamassivedayforthestockmarket",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/prediction-nov-18-will-be-a-massive-day-for-the-stock-market/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Prediction: Nov. 18 Will Be a Massive Day for the Stock Market",
+      "title_zh": "Prediction: Nov. 18 Will Be a Massive Day for the Stock Market",
+      "ts": 1794648602
+    },
+    {
+      "coins": [],
+      "desc": "Trumpflation and Wall Street’s No. 1 catalyst have put the Federal Reserve in quite a bind.",
+      "first_seen": 1794648982,
+      "key": "newinflationdataoffersterriblenewsforpresidentdonaldtrumpseconomyandtheaidrivenb",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/new-inflation-data-offers-terrible-news-donald-trump-economy-and-ai-driven-bull-market/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "New Inflation Data Offers Terrible News for President Donald Trump's Economy and the AI-Driven Bull Market",
+      "title_zh": "New Inflation Data Offers Terrible News for President Donald Trump's Economy and the AI-Driven Bull Market",
+      "ts": 1794648362
+    },
+    {
+      "coins": [],
+      "desc": "Dave Ramsey called a disabled veteran's $500,000 index fund conservative, while Steve Eisman says the same index hides a giant bet on one theme. One question about when he might need the money decides who is right.",
+      "first_seen": 1794648982,
+      "key": "65ofthespisbasicallyaieismanswarningasramseytellsdisabledveteranhis500000issafe",
+      "kind": "macro",
+      "link": "https://247wallst.com/personal-finance/2026/11/14/65-of-the-sp-is-basically-ai-eismans-warning-as-ramsey-tells-disabled-veteran-his-500000-is-safe/?.tsrc=rss",
+      "reason": "利空词: 警告",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "‘65% of the S&P Is Basically AI’: Eisman’s Warning as Ramsey Tells Disabled Veteran His $500,000 Is ‘Safe’",
+      "title_zh": "‘65% of the S&P Is Basically AI’: Eisman’s Warning as Ramsey Tells Disabled Veteran His $500,000 Is ‘Safe’",
+      "ts": 1794647058
+    },
+    {
+      "coins": [],
       "desc": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
       "first_seen": 1794646389,
       "key": "megaethparentcuts20ofstaffamidrestructuringaipush",
@@ -344,33 +389,18 @@
     },
     {
       "coins": [],
-      "desc": "Jensen Huang resigned as Nvidia CEO Thursday with no permanent successor. A 2021 study of 187 forced CEO exits at S&P 1500 companies found that when a board pushes out a CEO whose stock had beaten the market, the stock falls 3.4% around the",
-      "first_seen": 1794620768,
-      "key": "jensenhuangjustresignedfromnvidiaastudyof187forcedceoexitsshowswhatcouldhappenne",
+      "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+      "first_seen": 1794648982,
+      "key": "nvidiaisdonewithjensenhuangthefalloutinwashingtonisjustbeginning",
       "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/13/jensen-huang-just-resigned-from-nvidia-a-study-of-187-forced-ceo-exits-shows-what-could-happen-next/?.tsrc=rss",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
       "reason": "利空词: 下跌",
       "score": -2,
-      "source": "Yahoo Finance",
+      "source": "CNBC 头条",
       "tag": "利空",
-      "title": "Jensen Huang Just Resigned From Nvidia. A Study of 187 Forced CEO Exits Shows What Could Happen Next",
-      "title_zh": "黄仁勋刚刚从 Nvidia 辞职。对 187 名 CEO 被迫离职的研究揭示了接下来会发生什么",
-      "ts": 1794617220
-    },
-    {
-      "coins": [],
-      "desc": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
-      "first_seen": 1794608872,
-      "key": "dowjonesfuturesmarketrallyshakyasnvidiaearningsanthropicipoloomspacexstarshipfli",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
-      "title_zh": "道琼斯期货：随着 Nvidia 盈利、Anthropic IPO 临近，市场反弹摇摇欲坠； SpaceX 星舰 15 号航班助推器转向。",
-      "ts": 1794616901
+      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "title_zh": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "ts": 1794614076
     },
     {
       "coins": [],
@@ -381,7 +411,7 @@
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 金融",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
@@ -450,45 +480,13 @@
       "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
       "title_zh": "英伟达股价遭遇 2012 年以来最长单周下跌，市值下跌 1.7 万亿美元",
       "ts": 1794608323
-    },
-    {
-      "coins": [],
-      "desc": "Nvidia's board has reportedly approached Arm's chief executive as it searches for a replacement for Jensen Huang, while some employees are pushing to bring the chipmaker's founder back as CEO.",
-      "first_seen": 1794608872,
-      "key": "couldaformernvidiaexecutivereplacejensenhuangarmsrenehaasemergesascandidate",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383276/nvidia-arm-ceo-rene-haas-replace-jensen-huang",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Could a Former Nvidia Executive Replace Jensen Huang? Arm’s Rene Haas Emerges as Candidate",
-      "title_zh": "英伟达前高管能否取代黄仁勋？ Arm 的雷内·哈斯 (Rene Haas) 成为候选人",
-      "ts": 1794608163
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794608872,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794607717
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 17",
+      "CNBC 头条": "ok 18",
       "CNBC 经济": "ok 23",
       "CNBC 金融": "ok 19",
       "CoinDesk": "ok 25",
@@ -498,10 +496,10 @@
       "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 15",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T09:53:19+01:00",
-  "updated_unix": 1794646399
+  "updated": "2026-11-14T10:36:35+01:00",
+  "updated_unix": 1794648995
 }
