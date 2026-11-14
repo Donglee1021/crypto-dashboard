@@ -3,6 +3,57 @@
   "items": [
     {
       "coins": [
+        "ETH"
+      ],
+      "desc": "Jeff Dorman, Chief Investment Officer and co-founder of Arca, says Vitalik Buterin’s push to treat ETH as a store of value is misguided and argues Ethereum must build its own stablecoin and DEX or tax its apps.",
+      "first_seen": 1794630219,
+      "key": "shouldethereumtaxitsappstoproveitssecurityisworthit",
+      "kind": "macro",
+      "link": "https://unchainedcrypto.com/should-ethereum-tax-its-apps-to-prove-its-security-is-worth-it/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Should Ethereum Tax Its Apps to Prove Its Security Is Worth It?",
+      "title_zh": "以太坊是否应该对其应用程序征税以证明其安全性值得？",
+      "ts": 1794628826
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Crypto liquidations hit $1.23 billion as the crypto market fell nearly 6% and Bitcoin slipped below $68,000.",
+      "first_seen": 1794630219,
+      "key": "cryptomarketsnearly6slidecostsbulls1billioninaday",
+      "kind": "macro",
+      "link": "https://beincrypto.com/bitcoin-below-68000-crypto-liquidations-bulls/?.tsrc=rss",
+      "reason": "利空词: 下滑、爆仓",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Crypto Market’s Nearly 6% Slide Costs Bulls $1 Billion in a Day",
+      "title_zh": "加密货币市场下滑近 6%，牛市一天损失 10 亿美元",
+      "ts": 1794627348
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Hut 8 has had a volatile year, with sizeable share price swings now forcing a closer look at what investors are really paying for its sales. With the business pivoting further into AI-focused data center leases and Bitcoin monetization, the",
+      "first_seen": 1794630219,
+      "key": "hut8hutstocklooksfullypricedonbeaconpointleasenews",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hut-8-hut-stock-looks-031119663.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Hut 8 (HUT) Stock Looks Fully Priced On Beacon Point Lease News",
+      "title_zh": "Hut 8 (HUT) 股票在 Beacon Point 租赁新闻中看起来已完全定价",
+      "ts": 1794625879
+    },
+    {
+      "coins": [
         "BTC"
       ],
       "desc": "A third-quarter report from the Hyperliquid Research Collective showed average daily traders on Hyperliquid were up 20% from the previous quarter.",
@@ -15,7 +66,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Hyperliquid Whales Flip Bullish On Bitcoin After Two Weeks of Shorts: Report",
-      "title_zh": "Hyperliquid Whales Flip Bullish On Bitcoin After Two Weeks of Shorts: Report",
+      "title_zh": "报告：在经历了两周的空头之后，超流动性鲸鱼转而看涨比特币",
       "ts": 1794625871
     },
     {
@@ -32,7 +83,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
-      "title_zh": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
+      "title_zh": "中本聪获得额外一年的 6000 万 USDT Kraken 贷款；衍生品计入抵押品",
       "ts": 1794622962
     },
     {
@@ -47,7 +98,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
-      "title_zh": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
+      "title_zh": "随着分析师降低目标，HIVE Digital Technologies (TSX:HIVE) 股票公允价值下跌",
       "ts": 1794622347
     },
     {
@@ -62,7 +113,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "14 dividend stocks selected for long-term growth",
-      "title_zh": "14 dividend stocks selected for long-term growth",
+      "title_zh": "14只股息股被选为长期增长股",
       "ts": 1794621480
     },
     {
@@ -77,7 +128,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-      "title_zh": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "title_zh": "特朗普不打算在中国之行期间提出英伟达、间谍问题：美国官员",
       "ts": 1794620051
     },
     {
@@ -92,7 +143,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Review & Preview: Moving On",
-      "title_zh": "Review & Preview: Moving On",
+      "title_zh": "回顾与预览：继续前进",
       "ts": 1794617700
     },
     {
@@ -107,7 +158,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-      "title_zh": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
+      "title_zh": "由于英伟达的不确定性打压科技股，标普 500 指数和纳斯达克指数收低",
       "ts": 1794617299
     },
     {
@@ -122,7 +173,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Jensen Huang Just Resigned From Nvidia. A Study of 187 Forced CEO Exits Shows What Could Happen Next",
-      "title_zh": "Jensen Huang Just Resigned From Nvidia. A Study of 187 Forced CEO Exits Shows What Could Happen Next",
+      "title_zh": "黄仁勋刚刚从 Nvidia 辞职。对 187 名 CEO 被迫离职的研究揭示了接下来会发生什么",
       "ts": 1794617220
     },
     {
@@ -152,7 +203,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
-      "title_zh": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
+      "title_zh": "消息人士称，英伟达独家前首席执行官在与中国女商人的恋情问题上误导了顶级律师",
       "ts": 1794616222
     },
     {
@@ -179,7 +230,7 @@
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 金融",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
@@ -231,7 +282,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Over 35% of Bitcoin Supply Faces Potential Quantum Risk, New Data Shows",
-      "title_zh": "Over 35% of Bitcoin Supply Faces Potential Quantum Risk, New Data Shows",
+      "title_zh": "新数据显示，超过 35% 的比特币供应面临潜在的量子风险",
       "ts": 1794612600
     },
     {
@@ -250,21 +301,6 @@
       "title": "Bitcoin set for worst week since early June after more than 10% slide",
       "title_zh": "比特币跌幅超过 10%，创 6 月初以来最糟糕一周",
       "ts": 1794611407
-    },
-    {
-      "coins": [],
-      "desc": "Today, Nov. 13, 2026, CoreWeave's shares slid as investors weighed a possible equipment-backed loan against its rapid buildout.",
-      "first_seen": 1794611543,
-      "key": "stockmarkettodaynov13coreweavefallsover6onaicloudsellingandreported4billionloant",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-coreweave-falls-over-6-on-ai-cloud-selling-and-reported-usd4-billion-loan-talks/?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks",
-      "title_zh": "今日股市，11 月 13 日：CoreWeave 因 AI 云抛售和 40 亿美元贷款谈判而下跌超过 6%",
-      "ts": 1794611069
     },
     {
       "coins": [],
@@ -419,7 +455,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "title_zh": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
+      "title_zh": "英伟达首席执行官黄仁勋离职后，人工智能融资前景如何",
       "ts": 1794604744
     },
     {
@@ -434,38 +470,8 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
-      "title_zh": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "title_zh": "美联储调查发现人工智能风险是金融体系的最大威胁",
       "ts": 1794604710
-    },
-    {
-      "coins": [],
-      "desc": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
-      "first_seen": 1794620768,
-      "key": "amdandotherchipstocksslideaswallstreetrethinkstheaitradewithoutjensenhuang",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
-      "reason": "利多词: 上涨；利空词: 下滑（多空相抵）",
-      "score": -1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "title_zh": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "ts": 1794604200
-    },
-    {
-      "coins": [],
-      "desc": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-      "first_seen": 1794620768,
-      "key": "10yeartreasuryyieldmovesto517astradersweighproducerpricereport",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-      "reason": "利多词: 上涨；利空词: 加息（多空相抵）",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "title_zh": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "ts": 1794604100
     }
   ],
   "meta": {
@@ -482,10 +488,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 9",
+      "Yahoo Finance": "ok 11",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T04:27:25+01:00",
-  "updated_unix": 1794626845
+  "updated": "2026-11-14T05:23:47+01:00",
+  "updated_unix": 1794630227
 }
