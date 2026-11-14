@@ -3,6 +3,21 @@
   "items": [
     {
       "coins": [],
+      "desc": "",
+      "first_seen": 1794681997,
+      "key": "cardanofalls10inselloff",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-selloff-5027456",
+      "reason": "利空词: 下跌、抛售",
+      "score": -6,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Cardano Falls 10% In Selloff",
+      "title_zh": "Cardano Falls 10% In Selloff",
+      "ts": 1794680395
+    },
+    {
+      "coins": [],
       "desc": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
       "first_seen": 1794679451,
       "key": "theweekjensenhuangfellhowaspyscandaltopplednvidiasceo",
@@ -448,21 +463,6 @@
       "title": "Billionaire Bill Ackman Says There’s a Huge Disconnect in Wall Street’s Expectations for Amazon, Microsoft, Meta, and Alphabet",
       "title_zh": "Billionaire Bill Ackman Says There’s a Huge Disconnect in Wall Street’s Expectations for Amazon, Microsoft, Meta, and Alphabet",
       "ts": 1794668702
-    },
-    {
-      "coins": [],
-      "desc": "Project Meridian FX APAC said it demonstrated how transactions can be coordinated across conventional settlement systems and those built using blockchain technology.",
-      "first_seen": 1794670200,
-      "key": "uksingaporeandthailandcentralbankstestcrossborderfxsettlementasstablecoinsgaingr",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/14/uk-singapore-and-thailand-central-banks-test-cross-border-fx-settlement-as-stablecoins-gain-ground",
-      "reason": "利多词: 上涨；利空词: 禁令（多空相抵）",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
-      "title_zh": "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground",
-      "ts": 1794668400
     }
   ],
   "meta": {
@@ -483,6 +483,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T19:04:35+01:00",
-  "updated_unix": 1794679475
+  "updated": "2026-11-14T19:47:01+01:00",
+  "updated_unix": 1794682021
 }
