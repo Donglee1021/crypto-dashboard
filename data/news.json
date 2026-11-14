@@ -2,6 +2,21 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "MegaETH co-founder Shuyao Kong said the restructuring affected employees who helped build the project’s blockchain, wallet and ecosystem.",
+      "first_seen": 1794646389,
+      "key": "megaethparentcuts20ofstaffamidrestructuringaipush",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/megaeth-parent-cuts-20-percent-staff-ai-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "title_zh": "MegaETH parent cuts 20% of staff amid restructuring, AI push",
+      "ts": 1794643950
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -467,21 +482,6 @@
       "title": "Here’s what happened in crypto today",
       "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794607717
-    },
-    {
-      "coins": [],
-      "desc": "OpenAI’s new payment wallet lets AI agents complete purchases using existing card networks, with plans to eventually allow preauthorized transactions.",
-      "first_seen": 1794608872,
-      "key": "openailaunchesaipaymentsinchatgptwithvisamastercardandamex",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-      "title_zh": "OpenAI 与 Visa、Mastercard 和 Amex 合作在 ChatGPT 中推出人工智能支付",
-      "ts": 1794607263
     }
   ],
   "meta": {
@@ -502,6 +502,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T09:04:17+01:00",
-  "updated_unix": 1794643457
+  "updated": "2026-11-14T09:53:19+01:00",
+  "updated_unix": 1794646399
 }
