@@ -3,6 +3,40 @@
   "items": [
     {
       "coins": [
+        "BTC"
+      ],
+      "desc": "The roughly $5 million transfer also spent the tiny payment used to deliver a court notice to the address in May.",
+      "first_seen": 1794633470,
+      "key": "satoshierawalletservedina260billionlawsuitmoves75btcitheldsince2011",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
+      "reason": "利空词: 诉讼",
+      "score": -2,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "title_zh": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "ts": 1794630600
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "MSCI has already removed Strategy Inc from its USA and global equity indexes after classifying the business as a non-operating company because of its large Bitcoin holdings. This triggers index-tracking funds to adjust positions and affects",
+      "first_seen": 1794633470,
+      "key": "howindexremovalwillimpactstrategystockinvestors",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/index-removal-impact-strategy-stock-042405769.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "How Index Removal Will Impact Strategy Stock Investors",
+      "title_zh": "How Index Removal Will Impact Strategy Stock Investors",
+      "ts": 1794630245
+    },
+    {
+      "coins": [
         "ETH"
       ],
       "desc": "Jeff Dorman, Chief Investment Officer and co-founder of Arca, says Vitalik Buterin’s push to treat ETH as a store of value is misguided and argues Ethereum must build its own stablecoin and DEX or tax its apps.",
@@ -17,6 +51,23 @@
       "title": "Should Ethereum Tax Its Apps to Prove Its Security Is Worth It?",
       "title_zh": "以太坊是否应该对其应用程序征税以证明其安全性值得？",
       "ts": 1794628826
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Will Bitcoin ever return to its all-time high? One analyst says no. Here are the key support levels traders watch.",
+      "first_seen": 1794633470,
+      "key": "willbitcoinneversetanotheralltimehighanalystsdebateonx",
+      "kind": "macro",
+      "link": "https://beincrypto.com/bitcoin-never-all-time-high-analyst-key-levels/?.tsrc=rss",
+      "reason": "利多词: 创新高",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Will Bitcoin Never Set Another All-Time High? Analysts Debate On X",
+      "title_zh": "Will Bitcoin Never Set Another All-Time High? Analysts Debate On X",
+      "ts": 1794628800
     },
     {
       "coins": [
@@ -193,21 +244,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794616789,
-      "key": "exclusiveexnvidiaceomisledtoplawyeronaffairwithchinesebusinesswomansourcessay",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveexnvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say-5026828",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Exclusive-Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
-      "title_zh": "消息人士称，英伟达独家前首席执行官在与中国女商人的恋情问题上误导了顶级律师",
-      "ts": 1794616222
-    },
-    {
-      "coins": [],
       "desc": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
       "first_seen": 1794611543,
       "key": "nvidiaisdonewithjensenhuangthefalloutinwashingtonisjustbeginning",
@@ -237,21 +273,6 @@
       "ts": 1794613338
     },
     {
-      "coins": [],
-      "desc": "Nvidia saw its worst week since April last year after Jensen Huang stepped down as CEO, and its board is looking for candidates.",
-      "first_seen": 1794614002,
-      "key": "sp500downasdaqendloweramidnvidiaturmoilbutrecordbestweeksinceaugustspcxnvdaarmaz",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-amid-nvidia-turmoil-but-record-best-week-since-august-spcx-nvda-arm-azn-in-focus/cNbRj3uR9Q2?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August — SPCX, NVDA, ARM, AZN In Focus",
-      "title_zh": "标准普尔 500 指数、道琼斯指数、纳斯达克指数因 Nvidia 动荡而收低，但创 8 月以来最佳单周 — SPCX、NVDA、ARM、AZN 成为焦点",
-      "ts": 1794613049
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -266,23 +287,6 @@
       "tag": "中性",
       "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
       "title_zh": "比特币矿工每年向巴拉圭支付 3.5 亿美元，但人工智能正在将他们赶走",
-      "ts": 1794612600
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Glassnode says 7.12 million BTC have visible public keys. Robinhood, Binance and Satoshi's coins top the exposure list.",
-      "first_seen": 1794616789,
-      "key": "over35ofbitcoinsupplyfacespotentialquantumrisknewdatashows",
-      "kind": "macro",
-      "link": "https://beincrypto.com/one-third-bitcoin-supply-faces-quantum-risk/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Over 35% of Bitcoin Supply Faces Potential Quantum Risk, New Data Shows",
-      "title_zh": "新数据显示，超过 35% 的比特币供应面临潜在的量子风险",
       "ts": 1794612600
     },
     {
@@ -467,7 +471,7 @@
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
       "title_zh": "美联储调查发现人工智能风险是金融体系的最大威胁",
@@ -485,13 +489,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 11",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T05:23:47+01:00",
-  "updated_unix": 1794630227
+  "updated": "2026-11-14T06:17:53+01:00",
+  "updated_unix": 1794633473
 }
