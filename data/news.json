@@ -3,6 +3,51 @@
   "items": [
     {
       "coins": [],
+      "desc": "OpenAI’s new wallet lets AI agents buy products using ordinary cards, challenging crypto payment tools from Coinbase and Circle as companies compete to control everyday online shopping by autonomous software.",
+      "first_seen": 1794665647,
+      "key": "openailauncheschatgptwallettoletaiagentsshopwithoutcrypto",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383278/openai-chatgpt-wallet-ai-agents-shop-without-crypto",
+      "reason": "利多词: 买入",
+      "score": 1,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
+      "title_zh": "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
+      "ts": 1794664862
+    },
+    {
+      "coins": [],
+      "desc": "This artificial intelligence cloud stock could be the ticket to market-crushing returns next year.",
+      "first_seen": 1794665647,
+      "key": "opinionbuythisgrowthstocktobeatthesp500in2027",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/opinion-buy-this-growth-stock-to-beat-the-s-and-p-500-in-2027/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Opinion: Buy This Growth Stock to Beat the S&P 500 in 2027",
+      "title_zh": "Opinion: Buy This Growth Stock to Beat the S&P 500 in 2027",
+      "ts": 1794663302
+    },
+    {
+      "coins": [],
+      "desc": "Americans voted against policies that drove up their costs. Will policymakers ignore them?",
+      "first_seen": 1794665647,
+      "key": "washingtoncanstartdeliveringonaffordabilitybyrejectingtrumpstariffs",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
+      "reason": "利空词: 关税",
+      "score": -2,
+      "source": "MarketWatch",
+      "tag": "利空",
+      "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+      "title_zh": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+      "ts": 1794663000
+    },
+    {
+      "coins": [],
       "desc": "Traders pricing in a Fed rate hike just took away the AI trade's bond market cushion.",
       "first_seen": 1794662627,
       "key": "thebondmarketjustturnedontheaitradeandchipstockslostmorethan650billionintwodaysc",
@@ -15,6 +60,24 @@
       "title": "The bond market just turned on the AI trade — and chip stocks lost more than $650 billion in two days: Chart of the Day",
       "title_zh": "债券市场刚刚开启人工智能交易——芯片股两天内损失超过 6500 亿美元：每日图表",
       "ts": 1794662335
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Hyperliquid's HYPE is outperforming Bitcoin and Ethereum amid the crypto crash. Bitunix analysts explain what's next.",
+      "first_seen": 1794665647,
+      "key": "hyperliquidshypetokenshowsresilienceascryptomarketcrashdeepens",
+      "kind": "macro",
+      "link": "https://beincrypto.com/hyperliquid-hype-price-resilience-crypto-market-crash/?.tsrc=rss",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Hyperliquid's HYPE Token Shows Resilience as Crypto Market Crash Deepens",
+      "title_zh": "Hyperliquid's HYPE Token Shows Resilience as Crypto Market Crash Deepens",
+      "ts": 1794662131
     },
     {
       "coins": [],
@@ -413,79 +476,13 @@
       "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
       "title_zh": "比特币ETF两周内下跌$2.35B 贝莱德连跌触及11",
       "ts": 1794637993
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Metaplanet cut its 2026 revenue forecast to ¥6.5 billion after a share price below its Bitcoin value curbed share sales.",
-      "first_seen": 1794639745,
-      "key": "metaplanetcuts2026revenuetarget59isthebitcoinplaybookrunningdry",
-      "kind": "macro",
-      "link": "https://beincrypto.com/metaplanet-cuts-2026-revenue-forecast-mnav/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Metaplanet Cuts 2026 Revenue Target 59%: Is the Bitcoin Playbook Running Dry?",
-      "title_zh": "Metaplanet 将 2026 年收入目标削减 59%：比特币剧本枯竭了吗？",
-      "ts": 1794636928
-    },
-    {
-      "coins": [],
-      "desc": "In today's newsletter, Meta tests prediction-market app using points instead of cash; DOJ moves to seize $1.2 billion from Binance hack, disrupts North Korean deepfake scheme; and more.",
-      "first_seen": 1794636438,
-      "key": "metatestspredictionmarketappdojmovestoseize12billionfrombinancehackandmore",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-14-meta-prediction-market-app-doj-binance-hack-more-crypto-news-440304",
-      "reason": "利空词: 被黑",
-      "score": -2,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more",
-      "title_zh": "Meta 测试预测市场应用程序、司法部采取行动从币安黑客攻击中扣押 12 亿美元等等",
-      "ts": 1794634800
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "The roughly $5 million transfer also spent the tiny payment used to deliver a court notice to the address in May.",
-      "first_seen": 1794633470,
-      "key": "satoshierawalletservedina260billionlawsuitmoves75btcitheldsince2011",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011",
-      "reason": "利空词: 诉讼",
-      "score": -2,
-      "source": "CoinDesk",
-      "tag": "利空",
-      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
-      "title_zh": "中本聪时代的钱包在一场价值 2600 亿美元的诉讼中转移了自 2011 年以来持有的 75 个比特币",
-      "ts": 1794630600
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "MSCI has already removed Strategy Inc from its USA and global equity indexes after classifying the business as a non-operating company because of its large Bitcoin holdings. This triggers index-tracking funds to adjust positions and affects",
-      "first_seen": 1794633470,
-      "key": "howindexremovalwillimpactstrategystockinvestors",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/index-removal-impact-strategy-stock-042405769.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "How Index Removal Will Impact Strategy Stock Investors",
-      "title_zh": "指数删除将如何影响策略股票投资者",
-      "ts": 1794630245
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 17",
+      "CNBC 头条": "ok 15",
       "CNBC 经济": "ok 23",
       "CNBC 金融": "ok 19",
       "CoinDesk": "ok 25",
@@ -493,12 +490,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 1",
-      "MarketWatch": "ok 4",
+      "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T14:23:50+01:00",
-  "updated_unix": 1794662630
+  "updated": "2026-11-14T15:14:11+01:00",
+  "updated_unix": 1794665651
 }
