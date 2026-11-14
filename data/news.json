@@ -2,6 +2,40 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "first_seen": 1794656786,
+      "key": "hereswhathappenedincryptotoday",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
+      "ts": 1794655692
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The largest Bitcoin holder is likely a surprise to most investors.",
+      "first_seen": 1794656786,
+      "key": "mostinvestorsarewrongaboutwhoownsthemostbitcointhatmisunderstandingisabuyingoppo",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/most-investors-are-wrong-about-who-owns-the-most-b/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Most Investors Are Wrong About Who Owns the Most Bitcoin. That Misunderstanding Is a Buying Opportunity.",
+      "title_zh": "大多数投资者对于谁拥有最多比特币的判断是错误的。这种误解是一个买入机会。",
+      "ts": 1794655320
+    },
+    {
       "coins": [],
       "desc": "Here's a giant rundown of everything that happened with Nvidia this week.",
       "first_seen": 1794654564,
@@ -15,6 +49,21 @@
       "title": "Nvidia and Jensen Huang fallout: Here's everything we know after a momentous week",
       "title_zh": "英伟达和黄仁勋的分歧：这是重要一周后我们所知道的一切",
       "ts": 1794654000
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794656786,
+      "key": "whatdoesgoldmanexpectforeuropeanstocksin2027",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/what-does-goldman-expect-for-european-stocks-in-2027-5027285",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "What does Goldman expect for European stocks in 2027?",
+      "title_zh": "高盛对2027年欧洲股市有何预期？",
+      "ts": 1794653571
     },
     {
       "coins": [],
@@ -433,55 +482,6 @@
       "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
       "title_zh": "Nvidia 与黄仁勋的关系结束了。华盛顿的余波才刚刚开始",
       "ts": 1794614076
-    },
-    {
-      "coins": [],
-      "desc": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-      "first_seen": 1794614002,
-      "key": "lutnickfacesquestionsovernvidiaspyscandalhissonsfirmhasdeeptiestothechipmaker",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-      "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
-      "ts": 1794613338
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Contracts that sell power to a 4% slice of the world’s bitcoin mining at $44 a megawatt-hour expire on Dec. 31, 2027. Paraguay’s state utility calls the date final, and it has just signed a 15-year deal to power a Founders Fund-backed AI ca",
-      "first_seen": 1794614002,
-      "key": "bitcoinminerspayparaguay350millionayearbutaiispushingthemout",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/tech/2026/11/13/bitcoin-miners-pay-paraguay-usd350-million-a-year-but-ai-is-pushing-them-out",
-      "reason": "利多词: 达成协议",
-      "score": 1,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out",
-      "title_zh": "比特币矿工每年向巴拉圭支付 3.5 亿美元，但人工智能正在将他们赶走",
-      "ts": 1794612600
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "",
-      "first_seen": 1794614002,
-      "key": "bitcoinsetforworstweeksinceearlyjuneaftermorethan10slide",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-drops-below-70k-as-crypto-appetite-sours-5024070",
-      "reason": "利空词: 下滑",
-      "score": -2,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Bitcoin set for worst week since early June after more than 10% slide",
-      "title_zh": "比特币跌幅超过 10%，创 6 月初以来最糟糕一周",
-      "ts": 1794611407
     }
   ],
   "meta": {
@@ -495,13 +495,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 1",
+      "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T12:09:26+01:00",
-  "updated_unix": 1794654566
+  "updated": "2026-11-14T12:46:28+01:00",
+  "updated_unix": 1794656788
 }
