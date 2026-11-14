@@ -1,6 +1,175 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [],
+      "desc": "Canton Network is a privacy-enabled blockchain built for banks and tokenized assets. Here's how it works and what Canton Coin (CC) does.",
+      "first_seen": 1794672800,
+      "key": "whatiscantonnetworktheprivacyblockchainbuiltforwallstreet",
+      "kind": "crypto",
+      "link": "https://decrypt.co/resources/what-is-canton-network-the-privacy-blockchain-built-for-wall-street",
+      "reason": "利空词: 禁令",
+      "score": -1,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "What Is Canton Network? The Privacy Blockchain Built for Wall Street",
+      "title_zh": "What Is Canton Network? The Privacy Blockchain Built for Wall Street",
+      "ts": 1794672062
+    },
+    {
+      "coins": [],
+      "desc": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+      "first_seen": 1794672800,
+      "key": "hownvidiaturmoilandademocraticcongresscouldreshapetheaitradeaccordingtoetfexpert",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "title_zh": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+      "ts": 1794671443
+    },
+    {
+      "coins": [],
+      "desc": "Recent stumbles from some of the market's biggest leading growth names suggest a shift may be brewing.",
+      "first_seen": 1794672800,
+      "key": "predictionthissmallcapvalueetfwillbeatthesp500overthenext10years",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/prediction-this-small-cap-value-etf-will-beat-the/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Prediction: This Small-Cap Value ETF Will Beat the S&P 500 Over the Next 10 Years",
+      "title_zh": "Prediction: This Small-Cap Value ETF Will Beat the S&P 500 Over the Next 10 Years",
+      "ts": 1794671400
+    },
+    {
+      "coins": [],
+      "desc": "The plan follows Kazakhstan's first sale of tokenized central bank notes as the country expands its crypto market.",
+      "first_seen": 1794672800,
+      "key": "kazakhstanplanstokenizedgovernmentbondsinfirstquarterafter22millionnotesale",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale",
+      "reason": "利空词: 禁令",
+      "score": -1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+      "title_zh": "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale",
+      "ts": 1794670707
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "first_seen": 1794672800,
+      "key": "trumpdoesntplantoraisenvidiaspyissueduringchinatripusofficials",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "title_zh": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "ts": 1794670607
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "",
+      "first_seen": 1794659020,
+      "key": "bitcoinfallsbelow68000asetfoutflowsextendtoseventhstraightday",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106",
+      "reason": "利空词: 下跌、资金流出",
+      "score": -6,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day",
+      "title_zh": "ETF 资金外流连续第七天，比特币跌破 68,000 美元",
+      "ts": 1794670343
+    },
+    {
+      "coins": [],
+      "desc": "We just published the list of the 10 High P/E Stocks Under the 200-Day SMA, and Tesla, Inc. (TSLA) takes 6th place on our list. A high price-to-earnings ratio usually reflects substantial expectations for a company’s future earnings. But wh",
+      "first_seen": 1794672800,
+      "key": "hereswhyteslatslaisoneofthetophighpestocksunderthe200daysma",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-tesla-tsla-one-top-152951928.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA",
+      "title_zh": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA",
+      "ts": 1794670191
+    },
+    {
+      "coins": [],
+      "desc": "We just published the list of the 10 High P/E Stocks Under the 200-Day SMA and Arm Holdings plc (ARM) takes the 10th place on our list. A high price-to-earnings ratio usually reflects substantial expectations for a company’s future earnings",
+      "first_seen": 1794672800,
+      "key": "52hedgefundsbackthissemiconductorstockwhatsthecatch",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/52-hedge-funds-back-semiconductor-152858112.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "52 Hedge Funds Back This Semiconductor Stock – What’s the Catch?",
+      "title_zh": "52 Hedge Funds Back This Semiconductor Stock – What’s the Catch?",
+      "ts": 1794670138
+    },
+    {
+      "coins": [],
+      "desc": "We just published the list of the 10 High P/E Stocks Under the 200-Day SMA and Marvell Technology, Inc. (MRVL) takes the 7th place on our list. A high price-to-earnings ratio usually reflects substantial expectations for a company’s future ",
+      "first_seen": 1794672800,
+      "key": "marvellmrvlatop10highpestockunderthe200daysma",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-top-10-high-152831646.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Marvell (MRVL): A Top 10 High P/E Stock Under the 200-Day SMA",
+      "title_zh": "Marvell (MRVL): A Top 10 High P/E Stock Under the 200-Day SMA",
+      "ts": 1794670111
+    },
+    {
+      "coins": [],
+      "desc": "We just published the list of the 10 High P/E Stocks Under the 200-Day SMA and Eaton Corporation plc (ETN) takes the 9th place on our list. A high price-to-earnings ratio usually reflects substantial expectations for a company’s future earn",
+      "first_seen": 1794672800,
+      "key": "eatonetnhasrecordordersbutoneproblemremains",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-record-orders-one-152721414.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Eaton (ETN) Has Record Orders, but One Problem Remains",
+      "title_zh": "Eaton (ETN) Has Record Orders, but One Problem Remains",
+      "ts": 1794670041
+    },
+    {
+      "coins": [],
+      "desc": "We just published the list of the 10 High P/E Stocks Under the 200-Day SMA, and KLA Corporation (KLAC) takes 8th place on our list. A high price-to-earnings ratio usually reflects substantial expectations for a company’s future earnings. Bu",
+      "first_seen": 1794672800,
+      "key": "klaklacgenerates134billionincashwhatsnext",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kla-klac-generates-1-34-152716688.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "KLA (KLAC) Generates $1.34 Billion in Cash, What’s Next?",
+      "title_zh": "KLA (KLAC) Generates $1.34 Billion in Cash, What’s Next?",
+      "ts": 1794670036
+    },
     {
       "coins": [],
       "desc": "More volatility could be coming, but history still has promising news for investors.",
@@ -168,21 +337,6 @@
     },
     {
       "coins": [],
-      "desc": "Americans voted against policies that drove up their costs. Will policymakers ignore them?",
-      "first_seen": 1794665647,
-      "key": "washingtoncanstartdeliveringonaffordabilitybyrejectingtrumpstariffs",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
-      "reason": "利空词: 关税",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
-      "title_zh": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
-      "ts": 1794663000
-    },
-    {
-      "coins": [],
       "desc": "Traders pricing in a Fed rate hike just took away the AI trade's bond market cushion.",
       "first_seen": 1794662627,
       "key": "thebondmarketjustturnedontheaitradeandchipstockslostmorethan650billionintwodaysc",
@@ -277,21 +431,6 @@
       "ts": 1794661200
     },
     {
-      "coins": [],
-      "desc": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
-      "first_seen": 1794662627,
-      "key": "these6batteredaistockscouldbouncebackbigananalystsays",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "These 6 battered AI stocks could bounce back big, an analyst says",
-      "title_zh": "分析师表示，这 6 只遭受重创的人工智能股票可能会大幅反弹",
-      "ts": 1794661200
-    },
-    {
       "coins": [
         "BTC",
         "ETH"
@@ -325,149 +464,6 @@
       "title": "Strategy's Michael Saylor Says Bitcoin Is Now a Bipartisan Issue That Crosses Party Lines. Here's Why He's Right.",
       "title_zh": "Strategy 的 Michael Saylor 表示，比特币现在是一个跨越党派界限的两党问题。这就是为什么他是对的。",
       "ts": 1794657720
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "",
-      "first_seen": 1794659020,
-      "key": "bitcoinfallsbelow68000asetfoutflowsextendtoseventhstraightday",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106",
-      "reason": "利空词: 下跌、资金流出",
-      "score": -6,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day",
-      "title_zh": "ETF 资金外流连续第七天，比特币跌破 68,000 美元",
-      "ts": 1794657686
-    },
-    {
-      "coins": [],
-      "desc": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "first_seen": 1794659020,
-      "key": "erictrumpbackedrobotsoldierstartupcantpaystaffafterfounderborrowed46millionfromc",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "CNBC 金融",
-      "tag": "利多",
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "title_zh": "埃里克·特朗普支持的机器人士兵初创公司创始人向公司借款 460 万美元买房后无法支付员工工资",
-      "ts": 1794657601
-    },
-    {
-      "coins": [],
-      "desc": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
-      "first_seen": 1794659020,
-      "key": "chinashotteststocksthesedayshaveonethingincommonnamesthatsoundlikesheep",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-      "reason": "利多词: 飙升",
-      "score": 1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-      "title_zh": "如今中国最热门的股票有一个共同点：名字听起来像羊",
-      "ts": 1794657600
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794656786,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794655692
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "The largest Bitcoin holder is likely a surprise to most investors.",
-      "first_seen": 1794656786,
-      "key": "mostinvestorsarewrongaboutwhoownsthemostbitcointhatmisunderstandingisabuyingoppo",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/14/most-investors-are-wrong-about-who-owns-the-most-b/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Most Investors Are Wrong About Who Owns the Most Bitcoin. That Misunderstanding Is a Buying Opportunity.",
-      "title_zh": "大多数投资者对于谁拥有最多比特币的判断是错误的。这种误解是一个买入机会。",
-      "ts": 1794655320
-    },
-    {
-      "coins": [],
-      "desc": "Here's a giant rundown of everything that happened with Nvidia this week.",
-      "first_seen": 1794654564,
-      "key": "nvidiaandjensenhuangfallouthereseverythingweknowafteramomentousweek",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/technology/article/nvidia-and-jensen-huang-fallout-heres-everything-we-know-after-a-momentous-week-110000323.html?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Nvidia and Jensen Huang fallout: Here's everything we know after a momentous week",
-      "title_zh": "英伟达和黄仁勋的分歧：这是重要一周后我们所知道的一切",
-      "ts": 1794654000
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794656786,
-      "key": "whatdoesgoldmanexpectforeuropeanstocksin2027",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/what-does-goldman-expect-for-european-stocks-in-2027-5027285",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "What does Goldman expect for European stocks in 2027?",
-      "title_zh": "高盛对2027年欧洲股市有何预期？",
-      "ts": 1794653571
-    },
-    {
-      "coins": [],
-      "desc": "Microsoft attributed the outage to a network capacity upgrade issue, confirming that the disruption was unrelated to cyberattacks or AI agents.",
-      "first_seen": 1794654564,
-      "key": "microsoftconfirmsglobaloutageresolvedrulesoutcyberattack",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/microsoft-365-outage-resolved-cyberattack-ruled-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利多词: 上调评级",
-      "score": 1,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Microsoft confirms global outage resolved, rules out cyberattack",
-      "title_zh": "微软确认全球停电已解决，排除网络攻击",
-      "ts": 1794652446
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Eric Balchunas cited ETFs as a barometer, noting that the SPDR Gold Shares fund took roughly eight years to recover from its early peak and then more than doubled.",
-      "first_seen": 1794654564,
-      "key": "ericbalchunascallsnvidiadrivenmarketselloffthe280thnervousbreakdownseesbitcoinba",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/eric-balchunas-calls-nvidia-driven-market-sell-off-the-280th-nervous-breakdown-sees-bitcoin-base-in-the-60-k/cNbPE5cR9QS?.tsrc=rss",
-      "reason": "利多词: 回升；利空词: 抛售（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Eric Balchunas Calls Nvidia-Driven Market Sell-Off The '280th Nervous Breakdown,' Sees Bitcoin Base In The $60K",
-      "title_zh": "Eric Balchunas 称 Nvidia 驱动的市场抛售是“第 280 次神经崩溃”，比特币基础将达到 6 万美元",
-      "ts": 1794651782
     }
   ],
   "meta": {
@@ -482,12 +478,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 5",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T16:30:10+01:00",
-  "updated_unix": 1794670210
+  "updated": "2026-11-14T17:13:36+01:00",
+  "updated_unix": 1794672816
 }
