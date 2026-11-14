@@ -3,6 +3,36 @@
   "items": [
     {
       "coins": [],
+      "desc": "The consensus fair value estimate for HIVE Digital Technologies has been cut from CA$8.48 to CA$6.00, signaling a reset in how analysts are framing potential upside. Recent research links this step down in price targets to higher modeled di",
+      "first_seen": 1794623535,
+      "key": "hivedigitaltechnologiestsxhivestockseesfairvaluecutasanalystslowertargets",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/hive-digital-technologies-tsx-hive-021227341.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
+      "title_zh": "HIVE Digital Technologies (TSX:HIVE) Stock Sees Fair Value Cut As Analysts Lower Targets",
+      "ts": 1794622347
+    },
+    {
+      "coins": [],
+      "desc": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "first_seen": 1794623535,
+      "key": "14dividendstocksselectedforlongtermgrowth",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "14 dividend stocks selected for long-term growth",
+      "title_zh": "14 dividend stocks selected for long-term growth",
+      "ts": 1794621480
+    },
+    {
+      "coins": [],
       "desc": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
       "first_seen": 1794620768,
       "key": "trumpdoesntplantoraisenvidiaspyissueduringchinatripusofficials",
@@ -100,7 +130,7 @@
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 金融",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
@@ -233,21 +263,6 @@
       "title": "Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit",
       "title_zh": "Robinhood 21 亿美元的 IPO 再次困扰。最高法院提起投资者诉讼",
       "ts": 1794610531
-    },
-    {
-      "coins": [],
-      "desc": "Yes, Nvidia helps finance the AI buildout. Just used the right number when evaluating the impact.",
-      "first_seen": 1794611543,
-      "key": "nvidiahasrealproblemsbutdontfallforfearmongering",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/94310747-12d9-3105-8453-f21ac39be69a/nvidia-has-real-problems%E2%80%94but.html?.tsrc=rss",
-      "reason": "利空词: 下跌、恐慌",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Nvidia Has Real Problems—but Don’t Fall For Fear Mongering",
-      "title_zh": "英伟达确实存在问题，但不要被散布恐惧所迷惑",
-      "ts": 1794609600
     },
     {
       "coins": [],
@@ -414,7 +429,7 @@
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
       "title_zh": "AI risks are the biggest threat to the financial system, Fed survey finds",
@@ -434,21 +449,6 @@
       "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
       "title_zh": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
       "ts": 1794604200
-    },
-    {
-      "coins": [],
-      "desc": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "first_seen": 1794620768,
-      "key": "thetrilliondollarmistakecorporateamericaismakingaboutretirement",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "title_zh": "The trillion-dollar mistake corporate America is making about retirement",
-      "ts": 1794604140
     },
     {
       "coins": [],
@@ -484,6 +484,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T02:46:17+01:00",
-  "updated_unix": 1794620777
+  "updated": "2026-11-14T03:32:25+01:00",
+  "updated_unix": 1794623545
 }
