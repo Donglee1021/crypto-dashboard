@@ -2,22 +2,22 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.159,
-        "d90": -0.058
+        "d30": -0.161,
+        "d90": -0.059
       },
       "SPX": {
-        "d30": -0.219,
+        "d30": -0.221,
         "d90": -0.084
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.241,
-        "d90": -0.114
+        "d30": -0.247,
+        "d90": -0.116
       },
       "SPX": {
-        "d30": -0.311,
-        "d90": -0.154
+        "d30": -0.316,
+        "d90": -0.156
       }
     }
   },
@@ -176,7 +176,7 @@
   ],
   "influence": {
     "bias": -0.192,
-    "corr": 0.232,
+    "corr": 0.236,
     "corr_label": "弱",
     "equity_chg": -1.61,
     "equity_name": "纳指期货",
@@ -188,8 +188,8 @@
     "Coinbase": {
       "chg": -2.31,
       "chg_1d": -2.31,
-      "chg_5d": -6.71,
-      "chg_intraday": -2.31,
+      "chg_5d": -5.28,
+      "chg_intraday": 0.29,
       "last": 127.645,
       "role": "crypto_eq",
       "stale": false,
@@ -296,8 +296,8 @@
     "贝莱德 IBIT": {
       "chg": -3.52,
       "chg_1d": -3.52,
-      "chg_5d": -9.5,
-      "chg_intraday": -3.52,
+      "chg_5d": -9.19,
+      "chg_intraday": -0.36,
       "last": 38.94,
       "role": "crypto_eq",
       "stale": false,
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-14T03:32:26+01:00",
-  "updated_unix": 1794623546
+  "updated": "2026-11-14T04:27:26+01:00",
+  "updated_unix": 1794626846
 }

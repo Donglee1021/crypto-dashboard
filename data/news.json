@@ -2,6 +2,40 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "A third-quarter report from the Hyperliquid Research Collective showed average daily traders on Hyperliquid were up 20% from the previous quarter.",
+      "first_seen": 1794626833,
+      "key": "hyperliquidwhalesflipbullishonbitcoinaftertwoweeksofshortsreport",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/hyperliquid-whales-flip-bullish-on-bitcoin-after-two-weeks-of-shorts-report/cNb2vZuR9Q4?.tsrc=rss",
+      "reason": "利多词: 看涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Hyperliquid Whales Flip Bullish On Bitcoin After Two Weeks of Shorts: Report",
+      "title_zh": "Hyperliquid Whales Flip Bullish On Bitcoin After Two Weeks of Shorts: Report",
+      "ts": 1794625871
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The bitcoin treasury company now has no principal due in 2026, and by Unchained's math the bitcoin it had pledged as of Sept. 30 covers the 165 million USDT loan down to about $54,455 per bitcoin.",
+      "first_seen": 1794626833,
+      "key": "nakamotogetsextrayearon60millionusdtkrakenloanderivativescounttowardcollateral",
+      "kind": "macro",
+      "link": "https://unchainedcrypto.com/nakamoto-gets-extra-year-on-60-million-usdt-kraken-loan-derivatives-count-toward-collateral/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
+      "title_zh": "Nakamoto Gets Extra Year on 60 Million USDT Kraken Loan; Derivatives Count Toward Collateral",
+      "ts": 1794622962
+    },
+    {
       "coins": [],
       "desc": "The consensus fair value estimate for HIVE Digital Technologies has been cut from CA$8.48 to CA$6.00, signaling a reset in how analysts are framing potential upside. Recent research links this step down in price targets to higher modeled di",
       "first_seen": 1794623535,
@@ -45,6 +79,21 @@
       "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
       "title_zh": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
       "ts": 1794620051
+    },
+    {
+      "coins": [],
+      "desc": "Indexes ended the week higher despite Nvidia’s dramatic slide.",
+      "first_seen": 1794626833,
+      "key": "reviewpreviewmovingon",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/aaf2f5e5-33ee-38f6-879e-ff5ff7d5599d/review-%26-preview%3A-moving-on.html?.tsrc=rss",
+      "reason": "利空词: 下滑",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Review & Preview: Moving On",
+      "title_zh": "Review & Preview: Moving On",
+      "ts": 1794617700
     },
     {
       "coins": [],
@@ -130,7 +179,7 @@
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
@@ -216,53 +265,6 @@
       "title": "Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks",
       "title_zh": "今日股市，11 月 13 日：CoreWeave 因 AI 云抛售和 40 亿美元贷款谈判而下跌超过 6%",
       "ts": 1794611069
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "PowerCompute Inc (PWCM) delivered a 36% year-over-year increase in Bitcoin mined and slashed secured debt to $1.25 million, even as total revenue fell 13.3% on lower Bitcoin prices.",
-      "first_seen": 1794611543,
-      "key": "powercomputeincpwcmq32026earningscallhighlightsminingmarginssurgeto50",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/powercompute-inc-pwcm-q3-2026-230253071.html?.tsrc=rss",
-      "reason": "利多词: 大涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "PowerCompute Inc (PWCM) Q3 2026 Earnings Call Highlights: Mining Margins Surge to 50. ...",
-      "title_zh": "PowerCompute Inc (PWCM) 2026 年第三季度收益电话会议亮点：挖矿利润率飙升至 50。...",
-      "ts": 1794610973
-    },
-    {
-      "coins": [],
-      "desc": "Nvidia, Target, and Walmart reflect three notable upcoming releases in the Q3 earnings season, with Nvidia's release wrapping up the reporting cycle for the Magnificent 7 group. Total Q3 earnings for the S&P 500 members that have reported a",
-      "first_seen": 1794616789,
-      "key": "walmarttargetandnvidiaheadlineapivotalweekforq3earnings",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-target-nvidia-headline-pivotal-230000146.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings",
-      "title_zh": "Walmart, Target, and Nvidia Headline a Pivotal Week for Q3 Earnings",
-      "ts": 1794610800
-    },
-    {
-      "coins": [],
-      "desc": "Robinhood's IPO battle is heading to the Supreme Court just as its crypto trading volumes plunge 48%, putting fresh attention on the brokerage's dependence on retail trading activity.",
-      "first_seen": 1794611543,
-      "key": "robinhoods21billioniporeturnstohauntitsupremecourttakesupinvestorlawsuit",
-      "kind": "macro",
-      "link": "https://www.ibtimes.com/supreme-court-robinhood-ipo-investor-lawsuit-3809760?.tsrc=rss",
-      "reason": "利空词: 暴跌、诉讼",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Robinhood's $2.1 Billion IPO Returns To Haunt It. Supreme Court Takes Up Investor Lawsuit",
-      "title_zh": "Robinhood 21 亿美元的 IPO 再次困扰。最高法院提起投资者诉讼",
-      "ts": 1794610531
     },
     {
       "coins": [],
@@ -429,7 +431,7 @@
       "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
       "title_zh": "AI risks are the biggest threat to the financial system, Fed survey finds",
@@ -484,6 +486,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T03:32:25+01:00",
-  "updated_unix": 1794623545
+  "updated": "2026-11-14T04:27:25+01:00",
+  "updated_unix": 1794626845
 }
