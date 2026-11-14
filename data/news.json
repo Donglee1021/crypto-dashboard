@@ -2,6 +2,51 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
+      "first_seen": 1794677262,
+      "key": "dowjonesfuturesmarketrallyshakyasnvidiaearningsanthropicipoloomwhatshouldyoudo",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; What Should You Do?",
+      "title_zh": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; What Should You Do?",
+      "ts": 1794676043
+    },
+    {
+      "coins": [],
+      "desc": "Four nonprofit advocacy groups want a California court to stop major AI developers from building stronger models, alleging their technology could cause catastrophic harm worldwide.",
+      "first_seen": 1794677262,
+      "key": "openaianthropicgoogleandotheraigiantsfacelawsuitdemandingdevelopmentfreeze",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
+      "reason": "利空词: 诉讼",
+      "score": -2,
+      "source": "Decrypt",
+      "tag": "利空",
+      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "title_zh": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "ts": 1794675662
+    },
+    {
+      "coins": [],
+      "desc": "Only seven past stretches since 1950 lasted this long. Did a tough year normally follow?",
+      "first_seen": 1794677262,
+      "key": "thesp500hasgone18monthswithouta10drophereshowthenextyearhasgoneafterstreaksthisl",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/the-s-and-p-500-has-gone-18-months-without-a-10-drop-here-s-how-the-next-year-has-gone-after-streaks-this-long/?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "The S&P 500 Has Gone 18 Months Without a 10% Drop. Here's How the Next Year Has Gone After Streaks This Long.",
+      "title_zh": "The S&P 500 Has Gone 18 Months Without a 10% Drop. Here's How the Next Year Has Gone After Streaks This Long.",
+      "ts": 1794675482
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -34,21 +79,6 @@
       "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
       "title_zh": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
       "ts": 1794674003
-    },
-    {
-      "coins": [],
-      "desc": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
-      "first_seen": 1794662627,
-      "key": "dowjonesfuturesmarketrallyshakyasnvidiaearningsanthropicipoloomspacexstarshipfli",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-market.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Booster Diverts.",
-      "title_zh": "道琼斯期货：随着 Nvidia 盈利、Anthropic IPO 临近，市场反弹摇摇欲坠； SpaceX 星舰 15 号航班助推器转向。",
-      "ts": 1794673479
     },
     {
       "coins": [
@@ -429,39 +459,6 @@
       "title": "The bond market just turned on the AI trade — and chip stocks lost more than $650 billion in two days: Chart of the Day",
       "title_zh": "债券市场刚刚开启人工智能交易——芯片股两天内损失超过 6500 亿美元：每日图表",
       "ts": 1794662335
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "Hyperliquid's HYPE is outperforming Bitcoin and Ethereum amid the crypto crash. Bitunix analysts explain what's next.",
-      "first_seen": 1794665647,
-      "key": "hyperliquidshypetokenshowsresilienceascryptomarketcrashdeepens",
-      "kind": "macro",
-      "link": "https://beincrypto.com/hyperliquid-hype-price-resilience-crypto-market-crash/?.tsrc=rss",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Hyperliquid's HYPE Token Shows Resilience as Crypto Market Crash Deepens",
-      "title_zh": "Hyperliquid's HYPE Token Shows Resilience as Crypto Market Crash Deepens",
-      "ts": 1794662131
-    },
-    {
-      "coins": [],
-      "desc": "It was a bumpy week for chip stocks and AI-related names.",
-      "first_seen": 1794662627,
-      "key": "whyadvancedmicrodevicesstocksurgedthisweek",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/market-movers/2026/11/14/why-advanced-micro-devices-stock-surged-this-week/?.tsrc=rss",
-      "reason": "利多词: 大涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Why Advanced Micro Devices Stock Surged This Week",
-      "title_zh": "为什么Advanced Micro Devices股票本周飙升",
-      "ts": 1794661562
     }
   ],
   "meta": {
@@ -482,6 +479,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T17:56:16+01:00",
-  "updated_unix": 1794675376
+  "updated": "2026-11-14T18:28:05+01:00",
+  "updated_unix": 1794677285
 }
