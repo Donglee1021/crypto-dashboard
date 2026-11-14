@@ -35,6 +35,23 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Bitcoin could reach $1 million before the end of the current halving cycle in mid-2028 as institutional adoption is likely to fuel its next major rally, according to Blockstream co-founder and CEO Adam Back. He expects a larger wave of...",
+      "first_seen": 1794686879,
+      "key": "bitcointo1millionby2028blockstreamceoadambacksaysyes",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-1-million-2028-blockstream-190000655.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、采用",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Bitcoin to $1 Million by 2028? Blockstream CEO Adam Back Says Yes",
+      "title_zh": "Bitcoin to $1 Million by 2028? Blockstream CEO Adam Back Says Yes",
+      "ts": 1794682800
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "",
       "first_seen": 1794659020,
       "key": "bitcoinfallsbelow68000asetfoutflowsextendtoseventhstraightday",
@@ -139,21 +156,6 @@
       "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
       "title_zh": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
       "ts": 1794678641
-    },
-    {
-      "coins": [],
-      "desc": "A big chunk of your retirement is likely invested in the computer-chip giant.",
-      "first_seen": 1794679451,
-      "key": "thescandalatnvidiaisexactlywhatswrongwiththesp500",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-      "title_zh": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-      "ts": 1794678600
     },
     {
       "coins": [],
@@ -338,7 +340,7 @@
       "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
       "title_zh": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
@@ -477,12 +479,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 2",
+      "MarketWatch": "ok 1",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T20:28:58+01:00",
-  "updated_unix": 1794684538
+  "updated": "2026-11-14T21:08:22+01:00",
+  "updated_unix": 1794686902
 }
