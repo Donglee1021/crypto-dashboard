@@ -3,6 +3,36 @@
   "items": [
     {
       "coins": [],
+      "desc": "With household budgets already squeezed by persistent inflation, some residents are seeking emergency help with heating oil bills before winter begins.",
+      "first_seen": 1794668204,
+      "key": "heatingoilpricesareup59fromlastwinterthespikeiscrushingfolksmainenonprofitsays",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/14/heating-oil-price-spike-household-budgets.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "title_zh": "Heating oil prices are up 59% from last winter. The spike is 'crushing folks,' Maine nonprofit says",
+      "ts": 1794666601
+    },
+    {
+      "coins": [],
+      "desc": "Guarded optimism is in order as the market's first up-week since October launched a confirmed uptrend.",
+      "first_seen": 1794668204,
+      "key": "stockmarketweekaheadafewnotesonoptimism",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/927d43d5-0793-3193-90a1-9dfdc364a821/stock-market-week-ahead%3A-a.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Stock Market Week Ahead: A Few Notes On Optimism",
+      "title_zh": "Stock Market Week Ahead: A Few Notes On Optimism",
+      "ts": 1794665833
+    },
+    {
+      "coins": [],
       "desc": "OpenAI’s new wallet lets AI agents buy products using ordinary cards, challenging crypto payment tools from Coinbase and Circle as companies compete to control everyday online shopping by autonomous software.",
       "first_seen": 1794665647,
       "key": "openailauncheschatgptwallettoletaiagentsshopwithoutcrypto",
@@ -442,40 +472,6 @@
       "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
       "title_zh": "分析：公司喜欢“摇滚明星”首席执行官。直到他们依赖一个人",
       "ts": 1794640125
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Strive keeps around 85% to 90% of its balance sheet in Bitcoin and 10% to 15% in cash, which can cover its obligations during a downturn, the CEO said.",
-      "first_seen": 1794639745,
-      "key": "striveceosaysbitcoincouldgotoapennyandthecompanywouldstillsurvivebecauseithasnod",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/strive-ceo-says-bitcoin-could-go-to-a-penny-and-the-company-would-still-survive-because-it-has-no-debt/cNbPG3NR9QQ?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Strive CEO Says Bitcoin Could ‘Go To A Penny’ And The Company Would Still Survive Because It Has No Debt",
-      "title_zh": "Strive首席执行官表示，比特币可能“一分钱一分钱”，公司仍将生存，因为它没有债务",
-      "ts": 1794638419
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
-      "first_seen": 1794643447,
-      "key": "bitcoinetfsshed235bin2weeksblackrockslosingstreakhits11",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 资金流出",
-      "score": -1,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
-      "title_zh": "比特币ETF两周内下跌$2.35B 贝莱德连跌触及11",
-      "ts": 1794637993
     }
   ],
   "meta": {
@@ -496,6 +492,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T15:14:11+01:00",
-  "updated_unix": 1794665651
+  "updated": "2026-11-14T15:56:49+01:00",
+  "updated_unix": 1794668209
 }
