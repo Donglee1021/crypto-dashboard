@@ -5,6 +5,38 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Twenty One Capital ended the quarter with over 40,000 Bitcoin and $102.8 million in cash.",
+      "first_seen": 1794643447,
+      "key": "twentyonecapitalceosaysabalancesheetisnotabusinessafter1billionbitcoindrivengain",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/twenty-one-capital-ceo-balance-sheet-business-after-1-billion-bitcoin-profit/cNbPR6IR9Qh?.tsrc=rss",
+      "reason": "利多词: 上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Twenty One Capital CEO Says ‘A Balance Sheet Is Not A Business’ After $1 Billion Bitcoin-Driven Gain",
+      "title_zh": "Twenty One Capital CEO Says ‘A Balance Sheet Is Not A Business’ After $1 Billion Bitcoin-Driven Gain",
+      "ts": 1794642546
+    },
+    {
+      "coins": [],
+      "desc": "Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
+      "first_seen": 1794643447,
+      "key": "analysiscompanieslovearockstarceountiltheydependonone",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+      "title_zh": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+      "ts": 1794640125
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "Strive keeps around 85% to 90% of its balance sheet in Bitcoin and 10% to 15% in cash, which can cover its obligations during a downturn, the CEO said.",
       "first_seen": 1794639745,
       "key": "striveceosaysbitcoincouldgotoapennyandthecompanywouldstillsurvivebecauseithasnod",
@@ -23,16 +55,16 @@
         "BTC"
       ],
       "desc": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
-      "first_seen": 1794639745,
-      "key": "bitcoinetfsshed235bintwoweeksasblackrockslosingstreakhits11sessions",
+      "first_seen": 1794643447,
+      "key": "bitcoinetfsshed235bin2weeksblackrockslosingstreakhits11",
       "kind": "crypto",
       "link": "https://cointelegraph.com/markets/bitcoin-etf-outflows-2-35-billion-blackrock-11-session-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "reason": "利空词: 资金流出",
       "score": -1,
       "source": "Cointelegraph",
       "tag": "中性",
-      "title": "Bitcoin ETFs shed $2.35B in two weeks as BlackRock’s losing streak hits 11 sessions",
-      "title_zh": "Bitcoin ETFs shed $2.35B in two weeks as BlackRock’s losing streak hits 11 sessions",
+      "title": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+      "title_zh": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
       "ts": 1794637993
     },
     {
@@ -334,7 +366,7 @@
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
       "title_zh": "卢特尼克因英伟达间谍丑闻而面临质疑。他儿子的公司与这家芯片制造商有着深厚的联系",
@@ -450,38 +482,6 @@
       "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
       "title_zh": "OpenAI 与 Visa、Mastercard 和 Amex 合作在 ChatGPT 中推出人工智能支付",
       "ts": 1794607263
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Blockstream’s new custody system, developed with Thales, uses dedicated hardware for transaction signing as Adam Back advocates for offline security to reduce cyber risks.",
-      "first_seen": 1794608872,
-      "key": "adambackmakescaseforsimplersecurityasblockstreamlaunchesbitcoincustodysystem",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/adam-back-simpler-security-blockstream-bitcoin-custody-system?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system",
-      "title_zh": "随着 Blockstream 推出比特币托管系统，Adam Back 提出了更简单的安全性",
-      "ts": 1794606567
-    },
-    {
-      "coins": [],
-      "desc": "While co-leading the offering, Goldman also wants a shot at managing the billions of dollars in new wealth that the deal creates. It's not the only one.",
-      "first_seen": 1794606045,
-      "key": "goldmansachslookstocashinonbigipostwiceanthropicshistoricdealisitsnextchance",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/investingclub/2026/11/13/goldman-sachs-looks-to-cash-in-on-anthropics-ipo-twice-heres-how-and-who-else-wants-to.html",
-      "reason": "利多词: 达成协议",
-      "score": 2,
-      "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "Goldman Sachs looks to cash in on big IPOs twice. Anthropic’s historic deal is its next chance",
-      "title_zh": "高盛希望通过两次大型IPO获利。 Anthropic 的历史性交易是其下一次机会",
-      "ts": 1794606247
     }
   ],
   "meta": {
@@ -498,10 +498,10 @@
       "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 14",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-14T08:02:33+01:00",
-  "updated_unix": 1794639753
+  "updated": "2026-11-14T09:04:17+01:00",
+  "updated_unix": 1794643457
 }
