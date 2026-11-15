@@ -1,6 +1,90 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "With an index provider cutting it loose and bitcoin sitting below its purchase price, Saylor's funding machine faces its toughest test yet. A cash cushion buys time, but one signal could decide whether patience pays off.",
+      "first_seen": 1794765115,
+      "key": "michaelsaylorsstrategyjustlostitsmsciindexspotasbitcoinplungesismstrstockasell",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/15/michael-saylors-strategy-just-lost-its-msci-index-spot-as-bitcoin-plunges-is-mstr-stock-a-sell/?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 暴跌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
+      "title_zh": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
+      "ts": 1794763730
+    },
+    {
+      "coins": [],
+      "desc": "These three beaten-down growth stocks could be hiding the market's biggest opportunities.",
+      "first_seen": 1794765115,
+      "key": "3beatendownstocksunder10tobuyinnovember",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/3-stocks-under-10-to-buy-in-november/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "3 Beaten-Down Stocks Under $10 to Buy in November",
+      "title_zh": "3 Beaten-Down Stocks Under $10 to Buy in November",
+      "ts": 1794763202
+    },
+    {
+      "coins": [],
+      "desc": "Bond yields top 5% while stocks keep climbing, and one of Wall Street's most watched investors refuses to chase the rally. A single valuation gauge explains why he is sitting this one out, and why even Apple offers little cushion.",
+      "first_seen": 1794765115,
+      "key": "bondkingjeffreygundlachisnotinterestedinbuyingstockshiswarningpointsto10yearsofl",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/15/bond-king-jeffrey-gundlach-is-not-interested-in-buying-stocks-his-warning-points-to-10-years-of-losses/?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、攀升、买入；利空词: 亏损、警告（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
+      "title_zh": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
+      "ts": 1794762771
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
+      "first_seen": 1794752986,
+      "key": "dowjonesfuturesloomforshakymarketrallyasbitcoindivesnvidiaearningsanthropicipoah",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Nvidia Earnings, Anthropic IPO Ahead",
+      "title_zh": "随着比特币跳水，道琼斯期货即将迎来不稳定的市场反弹； Nvidia 盈利，Anthropic IPO 即将到来",
+      "ts": 1794762593
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Crypto's reputation for building fortunes meets a plain index fund in a head-to-head contest over returns, income, and risk. For anyone saving for retirement, one of these two assets has a far rougher five-year record than its reputation su",
+      "first_seen": 1794765115,
+      "key": "bitcoinvsstocksiscryptoreallythebestinvestmenttheresultsmaysurpriseyou",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/15/bitcoin-vs-stocks-is-crypto-really-the-best-investment-the-results-may-surprise-you/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
+      "title_zh": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
+      "ts": 1794762336
+    },
     {
       "coins": [],
       "desc": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
@@ -64,23 +148,6 @@
       "ts": 1794757802
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
-      "first_seen": 1794752986,
-      "key": "dowjonesfuturesloomforshakymarketrallyasbitcoindivesnvidiaearningsanthropicipoah",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Nvidia Earnings, Anthropic IPO Ahead",
-      "title_zh": "随着比特币跳水，道琼斯期货即将迎来不稳定的市场反弹； Nvidia 盈利，Anthropic IPO 即将到来",
-      "ts": 1794757431
-    },
-    {
       "coins": [],
       "desc": "",
       "first_seen": 1794758148,
@@ -141,21 +208,6 @@
       "ts": 1794756380
     },
     {
-      "coins": [],
-      "desc": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
-      "first_seen": 1794758148,
-      "key": "chinashotteststocksthesedayshaveonethingincommonnamesthatsoundlikesheep",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-      "reason": "利多词: 飙升",
-      "score": 1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-      "title_zh": "如今中国最热门的股票有一个共同点：名字听起来像羊",
-      "ts": 1794756120
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -171,21 +223,6 @@
       "title": "Bitcoin hovers near $65,000 after weekend selloff to lowest since July",
       "title_zh": "周末抛售至 7 月以来最低水平后，比特币徘徊在 65,000 美元附近",
       "ts": 1794755845
-    },
-    {
-      "coins": [],
-      "desc": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
-      "first_seen": 1794755682,
-      "key": "nvidiaisgearingupforoneofwallstreetsmostanticipatedearningscallsinyears",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-      "title_zh": "英伟达正在为华尔街多年来最受期待的财报电话会议之一做准备",
-      "ts": 1794754800
     },
     {
       "coins": [],
@@ -361,21 +398,6 @@
     },
     {
       "coins": [],
-      "desc": "Charts show the potential for more pain ahead",
-      "first_seen": 1794747357,
-      "key": "goldandsilveraresupposedtoprotectagainstinflationsowhyarebothmetalstumblinginste",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
-      "title_zh": "黄金和白银应该可以抵御通货膨胀。那么为什么两种金属都下跌呢？",
-      "ts": 1794745800
-    },
-    {
-      "coins": [],
       "desc": "The Federal Reserve's December decision could move stocks, but history suggests investors should look beyond the immediate market reaction.",
       "first_seen": 1794747357,
       "key": "howwillthemarketreacttoapotentialfedratehikeindecemberhereswhathistorysuggests",
@@ -437,34 +459,22 @@
       "ts": 1794741528
     },
     {
-      "coins": [],
-      "desc": "The US stock market remains heavily influenced by technology shares despite recent declines in artificial intelligence-related companies, with the sector continuing to represent more than one-third of the S&P 500. A month of selling in tech",
-      "first_seen": 1794747357,
-      "key": "aistockdeclinesleavetechnologysectoraskeydriverofusequitymarket",
-      "kind": "macro",
-      "link": "https://investorshub.advfn.com/market-news/article/39989/ai-stock-declines-leave-technology-sector-as-key-driver-of-us-equity-market?.tsrc=rss",
-      "reason": "利空词: 下降",
-      "score": -2,
-      "source": "Yahoo Finance",
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
+      "first_seen": 1794765115,
+      "key": "bitcoinfallstofourmonthlownear62kascryptoselloffdeepens",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下跌、抛售、亏损",
+      "score": -7,
+      "source": "Cointelegraph",
       "tag": "利空",
-      "title": "AI Stock Declines Leave Technology Sector as Key Driver of US Equity Market",
-      "title_zh": "人工智能股下跌，科技板块成为美国股市的主要驱动力",
-      "ts": 1794741300
-    },
-    {
-      "coins": [],
-      "desc": "Anthropic's IPO and continued fallout at Nvidia will lead the news cycle on Wall Street this week.",
-      "first_seen": 1794741854,
-      "key": "nvidiasfirstpostjensenearningsandanthropicsipowhattowatchthisweek",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
-      "title_zh": "Nvidia 的第一个后 Jensen 财报和 Anthropic 的 IPO：本周看点",
-      "ts": 1794740400
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "title_zh": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "ts": 1794738197
     }
   ],
   "meta": {
@@ -479,12 +489,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 3",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T18:15:42+01:00",
-  "updated_unix": 1794762942
+  "updated": "2026-11-15T18:52:00+01:00",
+  "updated_unix": 1794765120
 }
