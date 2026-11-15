@@ -5,6 +5,85 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Saylor spotlights four Bitcoin metrics to frame the price drop, but Binance co-founder CZ says correlation is not causation.",
+      "first_seen": 1794785334,
+      "key": "saylorhighlights4rareandextrememetricsbitcoinhasjusthittoexplainprice",
+      "kind": "macro",
+      "link": "https://beincrypto.com/saylor-rare-extreme-bitcoin-metrics-price/?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Saylor Highlights 4 Rare and Extreme Metrics Bitcoin Has Just Hit to Explain Price",
+      "title_zh": "Saylor 重点介绍了比特币刚刚触及的 4 个罕见且极端的指标来解释价格",
+      "ts": 1794784058
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
+      "first_seen": 1794785334,
+      "key": "dowjonesfuturesrisehowwillnvidiareactasjensenhuangmullsreturn",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-rise%3B-how.html?.tsrc=rss",
+      "reason": "利多词: 上升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise; How Will Nvidia React As Jensen Huang Mulls Return?",
+      "title_zh": "道琼斯期货上涨；当黄仁勋考虑回归时，英伟达将如何反应？",
+      "ts": 1794784019
+    },
+    {
+      "coins": [],
+      "desc": "The embattled chip maker will report after Tuesday’s closing bell, just days after the ouster of CEO and co-founder Jensen Huang.",
+      "first_seen": 1794785334,
+      "key": "stockfuturesarerisingaheadofnvidiasearningsanthropicsipo",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/8cef83a6-f4cb-350b-abaf-a876bb42c992/stock-futures-are-rising.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Stock Futures Are Rising Ahead of Nvidia’s Earnings, Anthropic’s IPO",
+      "title_zh": "股票期货在英伟达公布盈利和 Anthropic 首次公开募股之前上涨",
+      "ts": 1794783900
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Anchorage Digital data suggests the Bitcoin selloff is being driven by US investors. A “war room” has been set up by supporters to reinstate NVIDIA boss Jensen Huang.",
+      "first_seen": 1794785334,
+      "key": "ussellersdrivebitcoincrashjensenplotscomebackhodlersdigest",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 崩跌、抛售",
+      "score": -3,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest",
+      "title_zh": "美国卖家推动比特币崩盘，詹森密谋卷土重来：霍德勒文摘",
+      "ts": 1794783059
+    },
+    {
+      "coins": [],
+      "desc": "A familiar fund can hold an unfamiliar risk.",
+      "first_seen": 1794785334,
+      "key": "berkshiresrecordhighexposeshiddentrapinsp500401kplans",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/retirement/berkshire-sp500-401k-concentration?.tsrc=rss",
+      "reason": "利多词: 创新高",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Berkshire’s record high exposes hidden trap in S&P 500 401(k) plans",
+      "title_zh": "伯克希尔的历史新高暴露了标准普尔 500 401(k) 计划中隐藏的陷阱",
+      "ts": 1794782820
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "Peter Brandt says a possible bearish chart pattern could put another record high beyond his lifetime.",
       "first_seen": 1794782552,
       "key": "veterantraderwarnsbitcoinsrecordmayoutlivehim",
@@ -15,7 +94,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Veteran trader warns Bitcoin's record may outlive him",
-      "title_zh": "Veteran trader warns Bitcoin's record may outlive him",
+      "title_zh": "资深交易员警告比特币的记录可能比他更长久",
       "ts": 1794781875
     },
     {
@@ -32,23 +111,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "How Much Bitcoin Do You Need to Be a Millionaire by 2030?",
-      "title_zh": "How Much Bitcoin Do You Need to Be a Millionaire by 2030?",
+      "title_zh": "到 2030 年，您需要多少比特币才能成为百万富翁？",
       "ts": 1794781390
-    },
-    {
-      "coins": [],
-      "desc": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
-      "first_seen": 1794782552,
-      "key": "dowjonesfuturesduehowwillnvidiareactasjensenhuangmullsreturn",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-due%3B-how.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures Due; How Will Nvidia React As Jensen Huang Mulls Return?",
-      "title_zh": "Dow Jones Futures Due; How Will Nvidia React As Jensen Huang Mulls Return?",
-      "ts": 1794780194
     },
     {
       "coins": [
@@ -64,7 +128,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
-      "title_zh": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
+      "title_zh": "CZ 否认币安在比特币从 62,000 美元附近的四个月低点反弹之际出售加密货币",
       "ts": 1794779873
     },
     {
@@ -94,7 +158,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "Budget airlines are going upscale with first-class seats and faster wifi",
-      "title_zh": "Budget airlines are going upscale with first-class seats and faster wifi",
+      "title_zh": "廉价航空公司正在向高档化发展，提供头等舱座位和更快的无线网络",
       "ts": 1794778260
     },
     {
@@ -109,7 +173,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
-      "title_zh": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "title_zh": "俄罗斯股市收盘走低； MOEX 俄罗斯指数不变",
       "ts": 1794777603
     },
     {
@@ -124,7 +188,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.",
-      "title_zh": "Nvidia CEO Jensen Huang Resigns as Stock Tanks. Here Are the Next Steps for Investors.",
+      "title_zh": "英伟达首席执行官黄仁勋辞去股票坦克职务。以下是投资者的后续步骤。",
       "ts": 1794777602
     },
     {
@@ -362,21 +426,6 @@
     },
     {
       "coins": [],
-      "desc": "XPH charges less and pays a higher yield, but IBB manages over 20 times the assets across a far broader set of research-driven biotech names.",
-      "first_seen": 1794770647,
-      "key": "whichhealthcareetfisthebetterbuystatestreetspharmafundxphorisharesbiotechfundibb",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/etfs/2026/11/15/which-healthcare-etf-is-the-better-buy-state-street-s-pharma-fund-xph-or-ishares-biotech-fund-ibb/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Which Healthcare ETF Is the Better Buy: State Street’s Pharma Fund XPH or iShares’ Biotech Fund IBB?",
-      "title_zh": "哪种医疗保健 ETF 更值得购买：State Street 的 Pharma Fund XPH 还是 iShares 的 Biotech Fund IBB？",
-      "ts": 1794767994
-    },
-    {
-      "coins": [],
       "desc": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
       "first_seen": 1794762940,
       "key": "bessentcallsfordramaticshakeupatnvidiaurgesoutsideceo",
@@ -389,23 +438,6 @@
       "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
       "title_zh": "外部首席执行官敦促英伟达进行“戏剧性改组”",
       "ts": 1794766218
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin is trading near $64,000–$65,500 in mid-November 2026 after a sharp, multi-week decline that erased much of its recent gains and triggered heavy liquidations. However, Sam Altman’s ChatGPT AI predicts a historic bullish reversal coul",
-      "first_seen": 1794780209,
-      "key": "samaltmanchatgptaipredictsasuperbullishreversalforbtc",
-      "kind": "macro",
-      "link": "https://99bitcoins.com/news/altcoins/sam-altman-chatgpt-ai-predicts-super-bullish-reversal-btc/?.tsrc=rss",
-      "reason": "利多词: 上涨、看涨；利空词: 下降、爆仓（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Sam Altman ChatGPT AI Predicts a Super Bullish Reversal for BTC",
-      "title_zh": "Sam Altman ChatGPT AI Predicts a Super Bullish Reversal for BTC",
-      "ts": 1794765648
     },
     {
       "coins": [
@@ -426,21 +458,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1794758148,
-      "key": "bessentsaysnvidianeedsdramaticleadershipshakeup",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/bessent-says-nvidia-needs-dramatic-leadership-shakeup-5027992",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Bessent says Nvidia needs \"dramatic\" leadership shakeup",
-      "title_zh": "贝森特表示英伟达需要“戏剧性”的领导层改组",
-      "ts": 1794757198
-    },
-    {
-      "coins": [],
       "desc": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
       "first_seen": 1794758148,
       "key": "3bigthingswerewatchinginthestockmarketintheweekahead",
@@ -453,21 +470,6 @@
       "title": "3 big things we're watching in the stock market in the week ahead",
       "title_zh": "未来一周我们在股市中关注的三件大事",
       "ts": 1794756380
-    },
-    {
-      "coins": [],
-      "desc": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
-      "first_seen": 1794772956,
-      "key": "chinashotteststocksthesedayshaveonethingincommonnamesthatsoundlikesheep",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-      "reason": "利多词: 飙升",
-      "score": 1,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-      "title_zh": "如今中国最热门的股票有一个共同点：名字听起来像羊",
-      "ts": 1794756120
     }
   ],
   "meta": {
@@ -481,13 +483,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 5",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T23:42:39+01:00",
-  "updated_unix": 1794782559
+  "updated": "2026-11-16T00:29:00+01:00",
+  "updated_unix": 1794785340
 }

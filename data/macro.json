@@ -175,12 +175,12 @@
     }
   ],
   "influence": {
-    "bias": -0.175,
+    "bias": -0.004,
     "corr": 0.239,
     "corr_label": "弱",
-    "equity_chg": -1.23,
+    "equity_chg": 0.46,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货跌1.2%、VIX上升、美债收益率上升，相关性低，对加密偏空",
+    "line": "美股休市，纳指期货涨0.5%、VIX上升、美债收益率上升，相关性低，对加密影响有限",
     "session": "closed",
     "stale": false
   },
@@ -234,27 +234,27 @@
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -0.42,
-      "chg_1d": -0.42,
-      "chg_5d": 2.45,
-      "chg_intraday": -0.49,
-      "last": 7583.0,
+      "chg": 0.23,
+      "chg_1d": 0.23,
+      "chg_5d": 0.34,
+      "chg_intraday": 0.3,
+      "last": 7600.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794607199,
+      "time_unix": 1794784738,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": -1.23,
-      "chg_1d": -1.23,
-      "chg_5d": 3.51,
-      "chg_intraday": -1.28,
-      "last": 28034.75,
+      "chg": 0.46,
+      "chg_1d": 0.46,
+      "chg_5d": 0.53,
+      "chg_intraday": 0.36,
+      "last": 28164.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794607199,
+      "time_unix": 1794784738,
       "unit": ""
     },
     "纳斯达克100": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": 0.0,
-      "chg_1d": 0.0,
-      "chg_5d": 1.73,
-      "chg_intraday": -0.0,
-      "last": 103.411,
+      "chg": 0.02,
+      "chg_1d": 0.02,
+      "chg_5d": 1.76,
+      "chg_intraday": 0.02,
+      "last": 103.434,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794780203,
+      "time_unix": 1794784739,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-15T23:42:39+01:00",
-  "updated_unix": 1794782559
+  "updated": "2026-11-16T00:29:01+01:00",
+  "updated_unix": 1794785341
 }
