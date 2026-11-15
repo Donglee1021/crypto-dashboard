@@ -5,18 +5,100 @@
       "coins": [
         "BTC"
       ],
-      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
-      "first_seen": 1794716792,
-      "key": "dowjonesfuturesloombitcoindivesinshakymarketrallynvidiaearningsanthropicipoahead",
+      "desc": "Bitcoin’s slide has hit the window where past bear markets bottomed.",
+      "first_seen": 1794752986,
+      "key": "bitcoinsfouryearcycleisabouttoturnbullishifhistoryrepeatschartoftheday",
       "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss",
+      "link": "https://finance.yahoo.com/markets/crypto/article/bitcoins-four-year-cycle-is-about-to-turn-bullish--if-history-repeats-chart-of-the-day-141744431.html?.tsrc=rss",
+      "reason": "利多词: 看涨；利空词: 下滑（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin's four-year cycle is about to turn bullish — if history repeats: Chart of the Day",
+      "title_zh": "如果历史重演，比特币的四年周期即将转为看涨：每日图表",
+      "ts": 1794752264
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794752986,
+      "key": "megaspeedsaysexnvidiaceolinkedexecutiveleftin2025amidusscrutiny",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/megaspeed-says-exec-tied-to-exnvidia-ceo-left-in-2025-amid-us-chip-scrutiny-5027830",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Megaspeed says ex-Nvidia CEO-linked executive left in 2025 amid U.S. scrutiny",
+      "title_zh": "Megaspeed 表示，在美国的审查下，与前 Nvidia 首席执行官相关的高管将于 2025 年离职",
+      "ts": 1794751557
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Spot Bitcoin ETFs shed $185.4 million on Friday, their seventh straight day of outflows, pushing November losses to about $2.1 billion as Bitcoin fell toward $64,000.",
+      "first_seen": 1794752986,
+      "key": "bitcoinetfslose21billioninnovemberasoutflowstreakhitssevendays",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
+      "reason": "利空词: 资金流出、亏损",
+      "score": -3,
+      "source": "Decrypt",
+      "tag": "利空",
+      "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+      "title_zh": "比特币 ETF 连续 7 天流出，11 月损失 21 亿美元",
+      "ts": 1794751262
+    },
+    {
+      "coins": [],
+      "desc": "With ascendent Democrats ready to pursue their own crypto and tech agendas next year, the final weeks of this session probably won't produce crypto surprises.",
+      "first_seen": 1794752986,
+      "key": "cryptoinsidersarentcountingonsilverliningsincongresslameducksession",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
+      "title_zh": "加密货币内部人士并不指望国会“跛脚鸭”会议上的一线希望",
+      "ts": 1794751200
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
+      "first_seen": 1794752986,
+      "key": "dowjonesfuturesloomforshakymarketrallyasbitcoindivesnvidiaearningsanthropicipoah",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
       "reason": "利多词: 反弹/上涨",
       "score": 2,
       "source": "Yahoo Finance",
       "tag": "利多",
-      "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
-      "title_zh": "道琼斯期货逼近，比特币在动荡的市场反弹中跳水； Nvidia 盈利，Anthropic IPO 即将到来",
-      "ts": 1794747785
+      "title": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Nvidia Earnings, Anthropic IPO Ahead",
+      "title_zh": "随着比特币跳水，道琼斯期货即将迎来不稳定的市场反弹； Nvidia 盈利，Anthropic IPO 即将到来",
+      "ts": 1794750154
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Like the assets it holds, an ETF can take you on a wild ride. Here’s how to decide whether to hold on.",
+      "first_seen": 1794752986,
+      "key": "bitcoinetfflowscanwhipsawhowtoknowifyoushouldrideitout",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/bitcoin-etf-flows-can-whipsaw-how-to-know-if-you-should-ride-it-out/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin ETF Flows Can Whipsaw: How to Know If You Should Ride It Out",
+      "title_zh": "比特币 ETF 流动性可能会出现波动：如何知道是否应该安然度过",
+      "ts": 1794749702
     },
     {
       "coins": [],
@@ -154,21 +236,6 @@
       "title": "AI Stock Declines Leave Technology Sector as Key Driver of US Equity Market",
       "title_zh": "人工智能股下跌，科技板块成为美国股市的主要驱动力",
       "ts": 1794741300
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794744401,
-      "key": "megaspeedsaysexectiedtoexnvidiaceoleftin2025amiduschipscrutiny",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/megaspeed-says-exec-tied-to-exnvidia-ceo-left-in-2025-amid-us-chip-scrutiny-5027830",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Megaspeed says exec tied to ex-Nvidia CEO left in 2025 amid U.S. chip scrutiny",
-      "title_zh": "Megaspeed 表示，因美国芯片审查，与前 Nvidia 首席执行官相关的高管将于 2025 年离职",
-      "ts": 1794741271
     },
     {
       "coins": [],
@@ -411,68 +478,6 @@
       "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
       "title_zh": "随着资金撤离加密货币，XRP 跌至 2024 年 11 月以来的最低水平",
       "ts": 1794711057
-    },
-    {
-      "coins": [],
-      "desc": "Key TakeawaysStrategy stock is down 27% in 2026, and the whole loss came after it finished September about where it started the year. MSCI’s decision to drop Strategy from its indexes and the cash going into STRC buybacks both make it harde",
-      "first_seen": 1794727842,
-      "key": "strategyisdown27in2026deadmoneyordueforabounce",
-      "kind": "macro",
-      "link": "https://www.tikr.com/blog/strategy-is-down-27-in-2026-dead-money-or-due-for-a-bounce?ref=yahoofinance&tlnk=yf-261115-qvjfpxf6&.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 下跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Strategy Is Down 27% in 2026: Dead Money, or Due for a Bounce?",
-      "title_zh": "策略2026年下跌27%：死钱还是反弹？",
-      "ts": 1794709619
-    },
-    {
-      "coins": [],
-      "desc": "Broadcom may be able to capitalize on Nvidia's misstep.",
-      "first_seen": 1794710171,
-      "key": "broadcomjumpedasnvidiafellthisiswhathasinvestorsexcited",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss",
-      "reason": "利多词: 跳涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
-      "title_zh": "博通 (Broadcom) 上涨，而英伟达 (Nvidia) 下跌。这正是令投资者兴奋的地方。",
-      "ts": 1794709202
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "",
-      "first_seen": 1794707343,
-      "key": "ethereumfalls10inrout",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/ethereum-falls-10-in-rout-5027613",
-      "reason": "利空词: 下跌",
-      "score": -4,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Ethereum Falls 10% In Rout",
-      "title_zh": "以太坊暴跌 10%",
-      "ts": 1794704641
-    },
-    {
-      "coins": [],
-      "desc": "About 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT.",
-      "first_seen": 1794698344,
-      "key": "kavalendlosesroughly38milliontohacksendingkavatokendownnearly40",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350",
-      "reason": "利空词: 被黑、失守",
-      "score": -4,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%",
-      "title_zh": "Kava Lend 因黑客攻击损失约 380 万美元，导致 KAVA 代币下跌近 40%",
-      "ts": 1794697655
     }
   ],
   "meta": {
@@ -489,10 +494,10 @@
       "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 1",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T14:44:23+01:00",
-  "updated_unix": 1794750263
+  "updated": "2026-11-15T15:29:49+01:00",
+  "updated_unix": 1794752989
 }
