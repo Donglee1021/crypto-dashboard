@@ -3,6 +3,21 @@
   "items": [
     {
       "coins": [],
+      "desc": "Should investors wait for stocks to fall before buying?",
+      "first_seen": 1794703204,
+      "key": "historysaysthisisthebestinvestingmoveyoucanmakeifabearmarketiscoming",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/history-says-best-investing-move-for-bear-market/?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 下跌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "History Says This Is the Best Investing Move You Can Make if a Bear Market Is Coming",
+      "title_zh": "历史表明，如果熊市即将来临，这是您可以采取的最佳投资举措",
+      "ts": 1794702000
+    },
+    {
+      "coins": [],
       "desc": "About 49.2 million KAVA was bridged to BNB Chain via LayerZero and sold for roughly $2.1 million in BNB and USDT.",
       "first_seen": 1794698344,
       "key": "kavalendlosesroughly38milliontohacksendingkavatokendownnearly40",
@@ -453,21 +468,6 @@
       "title": "She Retired at 64 in January 2000 With $1 Million and Followed the 4% Rule. Her Neighbor Did the Same Thing in January 2003. By the End of 2025, One Had About $96,000 Left and the Other Had $6.1 Million. Here’s What Every Retiree Needs To Know About Sequence Of Returns Risk",
       "title_zh": "2000 年 1 月，64 岁的她带着 100 万美元退休，并遵循 4% 的规则。她的邻居在 2003 年 1 月也做了同样的事情。到 2025 年底，一个人只剩下约 96,000 美元，另一个人只剩下 610 万美元。以下是每个退休人员需要了解的有关回报风险序列的信息",
       "ts": 1794676980
-    },
-    {
-      "coins": [],
-      "desc": "Four nonprofit advocacy groups want a California court to stop major AI developers from building stronger models, alleging their technology could cause catastrophic harm worldwide.",
-      "first_seen": 1794677262,
-      "key": "openaianthropicgoogleandotheraigiantsfacelawsuitdemandingdevelopmentfreeze",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze",
-      "reason": "利空词: 诉讼",
-      "score": -2,
-      "source": "Decrypt",
-      "tag": "利空",
-      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
-      "title_zh": "OpenAI、Anthropic、谷歌等人工智能巨头面临诉讼要求冻结开发",
-      "ts": 1794675662
     }
   ],
   "meta": {
@@ -488,6 +488,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T00:19:08+01:00",
-  "updated_unix": 1794698348
+  "updated": "2026-11-15T01:40:05+01:00",
+  "updated_unix": 1794703205
 }
