@@ -3,6 +3,53 @@
   "items": [
     {
       "coins": [],
+      "desc": "The Singapore-based cloud computing company has faced heightened scrutiny since reports linked Nvidia's Jensen Huang to former Megaspeed executive Alice Huang.",
+      "first_seen": 1794731241,
+      "key": "megaspeedsaysalicehuangleftin2025asitlaunchesinternalprobeintoreportsaboutitsbus",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+      "reason": "利空词: 调查",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+      "title_zh": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+      "ts": 1794730941
+    },
+    {
+      "coins": [],
+      "desc": "The South Korean crypto exchange said potentially exposed information includes passwords, bank account numbers, national identification numbers and crypto wallet addresses.",
+      "first_seen": 1794731241,
+      "key": "coinonewarnsofphishingidentitytheftaftercustomerdatabreach",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/coinone-data-breach-phishing-identity-theft-customer-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 禁令、警告",
+      "score": -3,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Coinone warns of phishing, identity theft after customer data breach",
+      "title_zh": "Coinone warns of phishing, identity theft after customer data breach",
+      "ts": 1794730078
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Pointing to developments in NVIDIA since last week, Visser said Wall Street’s reaction to them does not add up.",
+      "first_seen": 1794731241,
+      "key": "jordivisserseesdecemberfeddecisionasbitcoinsnextcatalystquestionswallstreetsnvid",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/jordi-visser-december-fed-decision-bitcoin-wall-street-nvidia-downgrades/cNbEJIIR9QA?.tsrc=rss",
+      "reason": "利空词: 下调评级",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
+      "title_zh": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
+      "ts": 1794729112
+    },
+    {
+      "coins": [],
       "desc": "The stUSDT team did not disclose a reason for winding down the RWA protocol but assured holders that all underlying assets remain fully backed.",
       "first_seen": 1794727842,
       "key": "rwaprotocolstusdtwindsdownthreeyearsafter23btvlpeak",
@@ -427,51 +474,6 @@
       "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
       "title_zh": "路易斯安那州股份公司在机构诉讼后称 CFTC 主席是预测市场的“谄媚的旗手”",
       "ts": 1794683219
-    },
-    {
-      "coins": [],
-      "desc": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
-      "first_seen": 1794684516,
-      "key": "nvidiasleadershipcrisisrattlestheaitradehereshowwereadjustingourportfolio",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-      "title_zh": "英伟达的领导力危机扰乱了人工智能行业。以下是我们调整投资组合的方式",
-      "ts": 1794682119
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794681997,
-      "key": "cardanofalls10inselloff",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-selloff-5027456",
-      "reason": "利空词: 下跌、抛售",
-      "score": -6,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Cardano Falls 10% In Selloff",
-      "title_zh": "卡尔达诺因抛售下跌 10%",
-      "ts": 1794680395
-    },
-    {
-      "coins": [],
-      "desc": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
-      "first_seen": 1794679451,
-      "key": "theweekjensenhuangfellhowaspyscandaltopplednvidiasceo",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
-      "title_zh": "黄仁勋倒下的一周：间谍丑闻如何导致英伟达首席执行官倒台",
-      "ts": 1794679262
     }
   ],
   "meta": {
@@ -488,10 +490,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 1",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 15",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T08:30:45+01:00",
-  "updated_unix": 1794727845
+  "updated": "2026-11-15T09:27:27+01:00",
+  "updated_unix": 1794731247
 }
