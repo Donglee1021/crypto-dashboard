@@ -2,6 +2,21 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Investors must understand how to benefit their portfolios during a bear market.",
+      "first_seen": 1794744401,
+      "key": "historysayseverysp500bearmarkethasendedthesamewayheresthepattern",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/history-says-every-sp-500-bear-market-has-ended-th/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "History Says Every S&P 500 Bear Market Has Ended the Same Way. Here's the Pattern.",
+      "title_zh": "历史表明，每一次标准普尔 500 指数熊市都以同样的方式结束。这是模式。",
+      "ts": 1794741900
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -15,8 +30,23 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Here’s what happened in crypto today",
-      "title_zh": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
       "ts": 1794741528
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794744401,
+      "key": "megaspeedsaysexectiedtoexnvidiaceoleftin2025amiduschipscrutiny",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/megaspeed-says-exec-tied-to-exnvidia-ceo-left-in-2025-amid-us-chip-scrutiny-5027830",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Megaspeed says exec tied to ex-Nvidia CEO left in 2025 amid U.S. chip scrutiny",
+      "title_zh": "Megaspeed 表示，因美国芯片审查，与前 Nvidia 首席执行官相关的高管将于 2025 年离职",
+      "ts": 1794741271
     },
     {
       "coins": [],
@@ -30,7 +60,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
-      "title_zh": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+      "title_zh": "Nvidia 的第一个后 Jensen 财报和 Anthropic 的 IPO：本周看点",
       "ts": 1794740400
     },
     {
@@ -45,7 +75,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "European stocks face 10% underperformance risk as rally loses momentum",
-      "title_zh": "European stocks face 10% underperformance risk as rally loses momentum",
+      "title_zh": "涨势失去动力，欧洲股市面临10%表现不佳的风险",
       "ts": 1794739582
     },
     {
@@ -63,7 +93,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-      "title_zh": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "title_zh": "随着加密货币抛售加剧，比特币跌至近 6.2 万美元的四个月低点",
       "ts": 1794738197
     },
     {
@@ -80,7 +110,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Peter Brandt Says Bitcoin's All-Time High May Never Be Topped In His Lifetime If Bearish Chart Pattern Holds",
-      "title_zh": "Peter Brandt Says Bitcoin's All-Time High May Never Be Topped In His Lifetime If Bearish Chart Pattern Holds",
+      "title_zh": "彼得·布兰特表示，如果看跌图表模式成立，比特币的历史最高点可能在他有生之年永远不会被打破",
       "ts": 1794735265
     },
     {
@@ -97,7 +127,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin’s Fall to $62,000 Sparks Market Manipulation Claims",
-      "title_zh": "Bitcoin’s Fall to $62,000 Sparks Market Manipulation Claims",
+      "title_zh": "比特币跌至 62,000 美元引发市场操纵指控",
       "ts": 1794734669
     },
     {
@@ -112,7 +142,7 @@
       "source": "Investing.com 股市",
       "tag": "利空",
       "title": "5 big analyst AI moves: Nvidia hit with downgrades after Huang’s exit",
-      "title_zh": "5 big analyst AI moves: Nvidia hit with downgrades after Huang’s exit",
+      "title_zh": "人工智能分析师的 5 大举措：黄仁勋退出后，英伟达评级遭下调",
       "ts": 1794733202
     },
     {
@@ -127,7 +157,7 @@
       "source": "CNBC 头条",
       "tag": "利空",
       "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
-      "title_zh": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+      "title_zh": "Megaspeed 表示 Alice Huang 已于 2025 年离职，并对其业务报告展开内部调查",
       "ts": 1794731686
     },
     {
@@ -142,7 +172,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Coinone warns of phishing, identity theft after customer data breach",
-      "title_zh": "Coinone warns of phishing, identity theft after customer data breach",
+      "title_zh": "Coinone 警告客户数据泄露后网络钓鱼和身份盗窃",
       "ts": 1794730078
     },
     {
@@ -159,7 +189,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
-      "title_zh": "Jordi Visser Sees December Fed Decision As Bitcoin’s Next Catalyst, Questions Wall Street’s Nvidia Downgrades",
+      "title_zh": "Jordi Visser 将 12 月美联储决定视为比特币的下一个催化剂，质疑华尔街 Nvidia 的降级",
       "ts": 1794729112
     },
     {
@@ -174,7 +204,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
-      "title_zh": "RWA protocol stUSDT winds down three years after $2.3B TVL peak",
+      "title_zh": "RWA 协议 stUSDT 在 TVL 达到 $2.3B 峰值三年后逐渐退出",
       "ts": 1794724046
     },
     {
@@ -191,7 +221,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Arthur Hayes Says Fed Rate Hikes Will Prompt Wealthy Investors To Buy More Bitcoin, Real Estate, Watches And Wine",
-      "title_zh": "Arthur Hayes Says Fed Rate Hikes Will Prompt Wealthy Investors To Buy More Bitcoin, Real Estate, Watches And Wine",
+      "title_zh": "阿瑟·海耶斯表示，美联储加息将促使富裕投资者购买更多比特币、房地产、手表和葡萄酒",
       "ts": 1794723338
     },
     {
@@ -208,7 +238,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
-      "title_zh": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
+      "title_zh": "随着 ETF 流出和清算加剧，比特币跌向 60,000 美元",
       "ts": 1794723035
     },
     {
@@ -272,7 +302,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Strategy Is Down 27% in 2026: Dead Money, or Due for a Bounce?",
-      "title_zh": "Strategy Is Down 27% in 2026: Dead Money, or Due for a Bounce?",
+      "title_zh": "策略2026年下跌27%：死钱还是反弹？",
       "ts": 1794709619
     },
     {
@@ -417,23 +447,6 @@
       "ts": 1794692042
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin (CRYPTO: $BTC) fell below $65,000 on Saturday, trading at $64,595.23, down 5.57% from a day earlier. ...",
-      "first_seen": 1794693758,
-      "key": "bitcoindropsbelow65000extendingweeklongslide",
-      "kind": "macro",
-      "link": "https://www.cryptoprowl.com/releases/bitcoin-drops-below-65000-extending-weeklong-slide-7908?.tsrc=rss",
-      "reason": "利空词: 下滑、下跌",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin Drops Below $65,000, Extending Weeklong Slide",
-      "title_zh": "比特币跌破 65,000 美元，延续一周跌势",
-      "ts": 1794691680
-    },
-    {
       "coins": [],
       "desc": "",
       "first_seen": 1794691236,
@@ -462,21 +475,6 @@
       "title": "EOS Falls 13% In Rout",
       "title_zh": "EOS 暴跌 13%",
       "ts": 1794689579
-    },
-    {
-      "coins": [],
-      "desc": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
-      "first_seen": 1794684516,
-      "key": "louisianaagcallscftcchairanobsequiousstandardbearerforpredictionmarketsfollowing",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342",
-      "reason": "利空词: 禁令、诉讼",
-      "score": -3,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
-      "title_zh": "路易斯安那州股份公司在机构诉讼后称 CFTC 主席是预测市场的“谄媚的旗手”",
-      "ts": 1794683219
     }
   ],
   "meta": {
@@ -490,13 +488,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 1",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T12:24:24+01:00",
-  "updated_unix": 1794741864
+  "updated": "2026-11-15T13:06:50+01:00",
+  "updated_unix": 1794744410
 }
