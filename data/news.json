@@ -2,6 +2,21 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Broadcom may be able to capitalize on Nvidia's misstep.",
+      "first_seen": 1794710171,
+      "key": "broadcomjumpedasnvidiafellthisiswhathasinvestorsexcited",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
+      "title_zh": "博通 (Broadcom) 上涨，而英伟达 (Nvidia) 下跌。这正是令投资者兴奋的地方。",
+      "ts": 1794709202
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -15,7 +30,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
-      "title_zh": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
+      "title_zh": "道琼斯期货：比特币随着市场反弹而暴跌； Nvidia 财报、Anthropic IPO 迫在眉睫",
       "ts": 1794706257
     },
     {
@@ -32,7 +47,7 @@
       "source": "Investing.com 加密",
       "tag": "利空",
       "title": "Ethereum Falls 10% In Rout",
-      "title_zh": "Ethereum Falls 10% In Rout",
+      "title_zh": "以太坊暴跌 10%",
       "ts": 1794704641
     },
     {
@@ -455,23 +470,6 @@
       "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
       "title_zh": "两大投资者敦促英伟达董事会考虑“黄仁勋的潜在回报”",
       "ts": 1794678366
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Michael Saylor just floated up to $30 billion in new financing for Strategy. Here's what that number does and doesn't mean.",
-      "first_seen": 1794679451,
-      "key": "bitcoinisslumpingbutmichaelsaylorsaysstrategycancreate10billionto30billionindigi",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/14/michael-saylor-says-strategy-can-generate-10-billi/?.tsrc=rss",
-      "reason": "利空词: 下挫",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin Is Slumping, but Michael Saylor Says Strategy Can Create $10 Billion to $30 Billion in \"Digital Credit\"",
-      "title_zh": "比特币正在暴跌，但 Michael Saylor 表示策略可以在“数字信贷”中创造 100 亿至 300 亿美元的价值",
-      "ts": 1794677460
     }
   ],
   "meta": {
@@ -492,6 +490,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T02:49:04+01:00",
-  "updated_unix": 1794707344
+  "updated": "2026-11-15T03:36:13+01:00",
+  "updated_unix": 1794710173
 }
