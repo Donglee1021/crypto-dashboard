@@ -3,6 +3,38 @@
   "items": [
     {
       "coins": [
+        "ETH"
+      ],
+      "desc": "From Goldman and Citi’s $270 million “Project Faro” to SoFi, Anchorage, Mastercard, Visa and Circle, traditional finance is racing to claim the onchain dollar once dominated by Tether and Circle.",
+      "first_seen": 1794760235,
+      "key": "howwallstreetisracingtoclaimtheonchaindollar",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383284/how-wall-street-racing-onchain-dollar-stablecoins",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "How Wall Street Is Racing to Claim the Onchain Dollar",
+      "title_zh": "华尔街如何竞相争夺链上美元",
+      "ts": 1794758462
+    },
+    {
+      "coins": [],
+      "desc": "One fund casts a wide net across government and corporate debt, while the other zeroes in on intermediate corporate bonds with a richer yield.",
+      "first_seen": 1794760235,
+      "key": "whichbondetfisthebetterbuyvanguardstotalbondmarketbndorisharescorporateigib",
+      "kind": "macro",
+      "link": "https://www.fool.com/coverage/etfs/2026/11/15/which-bond-etf-is-the-better-buy-vanguard-s-total-bond-market-bnd-or-ishares-corporate-igib/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Which Bond ETF Is the Better Buy: Vanguard’s Total Bond Market BND or iShares’ Corporate IGIB?",
+      "title_zh": "哪种债券 ETF 更值得购买：Vanguard 的 Total Bond Market BND 还是 iShares 的 Corporate IGIB？",
+      "ts": 1794757802
+    },
+    {
+      "coins": [
         "BTC"
       ],
       "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
@@ -29,8 +61,8 @@
       "score": 0,
       "source": "Investing.com 股市",
       "tag": "中性",
-      "title": "Bessent says Nvidia needs dramatic leadership shakeup",
-      "title_zh": "Bessent says Nvidia needs dramatic leadership shakeup",
+      "title": "Bessent says Nvidia needs \"dramatic\" leadership shakeup",
+      "title_zh": "贝森特表示英伟达需要“戏剧性”的领导层改组",
       "ts": 1794757198
     },
     {
@@ -45,7 +77,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Goldman Sachs reset S&P 500 price target for 2027",
-      "title_zh": "Goldman Sachs reset S&P 500 price target for 2027",
+      "title_zh": "高盛重置标普500指数2027年价格目标",
       "ts": 1794757020
     },
     {
@@ -60,7 +92,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming",
-      "title_zh": "History Says This Dividend Stock Can Protect Your Portfolio if a Stock Market Slump Is Coming",
+      "title_zh": "历史表明，如果股市暴跌即将来临，这只股息股票可以保护您的投资组合",
       "ts": 1794756900
     },
     {
@@ -75,7 +107,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "3 big things we're watching in the stock market in the week ahead",
-      "title_zh": "3 big things we're watching in the stock market in the week ahead",
+      "title_zh": "未来一周我们在股市中关注的三件大事",
       "ts": 1794756380
     },
     {
@@ -90,7 +122,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-      "title_zh": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+      "title_zh": "如今中国最热门的股票有一个共同点：名字听起来像羊",
       "ts": 1794756120
     },
     {
@@ -107,7 +139,7 @@
       "source": "Investing.com 加密",
       "tag": "利空",
       "title": "Bitcoin hovers near $65,000 after weekend selloff to lowest since July",
-      "title_zh": "Bitcoin hovers near $65,000 after weekend selloff to lowest since July",
+      "title_zh": "周末抛售至 7 月以来最低水平后，比特币徘徊在 65,000 美元附近",
       "ts": 1794755845
     },
     {
@@ -436,40 +468,6 @@
       "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
       "title_zh": "随着加密货币抛售加剧，比特币跌至近 6.2 万美元的四个月低点",
       "ts": 1794738197
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Investors pulled about over $2 billion from BTC funds over the two weeks, marking a big liquidation event.",
-      "first_seen": 1794736952,
-      "key": "peterbrandtsaysbitcoinsalltimehighmayneverbetoppedinhislifetimeifbearishchartpat",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/peter-brandt-says-bitcoin-s-all-time-high-may-never-be-topped-in-his-lifetime-if-bearish-chart-pattern-holds/cNbEOyUR9QM?.tsrc=rss",
-      "reason": "利多词: 创新高；利空词: 爆仓、看跌（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Peter Brandt Says Bitcoin's All-Time High May Never Be Topped In His Lifetime If Bearish Chart Pattern Holds",
-      "title_zh": "彼得·布兰特表示，如果看跌图表模式成立，比特币的历史最高点可能在他有生之年永远不会被打破",
-      "ts": 1794735265
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin crashed to $62,000 as liquidations topped $2 billion. Analysts claim manipulation, but others blame leverage.",
-      "first_seen": 1794736952,
-      "key": "bitcoinsfallto62000sparksmarketmanipulationclaims",
-      "kind": "macro",
-      "link": "https://beincrypto.com/bitcoin-62000-crash-manipulation-claims/?.tsrc=rss",
-      "reason": "利空词: 崩跌、下跌、爆仓",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin’s Fall to $62,000 Sparks Market Manipulation Claims",
-      "title_zh": "比特币跌至 62,000 美元引发市场操纵指控",
-      "ts": 1794734669
     }
   ],
   "meta": {
@@ -486,10 +484,10 @@
       "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T16:55:53+01:00",
-  "updated_unix": 1794758153
+  "updated": "2026-11-15T17:30:38+01:00",
+  "updated_unix": 1794760238
 }
