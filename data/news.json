@@ -3,6 +3,53 @@
   "items": [
     {
       "coins": [],
+      "desc": "A public BitGo code change on July 27 added support for Cash Cat on Robinhood Chain ten days before Robinhood announced the listing.",
+      "first_seen": 1794775394,
+      "key": "tradersclaim6millionprofitbyspottingbitgospublicpullrequestandfrontrunningmemeco",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/defi/2026-11-15-traders-claim-6-million-profit-by-spotting-bitgos-public-pull-request-and-frontrunning-memecoin-listing-440363",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Traders claim $6 million profit by spotting BitGo’s public pull request and frontrunning memecoin listing",
+      "title_zh": "交易员通过发现 BitGo 的公开拉取请求和领先的 memecoin 上市，获得了 600 万美元的利润",
+      "ts": 1794774797
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
+      "first_seen": 1794752986,
+      "key": "dowjonesfuturesloomforshakymarketrallyasbitcoindivesnvidiaearningsanthropicipoah",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Nvidia Earnings, Anthropic IPO Ahead",
+      "title_zh": "随着比特币跳水，道琼斯期货即将迎来不稳定的市场反弹； Nvidia 盈利，Anthropic IPO 即将到来",
+      "ts": 1794773347
+    },
+    {
+      "coins": [],
+      "desc": "These stocks are all down, but they have incredible long-term potential.",
+      "first_seen": 1794775394,
+      "key": "3magnificentstockstobuybefore2027andholdforadecade",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/3-magnificent-stocks-to-buy-before-2027-and-hold-for-a-decade/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "3 Magnificent Stocks to Buy Before 2027 and Hold for a Decade",
+      "title_zh": "2027 年之前值得买入并持有十年的 3 只优秀股票",
+      "ts": 1794773102
+    },
+    {
+      "coins": [],
       "desc": "Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
       "first_seen": 1794772956,
       "key": "lutnickfacesquestionsovernvidiaspyscandalhissonsfirmhastiestothechipmaker",
@@ -47,23 +94,6 @@
       "title": "Which Healthcare ETF Is the Better Buy: VanEck’s Pharma Fund PPH or iShares’ Biotech Fund IBB?",
       "title_zh": "哪种医疗保健 ETF 更值得购买：VanEck 的 Pharma Fund PPH 还是 iShares 的 Biotech Fund IBB？",
       "ts": 1794771393
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
-      "first_seen": 1794752986,
-      "key": "dowjonesfuturesloomforshakymarketrallyasbitcoindivesnvidiaearningsanthropicipoah",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Nvidia Earnings, Anthropic IPO Ahead",
-      "title_zh": "随着比特币跳水，道琼斯期货即将迎来不稳定的市场反弹； Nvidia 盈利，Anthropic IPO 即将到来",
-      "ts": 1794771340
     },
     {
       "coins": [
@@ -141,6 +171,23 @@
       "title": "Bank of America Names 5 Bullish Stocks Amid Market Concerns",
       "title_zh": "美国银行在市场担忧中提名 5 只看涨股票",
       "ts": 1794769428
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "A 29-year-old ICU nurse in Chicago earns $92,000 a year and puts $500 into Bitcoin every month through a standard cryptocurrency exchange account. She plans to hold it for decades, but hasn’t given much thought to the tax consequences when.",
+      "first_seen": 1794775394,
+      "key": "shebuys500inbitcoineverymonthcouldarothirahelpheravoidtaxesonfuturegains",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/she-buys-500-bitcoin-every-190009971.html?.tsrc=rss",
+      "reason": "利多词: 上涨、买入",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "She Buys $500 In Bitcoin Every Month. Could A Roth IRA Help Her Avoid Taxes On Future Gains?",
+      "title_zh": "她每月购买 500 美元的比特币。罗斯个人退休账户可以帮助她对未来的收益避税吗？",
+      "ts": 1794769209
     },
     {
       "coins": [],
@@ -266,38 +313,6 @@
       "title": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
       "title_zh": "“债券之王”杰弗里·冈拉克“对购买股票不感兴趣”。他的警告指出十年的损失",
       "ts": 1794762771
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Crypto's reputation for building fortunes meets a plain index fund in a head-to-head contest over returns, income, and risk. For anyone saving for retirement, one of these two assets has a far rougher five-year record than its reputation su",
-      "first_seen": 1794765115,
-      "key": "bitcoinvsstocksiscryptoreallythebestinvestmenttheresultsmaysurpriseyou",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/15/bitcoin-vs-stocks-is-crypto-really-the-best-investment-the-results-may-surprise-you/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
-      "title_zh": "比特币与股票：加密货币真的是最好的投资吗？结果可能会让您感到惊讶",
-      "ts": 1794762336
-    },
-    {
-      "coins": [],
-      "desc": "History is encouraging, but it isn’t a guarantee.",
-      "first_seen": 1794762940,
-      "key": "stockshaverisenayearaftereverymidtermsince1950hereswhatthatdoesanddoesnttellyou",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/15/stocks-have-risen-year-after-every-midterm-since-1950-what-that-does-doesnt-tell-you/?.tsrc=rss",
-      "reason": "利多词: 上升",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
-      "title_zh": "自 1950 年以来，每次中期选举后，股市都会上涨一年。以下是这能告诉你什么，不能告诉你什么。",
-      "ts": 1794760322
     },
     {
       "coins": [
@@ -454,21 +469,6 @@
       "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
       "title_zh": "比特币 ETF 连续 7 天流出，11 月损失 21 亿美元",
       "ts": 1794751262
-    },
-    {
-      "coins": [],
-      "desc": "With ascendent Democrats ready to pursue their own crypto and tech agendas next year, the final weeks of this session probably won't produce crypto surprises.",
-      "first_seen": 1794752986,
-      "key": "cryptoinsidersarentcountingonsilverliningsincongresslameducksession",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-      "title_zh": "加密货币内部人士并不指望国会“跛脚鸭”会议上的一线希望",
-      "ts": 1794751200
     }
   ],
   "meta": {
@@ -489,6 +489,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T21:02:41+01:00",
-  "updated_unix": 1794772961
+  "updated": "2026-11-15T21:43:16+01:00",
+  "updated_unix": 1794775396
 }
