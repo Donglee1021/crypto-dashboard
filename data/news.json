@@ -2,6 +2,51 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+      "first_seen": 1794755682,
+      "key": "nvidiaisgearingupforoneofwallstreetsmostanticipatedearningscallsinyears",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "title_zh": "英伟达正在为华尔街多年来最受期待的财报电话会议之一做准备",
+      "ts": 1794754800
+    },
+    {
+      "coins": [],
+      "desc": "Democrats advocated taxing high earners to shore up Social Security in the runup to the midterms. Plus, a senior deduction is slated to expire in two years.",
+      "first_seen": 1794755682,
+      "key": "socialsecurityandthebluewavewhatcouldhappentopayrolltaxesandseniortaxbreaks",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "title_zh": "社会保障和蓝色浪潮：工资税和高级税收减免可能会发生什么",
+      "ts": 1794753001
+    },
+    {
+      "coins": [],
+      "desc": "With scalability, privacy tools and onchain liquidity improving, businesses may finally have the infrastructure to make enterprise blockchain work.",
+      "first_seen": 1794755682,
+      "key": "enterpriseblockchainisgoingtocomebackfromthedead",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Enterprise blockchain is going to come back from the dead",
+      "title_zh": "企业区块链将起死回生",
+      "ts": 1794753000
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -17,6 +62,21 @@
       "title": "Bitcoin's four-year cycle is about to turn bullish — if history repeats: Chart of the Day",
       "title_zh": "如果历史重演，比特币的四年周期即将转为看涨：每日图表",
       "ts": 1794752264
+    },
+    {
+      "coins": [],
+      "desc": "Tesla's 2026 stock performance is tied to its robotaxi and Cybercab rollout, and management could release some good news on it before year-end.",
+      "first_seen": 1794755682,
+      "key": "teslaisdown13in2026whilethesp500isupheresthe1catalystleftthisyearthatcouldflipth",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/tesla-is-down-13-in-2026-while-the-sp-500-is-up-heres-the-1-catalyst-left-this-year-that-could-flip-that/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Tesla Is Down 13% in 2026 While the S&P 500 Is Up. Here’s the 1 Catalyst Left This Year That Could Flip That.",
+      "title_zh": "特斯拉 2026 年下跌 13%，而标准普尔 500 指数则上涨。这是今年剩下的第一个可能扭转局面的催化剂。",
+      "ts": 1794752102
     },
     {
       "coins": [],
@@ -412,72 +472,6 @@
       "title": "Arthur Hayes Says Fed Rate Hikes Will Prompt Wealthy Investors To Buy More Bitcoin, Real Estate, Watches And Wine",
       "title_zh": "阿瑟·海耶斯表示，美联储加息将促使富裕投资者购买更多比特币、房地产、手表和葡萄酒",
       "ts": 1794723338
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Investing.com -- Bitcoin fell to a four-month low over the weekend, approaching a major liquidation zone near $60,000 as institutional outflows, leveraged selling and expectations of higher U.S. interest rates pressured cryptocurrency marke",
-      "first_seen": 1794723498,
-      "key": "bitcoinslidestoward60000asetfoutflowsandliquidationsintensify",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-slides-toward-60-000-061035049.html?.tsrc=rss",
-      "reason": "利空词: 下滑、资金流出、爆仓",
-      "score": -6,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
-      "title_zh": "随着 ETF 流出和清算加剧，比特币跌向 60,000 美元",
-      "ts": 1794723035
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin’s latest selloff is testing the resolve of some of the cryptocurrency market’s most committed investors, as a succession of setbacks pushes prices toward their lowest levels of the year and major sources of demand weaken.",
-      "first_seen": 1794750262,
-      "key": "cryptosslowmotionselloffleavestraderswearyandhopeless",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-slow-motion-selloff-leaves-051027792.html?.tsrc=rss",
-      "reason": "利空词: 抛售、新低、疲弱",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
-      "title_zh": "加密货币的缓慢抛售让交易者感到疲倦和绝望",
-      "ts": 1794719427
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Short-term holders are sitting on losses, with around 84,000 BTC sold at a loss in 14 out of the last 16 days, according to CryptoQuant.",
-      "first_seen": 1794713281,
-      "key": "bitcoinselloffdeepensasbitwiseciowarnsofwildernessaheadwhalesbuythedipbut57krema",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-selloff-bitwise-wilderness-whales-57k/cNbER4pR9Qn?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 抛售、亏损、警告",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight",
-      "title_zh": "Bitwise 首席信息官警告未来“荒野”，比特币抛售加剧，鲸鱼逢低买入 – 但仍有望达到 5.7 万美元",
-      "ts": 1794711110
-    },
-    {
-      "coins": [],
-      "desc": "XRP tanked to its lowest level since November 2024 as ETF outflows and shrinking stablecoin supply add to pressure on crypto markets.",
-      "first_seen": 1794713281,
-      "key": "xrpcrashestoitslowestsincenovember2024asmoneyleavescrypto",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
-      "reason": "利空词: 崩跌、资金流出、新低",
-      "score": -5,
-      "source": "CoinDesk",
-      "tag": "利空",
-      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "title_zh": "随着资金撤离加密货币，XRP 跌至 2024 年 11 月以来的最低水平",
-      "ts": 1794711057
     }
   ],
   "meta": {
@@ -492,12 +486,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 1",
+      "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T15:29:49+01:00",
-  "updated_unix": 1794752989
+  "updated": "2026-11-15T16:14:44+01:00",
+  "updated_unix": 1794755684
 }
