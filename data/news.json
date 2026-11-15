@@ -2,21 +2,6 @@
   "errors": [],
   "items": [
     {
-      "coins": [],
-      "desc": "Broadcom may be able to capitalize on Nvidia's misstep.",
-      "first_seen": 1794710171,
-      "key": "broadcomjumpedasnvidiafellthisiswhathasinvestorsexcited",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss",
-      "reason": "利多词: 跳涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
-      "title_zh": "博通 (Broadcom) 上涨，而英伟达 (Nvidia) 下跌。这正是令投资者兴奋的地方。",
-      "ts": 1794709202
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -31,7 +16,54 @@
       "tag": "中性",
       "title": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
       "title_zh": "道琼斯期货：比特币随着市场反弹而暴跌； Nvidia 财报、Anthropic IPO 迫在眉睫",
-      "ts": 1794706257
+      "ts": 1794712716
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Short-term holders are sitting on losses, with around 84,000 BTC sold at a loss in 14 out of the last 16 days, according to CryptoQuant.",
+      "first_seen": 1794713281,
+      "key": "bitcoinselloffdeepensasbitwiseciowarnsofwildernessaheadwhalesbuythedipbut57krema",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-selloff-bitwise-wilderness-whales-57k/cNbER4pR9Qn?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 抛售、亏损、警告",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight",
+      "title_zh": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight",
+      "ts": 1794711110
+    },
+    {
+      "coins": [],
+      "desc": "XRP tanked to its lowest level since November 2024 as ETF outflows and shrinking stablecoin supply add to pressure on crypto markets.",
+      "first_seen": 1794713281,
+      "key": "xrpcrashestoitslowestsincenovember2024asmoneyleavescrypto",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+      "reason": "利空词: 崩跌、资金流出、新低",
+      "score": -5,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "title_zh": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "ts": 1794711057
+    },
+    {
+      "coins": [],
+      "desc": "Broadcom may be able to capitalize on Nvidia's misstep.",
+      "first_seen": 1794710171,
+      "key": "broadcomjumpedasnvidiafellthisiswhathasinvestorsexcited",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/14/broadcom-jumped-as-nvidia-fell-this-is-what-has-investors-excited/?.tsrc=rss",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Broadcom Jumped as Nvidia Fell. This Is What Has Investors Excited.",
+      "title_zh": "博通 (Broadcom) 上涨，而英伟达 (Nvidia) 下跌。这正是令投资者兴奋的地方。",
+      "ts": 1794709202
     },
     {
       "coins": [
@@ -440,36 +472,6 @@
       "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
       "title_zh": "比特币 ETF 连续第二周损失 10 亿美元，因为加密基金（除一只外）继续亏损",
       "ts": 1794678641
-    },
-    {
-      "coins": [],
-      "desc": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "first_seen": 1794698344,
-      "key": "thetrilliondollarmistakecorporateamericaismakingaboutretirement",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "The trillion-dollar mistake corporate America is making about retirement",
-      "title_zh": "美国企业界在退休问题上犯下的价值数万亿美元的错误",
-      "ts": 1794678600
-    },
-    {
-      "coins": [],
-      "desc": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
-      "first_seen": 1794679451,
-      "key": "nvidiaboardurgedtoconsiderpotentialreturnofjensenhuangbytwomajorinvestors",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-      "title_zh": "两大投资者敦促英伟达董事会考虑“黄仁勋的潜在回报”",
-      "ts": 1794678366
     }
   ],
   "meta": {
@@ -490,6 +492,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T03:36:13+01:00",
-  "updated_unix": 1794710173
+  "updated": "2026-11-15T04:28:03+01:00",
+  "updated_unix": 1794713283
 }
