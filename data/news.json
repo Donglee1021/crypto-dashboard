@@ -6,17 +6,32 @@
         "BTC"
       ],
       "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
-      "first_seen": 1794707343,
-      "key": "dowjonesfuturesbitcointumbleswithmarketrallyshakynvidiaearningsanthropicipoloom",
+      "first_seen": 1794716792,
+      "key": "dowjonesfuturesloombitcoindivesinshakymarketrallynvidiaearningsanthropicipoahead",
       "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures%3A-bitcoin.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨；利空词: 大跌（多空相抵）",
-      "score": 0,
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom%2C.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
       "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Loom, Bitcoin Dives In Shaky Market Rally; Nvidia Earnings, Anthropic IPO Ahead",
+      "title_zh": "道琼斯期货逼近，比特币在动荡的市场反弹中跳水； Nvidia 盈利，Anthropic IPO 即将到来",
+      "ts": 1794715544
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794716792,
+      "key": "ingsetsout10keyquestionsforchinaseconomyin2027",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/ing-sets-out-10-key-questions-for-chinas-economy-in-2027-5027649",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
       "tag": "中性",
-      "title": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
-      "title_zh": "道琼斯期货：比特币随着市场反弹而暴跌； Nvidia 财报、Anthropic IPO 迫在眉睫",
-      "ts": 1794712716
+      "title": "ING sets out 10 key questions for China’s economy in 2027",
+      "title_zh": "ING为2027年中国经济提出10大关键问题",
+      "ts": 1794714050
     },
     {
       "coins": [
@@ -32,7 +47,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight",
-      "title_zh": "Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight",
+      "title_zh": "Bitwise 首席信息官警告未来“荒野”，比特币抛售加剧，鲸鱼逢低买入 – 但仍有望达到 5.7 万美元",
       "ts": 1794711110
     },
     {
@@ -47,7 +62,7 @@
       "source": "CoinDesk",
       "tag": "利空",
       "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "title_zh": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "title_zh": "随着资金撤离加密货币，XRP 跌至 2024 年 11 月以来的最低水平",
       "ts": 1794711057
     },
     {
@@ -455,23 +470,6 @@
       "title": "U.S. midterms: Citi breaks down implications for economy and markets",
       "title_zh": "美国中期选举：花旗分析对经济和市场的影响",
       "ts": 1794678732
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "U.S. spot crypto ETFs lost about $1.55 billion combined, and Avalanche funds' $227,000 was the only weekly inflow among the 15 categories SoSoValue tracks.",
-      "first_seen": 1794679451,
-      "key": "bitcoinetfslose1billionforthesecondweekinarowascryptofundsexceptonecontinuebleed",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
-      "reason": "利多词: 资金流入",
-      "score": 1,
-      "source": "The Block",
-      "tag": "中性",
-      "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-      "title_zh": "比特币 ETF 连续第二周损失 10 亿美元，因为加密基金（除一只外）继续亏损",
-      "ts": 1794678641
     }
   ],
   "meta": {
@@ -492,6 +490,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T04:28:03+01:00",
-  "updated_unix": 1794713283
+  "updated": "2026-11-15T05:26:34+01:00",
+  "updated_unix": 1794716794
 }
