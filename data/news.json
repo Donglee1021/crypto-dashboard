@@ -1,8 +1,21 @@
 {
-  "errors": [
-    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
-  ],
+  "errors": [],
   "items": [
+    {
+      "coins": [],
+      "desc": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
+      "first_seen": 1794762940,
+      "key": "bessentcallsfordramaticshakeupatnvidiaurgesoutsideceo",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+      "title_zh": "外部首席执行官敦促英伟达进行“戏剧性改组”",
+      "ts": 1794766218
+    },
     {
       "coins": [
         "BTC",
@@ -18,7 +31,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
-      "title_zh": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
+      "title_zh": "随着比特币暴跌，Michael Saylor 的策略刚刚失去了 MSCI 指数的位置。 MSTR 股票值得卖出吗？",
       "ts": 1794763730
     },
     {
@@ -33,7 +46,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "3 Beaten-Down Stocks Under $10 to Buy in November",
-      "title_zh": "3 Beaten-Down Stocks Under $10 to Buy in November",
+      "title_zh": "11 月份值得买入的 3 只低于 10 美元的下跌股票",
       "ts": 1794763202
     },
     {
@@ -48,7 +61,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
-      "title_zh": "‘Bond King’ Jeffrey Gundlach Is “Not Interested in Buying Stocks.” His Warning Points to 10 Years of Losses",
+      "title_zh": "“债券之王”杰弗里·冈拉克“对购买股票不感兴趣”。他的警告指出十年的损失",
       "ts": 1794762771
     },
     {
@@ -82,23 +95,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
-      "title_zh": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You",
+      "title_zh": "比特币与股票：加密货币真的是最好的投资吗？结果可能会让您感到惊讶",
       "ts": 1794762336
-    },
-    {
-      "coins": [],
-      "desc": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
-      "first_seen": 1794762940,
-      "key": "bessentcallsfordramaticshakeupatnvidiaurgesoutsideceo",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-      "title_zh": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-      "ts": 1794761351
     },
     {
       "coins": [],
@@ -112,7 +110,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
-      "title_zh": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "title_zh": "自 1950 年以来，每次中期选举后，股市都会上涨一年。以下是这能告诉你什么，不能告诉你什么。",
       "ts": 1794760322
     },
     {
@@ -208,6 +206,21 @@
       "ts": 1794756380
     },
     {
+      "coins": [],
+      "desc": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+      "first_seen": 1794767422,
+      "key": "chinashotteststocksthesedayshaveonethingincommonnamesthatsoundlikesheep",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+      "reason": "利多词: 飙升",
+      "score": 1,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+      "title_zh": "如今中国最热门的股票有一个共同点：名字听起来像羊",
+      "ts": 1794756120
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -223,6 +236,21 @@
       "title": "Bitcoin hovers near $65,000 after weekend selloff to lowest since July",
       "title_zh": "周末抛售至 7 月以来最低水平后，比特币徘徊在 65,000 美元附近",
       "ts": 1794755845
+    },
+    {
+      "coins": [],
+      "desc": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+      "first_seen": 1794767422,
+      "key": "nvidiaisgearingupforoneofwallstreetsmostanticipatedearningscallsinyears",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "title_zh": "英伟达正在为华尔街多年来最受期待的财报电话会议之一做准备",
+      "ts": 1794754800
     },
     {
       "coins": [],
@@ -398,6 +426,21 @@
     },
     {
       "coins": [],
+      "desc": "Charts show the potential for more pain ahead",
+      "first_seen": 1794767422,
+      "key": "goldandsilveraresupposedtoprotectagainstinflationsowhyarebothmetalstumblinginste",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+      "title_zh": "黄金和白银应该可以抵御通货膨胀。那么为什么两种金属都下跌呢？",
+      "ts": 1794745800
+    },
+    {
+      "coins": [],
       "desc": "The Federal Reserve's December decision could move stocks, but history suggests investors should look beyond the immediate market reaction.",
       "first_seen": 1794747357,
       "key": "howwillthemarketreacttoapotentialfedratehikeindecemberhereswhathistorysuggests",
@@ -425,56 +468,6 @@
       "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
       "title_zh": "Anthropic 首次公开募股，陷入困境的人工智能行业正在寻找急需的亮点",
       "ts": 1794744001
-    },
-    {
-      "coins": [],
-      "desc": "Investors must understand how to benefit their portfolios during a bear market.",
-      "first_seen": 1794744401,
-      "key": "historysayseverysp500bearmarkethasendedthesamewayheresthepattern",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/15/history-says-every-sp-500-bear-market-has-ended-th/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "History Says Every S&P 500 Bear Market Has Ended the Same Way. Here's the Pattern.",
-      "title_zh": "历史表明，每一次标准普尔 500 指数熊市都以同样的方式结束。这是模式。",
-      "ts": 1794741900
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1794741854,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1794741528
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
-      "first_seen": 1794765115,
-      "key": "bitcoinfallstofourmonthlownear62kascryptoselloffdeepens",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下跌、抛售、亏损",
-      "score": -7,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-      "title_zh": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-      "ts": 1794738197
     }
   ],
   "meta": {
@@ -489,12 +482,12 @@
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
+      "MarketWatch": "ok 3",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T18:52:00+01:00",
-  "updated_unix": 1794765120
+  "updated": "2026-11-15T19:30:26+01:00",
+  "updated_unix": 1794767426
 }
