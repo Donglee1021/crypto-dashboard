@@ -5,6 +5,23 @@
       "coins": [
         "BTC"
       ],
+      "desc": "",
+      "first_seen": 1794723498,
+      "key": "bitcoinslidestoward60000asetfoutflowsandliquidationsintensify",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
+      "reason": "利空词: 下滑、资金流出、爆仓",
+      "score": -6,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
+      "title_zh": "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify",
+      "ts": 1794721235
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "Despite its best week in two months, the Nasdaq closed below a key level. Nvidia earnings and the Anthropic IPO loom.",
       "first_seen": 1794716792,
       "key": "dowjonesfuturesloombitcoindivesinshakymarketrallynvidiaearningsanthropicipoahead",
@@ -455,21 +472,6 @@
       "title": "Warren Buffett's Berkshire Compounded at More Than 19% a Year Over Six Decades, Nearly Double the S&P 500's 10% Return. Can Investors Still Apply That Playbook Today?",
       "title_zh": "沃伦·巴菲特 (Warren巴菲特) 的伯克希尔哈撒韦公司 (Berkshire) 六年来的年复合增长率超过 19%，几乎是标准普尔 500 指数 (S&P 500) 10% 回报率的两倍。投资者今天还能应用这个策略吗？",
       "ts": 1794678842
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794679451,
-      "key": "usmidtermscitibreaksdownimplicationsforeconomyandmarkets",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/us-midterms-citi-breaks-down-implications-for-economy-and-markets-5027443",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "U.S. midterms: Citi breaks down implications for economy and markets",
-      "title_zh": "美国中期选举：花旗分析对经济和市场的影响",
-      "ts": 1794678732
     }
   ],
   "meta": {
@@ -483,13 +485,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 40",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 1",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T05:26:34+01:00",
-  "updated_unix": 1794716794
+  "updated": "2026-11-15T07:18:19+01:00",
+  "updated_unix": 1794723499
 }
