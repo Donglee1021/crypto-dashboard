@@ -2,6 +2,36 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
+      "first_seen": 1794762940,
+      "key": "bessentcallsfordramaticshakeupatnvidiaurgesoutsideceo",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+      "title_zh": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+      "ts": 1794761351
+    },
+    {
+      "coins": [],
+      "desc": "History is encouraging, but it isn’t a guarantee.",
+      "first_seen": 1794762940,
+      "key": "stockshaverisenayearaftereverymidtermsince1950hereswhatthatdoesanddoesnttellyou",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/15/stocks-have-risen-year-after-every-midterm-since-1950-what-that-does-doesnt-tell-you/?.tsrc=rss",
+      "reason": "利多词: 上升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "title_zh": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "ts": 1794760322
+    },
+    {
       "coins": [
         "ETH"
       ],
@@ -435,39 +465,6 @@
       "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
       "title_zh": "Nvidia 的第一个后 Jensen 财报和 Anthropic 的 IPO：本周看点",
       "ts": 1794740400
-    },
-    {
-      "coins": [],
-      "desc": "Investing.com -- European equities could underperform global markets next year as stretched valuations, slowing earnings growth and political uncertainty threaten a rally that has pushed regional stocks to record highs, according to major i",
-      "first_seen": 1794739598,
-      "key": "europeanstocksface10underperformanceriskasrallylosesmomentum",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-face-10-underperformance-104622060.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、创新高；利空词: 失守（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "European stocks face 10% underperformance risk as rally loses momentum",
-      "title_zh": "涨势失去动力，欧洲股市面临10%表现不佳的风险",
-      "ts": 1794739582
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "The global cryptocurrency market capitalization fell 4% to $2.26 trillion over 24 hours, while Ether and Solana posted double-digit weekly losses.",
-      "first_seen": 1794739598,
-      "key": "bitcoinfallstofourmonthlownear62kascryptoselloffdeepens",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下跌、抛售、亏损",
-      "score": -7,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
-      "title_zh": "随着加密货币抛售加剧，比特币跌至近 6.2 万美元的四个月低点",
-      "ts": 1794738197
     }
   ],
   "meta": {
@@ -484,10 +481,10 @@
       "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T17:30:38+01:00",
-  "updated_unix": 1794760238
+  "updated": "2026-11-15T18:15:42+01:00",
+  "updated_unix": 1794762942
 }
