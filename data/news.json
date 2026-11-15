@@ -14,7 +14,7 @@
       "tag": "利空",
       "title": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
       "title_zh": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
-      "ts": 1794730941
+      "ts": 1794731686
     },
     {
       "coins": [],
@@ -444,23 +444,6 @@
       "ts": 1794685802
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin and the broader cryptocurrency market could face near-term volatility following Democrats’ takeover of Congress. But Bitwise Chief Investment Officer Matt Hougan believes younger, crypto-friendly lawmakers will still support the ind",
-      "first_seen": 1794689055,
-      "key": "bitwisesmatthougansaysdemographicstrumpelectionsimpactoncrypto",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitwises-matt-hougan-says-demographics-193007880.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitwise's Matt Hougan Says 'Demographics' Trump Election's Impact on Crypto",
-      "title_zh": "Bitwise 的 Matt Hougan 表示“人口统计”特朗普选举对加密货币的影响",
-      "ts": 1794684607
-    },
-    {
       "coins": [],
       "desc": "The CFTC sued Louisiana Friday to block a state judge's order banning 31 prediction markets, including Kalshi and Polymarket, in the state.",
       "first_seen": 1794684516,
@@ -474,6 +457,21 @@
       "title": "Louisiana AG calls CFTC chair an ‘obsequious standard bearer’ for prediction markets following agency lawsuit",
       "title_zh": "路易斯安那州股份公司在机构诉讼后称 CFTC 主席是预测市场的“谄媚的旗手”",
       "ts": 1794683219
+    },
+    {
+      "coins": [],
+      "desc": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+      "first_seen": 1794734125,
+      "key": "nvidiasleadershipcrisisrattlestheaitradehereshowwereadjustingourportfolio",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+      "reason": "利多词: 上涨",
+      "score": 1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "title_zh": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+      "ts": 1794682119
     }
   ],
   "meta": {
@@ -490,10 +488,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 1",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T09:27:27+01:00",
-  "updated_unix": 1794731247
+  "updated": "2026-11-15T10:15:32+01:00",
+  "updated_unix": 1794734132
 }
