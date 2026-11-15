@@ -5,6 +5,55 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Peter Brandt says a possible bearish chart pattern could put another record high beyond his lifetime.",
+      "first_seen": 1794782552,
+      "key": "veterantraderwarnsbitcoinsrecordmayoutlivehim",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/veteran-trader-warns-bitcoins-record-may-outlive-him?.tsrc=rss",
+      "reason": "利多词: 创新高；利空词: 看跌、警告",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Veteran trader warns Bitcoin's record may outlive him",
+      "title_zh": "Veteran trader warns Bitcoin's record may outlive him",
+      "ts": 1794781875
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin sits nearly half off its peak, yet Wall Street's boldest forecasters still see seven figures per coin by 2030. Before you chase their math, check which stack size survives a stubborn bear market and a stalled ETF flow.",
+      "first_seen": 1794782552,
+      "key": "howmuchbitcoindoyouneedtobeamillionaireby2030",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/15/how-much-bitcoin-do-you-need-to-be-a-millionaire-by-2030/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "How Much Bitcoin Do You Need to Be a Millionaire by 2030?",
+      "title_zh": "How Much Bitcoin Do You Need to Be a Millionaire by 2030?",
+      "ts": 1794781390
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
+      "first_seen": 1794782552,
+      "key": "dowjonesfuturesduehowwillnvidiareactasjensenhuangmullsreturn",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-due%3B-how.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dow Jones Futures Due; How Will Nvidia React As Jensen Huang Mulls Return?",
+      "title_zh": "Dow Jones Futures Due; How Will Nvidia React As Jensen Huang Mulls Return?",
+      "ts": 1794780194
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "The price moves across the market led to $2 billion in crypto liquidations in a single 24-hour period over the weekend.",
       "first_seen": 1794780209,
       "key": "czdeniesbinancesoldcryptoasbitcoinbouncesfromfourmonthlownear62000",
@@ -17,21 +66,6 @@
       "title": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
       "title_zh": "CZ denies Binance sold crypto as Bitcoin bounces from four-month low near $62,000",
       "ts": 1794779873
-    },
-    {
-      "coins": [],
-      "desc": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
-      "first_seen": 1794780209,
-      "key": "dowjonesfuturesloomforshakymarketrallyjensenhuangmullsnvidiareturn",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/53e50dc8-f137-3f6c-bfd6-912334fef9f1/dow-jones-futures-loom-for.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Loom For Shaky Market Rally; Jensen Huang Mulls Nvidia Return?",
-      "title_zh": "Dow Jones Futures Loom For Shaky Market Rally; Jensen Huang Mulls Nvidia Return?",
-      "ts": 1794779432
     },
     {
       "coins": [],
@@ -375,39 +409,6 @@
     },
     {
       "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "With an index provider cutting it loose and bitcoin sitting below its purchase price, Saylor's funding machine faces its toughest test yet. A cash cushion buys time, but one signal could decide whether patience pays off.",
-      "first_seen": 1794765115,
-      "key": "michaelsaylorsstrategyjustlostitsmsciindexspotasbitcoinplungesismstrstockasell",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/15/michael-saylors-strategy-just-lost-its-msci-index-spot-as-bitcoin-plunges-is-mstr-stock-a-sell/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 暴跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Michael Saylor’s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell?",
-      "title_zh": "随着比特币暴跌，Michael Saylor 的策略刚刚失去了 MSCI 指数的位置。 MSTR 股票值得卖出吗？",
-      "ts": 1794763730
-    },
-    {
-      "coins": [],
-      "desc": "These three beaten-down growth stocks could be hiding the market's biggest opportunities.",
-      "first_seen": 1794765115,
-      "key": "3beatendownstocksunder10tobuyinnovember",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/15/3-stocks-under-10-to-buy-in-november/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "3 Beaten-Down Stocks Under $10 to Buy in November",
-      "title_zh": "11 月份值得买入的 3 只低于 10 美元的下跌股票",
-      "ts": 1794763202
-    },
-    {
-      "coins": [
         "ETH"
       ],
       "desc": "From Goldman and Citi’s $270 million “Project Faro” to SoFi, Anchorage, Mastercard, Visa and Circle, traditional finance is racing to claim the onchain dollar once dominated by Tether and Circle.",
@@ -487,6 +488,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-15T23:03:34+01:00",
-  "updated_unix": 1794780214
+  "updated": "2026-11-15T23:42:39+01:00",
+  "updated_unix": 1794782559
 }
