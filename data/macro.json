@@ -178,7 +178,7 @@
     "bias": -0.19,
     "corr": 0.239,
     "corr_label": "弱",
-    "equity_chg": -2.67,
+    "equity_chg": -2.7,
     "equity_name": "纳指期货",
     "line": "美股休市，纳指期货跌2.7%、VIX上升、美元走强，相关性低，对加密偏空",
     "session": "after",
@@ -236,25 +236,25 @@
     "标普期货 ES": {
       "chg": -1.91,
       "chg_1d": -1.91,
-      "chg_5d": -1.79,
-      "chg_intraday": -1.83,
-      "last": 7438.5,
+      "chg_5d": -1.8,
+      "chg_intraday": -0.05,
+      "last": 7438.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794866399,
+      "time_unix": 1794871457,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": -2.67,
-      "chg_1d": -2.67,
-      "chg_5d": -2.6,
-      "chg_intraday": -2.77,
-      "last": 27285.25,
+      "chg": -2.7,
+      "chg_1d": -2.7,
+      "chg_5d": -2.63,
+      "chg_intraday": -0.14,
+      "last": 27277.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794866399,
+      "time_unix": 1794871457,
       "unit": ""
     },
     "纳斯达克100": {
@@ -286,11 +286,11 @@
       "chg_1d": 0.17,
       "chg_5d": 1.9,
       "chg_intraday": 0.17,
-      "last": 103.583,
+      "last": 103.586,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1794869007,
+      "time_unix": 1794870299,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-16T23:53:30+01:00",
-  "updated_unix": 1794869610
+  "updated": "2026-11-17T00:34:21+01:00",
+  "updated_unix": 1794872061
 }
