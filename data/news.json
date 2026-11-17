@@ -14,7 +14,56 @@
       "tag": "中性",
       "title": "Nvidia rules out Huang comeback as campaign for his return grows",
       "title_zh": "Nvidia rules out Huang comeback as campaign for his return grows",
-      "ts": 1794878681
+      "ts": 1794882644
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Trump Media borrowed against its bitcoin stash, and now lenders hold a one-time option to demand cash. With coins sliding, thousands of them recently on the move, and a shareholder vote looming, the company's repayment plan faces a real tes",
+      "first_seen": 1794883130,
+      "key": "asbitcoinplummetstrumpmediawarnsitmayhavetosellsometorepaynoteholdershereswhynov",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/16/as-bitcoin-plummets-trump-media-warns-it-may-have-to-sell-some-to-repay-noteholders-heres-why-nov-30-is-the-key-date-for-its-1-billion-in-notes/?.tsrc=rss",
+      "reason": "利空词: 警告",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "As Bitcoin Plummets, Trump Media Warns It May Have To Sell Some To Repay Noteholders. Here’s Why Nov. 30 Is The Key Date For Its $1 Billion In Notes",
+      "title_zh": "As Bitcoin Plummets, Trump Media Warns It May Have To Sell Some To Repay Noteholders. Here’s Why Nov. 30 Is The Key Date For Its $1 Billion In Notes",
+      "ts": 1794882294
+    },
+    {
+      "coins": [],
+      "desc": "Navitas Semiconductor Corp. (NASDAQ:NVTS) is one of the 10 Stocks Investors Are Dumping Right Now. Navitas Semiconductor extended its losing streak to a third consecutive day on Monday, shedding 11.96 percent to finish at $7.88 amid lingeri",
+      "first_seen": 1794883130,
+      "key": "investorsarefleeingnavitassemiconductornvtshereswhy",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-fleeing-navitas-semiconductor-nvts-015221715.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Investors Are Fleeing Navitas Semiconductor (NVTS). Here’s Why",
+      "title_zh": "Investors Are Fleeing Navitas Semiconductor (NVTS). Here’s Why",
+      "ts": 1794880341
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Strive Inc. (NASDAQ:ASST) is one of the 10 Stocks Investors Are Dumping Right Now. Strive Inc. dropped its share price by 11.94 percent on Monday to finish at $18.81 apiece as investors weighed its move to acquire more Bitcoins for $17.5 mi",
+      "first_seen": 1794883130,
+      "key": "striveincasstgetsbeatenbythismilliondollarmove",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strive-inc-asst-gets-beaten-014533734.html?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Strive Inc. (ASST) Gets Beaten by This Million-Dollar Move",
+      "title_zh": "Strive Inc. (ASST) Gets Beaten by This Million-Dollar Move",
+      "ts": 1794879933
     },
     {
       "coins": [
@@ -65,7 +114,7 @@
     },
     {
       "coins": [],
-      "desc": "Researchers say attackers compromised scripts delivered through Optimizely, exposing visitors to malware designed to replace crypto wallet addresses and steal payment card details.",
+      "desc": "Ledger and Coinpass were among the businesses whose websites served malware designed to steal visitors’ crypto and credit card details, according to security researchers.",
       "first_seen": 1794879971,
       "key": "hackersinjectcreditcardcryptostealingmalwareinto178majorwebsites",
       "kind": "crypto",
@@ -95,6 +144,21 @@
     },
     {
       "coins": [],
+      "desc": "Investors are getting nervous ahead of big moves from Nvidia and Anthropic this week.",
+      "first_seen": 1794883130,
+      "key": "reviewpreviewnowwhat",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/af12ddb3-da89-3246-b0ef-05069ae618d3/review-%26-preview%3A-now-what%3F.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Review & Preview: Now What?",
+      "title_zh": "Review & Preview: Now What?",
+      "ts": 1794876900
+    },
+    {
+      "coins": [],
       "desc": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
       "first_seen": 1794879971,
       "key": "analysisthefedschairmanseesanairevolutioncomingnowhehastofigureoutwhatitmeans",
@@ -102,7 +166,7 @@
       "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
       "title_zh": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
@@ -275,53 +339,6 @@
     },
     {
       "coins": [
-        "ETH"
-      ],
-      "desc": "Global markets lost roughly $2.2 trillion in a single session as US stocks, precious metals, and Asian equities sank together.",
-      "first_seen": 1794874858,
-      "key": "stocksgoldandasiableed22trilliontop5factorsthattriggeredthecrash",
-      "kind": "macro",
-      "link": "https://beincrypto.com/market-bloodbath-2-trillion-5-factors/?.tsrc=rss",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stocks, Gold, and Asia Bleed $2.2 Trillion: Top 5 Factors That Triggered the Crash",
-      "title_zh": "Stocks, Gold, and Asia Bleed $2.2 Trillion: Top 5 Factors That Triggered the Crash",
-      "ts": 1794870900
-    },
-    {
-      "coins": [],
-      "desc": "Today, Nov. 16, 2026, AI cloud operator IREN closed lower as sector peers slipped and investors weighed infrastructure execution.",
-      "first_seen": 1794872037,
-      "key": "stockmarkettodaynov16irenslidesasneocloudweaknessandtechsectorsellingputpressure",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-iren-slides-as-neocloud-weakness-and-tech-sector-selling-put-pressure-on-shares/?.tsrc=rss",
-      "reason": "利空词: 下滑、疲弱",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 16: IREN Slides as Neocloud Weakness and Tech Sector Selling Put Pressure on Shares",
-      "title_zh": "Stock Market Today, Nov. 16: IREN Slides as Neocloud Weakness and Tech Sector Selling Put Pressure on Shares",
-      "ts": 1794870655
-    },
-    {
-      "coins": [],
-      "desc": "Here are five consumer staples stocks reaching fresh 52-week highs as investors seek defensive safety and reliable dividends amid the broader market selloff.",
-      "first_seen": 1794874858,
-      "key": "5consumerstaplesstocksreachingnewhighsasmarketsretreat",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-consumer-staples-stocks-reaching-231000495.html?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "5 Consumer Staples Stocks Reaching New Highs as Markets Retreat",
-      "title_zh": "5 Consumer Staples Stocks Reaching New Highs as Markets Retreat",
-      "ts": 1794870600
-    },
-    {
-      "coins": [
         "BTC"
       ],
       "desc": "",
@@ -441,21 +458,6 @@
       "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
       "title_zh": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
       "ts": 1794868380
-    },
-    {
-      "coins": [],
-      "desc": "FalconX’s Joshua Lim says the Binance hack could push institutions to keep crypto off exchanges and change how large investors trade in 2027.",
-      "first_seen": 1794869584,
-      "key": "binancehackmaypushinstitutionstooutsidecustodyfalconxexecsays",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/binance-hack-institutional-crypto-custody-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 被黑",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Binance hack may push institutions to outside custody, FalconX exec says",
-      "title_zh": "Binance hack may push institutions to outside custody, FalconX exec says",
-      "ts": 1794867581
     }
   ],
   "meta": {
@@ -470,12 +472,12 @@
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 4",
+      "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 13",
+      "Yahoo Finance": "ok 14",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-17T02:46:36+01:00",
-  "updated_unix": 1794879996
+  "updated": "2026-11-17T03:39:14+01:00",
+  "updated_unix": 1794883154
 }
