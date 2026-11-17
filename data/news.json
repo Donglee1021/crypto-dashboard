@@ -3,6 +3,53 @@
   "items": [
     {
       "coins": [],
+      "desc": "Our list of the 10 Stocks to Buy Following Jensen Huang’s Departure is out, and Advanced Micro Devices, Inc. (NASDAQ:AMD) ranked 9th. For three years, the AI trade had one face. Now it has an interim CEO. On November 12, Jensen Huang resign",
+      "first_seen": 1794886206,
+      "key": "isnvidiasturmoiladvancedmicrodevicesamdbiggestopeningyet",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-turmoil-advanced-micro-devices-031446562.html?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Is NVIDIA’s Turmoil Advanced Micro Devices’ (AMD) Biggest Opening Yet?",
+      "title_zh": "Is NVIDIA’s Turmoil Advanced Micro Devices’ (AMD) Biggest Opening Yet?",
+      "ts": 1794885286
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "A weak Nvidia report could cause a new wave of selling in crypto, says Nansen’s Nicolai Søndergaard, while Anthony Pompliano blames part of the slide on Anthropic’s upcoming IPO.",
+      "first_seen": 1794886206,
+      "key": "bitcoinbearstarget60kasnvidiaearningsanthropicipobondyieldsandfedhikeoddsweighon",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-bear-nvidia-earnings-anthropic-fed-rate-hike-weighs-on-crypto-recovery/cNbaiD6R9gp?.tsrc=rss",
+      "reason": "利多词: 回升；利空词: 下滑、加息、疲弱",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin Bears Target $60K As Nvidia Earnings, Anthropic IPO, Bond Yields And Fed Hike Odds Weigh On Crypto Recovery",
+      "title_zh": "Bitcoin Bears Target $60K As Nvidia Earnings, Anthropic IPO, Bond Yields And Fed Hike Odds Weigh On Crypto Recovery",
+      "ts": 1794884779
+    },
+    {
+      "coins": [],
+      "desc": "Warren Buffett's 1996 test for owning a stock, applied to a 68-year-old with $650,000 in an IRA and $3,000 a month in Social Security: $300,000 goes into a Treasury ladder paying about 4.9%, $350,000 into an S&P 500 index fund, the income i",
+      "first_seen": 1794886206,
+      "key": "warrenbuffetts10yearrulefora68yearoldwith650000inaniraand3000amonthinsocialsecur",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/16/warren-buffetts-10-year-rule-for-a-68-year-old-with-650000-in-an-ira-and-3000-a-month-in-social-security-heres-the-monthly-income-and-the-tax-bill/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Warren Buffett’s 10-Year Rule for a 68-Year-Old With $650,000 in an IRA and $3,000 a Month in Social Security. Here’s the Monthly Income and the Tax Bill.",
+      "title_zh": "Warren Buffett’s 10-Year Rule for a 68-Year-Old With $650,000 in an IRA and $3,000 a Month in Social Security. Here’s the Monthly Income and the Tax Bill.",
+      "ts": 1794883620
+    },
+    {
+      "coins": [],
       "desc": "",
       "first_seen": 1794879971,
       "key": "nvidiarulesouthuangcomebackascampaignforhisreturngrows",
@@ -15,6 +62,23 @@
       "title": "Nvidia rules out Huang comeback as campaign for his return grows",
       "title_zh": "Nvidia rules out Huang comeback as campaign for his return grows",
       "ts": 1794882644
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Arthur Hayes says ETH, ZEC, NEAR and VVV will pump before the AI bubble ends, but he is sizing the trade small to medium.",
+      "first_seen": 1794886206,
+      "key": "arthurhayessays4cryptohorsemenwillpumpthenusherinaibubblesend",
+      "kind": "macro",
+      "link": "https://beincrypto.com/arthur-hayes-four-horsemen-ai-bubble/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Arthur Hayes Says 4 Crypto ‘Horsemen' Will Pump, Then Usher in AI Bubble's End",
+      "title_zh": "Arthur Hayes Says 4 Crypto ‘Horsemen' Will Pump, Then Usher in AI Bubble's End",
+      "ts": 1794882333
     },
     {
       "coins": [
@@ -166,7 +230,7 @@
       "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
       "title_zh": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
@@ -231,51 +295,6 @@
       "title": "Fuel Cell Market Seen at $18 Billion by 2030 as Quarterly Results Diverge",
       "title_zh": "Fuel Cell Market Seen at $18 Billion by 2030 as Quarterly Results Diverge",
       "ts": 1794874080
-    },
-    {
-      "coins": [],
-      "desc": "Canada News Group News Commentary - Canada's telecom sector produced one of Monday's biggest corporate stories, as TELUS confirmed it has received an unsolicited proposal from Québecor. Shares of TELUS rose sharply on the news even as U.S. ",
-      "first_seen": 1794874858,
-      "key": "canadastelecommapcouldberedrawnasatakeoverapproachgoespublic",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canadas-telecom-map-could-redrawn-235800126.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Canada's Telecom Map Could Be Redrawn as a Takeover Approach Goes Public",
-      "title_zh": "Canada's Telecom Map Could Be Redrawn as a Takeover Approach Goes Public",
-      "ts": 1794873480
-    },
-    {
-      "coins": [],
-      "desc": "American News Group News Commentary - Protein producers had one of the brighter stories on a weak day for stocks. The S&P 500 fell 1.92% to 7,416.59 and the Nasdaq Composite dropped 2.49% to 24,509.76 on Monday, according to CNBC's closing ",
-      "first_seen": 1794874858,
-      "key": "usdaprojectslowerbeefandhigherchickenoutputfortheyearahead",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/usda-projects-lower-beef-higher-235700990.html?.tsrc=rss",
-      "reason": "利空词: 下跌、疲弱",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "USDA Projects Lower Beef and Higher Chicken Output for the Year Ahead",
-      "title_zh": "USDA Projects Lower Beef and Higher Chicken Output for the Year Ahead",
-      "ts": 1794873420
-    },
-    {
-      "coins": [],
-      "desc": "Hive CEO Aydin Kilic says Nvidia chips bought in 2021 still generate cash, challenging Wall Street’s view that GPUs lose all value.",
-      "first_seen": 1794874858,
-      "key": "hivedigitalceosaysitsfiveyearoldnvidiagpusstillproducecashflow",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/innovation/hive-digital-ceo-says-its-five-year-old-nvidia-gpus-still-produce-cash-flow?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow",
-      "title_zh": "Hive Digital CEO says its five-year-old Nvidia GPUs still produce cash flow",
-      "ts": 1794873109
     },
     {
       "coins": [],
@@ -443,21 +462,6 @@
       "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
       "title_zh": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
       "ts": 1794868665
-    },
-    {
-      "coins": [],
-      "desc": "Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
-      "first_seen": 1794869584,
-      "key": "berkshireuppeditsbetonabeleagueredushousingmarketwhilesouringonthesebankstocks",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
-      "reason": "利空词: 禁令",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-      "title_zh": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-      "ts": 1794868380
     }
   ],
   "meta": {
@@ -471,13 +475,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 14",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-17T03:39:14+01:00",
-  "updated_unix": 1794883154
+  "updated": "2026-11-17T04:30:29+01:00",
+  "updated_unix": 1794886229
 }
