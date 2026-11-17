@@ -3,18 +3,84 @@
   "items": [
     {
       "coins": [],
-      "desc": "The company’s accounting policy requires it to record price declines without reversing those write-downs when XRP recovers.",
-      "first_seen": 1794893401,
-      "key": "ripplebackedevernorthhaswrittendownitsprelistingxrpholdingsby60",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
-      "reason": "利多词: 回升；利空词: 下降（多空相抵）",
+      "desc": "U.S. stock futures are mixed early Tuesday as Wall Street anticipates a historic earnings report from Nvidia Corp. (NASDAQ:NVDA), closely monitors geopolitical shifts involving North Korea, and digests the latest economic data. The Polymark",
+      "first_seen": 1794897113,
+      "key": "stockmarketwillsp500openupordowntoday",
+      "kind": "macro",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63330216/stock-market-will-sp-500-open-up-or-down-today-79?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "reason": "未命中方向关键词",
       "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "ts": 1794896080
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794897113,
+      "key": "taiwanstocksloweratcloseoftradetaiwanweighteddown218",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-lower-at-close-of-trade-taiwan-weighted-down-218-5031703",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Taiwan stocks lower at close of trade; Taiwan Weighted down 2.18%",
+      "title_zh": "Taiwan stocks lower at close of trade; Taiwan Weighted down 2.18%",
+      "ts": 1794895204
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "first_seen": 1794897113,
+      "key": "hereswhathappenedincryptotoday",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Here’s what happened in crypto today",
+      "title_zh": "Here’s what happened in crypto today",
+      "ts": 1794895200
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "In today's newsletter, CZ denies Binance sold crypto as bitcoin rebounds from four-month low; Bitwise sees Solana reaching $1,100 by 2031 in bull case; and more.",
+      "first_seen": 1794897113,
+      "key": "czdeniesbinancesoldcryptobitwiseseessolanaat1100by2031andmore",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584",
+      "reason": "利多词: 反弹",
+      "score": 1,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
+      "title_zh": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
+      "ts": 1794894300
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The bank's reported BlackRock bitcoin ETF position doubled to $2.35 billion in the third quarter, giving it exposure to roughly 28,000 BTC.",
+      "first_seen": 1794897113,
+      "key": "wellsfargosreportedblackrockbitcoinetfholdingsdoubleto235billion",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/17/wells-fargo-s-reported-blackrock-bitcoin-etf-holdings-double-to-usd2-35-billion",
+      "reason": "利空词: 禁令",
+      "score": -1,
       "source": "CoinDesk",
       "tag": "中性",
-      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-      "title_zh": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
-      "ts": 1794891725
+      "title": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+      "title_zh": "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion",
+      "ts": 1794893843
     },
     {
       "coins": [],
@@ -29,7 +95,70 @@
       "tag": "中性",
       "title": "Popular websites subverted in bid to steal crypto, target iPhone users",
       "title_zh": "Popular websites subverted in bid to steal crypto, target iPhone users",
-      "ts": 1794891620
+      "ts": 1794893782
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794897113,
+      "key": "watchthesechinesechipstocksasustightensaccesstonvidiahardware",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/watch-these-chinese-chip-stocks-as-us-tightens-access-to-nvidia-hardware-93CH-5031673",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Watch these Chinese chip stocks as U.S. tightens access to Nvidia hardware",
+      "title_zh": "Watch these Chinese chip stocks as U.S. tightens access to Nvidia hardware",
+      "ts": 1794893432
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794897113,
+      "key": "australiastocksloweratcloseoftradespasx200down179",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-179-5031664",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 1.79%",
+      "title_zh": "Australia stocks lower at close of trade; S&P/ASX 200 down 1.79%",
+      "ts": 1794893404
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "ARK Invest reversed its position on Block Inc., by purchasing the stock, while it had sold a substantial number last week.",
+      "first_seen": 1794897113,
+      "key": "cathiewoodsarksellssolanaandethereumstakingfundsbuysthreecryptostocksamidbitcoin",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-solana-ethereum-staking-three-crypto-stocks-bitcoin-slide/cNbakNNR9gH?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 下滑",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
+      "title_zh": "Cathie Wood's ARK Sells Solana And Ethereum Staking Funds, Buys Three Crypto Stocks Amid Bitcoin Slide",
+      "ts": 1794893143
+    },
+    {
+      "coins": [],
+      "desc": "The company’s accounting policy requires it to record price declines without reversing those write-downs when XRP recovers.",
+      "first_seen": 1794893401,
+      "key": "ripplebackedevernorthhaswrittendownitsprelistingxrpholdingsby60",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/17/ripple-backed-evernorth-has-written-down-its-pre-listing-xrp-holdings-by-60",
+      "reason": "利多词: 回升；利空词: 下降（多空相抵）",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
+      "title_zh": "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60%",
+      "ts": 1794891725
     },
     {
       "coins": [
@@ -47,36 +176,6 @@
       "title": "Big Banks Piled Into Bitcoin ETFs Weeks Before $2.35 Billion Fled the Funds",
       "title_zh": "Big Banks Piled Into Bitcoin ETFs Weeks Before $2.35 Billion Fled the Funds",
       "ts": 1794891563
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794893401,
-      "key": "chinamegacaptechstocksfallasustightenscurbsonaichipaccess",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/china-megacap-tech-stocks-fall-as-us-tightens-curbs-on-ai-chip-access-5031635",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "China megacap tech stocks fall as U.S. tightens curbs on AI chip access",
-      "title_zh": "China megacap tech stocks fall as U.S. tightens curbs on AI chip access",
-      "ts": 1794891321
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794893401,
-      "key": "uscommercedeptdojsaytheyinvestigatednvidiapartnermegaspeedin2024",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/us-commerce-dept-doj-say-they-investigated-nvidia-partner-megaspeed-in-2024-5031631",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "U.S. Commerce Dept, DOJ say they investigated Nvidia partner Megaspeed in 2024",
-      "title_zh": "U.S. Commerce Dept, DOJ say they investigated Nvidia partner Megaspeed in 2024",
-      "ts": 1794890914
     },
     {
       "coins": [],
@@ -332,21 +431,6 @@
     },
     {
       "coins": [],
-      "desc": "Investors are getting nervous ahead of big moves from Nvidia and Anthropic this week.",
-      "first_seen": 1794883130,
-      "key": "reviewpreviewnowwhat",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/af12ddb3-da89-3246-b0ef-05069ae618d3/review-%26-preview%3A-now-what%3F.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Review & Preview: Now What?",
-      "title_zh": "Review & Preview: Now What?",
-      "ts": 1794876900
-    },
-    {
-      "coins": [],
       "desc": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
       "first_seen": 1794879971,
       "key": "analysisthefedschairmanseesanairevolutioncomingnowhehastofigureoutwhatitmeans",
@@ -389,83 +473,6 @@
       "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
       "title_zh": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
       "ts": 1794871680
-    },
-    {
-      "coins": [],
-      "desc": "The CFTC has approved the first set of applications to establish regulated derivatives and exchange clearing operations that use blockchain.",
-      "first_seen": 1794872037,
-      "key": "cftcbacksblockchainbasedderivativesinfrastructureasbackpacktzerowinapprovals",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
-      "reason": "利多词: 获批",
-      "score": 2,
-      "source": "The Block",
-      "tag": "利多",
-      "title": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
-      "title_zh": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
-      "ts": 1794871635
-    },
-    {
-      "coins": [],
-      "desc": "CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
-      "first_seen": 1794874858,
-      "key": "jimcramersaysnvidiasleadershipshakeupwontderailtheaitrade",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
-      "reason": "利空词: 恐慌",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-      "title_zh": "Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-      "ts": 1794871427
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "",
-      "first_seen": 1794872037,
-      "key": "bitcoinmutedat652kascryptosentimentdithersetfoutflowspersist",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-pinned-below-65k-as-crypto-sentiment-dithers-etf-outflows-persist-5028381",
-      "reason": "利空词: 资金流出",
-      "score": -2,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist",
-      "title_zh": "Bitcoin muted at $65.2k as crypto sentiment dithers, ETF outflows persist",
-      "ts": 1794870436
-    },
-    {
-      "coins": [],
-      "desc": "Leopold Aschenbrenner's hedge fund, which almost collapsed over the summer, bought AI stocks before shares began tumbling.",
-      "first_seen": 1794872037,
-      "key": "aschenbrennerssituationalawarenessmadeaibetsagainbeforeoctoberrout",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-      "title_zh": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
-      "ts": 1794870312
-    },
-    {
-      "coins": [],
-      "desc": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
-      "first_seen": 1794872037,
-      "key": "custodiabanklosessupremecourtbidfordirectfedpaymentaccess",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 禁令、失守",
-      "score": -4,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-      "title_zh": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
-      "ts": 1794869697
     }
   ],
   "meta": {
@@ -479,13 +486,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 39",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-17T06:30:25+01:00",
-  "updated_unix": 1794893425
+  "updated": "2026-11-17T07:32:18+01:00",
+  "updated_unix": 1794897138
 }
