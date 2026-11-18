@@ -2,32 +2,27 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.228,
+        "d30": -0.234,
         "d90": -0.075
       },
       "SPX": {
-        "d30": -0.288,
-        "d90": -0.099
+        "d30": -0.296,
+        "d90": -0.101
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.297,
-        "d90": -0.134
+        "d30": -0.308,
+        "d90": -0.137
       },
       "SPX": {
-        "d30": -0.372,
-        "d90": -0.175
+        "d30": -0.389,
+        "d90": -0.18
       }
     }
   },
   "errors": [],
   "fng": [
-    {
-      "cls": "Greed",
-      "t": 1792368000,
-      "value": 59
-    },
     {
       "cls": "Greed",
       "t": 1792454400,
@@ -172,15 +167,20 @@
       "cls": "Extreme Fear",
       "t": 1794873600,
       "value": 12
+    },
+    {
+      "cls": "Extreme Fear",
+      "t": 1794960000,
+      "value": 11
     }
   ],
   "influence": {
-    "bias": 0.058,
-    "corr": 0.296,
-    "corr_label": "弱",
-    "equity_chg": 1.14,
+    "bias": 0.002,
+    "corr": 0.307,
+    "corr_label": "中",
+    "equity_chg": 0.59,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货涨1.1%、VIX上升，相关性低，对加密影响有限",
+    "line": "美股休市，纳指期货涨0.6%、VIX上升，相关性中等，对加密影响有限",
     "session": "after",
     "stale": false
   },
@@ -234,27 +234,27 @@
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -0.11,
-      "chg_1d": -0.11,
-      "chg_5d": -1.5,
-      "chg_intraday": 0.33,
-      "last": 7430.75,
+      "chg": -0.36,
+      "chg_1d": -0.36,
+      "chg_5d": -1.75,
+      "chg_intraday": 0.08,
+      "last": 7412.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1794956985,
+      "time_unix": 1794959873,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 1.14,
-      "chg_1d": 1.14,
-      "chg_5d": -0.87,
-      "chg_intraday": 0.77,
-      "last": 27594.0,
+      "chg": 0.59,
+      "chg_1d": 0.59,
+      "chg_5d": -1.4,
+      "chg_intraday": 0.23,
+      "last": 27445.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1794956985,
+      "time_unix": 1794959877,
       "unit": ""
     },
     "纳斯达克100": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-18T00:19:48+01:00",
-  "updated_unix": 1794957588
+  "updated": "2026-11-18T01:07:59+01:00",
+  "updated_unix": 1794960479
 }

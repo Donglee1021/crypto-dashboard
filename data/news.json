@@ -14,7 +14,37 @@
       "tag": "利多",
       "title": "Dow Jones Futures Rise, Techs Jump As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
       "title_zh": "Dow Jones Futures Rise, Techs Jump As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
-      "ts": 1794957364
+      "ts": 1794959749
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1794957564,
+      "key": "nvidiaearningsbeatestimatesfirmwonttakequestionsonresignation",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nvidia earnings beat estimates; firm won’t take questions on resignation",
+      "title_zh": "Nvidia earnings beat estimates; firm won’t take questions on resignation",
+      "ts": 1794958586
+    },
+    {
+      "coins": [],
+      "desc": "President Donald Trump’s nominees to the CFTC revealed how they view the hotly contested issue of how to regulate sports betting.",
+      "first_seen": 1794960456,
+      "key": "trumpscftcpicksfacesenatescrutinyaspredictionmarketturfwarheatsup",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/regulation/2026-11-17-trumps-cftc-picks-face-senate-scrutiny-as-prediction-market-turf-war-heats-up-442909",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Trump’s CFTC picks face Senate scrutiny as prediction market turf war heats up",
+      "title_zh": "Trump’s CFTC picks face Senate scrutiny as prediction market turf war heats up",
+      "ts": 1794958366
     },
     {
       "coins": [],
@@ -186,36 +216,6 @@
       "ts": 1794955071
     },
     {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794957564,
-      "key": "nvidiaearningsbeatestimatesfirmwonttakequestionsonresignation",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia earnings beat estimates; firm won’t take questions on resignation",
-      "title_zh": "Nvidia earnings beat estimates; firm won’t take questions on resignation",
-      "ts": 1794954684
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1794957564,
-      "key": "huangpitchesnvidiacomebackwsjreportssecprobingthechipmaker",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-board-forms-committee-for-national-security-and-export-control-oversight-5032154",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Huang pitches Nvidia comeback, WSJ reports SEC probing the chipmaker",
-      "title_zh": "Huang pitches Nvidia comeback, WSJ reports SEC probing the chipmaker",
-      "ts": 1794954628
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -369,21 +369,6 @@
     },
     {
       "coins": [],
-      "desc": "Nvidia falls ahead of third-quarter earnings scheduled for after the closing bell.",
-      "first_seen": 1794957564,
-      "key": "nvidiaintelsalesforcespacexanthropicsandiskhomedepotandmorethatexplaintodaysmark",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/5d4c8ff4-57bc-3350-b217-681441a4f8b3/nvidia%2C-intel%2C-salesforce%2C.html?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Nvidia, Intel, Salesforce, SpaceX, Anthropic, Sandisk, Home Depot, and More That Explain Today’s Market",
-      "title_zh": "Nvidia, Intel, Salesforce, SpaceX, Anthropic, Sandisk, Home Depot, and More That Explain Today’s Market",
-      "ts": 1794951960
-    },
-    {
-      "coins": [],
       "desc": "Speaking on the earnings call, Chairman Harvey Jones said the board has no intention of reinstating Jensen Huang as CEO.",
       "first_seen": 1794954242,
       "key": "nvidiatopsestimatesissuesstrongguidancesharesrise",
@@ -460,6 +445,21 @@
       "title": "Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal",
       "title_zh": "Bitcoin Investors Are Capitulating—That’s Historically Been a Bottom Signal",
       "ts": 1794947763
+    },
+    {
+      "coins": [],
+      "desc": "Jim Cramer has pushed the message that its important for investors to balance their portfolios.",
+      "first_seen": 1794960456,
+      "key": "agenerationalflightfromtechtodefensivestocksisunderwayhowwerecapitalizing",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+      "title_zh": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+      "ts": 1794947487
     }
   ],
   "meta": {
@@ -468,18 +468,18 @@
     "sources": {
       "CNBC 头条": "ok 13",
       "CNBC 经济": "ok 23",
-      "CNBC 金融": "ok 18",
+      "CNBC 金融": "ok 17",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 10",
+      "Yahoo Finance": "ok 9",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-18T00:19:47+01:00",
-  "updated_unix": 1794957587
+  "updated": "2026-11-18T01:07:58+01:00",
+  "updated_unix": 1794960478
 }
