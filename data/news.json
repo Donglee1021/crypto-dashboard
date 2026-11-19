@@ -3,6 +3,258 @@
   "items": [
     {
       "coins": [],
+      "desc": "The shares have tumbled 19% over the past five days over worries about stricter auditing of ‘upcoding’ and new Medicare for All proposals. Other health insurance stocks also slide.",
+      "first_seen": 1795123691,
+      "key": "unitedhealthsstockplungedaftergovernmentsignalscrackdownonmedicareadvantagefraud",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
+      "reason": "利空词: 暴跌、大跌、下滑、打压",
+      "score": -6,
+      "source": "MarketWatch",
+      "tag": "利空",
+      "title": "UnitedHealth’s stock plunged after government signals crackdown on Medicare Advantage fraud",
+      "title_zh": "政府发出打击医疗保险优惠欺诈的信号后，联合健康保险的股价暴跌",
+      "ts": 1795123320
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795123691,
+      "key": "russiastocksloweratcloseoftrademoexrussiaindexdown206",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-206-5040016",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index down 2.06%",
+      "title_zh": "俄罗斯股市收盘走低； MOEX 俄罗斯指数下跌 2.06%",
+      "ts": 1795123204
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Strategy (MSTR) is back in focus after a special call on November 12, set against fresh disclosures on its Bitcoin buying, preferred share buybacks, and upcoming removal from key MSCI indexes. The recent 1-day share price return of Strategy",
+      "first_seen": 1795123691,
+      "key": "strategymstronbitcoinbuyingandmsciexitstilllooksundervalued",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-bitcoin-buying-msci-211424742.html?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
+      "title_zh": "关于比特币购买和 MSCI 退出的策略 (MSTR) 看起来仍然被低估",
+      "ts": 1795122864
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795123691,
+      "key": "nasdaqclosesatsevenmonthlowasaitradesuffersdespiterecordanthropicipo",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Nasdaq closes at seven-month low as AI trade suffers despite record Anthropic IPO",
+      "title_zh": "尽管 Anthropic 首次公开募股创纪录，但人工智能交易仍受挫，纳斯达克收于七个月低点",
+      "ts": 1795122764
+    },
+    {
+      "coins": [],
+      "desc": "Anthropic shares opened 34% above their $83 IPO price before giving up much of the gain, while Nvidia, AMD and other AI stocks slid across Wall Street.",
+      "first_seen": 1795123691,
+      "key": "nvidiaamdmicronsinkasanthropiccloses17aboveipoprice",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price",
+      "reason": "利多词: 上涨；利空词: 下沉（多空相抵）",
+      "score": -1,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+      "title_zh": "Anthropic 收盘价较 IPO 价格上涨 17%，英伟达、AMD、美光股价下跌",
+      "ts": 1795122726
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Wall Street's boldest Bitcoin forecast just collided with a brutal November slide, shrinking ETF demand, and a Fed that refuses to blink. Can the bank's long-range call survive the pressure, or is the first checkpoint already slipping away?",
+      "first_seen": 1795123691,
+      "key": "canbitcoinreachstandardchartereds500000targetby2030",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/19/can-bitcoin-reach-standard-chartereds-500000-target-by-2030/?.tsrc=rss",
+      "reason": "利空词: 下滑、禁令",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Can Bitcoin Reach Standard Chartered’s $500,000 Target by 2030?",
+      "title_zh": "到 2030 年，比特币能否达到渣打银行设定的 50 万美元目标？",
+      "ts": 1795122205
+    },
+    {
+      "coins": [],
+      "desc": "Financial stocks retreated in late Thursday afternoon trading, with the NYSE Financial Index falling",
+      "first_seen": 1795123691,
+      "key": "sectorupdatefinancialstocksfallinlateafternoontrading",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-fall-afternoon-210231677.html?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Sector Update: Financial Stocks Fall in Late Afternoon Trading",
+      "title_zh": "行业动态：金融股在午后交易中下跌",
+      "ts": 1795122151
+    },
+    {
+      "coins": [],
+      "desc": "MoonPay’s proposed national trust bank would offer stablecoin issuance and redemption, reserve management and digital asset custody under federal oversight.",
+      "first_seen": 1795123691,
+      "key": "moonpayseeksusbankcharterforstablecoincustodyservices",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 禁令",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "MoonPay seeks US bank charter for stablecoin, custody services",
+      "title_zh": "MoonPay 寻求美国银行特许经营稳定币和托管服务",
+      "ts": 1795122102
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "A 13% weekly plunge and billions in ETF outflows have investors questioning whether the bull run has been running out of steam.",
+      "first_seen": 1795123691,
+      "key": "thetopcryptocurrencyisdown13inaweekisitreallyover",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/the-top-cryptocurrency-is-down-13-in-a-week-is-it-really-over?.tsrc=rss",
+      "reason": "利空词: 暴跌、资金流出",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "The top cryptocurrency is down 13% in a week. Is it really over?",
+      "title_zh": "顶级加密货币一周内下跌 13%。真的结束了吗？",
+      "ts": 1795122000
+    },
+    {
+      "coins": [],
+      "desc": "Michael Reinking, Senior Market Strategist at the NYSE, reviews a volatile holiday-shortened week in which the S&P 500 sold off sharply and slipped to test its early June lows. Nvidia delivered a strong earnings beat and raised its growth g",
+      "first_seen": 1795123691,
+      "key": "marketstorylineschipgiantearningsbeataiiposequityselloff",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/video/market-storylines-chip-giant-earnings-205016561.html?.tsrc=rss",
+      "reason": "利空词: 抛售",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Market Storylines: Chip Giant Earnings Beat, AI IPO's + Equity Selloff",
+      "title_zh": "市场故事：芯片巨头盈利超出预期、人工智能 IPO + 股票抛售",
+      "ts": 1795121416
+    },
+    {
+      "coins": [],
+      "desc": "Today's big story: Could Anthropic Stock Fall 25.",
+      "first_seen": 1795123691,
+      "key": "12pastyieldjumpsstockswerehigherayearlaterin11",
+      "kind": "macro",
+      "link": "https://www.trefis.com/stock/spx/articles/626621/12-past-yield-jumps-stocks-were-higher-a-year-later-in-11/2026-11-19?.tsrc=rss",
+      "reason": "利多词: 跳涨；利空词: 下跌（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "12 Past Yield Jumps: Stocks Were Higher A Year Later In 11",
+      "title_zh": "过去 12 次收益率跳跃：一年后 11 次股市走高",
+      "ts": 1795121407
+    },
+    {
+      "coins": [],
+      "desc": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+      "first_seen": 1795123691,
+      "key": "nvidiasturmoilhasmespookedshouldisellmystocksandbuyrealestateorrideoutthestorm",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "MarketWatch",
+      "tag": "利多",
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+      "title_zh": "“英伟达的动荡让我感到害怕”：我应该卖掉股票并购买房地产——还是安然度过风暴？",
+      "ts": 1795121400
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "A new post-quantum signature proposal aims to secure Bitcoin’s future, but balancing user safety and efficiency comes with hurdles.",
+      "first_seen": 1795123691,
+      "key": "meetshrincsbitcoinsemergingfrontrunnerforapostquantumsignature",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383666/meet-shrincs-bitcoin-emerging-frontrunner-post-quantum-signature",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "Meet SHRINCS: Bitcoin's Emerging Frontrunner for a Post-Quantum Signature",
+      "title_zh": "认识 SHRINCS：比特币后量子签名的新兴领跑者",
+      "ts": 1795121162
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin fell below $62,000 as the US Senate rejected the Iran war powers resolution 48-51, extending an earlier slide.",
+      "first_seen": 1795123691,
+      "key": "bitcoinfallsbelow62000assenaterejectsiranwarpowersresolution",
+      "kind": "macro",
+      "link": "https://beincrypto.com/bitcoin-below-62000-senate-iran-war-powers/?.tsrc=rss",
+      "reason": "利空词: 下滑、下跌",
+      "score": -5,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin Falls Below $62,000 As Senate Rejects Iran War Powers Resolution",
+      "title_zh": "由于参议院否决伊朗战争权力决议，比特币跌破 62,000 美元",
+      "ts": 1795120953
+    },
+    {
+      "coins": [],
+      "desc": "(Updates with index/price moves from the first paragraph.) US equity indexes slumped, with the Do",
+      "first_seen": 1795123691,
+      "key": "updateusequityindexesslidefollowinganthropicsnasdaqdebutdowsinksover1000points",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-following-204042028.html?.tsrc=rss",
+      "reason": "利空词: 下滑、下挫、下沉",
+      "score": -5,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Update: US Equity Indexes Slide Following Anthropic's Nasdaq Debut; Dow Sinks Over 1,000 Points",
+      "title_zh": "更新：Anthropic 在纳斯达克上市后美国股指下跌；道指跌逾千点",
+      "ts": 1795120842
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Sarah from Sacramento knows her husband's bitcoin could pay off their mortgage, but he refuses to sell and she has no idea what he paid for it. What Ramsey host John Delony told her cuts straight to the tension every crypto-holding couple e",
+      "first_seen": 1795123691,
+      "key": "itcouldgoupa5trillionpercentanditcouldgotozeroramseyshowhosttowifewhosehusbandwo",
+      "kind": "macro",
+      "link": "https://247wallst.com/personal-finance/2026/11/19/it-could-go-up-a-5-trillion-percent-and-it-could-go-to-zero-ramsey-show-host-to-wife-whose-husband-wont-sell-bitcoin-to-pay-off-house-2/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "‘It Could Go Up a 5 Trillion Percent and It Could Go to Zero’: Ramsey Show Host to Wife Whose Husband Won’t Sell Bitcoin to Pay Off House",
+      "title_zh": "“它可能会上涨 5 万亿%，也可能会为零”：拉姆齐节目主持人妻子的丈夫不会出售比特币来还清房子",
+      "ts": 1795120789
+    },
+    {
+      "coins": [],
       "desc": "Hyperliquid traders priced Anthropic futures within 1% of the stock’s Nasdaq opening price, as trading surged ahead of the AI company’s IPO.",
       "first_seen": 1795120649,
       "key": "hyperliquidanthropicfuturespricedwithin1ofnasdaqopeningprice",
@@ -13,7 +265,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
-      "title_zh": "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price",
+      "title_zh": "Hyperliquid Anthropic 期货价格在纳斯达克开盘价的 1% 以内",
       "ts": 1795120404
     },
     {
@@ -43,7 +295,7 @@
       "source": "MarketWatch",
       "tag": "利空",
       "title": "Nvidia’s stock falls further. It has lost $611 billion in six trading days.",
-      "title_zh": "Nvidia’s stock falls further. It has lost $611 billion in six trading days.",
+      "title_zh": "英伟达的股价进一步下跌。六个交易日内损失了 6110 亿美元。",
       "ts": 1795120380
     },
     {
@@ -60,7 +312,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Strategy Is Worth Less Than Its Bitcoin, Trump Media May Have To Sell",
-      "title_zh": "Strategy Is Worth Less Than Its Bitcoin, Trump Media May Have To Sell",
+      "title_zh": "战略价值低于比特币，特朗普媒体可能不得不出售",
       "ts": 1795119877
     },
     {
@@ -75,7 +327,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Wall Street analysts say buy Strategy Inc, yet a November 30 shock is coming",
-      "title_zh": "Wall Street analysts say buy Strategy Inc, yet a November 30 shock is coming",
+      "title_zh": "华尔街分析师称买入 Strategy Inc，但 11 月 30 日的冲击即将到来",
       "ts": 1795119742
     },
     {
@@ -90,7 +342,7 @@
       "source": "CNBC 经济",
       "tag": "利空",
       "title": "Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-      "title_zh": "Peterson: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+      "title_zh": "彼得森：英伟达的领导力危机考验着该芯片制造商作为“人工智能中央银行”的角色",
       "ts": 1795119670
     },
     {
@@ -105,7 +357,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "Kalshi’s Quintenz says insider trading is ‘just easier to see’ in prediction markets than stocks",
-      "title_zh": "Kalshi’s Quintenz says insider trading is ‘just easier to see’ in prediction markets than stocks",
+      "title_zh": "Kalshi 的 Quintenz 表示，预测市场中的内幕交易比股票“更容易被发现”",
       "ts": 1795119659
     },
     {
@@ -120,7 +372,7 @@
       "source": "CNBC 经济",
       "tag": "中性",
       "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "title_zh": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+      "title_zh": "彼得森：美联储主席预计人工智能革命即将到来。现在他必须弄清楚这意味着什么",
       "ts": 1795119527
     },
     {
@@ -135,7 +387,7 @@
       "source": "Decrypt",
       "tag": "利空",
       "title": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
-      "title_zh": "Hackers Leak Visa, Mastercard and JPMorgan Customer Data",
+      "title_zh": "黑客泄露 Visa、Mastercard 和 JPMorgan 客户数据",
       "ts": 1795119332
     },
     {
@@ -150,7 +402,7 @@
       "source": "CNBC 头条",
       "tag": "利空",
       "title": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
-      "title_zh": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
+      "title_zh": "标准普尔 500 指数将连续第六次下跌。此外，强生还推出了两款关键产品",
       "ts": 1795119021
     },
     {
@@ -167,38 +419,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "How Much XRP Do You Need to Be a Millionaire by 2035?",
-      "title_zh": "How Much XRP Do You Need to Be a Millionaire by 2035?",
+      "title_zh": "到 2035 年，您需要多少 XRP 才能成为百万富翁？",
       "ts": 1795118871
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795120649,
-      "key": "nasdaqslides2asquestionsoveraitradelingerdespiterecordanthropicipo",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
-      "reason": "利空词: 下滑",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "Nasdaq slides 2% as questions over AI trade linger despite record Anthropic IPO",
-      "title_zh": "Nasdaq slides 2% as questions over AI trade linger despite record Anthropic IPO",
-      "ts": 1795118830
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795120649,
-      "key": "explainercouldhuangnvidiaandcompanysboardbeheldliableoveraffairscandal",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/explainercould-huang-nvidia-and-companys-board-be-held-liable-over-affair-scandal-5039847",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Explainer-Could Huang, Nvidia and company’s board be held liable over affair scandal?",
-      "title_zh": "Explainer-Could Huang, Nvidia and company’s board be held liable over affair scandal?",
-      "ts": 1795118807
     },
     {
       "coins": [],
@@ -212,7 +434,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
-      "title_zh": "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
+      "title_zh": "特朗普的 SEC 提名人约翰逊支持为代币化股票交易制定正式规则",
       "ts": 1795118794
     },
     {
@@ -227,7 +449,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Stock Market Today: Anthropic Up 14% From IPO Price, But AMD, Chip Stocks Slide Fast (Live Coverage)",
-      "title_zh": "Stock Market Today: Anthropic Up 14% From IPO Price, But AMD, Chip Stocks Slide Fast (Live Coverage)",
+      "title_zh": "今日股市：Anthropic 较 IPO 价格上涨 14%，但 AMD、芯片股快速下滑（现场报道）",
       "ts": 1795118426
     },
     {
@@ -242,224 +464,8 @@
       "source": "Investing.com 加密",
       "tag": "中性",
       "title": "Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading",
-      "title_zh": "Dinari Launches Tokenized Anthropic Shares on First Day of Nasdaq Trading",
+      "title_zh": "Dinari 在纳斯达克交易首日推出代币化 Anthropic 股票",
       "ts": 1795118168
-    },
-    {
-      "coins": [],
-      "desc": "USDS held its $1 peg as a large holder linked to Poloniex withdrew much of decentralized protocol Sky's USDC liquidity backing its stablecoins.",
-      "first_seen": 1795120649,
-      "key": "skysusdsstablecoinshrinks35as15billionexitsreservesafterillicitfinancereport",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report",
-      "title_zh": "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report",
-      "ts": 1795118022
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Ripple CEO Brad Garlinghouse said Thursday that the recent slide in Bitcoin (CRYPTO: $BTC) and XRP (CRYPTO: $XRP) w...",
-      "first_seen": 1795120649,
-      "key": "rippleceoblamesanthropicipoforcryptoselloffpredictsrally",
-      "kind": "macro",
-      "link": "https://www.cryptoprowl.com/releases/ripple-ceo-blames-anthropic-ipo-for-crypto-selloff-predicts-rally-7993?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨；利空词: 下滑、抛售（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Ripple CEO Blames Anthropic IPO for Crypto Selloff, Predicts Rally",
-      "title_zh": "Ripple CEO Blames Anthropic IPO for Crypto Selloff, Predicts Rally",
-      "ts": 1795117680
-    },
-    {
-      "coins": [],
-      "desc": "President Trump disclosed purchases of Nvidia stock, SpaceX debt and Tesla shares in September, alongside millions of dollars in other investments.",
-      "first_seen": 1795113120,
-      "key": "trumpboughtnvidiapalantirspacexinseptemberasfederaldealswhitehousetiesgrew",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
-      "reason": "利多词: 达成协议",
-      "score": 2,
-      "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
-      "title_zh": "特朗普在 9 月份收购了 Nvidia、Palantir 和 SpaceX，作为联邦交易，白宫关系得到加强",
-      "ts": 1795117388
-    },
-    {
-      "coins": [],
-      "desc": "The Anthropic enthusiasm has faded while China concerns have intensified.",
-      "first_seen": 1795120649,
-      "key": "whymicronbroadcomandotheraistockshavegivenuptheirgains",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
-      "reason": "利多词: 上涨",
-      "score": 2,
-      "source": "MarketWatch",
-      "tag": "利多",
-      "title": "Why Micron, Broadcom and other AI stocks have given up their gains",
-      "title_zh": "Why Micron, Broadcom and other AI stocks have given up their gains",
-      "ts": 1795117380
-    },
-    {
-      "coins": [],
-      "desc": "Anyone hoping for an easy trading day amid the Anthropic IPO hasn’t been paying attention.",
-      "first_seen": 1795120649,
-      "key": "itsgettingmoreandmorevolatileforstocks",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/a66cb0ec-1be8-33ae-91d1-f3902e1b5246/it%E2%80%99s-getting-more-and-more.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "It’s Getting More and More Volatile for Stocks",
-      "title_zh": "It’s Getting More and More Volatile for Stocks",
-      "ts": 1795116524
-    },
-    {
-      "coins": [],
-      "desc": "(Updates with index/price moves and company news from the first paragraph.) US equity indexes slu",
-      "first_seen": 1795117221,
-      "key": "updateusequityindexesdropafteranthropicsnasdaqdebutcrudeoilclimbs",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-drop-anthropic-192433303.html?.tsrc=rss",
-      "reason": "利多词: 攀升；利空词: 下跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Update: US Equity Indexes Drop After Anthropic's Nasdaq Debut, Crude Oil Climbs",
-      "title_zh": "更新：Anthropic 纳斯达克上市后美国股指下跌，原油上涨",
-      "ts": 1795116273
-    },
-    {
-      "coins": [],
-      "desc": "The main engine of U.S. growth is in overdrive.",
-      "first_seen": 1795120649,
-      "key": "thesurprisingreasontheuseconomyisspeedingupandmighthavemoreroomtorun",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/the-surprising-reason-the-u-s-economy-is-speeding-up-and-might-have-more-room-to-run-9016c8db?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "The surprising reason the U.S. economy is speeding up — and might have more room to run",
-      "title_zh": "The surprising reason the U.S. economy is speeding up — and might have more room to run",
-      "ts": 1795115580
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Anthropic shares surged on their Nasdaq debut, but stocks slid and Bitcoin fell lower. Its daily chart shows deeply oversold momentum, a strong downtrend, and fragile support.",
-      "first_seen": 1795117221,
-      "key": "bitcoinentersdeathcrossasanthropicipofailstoliftwallstreet",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383655/bitcoin-enters-death-cross-anthropic-ipo",
-      "reason": "利多词: 大涨",
-      "score": 1,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street",
-      "title_zh": "人为 IPO 未能提振华尔街，比特币进入死亡十字",
-      "ts": 1795115304
-    },
-    {
-      "coins": [],
-      "desc": "High valuations don't tell the whole story.",
-      "first_seen": 1795117221,
-      "key": "thesp500isflashingwarningsignshereswhylongterminvestorsshouldstaythecourse",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/19/the-sp-500-is-flashing-warning-signs-heres-why-long-term-investors-should-stay-the-course/?.tsrc=rss",
-      "reason": "利空词: 警告",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "The S&P 500 Is Flashing Warning Signs. Here's Why Long-Term Investors Should Stay the Course.",
-      "title_zh": "标准普尔 500 指数正在闪烁警告信号。这就是为什么长期投资者应该坚持到底的原因。",
-      "ts": 1795115102
-    },
-    {
-      "coins": [],
-      "desc": "US stocks slid intraday Thursday even as Anthropic (ANT) rallied in its public market debut followin",
-      "first_seen": 1795117221,
-      "key": "equitiesfallintradayevenasanthropicsoarsinmarketdebut",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/equities-fall-intraday-even-anthropic-190432896.html?.tsrc=rss",
-      "reason": "利多词: 飙升；利空词: 下跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Equities Fall Intraday Even as Anthropic Soars in Market Debut",
-      "title_zh": "尽管 Anthropic 在市场首秀中飙升，但股市盘中下跌",
-      "ts": 1795115072
-    },
-    {
-      "coins": [],
-      "desc": "Financial stocks retreated in Thursday afternoon trading, with the NYSE Financial Index falling 1% a",
-      "first_seen": 1795117221,
-      "key": "sectorupdatefinancialstockslowerinafternoontrading",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-lower-afternoon-185732019.html?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Sector Update: Financial Stocks Lower in Afternoon Trading",
-      "title_zh": "行业动态：金融股午后交易走低",
-      "ts": 1795114652
-    },
-    {
-      "coins": [],
-      "desc": "Ripple’s Alderoty backs durable agency rules as hopes for crypto market structure legislation fade.",
-      "first_seen": 1795117221,
-      "key": "ripplesalderotydoubtselizabethwarrenwillsetcryptopolicyinthiscountrybacksdurable",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/regulation/2026-11-19-ripple-alderoty-elizabeth-warren-wont-set-crypto-policy-backs-durable-agency-rules-444105",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "The Block",
-      "tag": "中性",
-      "title": "Ripple’s Alderoty doubts Elizabeth Warren will ‘set crypto policy in this country,’ backs durable agency rules",
-      "title_zh": "Ripple 的 Alderoty 怀疑 Elizabeth Warren 会“在这个国家制定加密货币政策”，支持持久的机构规则",
-      "ts": 1795114050
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Tom Lee’s Bitmine kept catching a falling knife over the past year.",
-      "first_seen": 1795117221,
-      "key": "bitminejustpostedastaggering63billionlossonitsethereumpositionhereswhatethinvest",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/19/bitmine-just-posted-a-staggering-usd6-3-billion-loss-on-its-ethereum-position-here-s-what-eth-investors-need-to-know/?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitmine Just Posted a Staggering $6.3 Billion Loss on Its Ethereum Position. Here's What ETH Investors Need to Know.",
-      "title_zh": "Bitmine 刚刚公布其以太坊头寸亏损 63 亿美元。以下是 ETH 投资者需要了解的内容。",
-      "ts": 1795113902
-    },
-    {
-      "coins": [],
-      "desc": "\"It's not going to get any better for Jensen Huang; it's going to get far worse,\" said Salvatore Graziano, a New York securities litigation attorney.",
-      "first_seen": 1795109800,
-      "key": "jensenhuangsandnvidiaslegalexposureballoons",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Jensen Huang's — and Nvidia's — legal exposure balloons",
-      "title_zh": "黄仁勋和 Nvidia 的法律风险不断增加",
-      "ts": 1795113874
     }
   ],
   "meta": {
@@ -474,12 +480,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 3",
+      "MarketWatch": "ok 5",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 13",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-19T21:37:45+01:00",
-  "updated_unix": 1795120665
+  "updated": "2026-11-19T22:28:29+01:00",
+  "updated_unix": 1795123709
 }
