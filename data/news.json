@@ -3,6 +3,66 @@
   "items": [
     {
       "coins": [],
+      "desc": "The stock market was mixed as UnitedHealth dived and Nvidia fell. The Anthropic IPO priced high. Palo Alto, Everpure leaped.",
+      "first_seen": 1795044989,
+      "key": "dowjonesfuturesriseanthropicipopriceshighpaloaltoandeverpurerallyonearnings",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、上升",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
+      "title_zh": "道琼斯期货上涨； Anthropic IPO 价格高企，帕洛阿尔托和 Everpure 盈利上涨",
+      "ts": 1795058736
+    },
+    {
+      "coins": [],
+      "desc": "The deal will add private-market sourcing, underwriting, and fund management capabilities to Payward's platform.",
+      "first_seen": 1795059589,
+      "key": "krakenparentpaywardtoacquiretribecapitaltoexpandprivatemarketofferings",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-18-kraken-parent-payward-tribe-capital-443522",
+      "reason": "利多词: 达成协议",
+      "score": 1,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Kraken parent Payward to acquire Tribe Capital to expand private-market offerings",
+      "title_zh": "Kraken 母公司 Payward 将收购 Tribe Capital 以扩大私募市场产品",
+      "ts": 1795058333
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795059589,
+      "key": "272017whichcompaniesbenefitwhenthefedrattlesthemarket",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/27-20-17-which-companies-benefit-when-the-fed-rattles-the-market-5037632",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "+27%, +20%, +17%: Which companies benefit when the Fed rattles the market",
+      "title_zh": "+27%、+20%、+17%：当美联储扰乱市场时哪些公司受益",
+      "ts": 1795057728
+    },
+    {
+      "coins": [],
+      "desc": "Korean media, gaming and travel stocks surged on hopes of greater access to China.",
+      "first_seen": 1795059589,
+      "key": "parasitebackerandothersouthkoreanmediagamingandtravelstocksrallyonchinatradedeal",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html",
+      "reason": "利多词: 大涨、反弹/上涨、达成协议",
+      "score": 5,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
+      "title_zh": "《寄生虫》支持者和其他韩国媒体、游戏和旅游股因中国贸易协议而上涨",
+      "ts": 1795056877
+    },
+    {
+      "coins": [],
       "desc": "The companies said that unlocking the full potential of 'always-on' tokenized deposits requires interoperability across platforms.",
       "first_seen": 1795056224,
       "key": "standardcharteredstraitsxocbccompletetrialoftokenizeddepositinteroperability",
@@ -15,21 +75,6 @@
       "title": "Standard Chartered, StraitsX, OCBC complete trial of tokenized deposit interoperability",
       "title_zh": "渣打银行、StraitsX 和华侨银行完成代币化存款互操作性试验",
       "ts": 1795055400
-    },
-    {
-      "coins": [],
-      "desc": "The stock market was mixed as UnitedHealth dived and Nvidia fell. The Anthropic IPO priced high. Palo Alto, Everpure leaped.",
-      "first_seen": 1795044989,
-      "key": "dowjonesfuturesriseanthropicipopriceshighpaloaltoandeverpurerallyonearnings",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、上升",
-      "score": 4,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
-      "title_zh": "道琼斯期货上涨； Anthropic IPO 价格高企，帕洛阿尔托和 Everpure 盈利上涨",
-      "ts": 1795055389
     },
     {
       "coins": [],
@@ -411,62 +456,13 @@
       "title": "Bitcoin drops to around $62.5k, hits over four-month low amid rate jitters",
       "title_zh": "由于利率波动，比特币跌至 6.25 万美元左右，触及四个月低点",
       "ts": 1795042013
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin’s two-month slide has one analyst urging patience, while another sees an upcoming market debut as the real test.",
-      "first_seen": 1795044989,
-      "key": "analystwarnsanthropicipoispullingmoneyoutofbitcoin",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/analyst-warns-anthropic-ipo-is-pulling-money-out-of-bitcoin?.tsrc=rss",
-      "reason": "利空词: 下滑、警告",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Analyst warns Anthropic IPO is pulling money out of Bitcoin",
-      "title_zh": "分析师警告 Anthropic IPO 正在从比特币中撤资",
-      "ts": 1795041957
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "As liquidity continues to evaporate from cryptocurrency markets, Bitcoin is testing a long-term technical benchmark that has historically helped investors identify periods of extreme market weakness.",
-      "first_seen": 1795044989,
-      "key": "cryptomarkettodaynov18bitcoins12weeklyplungehastriggeredararesignalwithasurprisi",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/crypto-market-today-nov-18-bitcoin-s-12-weekly-plunge-has-triggered-a-rare-signal-with-a-surprising-history/?.tsrc=rss",
-      "reason": "利空词: 暴跌、疲弱",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Crypto Market Today, Nov. 18: Bitcoin's 12% Weekly Plunge Has Triggered a Rare Signal With a Surprising History",
-      "title_zh": "今日加密货币市场，11 月 18 日：比特币每周暴跌 12% 引发了一个罕见的信号，其历史令人惊讶",
-      "ts": 1795041902
-    },
-    {
-      "coins": [],
-      "desc": "Shares climbed for a second session as investors weigh housing conditions and the stock's upside potential, today, Nov. 18, 2026.",
-      "first_seen": 1795044989,
-      "key": "stockmarkettodaynov18opendoorextendsrallyforsecondstraightsessionasinvestorswatc",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-opendoor-extends-rally-for-second-straight-session-as-investors-watch-housing/?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、攀升",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stock Market Today, Nov. 18: Opendoor Extends Rally for Second Straight Session as Investors Watch Housing",
-      "title_zh": "今日股市，11 月 18 日：随着投资者关注房地产市场，Opendoor 连续第二个交易日延续涨势",
-      "ts": 1795041886
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 12",
+      "CNBC 头条": "ok 13",
       "CNBC 经济": "ok 22",
       "CNBC 金融": "ok 16",
       "CoinDesk": "ok 25",
@@ -480,6 +476,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-19T03:43:55+01:00",
-  "updated_unix": 1795056235
+  "updated": "2026-11-19T04:39:51+01:00",
+  "updated_unix": 1795059591
 }
