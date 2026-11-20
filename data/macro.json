@@ -2,8 +2,8 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.141,
-        "d90": -0.028
+        "d30": -0.14,
+        "d90": -0.027
       },
       "SPX": {
         "d30": -0.148,
@@ -12,11 +12,11 @@
     },
     "ETH": {
       "NDX": {
-        "d30": -0.193,
-        "d90": -0.076
+        "d30": -0.192,
+        "d90": -0.075
       },
       "SPX": {
-        "d30": -0.218,
+        "d30": -0.217,
         "d90": -0.086
       }
     }
@@ -175,10 +175,10 @@
     }
   ],
   "influence": {
-    "bias": -0.16,
-    "corr": 0.175,
+    "bias": -0.158,
+    "corr": 0.174,
     "corr_label": "弱",
-    "equity_chg": -4.9,
+    "equity_chg": -4.92,
     "equity_name": "纳指期货",
     "line": "美股休市，纳指期货跌4.9%、VIX上升、美债收益率下降，相关性低，对加密偏空",
     "session": "after",
@@ -189,7 +189,7 @@
       "chg": -6.34,
       "chg_1d": -6.34,
       "chg_5d": -20.12,
-      "chg_intraday": -4.59,
+      "chg_intraday": -4.71,
       "last": 101.97,
       "role": "crypto_eq",
       "stale": false,
@@ -234,27 +234,27 @@
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -3.18,
-      "chg_1d": -3.18,
-      "chg_5d": -8.11,
-      "chg_intraday": -3.12,
-      "last": 6968.25,
+      "chg": -3.2,
+      "chg_1d": -3.2,
+      "chg_5d": -8.13,
+      "chg_intraday": -3.14,
+      "last": 6966.75,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1795211841,
+      "time_unix": 1795211998,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": -4.9,
-      "chg_1d": -4.9,
-      "chg_5d": -9.77,
-      "chg_intraday": -4.9,
-      "last": 25296.5,
+      "chg": -4.92,
+      "chg_1d": -4.92,
+      "chg_5d": -9.79,
+      "chg_intraday": -4.92,
+      "last": 25291.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1795211841,
+      "time_unix": 1795211999,
       "unit": ""
     },
     "纳斯达克100": {
@@ -266,7 +266,7 @@
       "role": "equity",
       "stale": false,
       "symbol": "^NDX",
-      "time_unix": 1795212439,
+      "time_unix": 1795212959,
       "unit": ""
     },
     "美10年期国债收益率": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": -0.04,
-      "chg_1d": -0.04,
-      "chg_5d": 0.44,
-      "chg_intraday": -0.03,
-      "last": 103.86,
+      "chg": -0.06,
+      "chg_1d": -0.06,
+      "chg_5d": 0.42,
+      "chg_intraday": -0.04,
+      "last": 103.84,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1795211842,
+      "time_unix": 1795211999,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-20T23:07:24+01:00",
-  "updated_unix": 1795212444
+  "updated": "2026-11-20T23:53:01+01:00",
+  "updated_unix": 1795215181
 }
