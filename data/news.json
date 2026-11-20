@@ -3,6 +3,87 @@
   "items": [
     {
       "coins": [
+        "BTC"
+      ],
+      "desc": "PowerCompute had its lender sell 267 pledged bitcoin in September, wiping out most of its debt, and ended the month with about $650,000 in cash and a going-concern warning.",
+      "first_seen": 1795153578,
+      "key": "thisbitcoinminersold267btctoclear22milliondebtitstillmaynotsurvive",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/20/this-bitcoin-miner-sold-267-btc-to-clear-usd22-million-debt-it-still-may-not-survive",
+      "reason": "利空词: 警告",
+      "score": -1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive",
+      "title_zh": "这位比特币矿工出售了 267 个比特币，以偿还 2200 万美元的债务。或许还是无法生存",
+      "ts": 1795152745
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795153578,
+      "key": "australiastocksloweratcloseoftradespasx200down158",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-158-5040678",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 1.58%",
+      "title_zh": "澳大利亚股市收盘走低； S&P/ASX 200 下跌 1.58%",
+      "ts": 1795152605
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Wall Street piled into Bitcoin funds in the third quarter, ending a three-quarter selling streak, according to Galaxy Research. But the buying has given way to renewed selling this quarter.",
+      "first_seen": 1795153578,
+      "key": "bigmoneyboughtanet4billionofbitcoinfundsinq3ending9monthsofselling",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/20/big-money-bought-a-net-usd4-billion-of-bitcoin-funds-in-q3-ending-9-months-of-selling",
+      "reason": "利多词: 买入",
+      "score": 1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling",
+      "title_zh": "大资金在第三季度净买入 40 亿美元的比特币基金，结束了 9 个月的抛售",
+      "ts": 1795152051
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Glamsterdam was originally targeted for December, but developers now say January is the earliest possible date as companies work to fix affected smart contracts.",
+      "first_seen": 1795153578,
+      "key": "ethereumsnextbigupgradeispushedinto2027byappsitwouldbreak",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/tech/2026/11/20/ethereum-s-next-big-upgrade-is-pushed-into-2027-by-apps-it-would-break",
+      "reason": "利多词: 上调评级",
+      "score": 2,
+      "source": "CoinDesk",
+      "tag": "利多",
+      "title": "Ethereum’s next big upgrade is pushed into 2027 by apps it would break",
+      "title_zh": "以太坊的下一次重大升级被其可能破坏的应用程序推迟到 2027 年",
+      "ts": 1795150688
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795153578,
+      "key": "thesestocksareup826661seehowouraichosethemnovemberlistisout",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/these-stocks-are-up-82-66-61-see-how-our-ai-chose-them-november-list-is-out-5040652",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "These stocks are up 82%, 66%, 61%. See how our AI chose them. November list is out",
+      "title_zh": "这些股票分别上涨了82%、66%、61%。看看我们的人工智能如何选择它们。 11月名单已出",
+      "ts": 1795149414
+    },
+    {
+      "coins": [
         "BTC",
         "ETH"
       ],
@@ -16,7 +97,7 @@
       "source": "CoinDesk",
       "tag": "利空",
       "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
-      "title_zh": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "title_zh": "VanEck 不再担任 Gemini 的比特币、以太币和 SOL ETF 托管人",
       "ts": 1795148932
     },
     {
@@ -31,7 +112,7 @@
       "source": "The Block",
       "tag": "中性",
       "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
-      "title_zh": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+      "title_zh": "Coinbase 支持 CFTC 将预测市场合约与赌博区分开来的提案",
       "ts": 1795148645
     },
     {
@@ -63,7 +144,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
-      "title_zh": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "title_zh": "在连续抛售之后，机构在第三季度重新买入美国比特币 ETF",
       "ts": 1795145602
     },
     {
@@ -130,21 +211,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795145939,
-      "key": "asiastocksslideto7mthlowwithskoreataiwanworsthitbyairout",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/asia-stocks-slide-to-7mth-low-with-skorea-taiwan-worst-hit-by-ai-rout-5040572",
-      "reason": "利空词: 下滑",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "Asia stocks slide to 7-mth low with S.Korea, Taiwan worst hit by AI rout",
-      "title_zh": "亚洲股市跌至 7 个月低点，韩国、台湾受人工智能溃败打击最严重",
-      "ts": 1795144009
-    },
-    {
-      "coins": [],
       "desc": "Tom Lee says the Anthropic debut selloff feels like max pain, as ANT slides from its open and the S&P 500 drops 2%.",
       "first_seen": 1795145939,
       "key": "tomleesaysanthropicdebutsellofffeelslikemaxpainwilltechrebound",
@@ -157,21 +223,6 @@
       "title": "Tom Lee Says Anthropic Debut Selloff Feels Like ‘Max Pain’: Will Tech Rebound?",
       "title_zh": "汤姆·李表示，人为首次抛售感觉就像“最大痛苦”：科技股会反弹吗？",
       "ts": 1795143900
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795145939,
-      "key": "826562greeninaredmarket3aipickedstocksstillclimbing",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/82-65-62-green-in-a-red-market-3-aipicked-stocks-still-climbing-5040557",
-      "reason": "利多词: 攀升",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "+82%, +65%, +62%: Green in a red market. 3 AI-picked stocks still climbing",
-      "title_zh": "+82%、+65%、+62%：红色市场中的绿色。 3只人工智能精选股票仍在上涨",
-      "ts": 1795143401
     },
     {
       "coins": [],
@@ -420,53 +471,6 @@
       "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
       "title_zh": "加州总检察长向英伟达发出传票，调查中国芯片转移事件",
       "ts": 1795130483
-    },
-    {
-      "coins": [],
-      "desc": "All 11 sectors of the S&P 500 declined — 10 of them by more than 1% — but cybersecurity stocks bucked the weakness.",
-      "first_seen": 1795132687,
-      "key": "theseweretheonlystocksthatroseamidthestockmarketswipeoutthursday",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
-      "reason": "利空词: 下降、疲弱",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
-      "title_zh": "这些是周四股市暴跌中唯一上涨的股票",
-      "ts": 1795129860
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "",
-      "first_seen": 1795132687,
-      "key": "bitcoindipshoversatoverfourmonthlowamidratehikebetsstocksrout",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-down-to-635k-amid-little-relief-from-rate-hike-jitters-5037873",
-      "reason": "利空词: 加息",
-      "score": -4,
-      "source": "Investing.com 加密",
-      "tag": "利空",
-      "title": "Bitcoin dips, hovers at over four-month low amid rate hike bets, stocks rout",
-      "title_zh": "由于加息押注、股市暴跌，比特币下跌，徘徊在四个多月低点",
-      "ts": 1795129708
-    },
-    {
-      "coins": [],
-      "desc": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
-      "first_seen": 1795129990,
-      "key": "intuitsdownbeatoutlookdeepenswallstreetsanxietyaboutsoftwarecompanies",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
-      "title_zh": "Intuit的悲观前景加深了华尔街对软件公司的焦虑",
-      "ts": 1795128780
     }
   ],
   "meta": {
@@ -487,6 +491,6 @@
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-20T05:40:27+01:00",
-  "updated_unix": 1795149627
+  "updated": "2026-11-20T06:46:22+01:00",
+  "updated_unix": 1795153582
 }
