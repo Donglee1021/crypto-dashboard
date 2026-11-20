@@ -14,7 +14,39 @@
       "tag": "利空",
       "title": "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To New Lows",
       "title_zh": "道琼斯期货：丑陋的市场逆转至新低后，科技股下滑，人为回落",
-      "ts": 1795139396
+      "ts": 1795142029
+    },
+    {
+      "coins": [],
+      "desc": "SoftBank shares plunged over 16% on Friday as Japanese and South Korean technology stocks fell sharply.",
+      "first_seen": 1795139947,
+      "key": "softbankplungesover16asaiselloffhitsasiantechstocksfollowinganthropicdebut",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "reason": "利空词: 暴跌、抛售",
+      "score": -4,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "title_zh": "Anthropic 首次亮相后，亚洲科技股遭遇人工智能抛售，软银股价暴跌 16% 以上",
+      "ts": 1795140890
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Strategy (NASDAQ:MSTR) is buying back its STRC preferred shares as credit markets tighten, with executives saying the company is prioritizing support for the security over rapid growth in its Bitcoin-backed financing business. During an inv",
+      "first_seen": 1795142977,
+      "key": "strategybuysback3billioninstrcsharesascreditmarketstighten",
+      "kind": "macro",
+      "link": "https://www.marketbeat.com/instant-alerts/event-strategy-buys-back-3-billion-in-strc-shares-as-credit-markets-tighten-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Strategy Buys Back $3 Billion in STRC Shares as Credit Markets Tighten",
+      "title_zh": "随着信贷市场收紧，Strategy 回购 30 亿美元的 STRC 股票",
+      "ts": 1795140728
     },
     {
       "coins": [],
@@ -25,7 +57,7 @@
       "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
       "reason": "利多词: 飙升",
       "score": 2,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "利多",
       "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
       "title_zh": "能源补贴到期推高消费者物价 日本核心通胀飙升至今年最高",
@@ -45,21 +77,6 @@
       "title": "Wall Street futures fall as Anthropic debut fails to revive AI trade",
       "title_zh": "由于 Anthropic 首次亮相未能重振人工智能交易，华尔街期货下跌",
       "ts": 1795138913
-    },
-    {
-      "coins": [],
-      "desc": "SoftBank shares plunged over 16% on Friday as Japanese and South Korean technology stocks fell sharply.",
-      "first_seen": 1795139947,
-      "key": "softbankplungesover16asaiselloffhitsasiantechstocksfollowinganthropicdebut",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
-      "reason": "利空词: 暴跌、抛售",
-      "score": -4,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
-      "title_zh": "Anthropic 首次亮相后，亚洲科技股遭遇人工智能抛售，软银股价暴跌 16% 以上",
-      "ts": 1795138459
     },
     {
       "coins": [
@@ -182,21 +199,6 @@
       "title": "The Semiconductor ETF Is on Track to Beat the S&P 500 for a 4th Straight Year. It Has Never Done That Before.",
       "title_zh": "半导体 ETF 有望连续第四年击败标准普尔 500 指数。它以前从未这样做过。",
       "ts": 1795131782
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795132687,
-      "key": "alibabadefraudedshareholdersbyconcealingtiestosuspectedspyinnvidiascandallawsuit",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/alibaba-defrauded-shareholders-by-concealing-ties-to-suspected-spy-in-nvidia-scandal-lawsuit-says-5040304",
-      "reason": "利空词: 诉讼",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
-      "title_zh": "诉讼称，阿里巴巴隐瞒了与英伟达丑闻中涉嫌间谍的关系，欺骗了股东",
-      "ts": 1795131384
     },
     {
       "coins": [
@@ -475,13 +477,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 6",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 15",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-20T02:59:15+01:00",
-  "updated_unix": 1795139955
+  "updated": "2026-11-20T03:49:37+01:00",
+  "updated_unix": 1795142977
 }
