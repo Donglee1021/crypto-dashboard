@@ -2,6 +2,39 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Coinbase Custody will continue serving all three funds after Gemini's contracts end in February.",
+      "first_seen": 1795149625,
+      "key": "vaneckdropsgeminiascustodianofitsbitcoinetherandsoletfs",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/20/vaneck-drops-gemini-as-custodian-of-its-bitcoin-ether-and-sol-etfs",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "title_zh": "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs",
+      "ts": 1795148932
+    },
+    {
+      "coins": [],
+      "desc": "Coinbase said event contracts already qualify as swaps under the CEA and that explicit inclusion would provide greater regulatory certainty.",
+      "first_seen": 1795149625,
+      "key": "coinbasebackscftcproposaltodistinguishpredictionmarketcontractsfromgambling",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/business/2026-11-19-coinbase-backs-cftc-prediction-markets-444152",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+      "title_zh": "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+      "ts": 1795148645
+    },
+    {
       "coins": [],
       "desc": "Tech futures fell after the market suffered an ugly reversal, with the S&P 500 and Nasdaq hitting new lows. Anthropic retreated late after rising its IPO debut.",
       "first_seen": 1795139947,
@@ -14,7 +47,24 @@
       "tag": "利空",
       "title": "Dow Jones Futures: Techs Slide, Anthropic Retreats After Ugly Market Reversal To New Lows",
       "title_zh": "道琼斯期货：丑陋的市场逆转至新低后，科技股下滑，人为回落",
-      "ts": 1795145554
+      "ts": 1795147786
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Asset managers added the equivalent of 49,229 Bitcoin to their US Bitcoin ETF holdings in the third quarter, reversing three quarters of net selling.",
+      "first_seen": 1795149625,
+      "key": "institutionspilebackintousbitcoinetfsinq3aftersellingstreak",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "title_zh": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "ts": 1795145602
     },
     {
       "coins": [
@@ -405,21 +455,6 @@
     },
     {
       "coins": [],
-      "desc": "Strong corporate earnings and a landmark IPO are providing pockets of optimism, but mounting interest rate and valuation concerns continue to undermine investor confidence.",
-      "first_seen": 1795132687,
-      "key": "stockmarkettodaynov19stockmarkettodaynov19alphabetsharesfallasanthropicnasdaqdeb",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-stock-market-today-nov-19-alphabet-shares-fall-as-anthropic-nasdaq-debut-puts-fresh-value-on-google-s-stake/?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 19: Stock Market Today, Nov. 19: Alphabet Shares Fall as Anthropic Nasdaq Debut Puts Fresh Value on Google's Stake",
-      "title_zh": "今日股市，11 月 19 日：今日股市，11 月 19 日：Alphabet 股价下跌，因 Anthropic 纳斯达克首次亮相为谷歌股份带来新价值",
-      "ts": 1795129502
-    },
-    {
-      "coins": [],
       "desc": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
       "first_seen": 1795129990,
       "key": "intuitsdownbeatoutlookdeepenswallstreetsanxietyaboutsoftwarecompanies",
@@ -432,36 +467,6 @@
       "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
       "title_zh": "Intuit的悲观前景加深了华尔街对软件公司的焦虑",
       "ts": 1795128780
-    },
-    {
-      "coins": [],
-      "desc": "Citibank’s updated terms put customers on the hook for outside AI agents, including leaked logins.",
-      "first_seen": 1795129990,
-      "key": "citisayscustomersareresponsiblewhenaibankingagentsgorogueevenafterahack",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383677/citi-customers-responsible-ai-banking-agents-rogue-hack",
-      "reason": "利空词: 被黑、禁令",
-      "score": -4,
-      "source": "Decrypt",
-      "tag": "利空",
-      "title": "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
-      "title_zh": "花旗表示，当人工智能银行代理失控时，即使在遭到黑客攻击后，客户也要承担责任",
-      "ts": 1795127762
-    },
-    {
-      "coins": [],
-      "desc": "Binance obtains court orders freezing assets stolen in October’s hack. Hong Kong warns citizens about Hyperliquid, and Thai police arrest four foreigners linked to a crypto scam.",
-      "first_seen": 1795129990,
-      "key": "binances65bfreezeorderhongkongsuspiciousofhypeasiaexpress",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 被黑、警告",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express",
-      "title_zh": "币安的 $6.5B 冻结令，香港对炒作“可疑”：Asia Express",
-      "ts": 1795127118
     }
   ],
   "meta": {
@@ -475,13 +480,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 6",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 1"
     }
   },
-  "updated": "2026-11-20T04:39:04+01:00",
-  "updated_unix": 1795145944
+  "updated": "2026-11-20T05:40:27+01:00",
+  "updated_unix": 1795149627
 }
