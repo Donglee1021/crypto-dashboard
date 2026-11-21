@@ -5,6 +5,40 @@
       "coins": [
         "BTC"
       ],
+      "desc": "In today's newsletter, JPMorgan says bitcoin's price drop puts more pressure on miners; Senate passes bill to ban prediction markets tied to death and war; and more.",
+      "first_seen": 1795238822,
+      "key": "jpmorgansaysbitcoinspricedroppressuresminerssenatepassesdeathbetsactandmore",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/newsletters/the-daily/2026-11-20-jpmorgan-bitcoin-price-drop-miners-senate-passes-death-bets-act-more-crypto-news-444786",
+      "reason": "利空词: 下跌、禁令",
+      "score": -3,
+      "source": "The Block",
+      "tag": "利空",
+      "title": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
+      "title_zh": "JPMorgan says bitcoin’s price drop pressures miners, Senate passes ‘Death Bets Act’, and more",
+      "ts": 1795235400
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Wood has stated that Anthropic's post-debut retreat has not affected her trust in the band.",
+      "first_seen": 1795238822,
+      "key": "arkinvestaddsmoreanthropicshareswhiletrimmingcryptostocksasbitcoinslides",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-sells-crypto-bets-piles-into-anthropic-after-ai-firm-s-market-debut/cNbm9L8R910?.tsrc=rss",
+      "reason": "利空词: 下滑、禁令",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "ARK Invest Adds More Anthropic Shares While Trimming Crypto Stocks As Bitcoin Slides",
+      "title_zh": "ARK Invest Adds More Anthropic Shares While Trimming Crypto Stocks As Bitcoin Slides",
+      "ts": 1795234777
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "BTC's sell-off deepened on Saturday, with prices hitting two-year lows under $57,000.",
       "first_seen": 1795235328,
       "key": "bitcointanksbelow57000forthefirsttimeintwoyearsanditsnotalone",
@@ -62,6 +96,21 @@
       "title": "3 Dividend Stocks With At Least 2% Yield",
       "title_zh": "3 Dividend Stocks With At Least 2% Yield",
       "ts": 1795230879
+    },
+    {
+      "coins": [],
+      "desc": "A decade-long estate-planning strategy moved nearly 60 million Nvidia shares into a family trust. It illustrates how soaring stocks can help wealthy families transfer fortunes without gift or estate taxes.",
+      "first_seen": 1795238822,
+      "key": "jensenhuangpassedbillionsinnvidiastocktohisheirsmonthsbeforehisdownfall",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/f93688e0-5c36-372b-855e-b722a7cce11d/jensen-huang-passed-billions.html?.tsrc=rss",
+      "reason": "利多词: 飙升",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+      "title_zh": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
+      "ts": 1795230840
     },
     {
       "coins": [
@@ -266,23 +315,6 @@
       "ts": 1795221698
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Executive Chairman Michael Saylor says credit conditions and stock valuations shape how Strategy raises money and buys Bitcoin.",
-      "first_seen": 1795225605,
-      "key": "3signalsthebiggestbitcointreasurycompanychecksbeforeitsnextmove",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/3-signals-the-biggest-bitcoin-treasury-company-checks-before-its-next-move?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "3 signals the biggest Bitcoin treasury company checks before its next move",
-      "title_zh": "3 标志着最大的比特币财务公司在采取下一步行动之前进行检查",
-      "ts": 1795221000
-    },
-    {
       "coins": [],
       "desc": "",
       "first_seen": 1795220903,
@@ -435,36 +467,6 @@
       "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
       "title_zh": "英伟达股价录得 2008 年以来未见的周跌幅",
       "ts": 1795211880
-    },
-    {
-      "coins": [],
-      "desc": "Fortitude wins shareholder backing for its planned Nasdaq debut as ZEC trades 55% below its record high.",
-      "first_seen": 1795212424,
-      "key": "dcgszcashminerfortitudeclearsvotefornasdaqlistingaszecretreatsfromalltimehigh",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/business/2026-11-20-dcgs-zcash-miner-fortitude-clears-vote-nasdaq-listing-zec-retreats-all-time-high-444784",
-      "reason": "利多词: 创新高",
-      "score": 3,
-      "source": "The Block",
-      "tag": "利多",
-      "title": "DCG’s Zcash miner Fortitude clears vote for Nasdaq listing as ZEC retreats from all-time high",
-      "title_zh": "ZEC 从历史高位回落，DCG 旗下 Zcash 矿商 Fortitude 顺利通过纳斯达克上市投票",
-      "ts": 1795210801
-    },
-    {
-      "coins": [],
-      "desc": "Levent Alpöge claims Claude helped prove a 167-year-old math conjecture, but independent checks remain pending, and the release just after Anthropic’s IPO has prompted questions about its unusual publication timing.",
-      "first_seen": 1795212424,
-      "key": "claudeclaimshistoricmathbreakthroughonedayafteranthropicipo",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383747/claude-historic-math-breakthrough-anthropic-ipo",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Claude Claims Historic Math Breakthrough One Day After Anthropic IPO",
-      "title_zh": "克劳德 (Claude) 声称人类在首次公开募股一天后取得了历史性的数学突破",
-      "ts": 1795210562
     }
   ],
   "meta": {
@@ -481,10 +483,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T05:28:54+01:00",
-  "updated_unix": 1795235334
+  "updated": "2026-11-21T06:27:11+01:00",
+  "updated_unix": 1795238831
 }
