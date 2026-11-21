@@ -3,6 +3,98 @@
   "items": [
     {
       "coins": [],
+      "desc": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
+      "first_seen": 1795288044,
+      "key": "cyberinvestigatingsuspected1millionbridgeexploitasupbitbithumbfreezetransfers",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810",
+      "reason": "利空词: 漏洞攻击",
+      "score": -2,
+      "source": "The Block",
+      "tag": "利空",
+      "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+      "title_zh": "网络调查涉嫌 100 万美元桥接漏洞，Upbit、Bithumb 冻结转账",
+      "ts": 1795287074
+    },
+    {
+      "coins": [],
+      "desc": "AI stocks with strong fundamentals should rebound quickly from a market crash.",
+      "first_seen": 1795288044,
+      "key": "worriedaboutamarketcrashthisaistockshouldbouncebackfastest",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/worried-about-a-market-crash-this-ai-stock-should-bounce-back-fastest/?.tsrc=rss",
+      "reason": "利多词: 反弹；利空词: 崩跌（多空相抵）",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Worried About a Market Crash? This AI Stock Should Bounce Back Fastest.",
+      "title_zh": "担心市场崩盘？这只人工智能股票应该最快反弹。",
+      "ts": 1795286822
+    },
+    {
+      "coins": [],
+      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
+      "first_seen": 1795288044,
+      "key": "dellup447in5yearshpe220whatdidmichaeldelldodifferently",
+      "kind": "macro",
+      "link": "https://www.trefis.com/stock/dell/articles/624826/dell-up-447-in-5-years-hpe-220-what-did-michael-dell-do-differently/2026-11-21?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dell Up 447% In 5 Years, HPE 220%: What Did Michael Dell Do Differently?",
+      "title_zh": "戴尔在 5 年内上涨 447%，HPE 上涨 220%：迈克尔·戴尔有何不同之处？",
+      "ts": 1795285923
+    },
+    {
+      "coins": [],
+      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
+      "first_seen": 1795288044,
+      "key": "metastoppeditsbuybackstobuildaihowmuchmorecanitspend",
+      "kind": "macro",
+      "link": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
+      "title_zh": "Meta 停止回购以构建人工智能。还能花多少钱？",
+      "ts": 1795285923
+    },
+    {
+      "coins": [],
+      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
+      "first_seen": 1795288044,
+      "key": "microsoftwastheonlybigaibuyerpayingdowndebthowmuchmorecanitspend",
+      "kind": "macro",
+      "link": "https://www.trefis.com/stock/msft/articles/627454/microsoft-was-the-only-big-ai-buyer-paying-down-debt-how-much-more-can-it-spend/2026-11-21?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Microsoft Was The Only Big AI Buyer Paying Down Debt. How Much More Can It Spend?",
+      "title_zh": "微软是唯一一家偿还债务的人工智能大买家。还能花多少钱？",
+      "ts": 1795285923
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The price of Bitcoin has climbed over the past 24 hours and is rebounding from two-year lows. That might be a good sign for the stock market on Monday.",
+      "first_seen": 1795288044,
+      "key": "bitcoinbouncesofftwoyearlowscouldcryptorescuestocksonmonday",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/2b590e01-272b-316d-af4c-d1251ad9adb4/bitcoin-bounces-off-two-year.html?.tsrc=rss",
+      "reason": "利多词: 攀升、反弹",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Bitcoin Bounces Off Two-Year Lows. Could Crypto Rescue Stocks on Monday?",
+      "title_zh": "比特币从两年低点反弹。周一加密货币能否拯救股市？",
+      "ts": 1795284180
+    },
+    {
+      "coins": [],
       "desc": "The anonymous leaker, Cyberleek, released a 209 GB Xbox build but is withholding the executable that could enable a PC port until its CYBERLEEK token hits $15 million.",
       "first_seen": 1795284617,
       "key": "gta6leakerdanglesapcportbehinda15millioncryptopump",
@@ -13,7 +105,7 @@
       "source": "Decrypt",
       "tag": "中性",
       "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
-      "title_zh": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
+      "title_zh": "GTA 6 泄密者将 PC 端口挂在价值 1500 万美元的加密货币泵后面",
       "ts": 1795284062
     },
     {
@@ -30,7 +122,7 @@
       "source": "CoinDesk",
       "tag": "中性",
       "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
-      "title_zh": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
+      "title_zh": "交易员关注周一开盘，比特币从两年低点反弹 9%，重拾 60,000 美元",
       "ts": 1795283400
     },
     {
@@ -45,7 +137,7 @@
       "source": "Decrypt",
       "tag": "中性",
       "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-      "title_zh": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "title_zh": "美国证券交易委员会 (SEC) 称，欺诈者利用虚假加密货币交易所窃取了 3700 万美元",
       "ts": 1795280462
     },
     {
@@ -227,7 +319,7 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-      "title_zh": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+      "title_zh": "美光和闪迪的股票可能看起来很便宜，但分析师表示这实际上是一个危险信号",
       "ts": 1795275300
     },
     {
@@ -323,23 +415,8 @@
       "source": "MarketWatch",
       "tag": "中性",
       "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
-      "title_zh": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
+      "title_zh": "“英伟达的动荡让我感到害怕”：是时候卖掉我的股票了吗？",
       "ts": 1795274100
-    },
-    {
-      "coins": [],
-      "desc": "Now is a good time to keep buying stocks if you’re diversified and focused on the long term.",
-      "first_seen": 1795274292,
-      "key": "thenasdaqjusttriggeredacorrection1moveimmakingrightnowand1imavoiding",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/the-nasdaq-just-triggered-a-correction-1-move-im-making-right-now-and-1-im-avoiding/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The Nasdaq Just Triggered a Correction. 1 Move I'm Making Right Now -- and 1 I'm Avoiding",
-      "title_zh": "纳斯达克指数刚刚触发调整。我现在正在采取的 1 项举措——以及我正在避免的 1 项举措",
-      "ts": 1795273502
     },
     {
       "coins": [],
@@ -350,29 +427,11 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
       "ts": 1795273496
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "Forced selling turned a slow two-week slide into an overnight plunge, then vanished just as fast. The bounce looks convincing, but one missing ingredient decides whether Bitcoin has really found a floor or only caught its breath.",
-      "first_seen": 1795274292,
-      "key": "bitcoincrashesbelow56000as27billioncryptoliquidationwipesouttraders",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/21/bitcoin-crashes-below-56000-as-2-7-billion-crypto-liquidation-wipes-out-traders/?.tsrc=rss",
-      "reason": "利空词: 暴跌、崩跌、下滑、爆仓",
-      "score": -6,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin Crashes Below $56,000 as $2.7 Billion Crypto Liquidation Wipes Out Traders",
-      "title_zh": "27 亿美元的加密货币清算消灭了交易者，比特币跌破 56,000 美元",
-      "ts": 1795273313
     },
     {
       "coins": [
@@ -393,36 +452,6 @@
     },
     {
       "coins": [],
-      "desc": "The stock market suffered its most brutal week in five years. It's an important time for investors to pay careful attention.",
-      "first_seen": 1795274292,
-      "key": "stockmarketweekaheadamatterofpressureandtime",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/3210b989-7b62-31ad-8d9e-864ea02df6c9/stock-market-week-ahead%3A-a.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Week Ahead: A Matter Of Pressure And Time",
-      "title_zh": "未来一周股市：压力和时间问题",
-      "ts": 1795271681
-    },
-    {
-      "coins": [],
-      "desc": "The stock market’s $1.5 trillion powder keg may be about to blow.",
-      "first_seen": 1795274292,
-      "key": "wemaybewitnessingwallstreetsbiggestbubbleburstinrealtimeandimnottalkingaboutarti",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/we-may-be-witnessing-wall-street-biggest-bubble-burst-in-real-time-not-artificial-intelligence/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "We May Be Witnessing Wall Street's Biggest Bubble Burst in Real Time (and I'm Not Talking About Artificial Intelligence)",
-      "title_zh": "我们可能正在实时见证华尔街最大的泡沫破裂（我不是在谈论人工智能）",
-      "ts": 1795271162
-    },
-    {
-      "coins": [],
       "desc": "The brutal sell-off is creating opportunities for us to put cash to work.",
       "first_seen": 1795271338,
       "key": "duringwallstreetsworstweekinoverayearweputmoneytoworkwhatwerebuying",
@@ -435,36 +464,6 @@
       "title": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
       "title_zh": "在华尔街一年多来最糟糕的一周里，我们投入了资金。我们要买什么",
       "ts": 1795270924
-    },
-    {
-      "coins": [],
-      "desc": "Investors are now more focused on protecting their portfolios than looking for bargains",
-      "first_seen": 1795282086,
-      "key": "howabrutalweekforstocksalmostwipedouttheirgainsfortheentireyear",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/how-a-brutal-week-for-stocks-almost-wiped-out-their-gains-for-the-entire-year-ae6773c3?mod=mw_rss_topstories",
-      "reason": "利多词: 上涨",
-      "score": 2,
-      "source": "MarketWatch",
-      "tag": "利多",
-      "title": "How a brutal week for stocks almost wiped out their gains for the entire year",
-      "title_zh": "How a brutal week for stocks almost wiped out their gains for the entire year",
-      "ts": 1795270620
-    },
-    {
-      "coins": [],
-      "desc": "Anthropic's IPO was a big public market success for the company, but Friday's selloff shows that valuing the AI stock will remain volatile for investors.",
-      "first_seen": 1795271338,
-      "key": "whyanthropicsblockbusteripocouldntescapethestockmarketcorrection",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
-      "title_zh": "Anthropic重磅IPO为何难逃股市调整",
-      "ts": 1795270073
     }
   ],
   "meta": {
@@ -479,12 +478,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 3",
+      "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T19:10:22+01:00",
-  "updated_unix": 1795284622
+  "updated": "2026-11-21T20:07:30+01:00",
+  "updated_unix": 1795288050
 }
