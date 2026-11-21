@@ -2,6 +2,55 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "A market crash can erase a retiree's nest egg, yet Medicaid's strict look-back rules treat that loss very differently from a gift. One wrong move by his family could turn a bad break into a penalty period with no coverage.",
+      "first_seen": 1795300702,
+      "key": "at74amachinistplannedtopayforhisnursinghomewith150000inbitcoinafterthecrashitswo",
+      "kind": "macro",
+      "link": "https://247wallst.com/personal-finance/2026/11/21/at-74-a-machinist-planned-to-pay-for-his-nursing-home-with-150000-in-bitcoin-after-the-crash-its-worth-about-90000-and-the-loss-will-get-him-onto-medicaid-about-5%c2%bd-months-sooner/?.tsrc=rss",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "At 74, a Machinist Planned to Pay for His Nursing Home With $150,000 in Bitcoin. After the Crash It’s Worth About $90,000, and the Loss Will Get Him Onto Medicaid About 5½ Months Sooner",
+      "title_zh": "74 岁的机械师计划用 15 万美元的比特币支付他的疗养院费用。事故发生后，它的价值约为 90,000 美元，损失将使他提前大约 5.5 个月获得医疗补助",
+      "ts": 1795300051
+    },
+    {
+      "coins": [],
+      "desc": "Investors just watched an AI driven selloff push the S&P 500 into correction territory, as confidence in expensive growth stories took a hit. When sentiment swings this hard, attention often shifts to businesses where the founder still owns",
+      "first_seen": 1795300702,
+      "key": "3founderledstockstoowninnovember2026",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-stocks-own-221107526.html?.tsrc=rss",
+      "reason": "利空词: 抛售",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "3 Founder Led Stocks To Own In November 2026",
+      "title_zh": "3 名创始人将于 2026 年 11 月持有股票",
+      "ts": 1795299067
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Kraken’s Canadian-dollar market gave some buyers an unusual opening. Here’s what the prices were worth in U.S. dollars.",
+      "first_seen": 1795300702,
+      "key": "someboughtbitcoinonkrakenforunder20000",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/some-bought-bitcoin-on-kraken-for-under-20000?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Some bought Bitcoin on Kraken for under $20,000",
+      "title_zh": "有些人在 Kraken 上以不到 20,000 美元的价格购买了比特币",
+      "ts": 1795299028
+    },
+    {
       "coins": [],
       "desc": "Here’s what crypto owners should check before their next tax form arrives.",
       "first_seen": 1795298359,
@@ -250,51 +299,6 @@
     },
     {
       "coins": [],
-      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
-      "first_seen": 1795288044,
-      "key": "dellup447in5yearshpe220whatdidmichaeldelldodifferently",
-      "kind": "macro",
-      "link": "https://www.trefis.com/stock/dell/articles/624826/dell-up-447-in-5-years-hpe-220-what-did-michael-dell-do-differently/2026-11-21?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dell Up 447% In 5 Years, HPE 220%: What Did Michael Dell Do Differently?",
-      "title_zh": "戴尔在 5 年内上涨 447%，HPE 上涨 220%：迈克尔·戴尔有何不同之处？",
-      "ts": 1795285923
-    },
-    {
-      "coins": [],
-      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
-      "first_seen": 1795288044,
-      "key": "metastoppeditsbuybackstobuildaihowmuchmorecanitspend",
-      "kind": "macro",
-      "link": "https://www.trefis.com/stock/meta/articles/627455/meta-stopped-its-buybacks-to-build-ai-how-much-more-can-it-spend/2026-11-21?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Meta Stopped Its Buybacks To Build AI. How Much More Can It Spend?",
-      "title_zh": "Meta 停止回购以构建人工智能。还能花多少钱？",
-      "ts": 1795285923
-    },
-    {
-      "coins": [],
-      "desc": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
-      "first_seen": 1795288044,
-      "key": "microsoftwastheonlybigaibuyerpayingdowndebthowmuchmorecanitspend",
-      "kind": "macro",
-      "link": "https://www.trefis.com/stock/msft/articles/627454/microsoft-was-the-only-big-ai-buyer-paying-down-debt-how-much-more-can-it-spend/2026-11-21?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Microsoft Was The Only Big AI Buyer Paying Down Debt. How Much More Can It Spend?",
-      "title_zh": "微软是唯一一家偿还债务的人工智能大买家。还能花多少钱？",
-      "ts": 1795285923
-    },
-    {
-      "coins": [],
       "desc": "The anonymous leaker, Cyberleek, released a 209 GB Xbox build but is withholding the executable that could enable a PC port until its CYBERLEEK token hits $15 million.",
       "first_seen": 1795284617,
       "key": "gta6leakerdanglesapcportbehinda15millioncryptopump",
@@ -439,7 +443,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -481,6 +485,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T22:59:22+01:00",
-  "updated_unix": 1795298362
+  "updated": "2026-11-21T23:38:25+01:00",
+  "updated_unix": 1795300705
 }
