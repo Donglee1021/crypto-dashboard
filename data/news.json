@@ -2,6 +2,21 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Nearly a year of gains vanished in about six weeks, and the selling keeps getting heavier. One equal-weight fund is holding up far better than the big index fund, and the gap points to a specific risk.",
+      "first_seen": 1795293059,
+      "key": "thesp500ishavingthelongestlosingstreaksincefebruary2020",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss",
+      "reason": "利多词: 上涨",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The S&P 500 Is Having the Longest Losing Streak Since February 2020",
+      "title_zh": "标准普尔 500 指数正经历 2020 年 2 月以来最长的连续下跌",
+      "ts": 1795291324
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -15,7 +30,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks.",
-      "title_zh": "MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks.",
+      "title_zh": "MSCI 正在将 Strategy 和 Metaplanet 从其指数中剔除。这对比特币财政部公司股票意味着什么。",
       "ts": 1795289822
     },
     {
@@ -48,7 +63,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Better Buy: Bitcoin vs. Ethereum",
-      "title_zh": "Better Buy: Bitcoin vs. Ethereum",
+      "title_zh": "更好的购买：比特币与以太坊",
       "ts": 1795288502
     },
     {
@@ -63,7 +78,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
-      "title_zh": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
+      "title_zh": "标准普尔 500 指数即将进入感恩节，低于峰值。自 1950 年以来，假期周通常是这样度过的。",
       "ts": 1795288022
     },
     {
@@ -177,17 +192,17 @@
       "coins": [
         "BTC"
       ],
-      "desc": "The sell-off wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices.",
-      "first_seen": 1795284617,
-      "key": "bitcoinbounces9fromtwoyearlowtoretake60000astraderseyemondaysstockopen",
+      "desc": "The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices.",
+      "first_seen": 1795293059,
+      "key": "bitcoinreboundsabove60000after18billioncryptoliquidationwave",
       "kind": "crypto",
       "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "reason": "利多词: 看涨；利空词: 抛售（多空相抵）",
+      "reason": "利多词: 反弹、看涨；利空词: 抛售、爆仓（多空相抵）",
       "score": 0,
       "source": "CoinDesk",
       "tag": "中性",
-      "title": "Bitcoin bounces 9% from two-year low to retake $60,000 as traders eye Monday’s stock open",
-      "title_zh": "交易员关注周一开盘，比特币从两年低点反弹 9%，重拾 60,000 美元",
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "title_zh": "在 18 亿美元的加密货币清算浪潮之后，比特币反弹至 60,000 美元以上",
       "ts": 1795283400
     },
     {
@@ -314,36 +329,6 @@
     },
     {
       "coins": [],
-      "desc": "When Wall Street sends the S&P 500 into correction territory after a sharp AI selloff, fragile balance sheets suddenly look far less appealing. Investors watching tech high flyers swing around are starting to care a lot more about resilienc",
-      "first_seen": 1795279795,
-      "key": "aristanetworksand2moredefensivestockstoown",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-more-defensive-161004526.html?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Arista Networks And 2 More Defensive Stocks To Own",
-      "title_zh": "Arista Networks 和另外两只值得持有的防御性股票",
-      "ts": 1795277404
-    },
-    {
-      "coins": [],
-      "desc": "Bear markets can present great buying opportunities.",
-      "first_seen": 1795279795,
-      "key": "ifthesp500dropsby20imbuyingthese3etfswithouthesitation",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/if-sp-500-drops-by-20-buying-these-3-etfs-without-hesitation/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 下跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "If the S&P 500 Drops by 20%, I'm Buying These 3 ETFs Without Hesitation",
-      "title_zh": "如果标准普尔 500 指数下跌 20%，我会毫不犹豫地购买这 3 只 ETF",
-      "ts": 1795277102
-    },
-    {
-      "coins": [],
       "desc": "The encrypted-messaging app will restrict screenshots on iOS 27 and auto-enable screen security on Android when it detects an AI assistant reading a chat.",
       "first_seen": 1795277078,
       "key": "signalcallsoslevelaianexistentialthreatandblocksscreenshotstofightit",
@@ -411,7 +396,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -461,8 +446,26 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
-      "title_zh": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "title_zh": "Anthropic重磅IPO为何难逃股市调整",
       "ts": 1795270073
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Tech stocks are buckling after Anthropic’s historic IPO and Nvidia’s leadership crisis, while Bitcoin has slipped below $60,000. Experts disagree on whether AI faces a correction or a dot-com-style bust.",
+      "first_seen": 1795293059,
+      "key": "istheaibubblefinallypoppingnvidiacrashes48aswallstreetexpertssoundthealarm",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "Decrypt",
+      "tag": "利空",
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+      "title_zh": "人工智能泡沫终于破灭了吗？华尔街专家敲响警钟 Nvidia 暴跌 48%",
+      "ts": 1795269666
     }
   ],
   "meta": {
@@ -479,10 +482,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T20:51:36+01:00",
-  "updated_unix": 1795290696
+  "updated": "2026-11-21T21:31:03+01:00",
+  "updated_unix": 1795293063
 }
