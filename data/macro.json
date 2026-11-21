@@ -2,22 +2,22 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": 0.062,
-        "d90": 0.072
+        "d30": 0.206,
+        "d90": 0.147
       },
       "SPX": {
-        "d30": 0.064,
-        "d90": 0.084
+        "d30": 0.225,
+        "d90": 0.17
       }
     },
     "ETH": {
       "NDX": {
-        "d30": 0.011,
-        "d90": 0.025
+        "d30": 0.105,
+        "d90": 0.073
       },
       "SPX": {
-        "d30": -0.003,
-        "d90": 0.021
+        "d30": 0.102,
+        "d90": 0.076
       }
     }
   },
@@ -176,11 +176,11 @@
   ],
   "influence": {
     "bias": -0.158,
-    "corr": 0.035,
+    "corr": 0.16,
     "corr_label": "弱",
-    "equity_chg": -4.92,
+    "equity_chg": -5.54,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货跌4.9%、VIX上升、美债收益率下降，相关性低，对加密偏空",
+    "line": "美股休市，纳指期货跌5.5%、VIX上升、美债收益率下降，相关性低，对加密偏空",
     "session": "closed",
     "stale": false
   },
@@ -230,15 +230,15 @@
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1795210554,
+      "time_unix": 1795208400,
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": -3.2,
-      "chg_1d": -3.2,
-      "chg_5d": -8.13,
-      "chg_intraday": -3.14,
-      "last": 6966.75,
+      "chg": -3.64,
+      "chg_1d": -3.64,
+      "chg_5d": -8.55,
+      "chg_intraday": -3.58,
+      "last": 6935.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
@@ -246,11 +246,11 @@
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": -4.92,
-      "chg_1d": -4.92,
-      "chg_5d": -9.79,
-      "chg_intraday": -4.92,
-      "last": 25291.0,
+      "chg": -5.54,
+      "chg_1d": -5.54,
+      "chg_5d": -10.37,
+      "chg_intraday": -5.54,
+      "last": 25126.5,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-21T04:29:15+01:00",
-  "updated_unix": 1795231755
+  "updated": "2026-11-21T05:28:54+01:00",
+  "updated_unix": 1795235334
 }

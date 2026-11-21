@@ -5,6 +5,68 @@
       "coins": [
         "BTC"
       ],
+      "desc": "BTC's sell-off deepened on Saturday, with prices hitting two-year lows under $57,000.",
+      "first_seen": 1795235328,
+      "key": "bitcointanksbelow57000forthefirsttimeintwoyearsanditsnotalone",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-tanks-below-usd57-000-for-the-first-time-in-two-years-and-its-not-alone",
+      "reason": "利空词: 抛售",
+      "score": -1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+      "title_zh": "Bitcoin tanks below $57,000 for the first time in two years, and its not alone",
+      "ts": 1795234207
+    },
+    {
+      "coins": [],
+      "desc": "Drawing parallels with the 2008 financial crisis, Schiff argued that gold could be repeating a familiar pattern.",
+      "first_seen": 1795235328,
+      "key": "peterschiffsaysgolds2000pullbackcouldbeawarningstockswillultimatelyfallmuchfurth",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/peter-schiff-gold-2000-pullback-warning-2008-crisis-stocks-fall-much-more/cNbmBC8R91i?.tsrc=rss",
+      "reason": "利空词: 下跌、警告",
+      "score": -4,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Peter Schiff Says Gold's $2,000 Pullback Could Be A Warning — 'Stocks Will Ultimately Fall Much Further'",
+      "title_zh": "Peter Schiff Says Gold's $2,000 Pullback Could Be A Warning — 'Stocks Will Ultimately Fall Much Further'",
+      "ts": 1795233721
+    },
+    {
+      "coins": [],
+      "desc": "After plunging 8.6% for the week, the S&P 500 is now in a correction.",
+      "first_seen": 1795235328,
+      "key": "thesp500justenteredcorrectionterritoryhereswhatitmeansforinvestorsrightnow",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/20/the-sp-500-just-entered-correction-territory-heres-what-it-means-for-investors-right-now/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The S&P 500 Just Entered Correction Territory. Here's What It Means for Investors Right Now.",
+      "title_zh": "The S&P 500 Just Entered Correction Territory. Here's What It Means for Investors Right Now.",
+      "ts": 1795233515
+    },
+    {
+      "coins": [],
+      "desc": "Wall Street just reminded investors that stock prices can swing hard, with the S&P 500 sliding into correction territory after several strong years. When markets reset like this, predictable cash payouts start to look a lot more attractive.",
+      "first_seen": 1795235328,
+      "key": "3dividendstockswithatleast2yield",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-dividend-stocks-least-2-031439959.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "3 Dividend Stocks With At Least 2% Yield",
+      "title_zh": "3 Dividend Stocks With At Least 2% Yield",
+      "ts": 1795230879
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "Adam Back, the CEO of Blockstream, said he's buying MSTR and argued the shares are cheap compared with Bitcoin.",
       "first_seen": 1795231751,
       "key": "bitcoinfallsbelow60kforfirsttimesincejulysaylorsmstrhits52weeklowamid14bpaperlos",
@@ -110,6 +172,21 @@
       "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment — ANT, NVDA, TTWO, ZS, CRWD In Focus",
       "title_zh": "纳斯达克 100 指数结束 2020 年以来最糟糕的一周，标普 500 指数因 AI 溃败而恶化情绪，进入修正区间 — ANT、NVDA、TTWO、ZS、CRWD 成为焦点",
       "ts": 1795224625
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia shares tumbled about 14%, and newly public Anthropic fell 9% as AI fears fueled a brutal sell-off that erased the Nasdaq's gains for the year.",
+      "first_seen": 1795235328,
+      "key": "wallstreetsuffershistoriclossesasdowsp500plungeintocorrectionterritory",
+      "kind": "macro",
+      "link": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory?.tsrc=rss",
+      "reason": "利多词: 上涨；利空词: 暴跌、大跌、抛售、恐慌",
+      "score": -6,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+      "title_zh": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+      "ts": 1795224506
     },
     {
       "coins": [
@@ -219,36 +296,6 @@
       "title": "Wonder explores sale of Grubhub, Wall Street Journal reports",
       "title_zh": "据《华尔街日报》报道，Wonder 正在探索出售 Grubhub",
       "ts": 1795219222
-    },
-    {
-      "coins": [],
-      "desc": "An oilfield injury left a veteran with a $1 million settlement. He put half of it into the S&P 500 and kept living on his veterans’ disability benefits. Jamal, 41, called \"The Ramsey Show\" to ask personal finance expert Dave...",
-      "first_seen": 1795225605,
-      "key": "veteran41put500kintothesp500daveramseysaysitcouldhit8byage69ifyoujustdonttouchit",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/veteran-41-put-500k-p-000006174.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Veteran, 41, Put $500K Into The S&P 500. Dave Ramsey Says It Could Hit $8 By Age 69 ‘If You Just Don’t Touch It’",
-      "title_zh": "41 岁退伍军人将 50 万美元投入标准普尔 500 指数。戴夫·拉姆齐 (Dave Ramsey) 表示，“如果你不碰它”，到 69 岁时，该指数可能会达到 8 美元",
-      "ts": 1795219206
-    },
-    {
-      "coins": [],
-      "desc": "The next leg could look very different.",
-      "first_seen": 1795220903,
-      "key": "goldmansachsissuessoberingverdictonsp500yearendrally",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/investing/stocks/goldman-sachs-sp500-outlook?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Goldman Sachs issues sobering verdict on S&P 500 year-end rally",
-      "title_zh": "高盛对标准普尔 500 指数年终反弹做出发人深省的裁决",
-      "ts": 1795217580
     },
     {
       "coins": [
@@ -418,51 +465,6 @@
       "title": "Claude Claims Historic Math Breakthrough One Day After Anthropic IPO",
       "title_zh": "克劳德 (Claude) 声称人类在首次公开募股一天后取得了历史性的数学突破",
       "ts": 1795210562
-    },
-    {
-      "coins": [],
-      "desc": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
-      "first_seen": 1795212424,
-      "key": "micronandsandiskstocksmightlooklikebargainsbutanalystssaythatsactuallyaredflag",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-      "title_zh": "美光和闪迪的股票可能看起来很便宜，但分析师表示这实际上是一个危险信号",
-      "ts": 1795210560
-    },
-    {
-      "coins": [],
-      "desc": "Federal Reserve announces College Fed Challenge winners",
-      "first_seen": 1795209374,
-      "key": "federalreserveannouncescollegefedchallengewinners",
-      "kind": "macro",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "美联储",
-      "tag": "中性",
-      "title": "Federal Reserve announces College Fed Challenge winners",
-      "title_zh": "美联储宣布大学联储挑战赛获奖者",
-      "ts": 1795209300
-    },
-    {
-      "coins": [],
-      "desc": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
-      "first_seen": 1795225605,
-      "key": "warshwantsfedofficialstotalklessinsteadtheyretalkingmore",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
-      "title_zh": "沃什希望美联储官员少说话。相反，他们谈论得更多",
-      "ts": 1795209048
     }
   ],
   "meta": {
@@ -479,10 +481,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 14",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T04:29:14+01:00",
-  "updated_unix": 1795231754
+  "updated": "2026-11-21T05:28:54+01:00",
+  "updated_unix": 1795235334
 }
