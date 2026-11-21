@@ -2,6 +2,51 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Most income investors trade growth for yield. This ETF lets you have both.",
+      "first_seen": 1795256138,
+      "key": "thisdividendetfcouldsuperchargeyourpassiveincomehereshow",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/this-dividend-etf-could-supercharge-your-passive-income-heres-how/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "This Dividend ETF Could Supercharge Your Passive Income. Here's How.",
+      "title_zh": "This Dividend ETF Could Supercharge Your Passive Income. Here's How.",
+      "ts": 1795255442
+    },
+    {
+      "coins": [],
+      "desc": "Industry groups have until Dec. 11 to apply for the ECB’s first experimental exercises under its Appia initiative, with later submissions reviewed on a rolling basis.",
+      "first_seen": 1795256138,
+      "key": "ecbseeksindustrypartnersfortokenizeddepositssecuritiesexperiments",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "title_zh": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "ts": 1795254536
+    },
+    {
+      "coins": [],
+      "desc": "Elevated inflation is no longer just a Trumpflation story.",
+      "first_seen": 1795256138,
+      "key": "presidentdonaldtrumpseconomyandtheaidrivenstockmarketareintroublethankstoanewlyi",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/donald-trump-economy-ai-driven-stock-market-in-trouble-newly-identified-source-of-inflation/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "President Donald Trump's Economy and the AI-Driven Stock Market Are in Trouble, Thanks to a Newly Identified Source of Inflation",
+      "title_zh": "President Donald Trump's Economy and the AI-Driven Stock Market Are in Trouble, Thanks to a Newly Identified Source of Inflation",
+      "ts": 1795253162
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -424,53 +469,6 @@
       "title": "Stocks enter correction territory, driven by deepening tech rout",
       "title_zh": "在科技股进一步溃败的推动下，股市进入调整区间",
       "ts": 1795227900
-    },
-    {
-      "coins": [],
-      "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
-      "first_seen": 1795212424,
-      "key": "dowjonesfuturesmarkethasworstweeksincecovidamidnvidiaanthropicdoesfeargaugeoffer",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-market-has.html?.tsrc=rss",
-      "reason": "利多词: 飙升；利空词: 恐慌（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
-      "title_zh": "道琼斯期货：英伟达、Anthropic 的市场经历了自新冠疫情以来最糟糕的一周。恐惧量表会带来希望吗？",
-      "ts": 1795227567
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795228650,
-      "key": "analysiswallstreetbankssetforbanneryearasanthropicspacexiposgenerate1billioninfe",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444",
-      "reason": "利空词: 禁令",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
-      "title_zh": "分析 - Anthropic 和 SpaceX 首次公开募股产生 10 亿美元费用，华尔街银行将迎来辉煌的一年",
-      "ts": 1795227142
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "",
-      "first_seen": 1795253092,
-      "key": "bitcoinontrackforlongestweeklylosingstreaksincemay2022amidairout",
-      "kind": "crypto",
-      "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-hits-near-5mth-low-below-62k-as-ai-rout-batters-risk-appetite-5040746",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 加密",
-      "tag": "中性",
-      "title": "Bitcoin on track for longest weekly losing streak since May 2022 amid AI rout",
-      "title_zh": "由于人工智能溃败，比特币有望实现自 2022 年 5 月以来最长的每周连续下跌",
-      "ts": 1795216678
     }
   ],
   "meta": {
@@ -487,10 +485,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T10:24:54+01:00",
-  "updated_unix": 1795253094
+  "updated": "2026-11-21T11:15:40+01:00",
+  "updated_unix": 1795256140
 }
