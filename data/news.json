@@ -2,6 +2,70 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "The S&P 500 lost money from 2000 to 2009, but the highest-yielding dividend stocks gained 5.4% a year. Here's what the last tech bust says about yield, and what it doesn't.",
+      "first_seen": 1795303091,
+      "key": "inthelasttechbustthesp500lostmoneyforadecadehistorysaysstockswiththehighestyield",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/in-the-last-tech-bust-the-s-and-p-500-lost-money-for-a-decade-history-says-stocks-with-the-highest-yields-gained-5-4-a-year/?.tsrc=rss",
+      "reason": "利多词: 上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "In the Last Tech Bust, the S&P 500 Lost Money for a Decade. History Says Stocks With the Highest Yields Gained 5.4% a Year.",
+      "title_zh": "在上一次科技泡沫破灭中，标准普尔 500 指数连续十年亏损。历史表明，收益率最高的股票每年上涨 5.4%。",
+      "ts": 1795301462
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Nvidia (NASDAQ: $NVDA) plunged 14% on Friday and the Nasdaq Composite lost 5.3%, capping the index's worst week...",
+      "first_seen": 1795303091,
+      "key": "nvidiafalls48frompeakasaiselloffspreadstobitcoinandcrypto",
+      "kind": "macro",
+      "link": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017?.tsrc=rss",
+      "reason": "利空词: 暴跌、下跌、抛售",
+      "score": -7,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
+      "title_zh": "随着人工智能抛售蔓延到比特币和加密货币，英伟达股价从峰值下跌 48%",
+      "ts": 1795301400
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "A pipeline giant gutted its payout and left income investors reeling. A decade later, one number shows whether patience beat the market, but the story behind it hides a catch that could still threaten the dividend.",
+      "first_seen": 1795303091,
+      "key": "williamscompaniesslasheditsdividendin2016hereswhat1000investedthenisworthtoday",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/21/williams-companies-slashed-its-dividend-in-2016-heres-what-1000-invested-then-is-worth-today/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Williams Companies Slashed Its Dividend in 2016. Here’s What $1,000 Invested Then Is Worth Today",
+      "title_zh": "威廉姆斯公司在 2016 年削减了股息。当时投资 1,000 美元现在的价值是多少",
+      "ts": 1795301248
+    },
+    {
+      "coins": [],
+      "desc": "A California investigation raises fresh questions for Americans holding the AI giant through retirement funds.",
+      "first_seen": 1795303091,
+      "key": "nvidiasnewchinathreatcouldreachyour401k",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/retirement/nvidias-new-china-threat-could-reach-your-401k?.tsrc=rss",
+      "reason": "利空词: 调查",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Nvidia's new China threat could reach your 401(k)",
+      "title_zh": "Nvidia 的新中国威胁可能会影响您的 401(k)",
+      "ts": 1795301220
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -221,54 +285,6 @@
     },
     {
       "coins": [],
-      "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
-      "first_seen": 1795279795,
-      "key": "dowjonesfuturesafternvidiaanthropicfuelworstweeksincecovidlookfortheseabsolutelo",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-after.html?.tsrc=rss",
-      "reason": "利多词: 飙升；利空词: 恐慌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures: After Nvidia, Anthropic Fuel Worst Week Since Covid, Look For These 'Absolute Losers'",
-      "title_zh": "道琼斯期货：继英伟达之后，人类燃料公司经历了自新冠疫情以来最糟糕的一周，寻找这些“绝对输家”",
-      "ts": 1795288729
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "Which one of the world’s top cryptocurrencies is a better investment today?",
-      "first_seen": 1795290693,
-      "key": "betterbuybitcoinvsethereum",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/better-buy-bitcoin-vs-ethereum/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Better Buy: Bitcoin vs. Ethereum",
-      "title_zh": "更好的购买：比特币与以太坊",
-      "ts": 1795288502
-    },
-    {
-      "coins": [],
-      "desc": "It has usually been a good week for stocks. Has it been when the index started below a record?",
-      "first_seen": 1795290693,
-      "key": "thesp500headsintothanksgivingbelowitspeakhereshowtheholidayweekhasusuallygonesin",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/the-s-and-p-500-heads-into-thanksgiving-below-its-peak-here-s-how-the-holiday-week-has-usually-gone-since-1950/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
-      "title_zh": "标准普尔 500 指数即将进入感恩节，低于峰值。自 1950 年以来，假期周通常是这样度过的。",
-      "ts": 1795288022
-    },
-    {
-      "coins": [],
       "desc": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
       "first_seen": 1795288044,
       "key": "cyberinvestigatingsuspected1millionbridgeexploitasupbitbithumbfreezetransfers",
@@ -281,21 +297,6 @@
       "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
       "title_zh": "网络调查涉嫌 100 万美元桥接漏洞，Upbit、Bithumb 冻结转账",
       "ts": 1795287074
-    },
-    {
-      "coins": [],
-      "desc": "AI stocks with strong fundamentals should rebound quickly from a market crash.",
-      "first_seen": 1795288044,
-      "key": "worriedaboutamarketcrashthisaistockshouldbouncebackfastest",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/worried-about-a-market-crash-this-ai-stock-should-bounce-back-fastest/?.tsrc=rss",
-      "reason": "利多词: 反弹；利空词: 崩跌（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Worried About a Market Crash? This AI Stock Should Bounce Back Fastest.",
-      "title_zh": "担心市场崩盘？这只人工智能股票应该最快反弹。",
-      "ts": 1795286822
     },
     {
       "coins": [],
@@ -421,21 +422,6 @@
     },
     {
       "coins": [],
-      "desc": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-      "first_seen": 1795282086,
-      "key": "nvidiasturmoilhasmespookedisittimetosellmystocks",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
-      "title_zh": "“英伟达的动荡让我感到害怕”：是时候卖掉我的股票了吗？",
-      "ts": 1795274100
-    },
-    {
-      "coins": [],
       "desc": "Recent technology outages have left some worried about AI cyberattacks and the U.S. electricity grid. The doomsday economy is heating up as a result.",
       "first_seen": 1795268310,
       "key": "techoutagesarefuelinganewdoomsdayeconomy",
@@ -465,6 +451,21 @@
       "title": "Bitcoin hits $55,326, lowest since Sept 2024, before rebounding above $60,000",
       "title_zh": "比特币触及 55,326 美元，为 2024 年 9 月以来最低，随后反弹至 60,000 美元以上",
       "ts": 1795272675
+    },
+    {
+      "coins": [],
+      "desc": "The brutal sell-off is creating opportunities for us to put cash to work.",
+      "first_seen": 1795303091,
+      "key": "duringwallstreetsworstweekinoverayearweputmoneytoworkwhatwerebuying",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
+      "reason": "利多词: 买入；利空词: 抛售（多空相抵）",
+      "score": 1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+      "title_zh": "在华尔街一年多来最糟糕的一周里，我们投入了资金。我们要买什么",
+      "ts": 1795270924
     }
   ],
   "meta": {
@@ -479,12 +480,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 2",
+      "MarketWatch": "ok 1",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T23:38:25+01:00",
-  "updated_unix": 1795300705
+  "updated": "2026-11-22T00:18:14+01:00",
+  "updated_unix": 1795303094
 }
