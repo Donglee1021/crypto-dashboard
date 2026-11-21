@@ -3,6 +3,51 @@
   "items": [
     {
       "coins": [],
+      "desc": "A new retiree signs up for \"S&P 500\" upside with no losses, then spots two words in the contract that change what he actually earns. Before you buy any indexed annuity, find out what that phrase hides and which questions expose it.",
+      "first_seen": 1795295853,
+      "key": "hisindexedannuitytracksthesp500thefineprintsayspricereturnwhichmeansitleavesoute",
+      "kind": "macro",
+      "link": "https://247wallst.com/personal-finance/2026/11/21/his-indexed-annuity-tracks-the-sp-500-the-fine-print-says-price-return-which-means-it-leaves-out-every-dividend-the-500-companies-pay/?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 亏损（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "His Indexed Annuity Tracks the S&P 500. The Fine Print Says “Price Return,” Which Means It Leaves Out Every Dividend the 500 Companies Pay",
+      "title_zh": "他的指数年金追踪标准普尔 500 指数。细则上写着“价格回报”，这意味着它忽略了 500 强公司支付的每笔股息",
+      "ts": 1795295029
+    },
+    {
+      "coins": [],
+      "desc": "These financial stocks come with solid outlooks.",
+      "first_seen": 1795295853,
+      "key": "2financialstockstobuyneartheir52weeklows",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/2-financial-stocks-to-buy-near-their-52-week-lows/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "2 Financial Stocks to Buy Near Their 52-Week Lows",
+      "title_zh": "2 只接近 52 周低点买入的金融股",
+      "ts": 1795293781
+    },
+    {
+      "coins": [],
+      "desc": "Twenty Wall Street firms set their 2026 year-end S&P 500 targets last December, and Friday's selloff left every one of them out of reach. History says a rescue rally is rare, and the strategists' own process may explain why they keep missin",
+      "first_seen": 1795295853,
+      "key": "thesp500isnowbeloweverywallstreetyearendtargetfor2026",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-now-below-every-wall-street-year-end-target-for-2026/?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨；利空词: 抛售（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The S&P 500 Is Now Below Every Wall Street Year-End Target for 2026",
+      "title_zh": "标准普尔 500 指数目前低于所有华尔街 2026 年年终目标",
+      "ts": 1795293720
+    },
+    {
+      "coins": [],
       "desc": "Nearly a year of gains vanished in about six weeks, and the selling keeps getting heavier. One equal-weight fund is holding up far better than the big index fund, and the gap points to a specific risk.",
       "first_seen": 1795293059,
       "key": "thesp500ishavingthelongestlosingstreaksincefebruary2020",
@@ -267,68 +312,6 @@
     },
     {
       "coins": [],
-      "desc": "Some retail investors fret that Friday’s big AI stock selloff could result in a 1987-esque market crash on Monday.",
-      "first_seen": 1795279795,
-      "key": "worriedaboutblackmondaywhatwallstreetsayscouldhappen",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/32305bc8-6a1c-3b7f-af69-650d80df753a/worried-about-black-monday%3F.html?.tsrc=rss",
-      "reason": "利空词: 崩跌、抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Worried About Black Monday? What Wall Street Says Could Happen.",
-      "title_zh": "担心黑色星期一？华尔街所说的可能会发生。",
-      "ts": 1795279080
-    },
-    {
-      "coins": [],
-      "desc": "This ETF is growth-oriented but defensive.",
-      "first_seen": 1795279795,
-      "key": "ificouldonlyhold1etfthroughthenextstockmarketcrashhereswhatidbuy",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/if-i-could-only-hold-1-etf-through-the-next-stock-market-crash-heres-what-id-buy/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 崩跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "If I Could Only Hold 1 ETF Through the Next Stock Market Crash, Here's What I'd Buy",
-      "title_zh": "如果我只能在下一次股市崩盘时持有 1 只 ETF，这就是我会买的",
-      "ts": 1795278902
-    },
-    {
-      "coins": [],
-      "desc": "It has gotten brutal out there in tech stock land.",
-      "first_seen": 1795279795,
-      "key": "whatjusthappenedtotechstocks",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/article/what-just-happened-to-tech-stocks-162354774.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "What just happened to tech stocks?",
-      "title_zh": "科技股刚刚发生了什么？",
-      "ts": 1795278234
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "XRP has sunk to its lowest close in a year, yet ChatGPT sees a long climb ahead and gives Standard Chartered's far bolder target a surprisingly slim chance. Two big conditions decide whether the bullish math survives.",
-      "first_seen": 1795279795,
-      "key": "chatgptaipredictsxrpspricefortheendof2029",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/21/chatgpt-ai-predicts-xrps-price-for-the-end-of-2029/?.tsrc=rss",
-      "reason": "利多词: 攀升、看涨；利空词: 新低（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "ChatGPT AI Predicts XRP’s Price for the End of 2029",
-      "title_zh": "ChatGPT AI 预测 2029 年底 XRP 的价格",
-      "ts": 1795277635
-    },
-    {
-      "coins": [],
       "desc": "The encrypted-messaging app will restrict screenshots on iOS 27 and auto-enable screen security on Android when it detects an AI assistant reading a chat.",
       "first_seen": 1795277078,
       "key": "signalcallsoslevelaianexistentialthreatandblocksscreenshotstofightit",
@@ -396,7 +379,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -466,6 +449,21 @@
       "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
       "title_zh": "人工智能泡沫终于破灭了吗？华尔街专家敲响警钟 Nvidia 暴跌 48%",
       "ts": 1795269666
+    },
+    {
+      "coins": [],
+      "desc": "Colder weather and low wind speeds could strain Europe’s gas market, where storage started winter at its lowest level in more than a decade.",
+      "first_seen": 1795295853,
+      "key": "anearlybreakdowninthepolarvortexisthreateningalreadydepletedgasstocks",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
+      "reason": "利空词: 新低",
+      "score": -1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
+      "title_zh": "极地涡旋的早期崩溃正威胁着已经耗尽的天然气库存",
+      "ts": 1795265245
     }
   ],
   "meta": {
@@ -482,10 +480,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 15",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T21:31:03+01:00",
-  "updated_unix": 1795293063
+  "updated": "2026-11-21T22:17:35+01:00",
+  "updated_unix": 1795295855
 }
