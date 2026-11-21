@@ -2,6 +2,71 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "MSCI is booting Strategy from its indexes at the end of November. What does that mean for Bitcoin treasury stocks?",
+      "first_seen": 1795290693,
+      "key": "msciiscuttingstrategyandmetaplanetfromitsindexeshereswhatitmeansforbitcointreasu",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/msci-is-cutting-strategy-and-metaplanet-from-its-indexes-here-s-what-it-means-for-bitcoin-treasury-company-stocks/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks.",
+      "title_zh": "MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks.",
+      "ts": 1795289822
+    },
+    {
+      "coins": [],
+      "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
+      "first_seen": 1795279795,
+      "key": "dowjonesfuturesafternvidiaanthropicfuelworstweeksincecovidlookfortheseabsolutelo",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-after.html?.tsrc=rss",
+      "reason": "利多词: 飙升；利空词: 恐慌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dow Jones Futures: After Nvidia, Anthropic Fuel Worst Week Since Covid, Look For These 'Absolute Losers'",
+      "title_zh": "道琼斯期货：继英伟达之后，人类燃料公司经历了自新冠疫情以来最糟糕的一周，寻找这些“绝对输家”",
+      "ts": 1795288729
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Which one of the world’s top cryptocurrencies is a better investment today?",
+      "first_seen": 1795290693,
+      "key": "betterbuybitcoinvsethereum",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/better-buy-bitcoin-vs-ethereum/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Better Buy: Bitcoin vs. Ethereum",
+      "title_zh": "Better Buy: Bitcoin vs. Ethereum",
+      "ts": 1795288502
+    },
+    {
+      "coins": [],
+      "desc": "It has usually been a good week for stocks. Has it been when the index started below a record?",
+      "first_seen": 1795290693,
+      "key": "thesp500headsintothanksgivingbelowitspeakhereshowtheholidayweekhasusuallygonesin",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/21/the-s-and-p-500-heads-into-thanksgiving-below-its-peak-here-s-how-the-holiday-week-has-usually-gone-since-1950/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
+      "title_zh": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
+      "ts": 1795288022
+    },
+    {
       "coins": [],
       "desc": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
       "first_seen": 1795288044,
@@ -231,21 +296,6 @@
       "ts": 1795278234
     },
     {
-      "coins": [],
-      "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
-      "first_seen": 1795279795,
-      "key": "dowjonesfuturesafternvidiaanthropicfuelworstweeksincecovidlookfortheseabsolutelo",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-after.html?.tsrc=rss",
-      "reason": "利多词: 飙升；利空词: 恐慌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures: After Nvidia, Anthropic Fuel Worst Week Since Covid, Look For These 'Absolute Losers'",
-      "title_zh": "道琼斯期货：继英伟达之后，人类燃料公司经历了自新冠疫情以来最糟糕的一周，寻找这些“绝对输家”",
-      "ts": 1795277658
-    },
-    {
       "coins": [
         "ETH"
       ],
@@ -323,40 +373,6 @@
       "ts": 1795275300
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "A company that went public just days ago has already passed the world's biggest cryptocurrency in value. Bitcoin faces ETF outflows, a looming Fed meeting, and a steep climb, so what would it take to win the lead back?",
-      "first_seen": 1795277078,
-      "key": "anthropicisnowworthmorethanbitcoincouldbitcoinpassitby2030",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/21/anthropic-is-now-worth-more-than-bitcoin-could-bitcoin-pass-it-by-2030/?.tsrc=rss",
-      "reason": "利多词: 攀升；利空词: 资金流出（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Anthropic Is Now Worth More Than Bitcoin: Could Bitcoin Pass It by 2030?",
-      "title_zh": "人择现在比比特币更值钱：比特币到 2030 年能超越它吗？",
-      "ts": 1795275151
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Panic has gripped Wall Street, and the last time sentiment sank this low, buyers who stepped in were rewarded within weeks. Three signals will show whether this selloff is ending or only halfway done.",
-      "first_seen": 1795277078,
-      "key": "wallstreetsfearindexjusthit97historysaysthesp500couldrally105in3weeks",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/21/wall-streets-fear-index-just-hit-9-7-history-says-the-sp-500-could-rally-10-5-in-3-weeks/?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、买入；利空词: 抛售、恐慌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Wall Street’s Fear Index Just Hit 9.7. History Says the S&P 500 Could Rally 10.5% in 3 Weeks",
-      "title_zh": "华尔街的恐惧指数刚刚触及 9.7。历史表明标准普尔 500 指数可能在 3 周内上涨 10.5%",
-      "ts": 1795274909
-    },
-    {
       "coins": [],
       "desc": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
       "first_seen": 1795277078,
@@ -370,38 +386,6 @@
       "title": "Chainflip’s FLIP drops 34% after attacker drains $4.86 million from vault with suspected key compromise",
       "title_zh": "攻击者因疑似密钥泄露从金库中盗取 486 万美元后，Chainflip 的 FLIP 下跌 34%",
       "ts": 1795274654
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "If history is any guide, Bitcoin could be ready to rebound in 2027.",
-      "first_seen": 1795277078,
-      "key": "afterthemidtermelectionsvanecksmatthewsigelisstillbullishonbitcoinhereswhyhesrig",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/after-the-midterm-elections-vanecks-matthew-sigel-is-still-bullish-on-bitcoin-heres-why-hes-rightwrong/?.tsrc=rss",
-      "reason": "利多词: 反弹、看涨",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "After the Midterm Elections, VanEck's Matthew Sigel Is Still Bullish on Bitcoin. Here's Why He's Right.",
-      "title_zh": "中期选举后，VanEck 的 Matthew Sigel 仍然看好比特币。这就是为什么他是对的。",
-      "ts": 1795274402
-    },
-    {
-      "coins": [],
-      "desc": "Wall Street's worst week in over a year has bond traders quietly rewriting the Fed's playbook, while one strategist says the central bank isn't reading the room. What would it take for policymakers to blink before the next meeting?",
-      "first_seen": 1795277078,
-      "key": "thisstockmarketselloffcouldblockthefedsratehikes",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/?.tsrc=rss",
-      "reason": "利空词: 抛售、禁令、加息",
-      "score": -7,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "This Stock Market Selloff Could Block the Fed’s Rate Hikes",
-      "title_zh": "股市抛售可能会阻碍美联储加息",
-      "ts": 1795274237
     },
     {
       "coins": [],
@@ -427,7 +411,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -464,6 +448,21 @@
       "title": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
       "title_zh": "在华尔街一年多来最糟糕的一周里，我们投入了资金。我们要买什么",
       "ts": 1795270924
+    },
+    {
+      "coins": [],
+      "desc": "Anthropic's IPO was a big public market success for the company, but Friday's selloff shows that valuing the AI stock will remain volatile for investors.",
+      "first_seen": 1795290693,
+      "key": "whyanthropicsblockbusteripocouldntescapethestockmarketcorrection",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "reason": "利空词: 抛售",
+      "score": -1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "title_zh": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "ts": 1795270073
     }
   ],
   "meta": {
@@ -480,10 +479,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 18",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T20:07:30+01:00",
-  "updated_unix": 1795288050
+  "updated": "2026-11-21T20:51:36+01:00",
+  "updated_unix": 1795290696
 }
