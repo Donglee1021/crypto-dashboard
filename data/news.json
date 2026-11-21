@@ -2,19 +2,54 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Adam Back, the CEO of Blockstream, said he's buying MSTR and argued the shares are cheap compared with Bitcoin.",
+      "first_seen": 1795231751,
+      "key": "bitcoinfallsbelow60kforfirsttimesincejulysaylorsmstrhits52weeklowamid14bpaperlos",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/bitcoin-falls-below-60-k-for-first-time-since-july-saylor-s-mstr-hits-52-week-low-amid-14-b-paper-loss/cNbm7NeR91L?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 下跌",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss",
+      "title_zh": "Bitcoin Falls Below $60K For First Time Since July, Saylor's MSTR Hits 52-Week Low Amid $14B Paper Loss",
+      "ts": 1795230659
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Peter Brandt notes that every past Bitcoin bull run ended in a correction of at least 75%, and asks whether it is happening again.",
+      "first_seen": 1795231751,
+      "key": "veterantraderwhonailed2018bitcoincrashissuesthisbrutalwarning",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/veteran-trader-who-nailed-2018-bitcoin-crash-issues-this-brutal-warning?.tsrc=rss",
+      "reason": "利空词: 崩跌、警告",
+      "score": -4,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Veteran trader who nailed 2018 Bitcoin crash issues this brutal warning",
+      "title_zh": "Veteran trader who nailed 2018 Bitcoin crash issues this brutal warning",
+      "ts": 1795228200
+    },
+    {
       "coins": [],
       "desc": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
-      "first_seen": 1795228650,
-      "key": "stocksentercorrectionterritorydrivenbyadeepeningtechrout",
+      "first_seen": 1795231751,
+      "key": "stocksentercorrectionterritorydrivenbydeepeningtechrout",
       "kind": "macro",
       "link": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/?.tsrc=rss",
       "reason": "利空词: 大跌",
       "score": -1,
       "source": "Yahoo Finance",
       "tag": "中性",
-      "title": "Stocks enter correction territory, driven by a deepening tech rout",
-      "title_zh": "在科技股不断下跌的推动下，股市进入调整区间",
-      "ts": 1795227950
+      "title": "Stocks enter correction territory, driven by deepening tech rout",
+      "title_zh": "Stocks enter correction territory, driven by deepening tech rout",
+      "ts": 1795227900
     },
     {
       "coins": [],
@@ -234,21 +269,6 @@
     },
     {
       "coins": [],
-      "desc": "The Shark Tank star’s contrarian bet is crushing Wall Street",
-      "first_seen": 1795217925,
-      "key": "kevinolearydoublesdownonunusualetfoutperformingsp500",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/investing/oleary-canadian-etf-beats-sp500?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Kevin O'Leary doubles down on unusual ETF outperforming S&P 500",
-      "title_zh": "Kevin O'Leary 加倍押注不同寻常的 ETF 表现优于标准普尔 500 指数",
-      "ts": 1795216620
-    },
-    {
-      "coins": [],
       "desc": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
       "first_seen": 1795209374,
       "key": "nvidiastockplunges14wrapsuplongestweeklylosingstreaksince2008financialcrisis",
@@ -438,26 +458,11 @@
       "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 金融",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "title_zh": "沃什希望美联储官员少说话。相反，他们谈论得更多",
       "ts": 1795209048
-    },
-    {
-      "coins": [],
-      "desc": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
-      "first_seen": 1795225605,
-      "key": "petersonthefedschairmanseesanairevolutioncomingnowhehastofigureoutwhatitmeans",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 经济",
-      "tag": "中性",
-      "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "title_zh": "彼得森：美联储主席预计人工智能革命即将到来。现在他必须弄清楚这意味着什么",
-      "ts": 1795208828
     }
   ],
   "meta": {
@@ -474,10 +479,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 5",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 13",
+      "Yahoo Finance": "ok 14",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-21T03:37:37+01:00",
-  "updated_unix": 1795228657
+  "updated": "2026-11-21T04:29:14+01:00",
+  "updated_unix": 1795231754
 }
