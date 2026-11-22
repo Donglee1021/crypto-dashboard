@@ -3,6 +3,51 @@
   "items": [
     {
       "coins": [],
+      "desc": "One small ETF tracks what Democratic lawmakers report buying and selling, yet its filings arrive weeks late and its fee dwarfs the S&P 500 benchmark. Does a congressional paper trail give investors any real edge over SPY?",
+      "first_seen": 1795368476,
+      "key": "membersofcongressmustdisclosetheirstocktradesnanccopiesthedemocratsbuysintooneet",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/etf/2026/11/22/members-of-congress-must-disclose-their-stock-trades-nanc-copies-the-democrats-buys-into-one-etf/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Members of Congress Must Disclose Their Stock Trades. NANC Copies the Democrats’ Buys Into One ETF",
+      "title_zh": "国会议员必须披露他们的股票交易。 NANC 将民主党的购买复制到一只 ETF 中",
+      "ts": 1795367235
+    },
+    {
+      "coins": [],
+      "desc": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+      "first_seen": 1795368476,
+      "key": "nvidiasturmoilhasmespookedisittimetosellmystocksandbuyrealestate",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "MarketWatch",
+      "tag": "利多",
+      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+      "title_zh": "“英伟达的动荡让我感到害怕”：是时候卖掉我的股票并购买房地产了吗？",
+      "ts": 1795366800
+    },
+    {
+      "coins": [],
+      "desc": "Multiple market-moving events are set to converge.",
+      "first_seen": 1795368476,
+      "key": "predictiondec9willbeahugedayforthestockmarket",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/22/prediction-dec-9-will-be-a-huge-day-for-the-stock-market/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Prediction: Dec. 9 Will Be a Huge Day for the Stock Market",
+      "title_zh": "预测：12月9日对于股市来说将是重要的一天",
+      "ts": 1795366382
+    },
+    {
+      "coins": [],
       "desc": "Investing.com -- Following months of uncertainty, a major overhang for Wall Street was removed at the beginning of November after the Democrats surged to a sweeping victory in the U.S. midterm elections, gaining control of both chambers of ",
       "first_seen": 1795365815,
       "key": "whatdotheusmidtermsmeanforinvestors",
@@ -30,6 +75,21 @@
       "title": "Dow Jones Futures Due After Market's Worst Week Since Covid; Look For These Absolute Losers",
       "title_zh": "道琼斯期货到期，这是自新冠疫情以来市场最糟糕的一周；寻找这些绝对的失败者",
       "ts": 1795363240
+    },
+    {
+      "coins": [],
+      "desc": "We asked Elon Musk’s AI bot a very important question. Which cryptocurrency will perform best, and which worst, among the major tokens in 2027? Grok AI predicts that two very well-known tokens fit this bill, but how likely is it to play out",
+      "first_seen": 1795368476,
+      "key": "elonmusksgrokaipredictsbestandworstcryptoin2027whoarethey",
+      "kind": "macro",
+      "link": "https://99bitcoins.com/news/altcoins/elon-musk-grok-ai-predicts-best-worst-crypto-2027/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Elon Musk’s Grok AI Predicts Best and Worst Crypto in 2027: Who Are They?",
+      "title_zh": "Elon Musk 的 Grok AI 预测 2027 年最好和最差的加密货币：他们是谁？",
+      "ts": 1795362463
     },
     {
       "coins": [],
@@ -407,72 +467,6 @@
       "title": "Will economics continue to outweigh geopolitics?",
       "title_zh": "经济因素会继续超过地缘政治因素吗？",
       "ts": 1795332421
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Cyber reported unexpected minting of CYBER tokens on Solana, followed by tokens moving out of its Ethereum bridge lockbox, prompting an investigation.",
-      "first_seen": 1795333805,
-      "key": "southkoreanexchangeshaltcybertransfersamidsuspectedbridgeexploit",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 漏洞攻击、调查",
-      "score": -3,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
-      "title_zh": "韩国交易所因涉嫌桥接漏洞而停止网络传输",
-      "ts": 1795332245
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Steak ‘n Shake says same-store sales are up more than 19% this quarter and credits Bitcoin payments.",
-      "first_seen": 1795329273,
-      "key": "92yearoldburgerchainsaysbitcoinfuels19salesjump",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/retail/92-year-old-burger-chain-says-bitcoin-fuels-19-sales-jump?.tsrc=rss",
-      "reason": "利多词: 跳涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "92-year-old burger chain says Bitcoin fuels 19% sales jump",
-      "title_zh": "92 年老汉堡连锁店称比特币推动销售额增长 19%",
-      "ts": 1795328078
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "BTC needs to rally about 44% from its current price to reach the $86,000 level, JPM’s estimate of a coin’s mining cost.",
-      "first_seen": 1795329273,
-      "key": "jpmorgansaysbitcoinminersmaybesellingreservesafterbtcfalls26kbelowminingcostesti",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/jp-morgan-says-bitcoin-miners-may-be-selling-reserves-after-btc-falls-26-k-below-mining-cost-estimate-report/cNbnlZrR91A?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨；利空词: 下跌",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "JPMorgan Says Bitcoin Miners May Be Selling Reserves After BTC Falls $26K Below Mining Cost Estimate: Report",
-      "title_zh": "摩根大通表示，比特币矿商可能会在 BTC 比采矿成本预估低 2.6 万美元后出售储备：报告",
-      "ts": 1795327943
-    },
-    {
-      "coins": [],
-      "desc": "Chainflip offered the attacker a 10% bounty to return 90% of the stolen funds by Nov. 23, promising to treat the return as a white-hat recovery and withdraw law enforcement complaints.",
-      "first_seen": 1795325860,
-      "key": "chainflipconfirms12mhackoffersattacker10bounty",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利多词: 回升；利空词: 被黑（多空相抵）",
-      "score": -1,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-      "title_zh": "Chainflip 确认黑客攻击价值 1200 万美元，向攻击者提供 10% 的赏金",
-      "ts": 1795325323
     }
   ],
   "meta": {
@@ -487,12 +481,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 2",
+      "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T17:43:36+01:00",
-  "updated_unix": 1795365816
+  "updated": "2026-11-22T18:27:58+01:00",
+  "updated_unix": 1795368478
 }
