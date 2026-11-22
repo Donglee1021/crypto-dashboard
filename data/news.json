@@ -2,6 +2,40 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Steak ‘n Shake says same-store sales are up more than 19% this quarter and credits Bitcoin payments.",
+      "first_seen": 1795329273,
+      "key": "92yearoldburgerchainsaysbitcoinfuels19salesjump",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/retail/92-year-old-burger-chain-says-bitcoin-fuels-19-sales-jump?.tsrc=rss",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "92-year-old burger chain says Bitcoin fuels 19% sales jump",
+      "title_zh": "92-year-old burger chain says Bitcoin fuels 19% sales jump",
+      "ts": 1795328078
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "BTC needs to rally about 44% from its current price to reach the $86,000 level, JPM’s estimate of a coin’s mining cost.",
+      "first_seen": 1795329273,
+      "key": "jpmorgansaysbitcoinminersmaybesellingreservesafterbtcfalls26kbelowminingcostesti",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/jp-morgan-says-bitcoin-miners-may-be-selling-reserves-after-btc-falls-26-k-below-mining-cost-estimate-report/cNbnlZrR91A?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨；利空词: 下跌",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "JPMorgan Says Bitcoin Miners May Be Selling Reserves After BTC Falls $26K Below Mining Cost Estimate: Report",
+      "title_zh": "JPMorgan Says Bitcoin Miners May Be Selling Reserves After BTC Falls $26K Below Mining Cost Estimate: Report",
+      "ts": 1795327943
+    },
+    {
       "coins": [],
       "desc": "Chainflip offered the attacker a 10% bounty to return 90% of the stolen funds by Nov. 23, promising to treat the return as a white-hat recovery and withdraw law enforcement complaints.",
       "first_seen": 1795325860,
@@ -272,21 +306,6 @@
     },
     {
       "coins": [],
-      "desc": "Some retail investors fret that Friday’s big AI stock selloff could result in a 1987-esque market crash on Monday.",
-      "first_seen": 1795298359,
-      "key": "worriedaboutblackmondaywhatwallstreetsayscouldhappen",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/32305bc8-6a1c-3b7f-af69-650d80df753a/worried-about-black-monday%3F.html?.tsrc=rss",
-      "reason": "利空词: 崩跌、抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Worried About Black Monday? What Wall Street Says Could Happen.",
-      "title_zh": "担心黑色星期一？华尔街所说的可能会发生。",
-      "ts": 1795296120
-    },
-    {
-      "coins": [],
       "desc": "",
       "first_seen": 1795298359,
       "key": "russiastocksloweratcloseoftrademoexrussiaindexunchanged",
@@ -314,21 +333,6 @@
       "title": "Kalshi faces Monday hearing on New York order it says would shut down its exchange nationwide",
       "title_zh": "Kalshi 周一将面临纽约州命令的听证会，该命令表示将在全国范围内关闭其交易所",
       "ts": 1795295856
-    },
-    {
-      "coins": [],
-      "desc": "AI stocks just went through one of their roughest weeks in years, with an AI driven selloff dragging the S&P 500 into correction territory. When one crowded theme stumbles, money often looks for steadier stories. That is where financially s",
-      "first_seen": 1795298359,
-      "key": "3healthcarestockstowatchinnovember2026",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/healthcare/articles/3-healthcare-stocks-watch-november-211025090.html?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "3 Healthcare Stocks To Watch In November 2026",
-      "title_zh": "2026 年 11 月值得关注的 3 只医疗保健股票",
-      "ts": 1795295425
     },
     {
       "coins": [],
@@ -461,7 +465,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 经济",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -486,6 +490,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T06:37:42+01:00",
-  "updated_unix": 1795325862
+  "updated": "2026-11-22T07:34:36+01:00",
+  "updated_unix": 1795329276
 }
