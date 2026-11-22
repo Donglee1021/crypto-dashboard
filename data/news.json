@@ -2,6 +2,38 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "first_seen": 1795347984,
+      "key": "hereswhathappenedincryptotoday",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Here’s what happened in crypto today",
+      "title_zh": "这是今天加密货币领域发生的事情",
+      "ts": 1795346727
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795347984,
+      "key": "southkoreapreparesstockmarketstabilizationfundafterkospiplunges52",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890",
+      "reason": "利空词: 暴跌",
+      "score": -2,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2%",
+      "title_zh": "Kospi暴跌5.2%后韩国准备股市稳定基金",
+      "ts": 1795344862
+    },
+    {
       "coins": [],
       "desc": "After a week headlined by the Anthropic IPO and the long-awaited release of GTA VI, the upcoming five-day stretch should be a bit calmer.",
       "first_seen": 1795342642,
@@ -13,7 +45,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "A battered stock market looks for the bottom: What to watch this week",
-      "title_zh": "A battered stock market looks for the bottom: What to watch this week",
+      "title_zh": "遭受重创的股市正在寻找底部：本周值得关注的内容",
       "ts": 1795341600
     },
     {
@@ -30,7 +62,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
-      "title_zh": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
+      "title_zh": "高盛警告称，现金大抢夺正在摧毁黄金、白银和比特币，股票抛售尚未结束",
       "ts": 1795340992
     },
     {
@@ -47,7 +79,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Average American spends $13 in Bitcoin, led by coffee",
-      "title_zh": "Average American spends $13 in Bitcoin, led by coffee",
+      "title_zh": "美国人平均花费 13 美元购买比特币，其中咖啡消费最多",
       "ts": 1795340547
     },
     {
@@ -62,7 +94,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
-      "title_zh": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
+      "title_zh": "投资者收到有关唐纳德·特朗普总统经济的坏消息，股市拉响警报",
       "ts": 1795340462
     },
     {
@@ -79,7 +111,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "title_zh": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+      "title_zh": "Kraken 比特币短暂跌至 1.7 万美元，交易所维持交易",
       "ts": 1795339986
     },
     {
@@ -94,7 +126,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
-      "title_zh": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
+      "title_zh": "人工智能驱动的特朗普牛市即将崩盘吗？历史给出了一个令人不快的答案。",
       "ts": 1795339562
     },
     {
@@ -358,21 +390,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795312446,
-      "key": "chinasaistockslose17trillionastechselloffdeepens",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
-      "reason": "利空词: 抛售",
-      "score": -2,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
-      "title_zh": "随着科技股抛售加剧，中国人工智能股损失 1.7 万亿美元",
-      "ts": 1795309768
-    },
-    {
-      "coins": [],
       "desc": "The right strategy can protect your portfolio against even severe market volatility.",
       "first_seen": 1795312446,
       "key": "ifastockmarketcrashiscomingwarrenbuffettsaysthisistheno1moveallinvestorsshouldma",
@@ -462,21 +479,6 @@
       "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "title_zh": "在 18 亿美元的加密货币清算浪潮之后，比特币反弹至 60,000 美元以上",
       "ts": 1795283400
-    },
-    {
-      "coins": [],
-      "desc": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
-      "first_seen": 1795345422,
-      "key": "fraudstersusedfakecryptoexchangestosteal37millionsecalleges",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-      "title_zh": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-      "ts": 1795280462
     }
   ],
   "meta": {
@@ -497,6 +499,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T12:03:48+01:00",
-  "updated_unix": 1795345428
+  "updated": "2026-11-22T12:46:28+01:00",
+  "updated_unix": 1795347988
 }
