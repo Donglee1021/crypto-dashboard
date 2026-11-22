@@ -5,6 +5,23 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Arthur Hayes called Anthropic's Nasdaq debut a big moment for crypto.",
+      "first_seen": 1795322331,
+      "key": "arthurhayessaysbitcoinsbreakbelowlocallowputs50000inplayifnasdaqkeepsfalling",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/arthur-hayes-says-bitcoin-s-break-below-local-low-puts-50-000-in-play-if-nasdaq-keeps-falling/cNbnivXR91o?.tsrc=rss",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
+      "title_zh": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
+      "ts": 1795319624
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "CleanSpark is facing pressure as investors react to weaker bitcoin prices, a pending fourth quarter earnings release, and questions around its Texas data center expansion and financing. The key operational tension is between a large, largel",
       "first_seen": 1795318661,
       "key": "cleansparkstockslidesonbitcoinweaknessaheadofearnings",
@@ -283,38 +300,6 @@
     },
     {
       "coins": [],
-      "desc": "A new retiree signs up for \"S&P 500\" upside with no losses, then spots two words in the contract that change what he actually earns. Before you buy any indexed annuity, find out what that phrase hides and which questions expose it.",
-      "first_seen": 1795295853,
-      "key": "hisindexedannuitytracksthesp500thefineprintsayspricereturnwhichmeansitleavesoute",
-      "kind": "macro",
-      "link": "https://247wallst.com/personal-finance/2026/11/21/his-indexed-annuity-tracks-the-sp-500-the-fine-print-says-price-return-which-means-it-leaves-out-every-dividend-the-500-companies-pay/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 亏损（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "His Indexed Annuity Tracks the S&P 500. The Fine Print Says “Price Return,” Which Means It Leaves Out Every Dividend the 500 Companies Pay",
-      "title_zh": "他的指数年金追踪标准普尔 500 指数。细则上写着“价格回报”，这意味着它忽略了 500 强公司支付的每笔股息",
-      "ts": 1795295029
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "The price of Bitcoin has climbed more than 3% over the past 24 hours and is rebounding from two-year lows. That might be a good sign for the stock market on Monday.",
-      "first_seen": 1795288044,
-      "key": "bitcoinbouncesofftwoyearlowscouldcryptorescuestocksonmonday",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/2b590e01-272b-316d-af4c-d1251ad9adb4/bitcoin-bounces-off-two-year.html?.tsrc=rss",
-      "reason": "利多词: 攀升、反弹",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Bitcoin Bounces Off Two-Year Lows. Could Crypto Rescue Stocks on Monday?",
-      "title_zh": "比特币从两年低点反弹。周一加密货币能否拯救股市？",
-      "ts": 1795294680
-    },
-    {
-      "coins": [],
       "desc": "South Korean exchanges Upbit and Bithumb both suspended CYBER deposits and withdrawals, citing a suspected security incident.",
       "first_seen": 1795288044,
       "key": "cyberinvestigatingsuspected1millionbridgeexploitasupbitbithumbfreezetransfers",
@@ -466,6 +451,21 @@
       "title": "Bitcoin hits $55,326, lowest since Sept 2024, before rebounding above $60,000",
       "title_zh": "比特币触及 55,326 美元，为 2024 年 9 月以来最低，随后反弹至 60,000 美元以上",
       "ts": 1795272675
+    },
+    {
+      "coins": [],
+      "desc": "The brutal sell-off is creating opportunities for us to put cash to work.",
+      "first_seen": 1795322331,
+      "key": "duringwallstreetsworstweekinoverayearweputmoneytoworkwhatwerebuying",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/investingclub/2026/11/21/during-wall-streets-worst-week-in-over-a-year-we-put-money-to-work-what-were-buying.html",
+      "reason": "利多词: 买入；利空词: 抛售（多空相抵）",
+      "score": 1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+      "title_zh": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
+      "ts": 1795270924
     }
   ],
   "meta": {
@@ -482,10 +482,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 0",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T04:37:45+01:00",
-  "updated_unix": 1795318665
+  "updated": "2026-11-22T05:38:52+01:00",
+  "updated_unix": 1795322332
 }
