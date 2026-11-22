@@ -1,6 +1,41 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "IntelliNews summary: • SPB Exchange has sent its trading and clearing rules to the Bank of Russia; Moscow Exchange plans pilot trades in bitcoin, ether and USDT from December 1. • Non-residents will be able to open digital ruble accounts th",
+      "first_seen": 1795377328,
+      "key": "russiapermitsexchangecryptotradingfromnovember22asdigitalrubleexpandsin2027",
+      "kind": "macro",
+      "link": "http://www.intellinews.com/russia-permits-exchange-crypto-trading-from-november-22-as-digital-ruble-expands-in-2027-487363/?.tsrc=rss",
+      "reason": "利空词: 禁令",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Russia permits exchange crypto trading from November 22 as digital ruble expands in 2027",
+      "title_zh": "随着数字卢布在 2027 年扩张，俄罗斯从 11 月 22 日起允许交易所加密货币交易",
+      "ts": 1795376184
+    },
+    {
+      "coins": [],
+      "desc": "New letters show the widening range of Congressional committees that will be probing the presidential administration — and the crypto collateral that may be swept up.",
+      "first_seen": 1795377328,
+      "key": "moreonthependingoversighthearingsstateofcrypto",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "More on the pending oversight hearings: State of Crypto",
+      "title_zh": "有关即将举行的监督听证会的更多信息：State of Crypto",
+      "ts": 1795375800
+    },
     {
       "coins": [
         "BTC",
@@ -33,21 +68,6 @@
       "title": "Billionaire Ray Dalio’s Bridgewater Keeps 16% of Its $23 Billion Stock Portfolio in S&P 500 Index Funds, Even After Cutting Them",
       "title_zh": "亿万富翁 Ray Dalio 的 Bridgewater 仍将其 230 亿美元股票投资组合的 16% 保留在标准普尔 500 指数基金中，即使在削减这些股票之后",
       "ts": 1795372995
-    },
-    {
-      "coins": [],
-      "desc": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
-      "first_seen": 1795374583,
-      "key": "theselittleknowninvestmentscouldbeamongthebestbargainsinacrash",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "MarketWatch",
-      "tag": "利空",
-      "title": "These little-known investments could be among the best bargains in a crash",
-      "title_zh": "这些鲜为人知的投资可能是股市崩盘时最划算的投资",
-      "ts": 1795371780
     },
     {
       "coins": [
@@ -174,21 +194,6 @@
     },
     {
       "coins": [],
-      "desc": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-      "first_seen": 1795368476,
-      "key": "nvidiasturmoilhasmespookedisittimetosellmystocksandbuyrealestate",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "MarketWatch",
-      "tag": "利多",
-      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
-      "title_zh": "“英伟达的动荡让我感到害怕”：是时候卖掉我的股票并购买房地产了吗？",
-      "ts": 1795366800
-    },
-    {
-      "coins": [],
       "desc": "Multiple market-moving events are set to converge.",
       "first_seen": 1795368476,
       "key": "predictiondec9willbeahugedayforthestockmarket",
@@ -307,21 +312,6 @@
       "tag": "中性",
       "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
       "title_zh": "比特币的量子安全挑战延伸到桥梁、托管人和数百万枚比特币",
-      "ts": 1795356000
-    },
-    {
-      "coins": [],
-      "desc": "Other stocks are in a bear market, which could be bad timing with the crucial holiday shopping period ahead",
-      "first_seen": 1795357617,
-      "key": "stocksareinacorrectionheadingintothethanksgivingholidaywhattobracefornext",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.",
-      "title_zh": "进入感恩节假期，股市出现调整。接下来要准备什么。",
       "ts": 1795356000
     },
     {
@@ -464,6 +454,23 @@
       "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
       "title_zh": "投资者收到有关唐纳德·特朗普总统经济的坏消息，股市拉响警报",
       "ts": 1795340462
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Kraken said all orders were processed correctly and found no evidence of a security breach or compromised accounts.",
+      "first_seen": 1795377328,
+      "key": "bitcoinbrieflydropsto17konkrakenexchangeupholdstrades",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+      "title_zh": "Kraken 比特币短暂跌至 1.7 万美元，交易所维持交易",
+      "ts": 1795339986
     }
   ],
   "meta": {
@@ -472,18 +479,18 @@
     "sources": {
       "CNBC 头条": "ok 10",
       "CNBC 经济": "ok 23",
-      "CNBC 金融": "ok 14",
+      "CNBC 金融": "ok 13",
       "CoinDesk": "ok 25",
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 3",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 17",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T20:09:46+01:00",
-  "updated_unix": 1795374586
+  "updated": "2026-11-22T20:55:29+01:00",
+  "updated_unix": 1795377329
 }
