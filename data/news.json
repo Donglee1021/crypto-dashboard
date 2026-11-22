@@ -2,6 +2,87 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Chainflip offered the attacker a 10% bounty to return the remainder of the $12 million in stolen BTC, ETH, and stablecoins by Monday.",
+      "first_seen": 1795374583,
+      "key": "chainflipslossesclimbto12millionafterprotocoldiscloses1229btctheftoffershackerbo",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/defi/2026-11-22-chainflips-losses-climb-to-12-million-after-protocol-discloses-122-9-btc-theft-offers-hacker-bounty-444829",
+      "reason": "利多词: 攀升；利空词: 被黑、亏损",
+      "score": -2,
+      "source": "The Block",
+      "tag": "利空",
+      "title": "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty",
+      "title_zh": "Chainflip 协议披露 122.9 BTC 被盗事件，并提供黑客赏金，损失攀升至 1200 万美元",
+      "ts": 1795373937
+    },
+    {
+      "coins": [],
+      "desc": "Ray Dalio's fund sold billions in the market's most popular index funds last quarter, yet one of them still sits at the top of its holdings. The filing hides more than it shows, and the real lesson has nothing to do with the sales.",
+      "first_seen": 1795374583,
+      "key": "billionaireraydaliosbridgewaterkeeps16ofits23billionstockportfolioinsp500indexfu",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/22/billionaire-ray-dalios-bridgewater-keeps-16-of-its-23-billion-stock-portfolio-in-sp-500-index-funds-even-after-cutting-them/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Billionaire Ray Dalio’s Bridgewater Keeps 16% of Its $23 Billion Stock Portfolio in S&P 500 Index Funds, Even After Cutting Them",
+      "title_zh": "亿万富翁 Ray Dalio 的 Bridgewater 仍将其 230 亿美元股票投资组合的 16% 保留在标准普尔 500 指数基金中，即使在削减这些股票之后",
+      "ts": 1795372995
+    },
+    {
+      "coins": [],
+      "desc": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+      "first_seen": 1795374583,
+      "key": "theselittleknowninvestmentscouldbeamongthebestbargainsinacrash",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "MarketWatch",
+      "tag": "利空",
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "title_zh": "这些鲜为人知的投资可能是股市崩盘时最划算的投资",
+      "ts": 1795371780
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Warren Buffett has mocked Bitcoin as rat poison and said he wouldn't pay $25 for all of it. Two of his famous jabs come with starting prices, and the scoreboard looks very different depending on which date you pick.",
+      "first_seen": 1795374583,
+      "key": "whatwarrenbuffetthassaidaboutbitcoinandwhetherhewasright",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/22/what-warren-buffett-has-said-about-bitcoin-and-whether-he-was-right/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "What Warren Buffett Has Said About Bitcoin and Whether He Was Right",
+      "title_zh": "沃伦·巴菲特对比特币的评价以及他是否正确",
+      "ts": 1795370887
+    },
+    {
+      "coins": [],
+      "desc": "It’s easy to be disciplined when a bull market is driving everything higher. When things get tough, however, is when following the rules matters the most.",
+      "first_seen": 1795374583,
+      "key": "herearethe4investingrulesimneverbreakingnomatterhowscarythestockmarketgets",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/22/here-are-the-4-investing-rules-i-m-never-breaking-no-matter-how-scary-the-stock-market-gets/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Here Are the 4 Investing Rules I'm Never Breaking, No Matter How Scary the Stock Market Gets",
+      "title_zh": "无论股市变得多么可怕，我都不会违反以下 4 条投资规则",
+      "ts": 1795370701
+    },
+    {
       "coins": [],
       "desc": "",
       "first_seen": 1795371026,
@@ -60,6 +141,21 @@
       "title": "The S&P 500 Just Whipsawed Near a Record High. Here’s Why I’m Lowering My Expectations, Not Selling.",
       "title_zh": "标准普尔 500 指数刚刚创下历史新高。这就是为什么我要降低期望，而不是出售。",
       "ts": 1795369581
+    },
+    {
+      "coins": [],
+      "desc": "Jefferies analyst Sheila Kahyaoglu launched coverage of SpaceX stock with a Buy rating and $210 price target.",
+      "first_seen": 1795374583,
+      "key": "haveninorbitspacexstockisstillabuywallstreetsays",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/e5aec90d-9479-36ff-a645-e3b759e91112/haven-in-orbit%3F-spacex-stock.html?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Haven In Orbit? SpaceX Stock Is Still a Buy, Wall Street Says.",
+      "title_zh": "轨道上的避风港？华尔街称 SpaceX 股票仍值得买入。",
+      "ts": 1795367700
     },
     {
       "coins": [],
@@ -245,21 +341,6 @@
     },
     {
       "coins": [],
-      "desc": "Norm Fosback’s ‘Seasonality Timing System’ has one of the very best long-term track records, and suggests the market has an upside bias for the next two weeks",
-      "first_seen": 1795354417,
-      "key": "canstocksbouncebackafterabrutalweekthistimingmodelsayshistoryisonthemarketsside",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
-      "title_zh": "在经历了残酷的一周之后，股市能否反弹？这个时机模型表明历史站在市场一边。",
-      "ts": 1795350600
-    },
-    {
-      "coins": [],
       "desc": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
       "first_seen": 1795350610,
       "key": "topwallstreetanalystsfavorthese3dividendstocksforstrongreturns",
@@ -383,87 +464,6 @@
       "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
       "title_zh": "投资者收到有关唐纳德·特朗普总统经济的坏消息，股市拉响警报",
       "ts": 1795340462
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Kraken said all orders were processed correctly and found no evidence of a security breach or compromised accounts.",
-      "first_seen": 1795342642,
-      "key": "bitcoinbrieflydropsto17konkrakenexchangeupholdstrades",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "title_zh": "Kraken 比特币短暂跌至 1.7 万美元，交易所维持交易",
-      "ts": 1795339986
-    },
-    {
-      "coins": [],
-      "desc": "History can be a powerful teaching tool for those willing to listen.",
-      "first_seen": 1795342642,
-      "key": "isastockmarketcrashimminentfortheaidriventrumpbullmarkethistoryweighsinwithanunp",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/22/is-stock-market-crash-imminent-for-ai-driven-trump-bull-market-history-weighs-in-unpleasant-answer/?.tsrc=rss",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
-      "title_zh": "人工智能驱动的特朗普牛市即将崩盘吗？历史给出了一个令人不快的答案。",
-      "ts": 1795339562
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Here’s why the exchange’s first children’s book sold out within a day.",
-      "first_seen": 1795339645,
-      "key": "coinbases21childrensbookcomeswith50bitcoin",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/business/coinbases-21-childrens-book-comes-with-50-bitcoin?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Coinbase's $21 children's book comes with $50 Bitcoin",
-      "title_zh": "Coinbase 售价 21 美元的儿童读物附带 50 美元比特币",
-      "ts": 1795337356
-    },
-    {
-      "coins": [],
-      "desc": "Can the perfect track record hold again in 2026?",
-      "first_seen": 1795336677,
-      "key": "thesp500is14for14aftermidtermelectionshereshowidinvestnow",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/22/sp-500-14-for-14-after-midterm-elections-how-id-invest-now/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The S&P 500 Is 14 for 14 After Midterm Elections. Here’s How I’d Invest Now.",
-      "title_zh": "中期选举后，标准普尔 500 指数为 14 比 14。这就是我现在的投资方式。",
-      "ts": 1795335603
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Investing.com -- Bitcoin remained below $60,000 on Sunday after a brief recovery from a sharp selloff, as collapsing mining profitability and newly disclosed network security vulnerabilities added to concerns surrounding the cryptocurrency.",
-      "first_seen": 1795333805,
-      "key": "bitcoinstrugglesbelow60000asminingprofitsplungesecurityrisksgrow",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-struggles-below-60-000-075958768.html?.tsrc=rss",
-      "reason": "利多词: 回升；利空词: 暴跌、抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
-      "title_zh": "随着挖矿利润暴跌、安全风险增加，比特币跌破 60,000 美元",
-      "ts": 1795334398
     }
   ],
   "meta": {
@@ -480,10 +480,10 @@
       "Investing.com 股市": "ok 4",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 18",
+      "Yahoo Finance": "ok 17",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T19:10:28+01:00",
-  "updated_unix": 1795371028
+  "updated": "2026-11-22T20:09:46+01:00",
+  "updated_unix": 1795374586
 }
