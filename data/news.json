@@ -3,6 +3,36 @@
   "items": [
     {
       "coins": [],
+      "desc": "Onchain FX does not need to recreate the trillion-dollar institutional market to become useful. Real demand can make smaller markets work first.",
+      "first_seen": 1795360495,
+      "key": "thefutureofonchainfxcouldstartwithusersnotinstitutionalliquidity",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "The future of onchain FX could start with users, not institutional liquidity",
+      "title_zh": "链上外汇的未来可以从用户开始，而不是机构流动性",
+      "ts": 1795357800
+    },
+    {
+      "coins": [],
+      "desc": "Wall Street has faced heightened volatility as investors reassess artificial intelligence spending, inflation, and interest rate expectations. On November 5, the S&P 500 plunged 4.36%, wiping out roughly $3 trillion in market value, while t",
+      "first_seen": 1795360495,
+      "key": "5bestamericanstockstobuyfor2027",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-american-stocks-buy-142133267.html?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 暴跌（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "5 Best American Stocks to Buy for 2027",
+      "title_zh": "2027 年最值得买入的 5 只美国股票",
+      "ts": 1795357293
+    },
+    {
+      "coins": [],
       "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
       "first_seen": 1795357617,
       "key": "dowjonesfuturesdueaftermarketsworstweeksincecovidlookfortheseabsolutelosers",
@@ -445,47 +475,13 @@
       "title": "Quant Funds Are ‘Shorting’ Bitcoin Below $60K, Jordi Visser Says: Here’s When He’ll Buy More",
       "title_zh": "Jordi Visser 表示，量化基金正在将比特币“做空”至 6 万美元以下：他将在此时购买更多比特币",
       "ts": 1795323601
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Arthur Hayes called Anthropic's Nasdaq debut a big moment for crypto.",
-      "first_seen": 1795322331,
-      "key": "arthurhayessaysbitcoinsbreakbelowlocallowputs50000inplayifnasdaqkeepsfalling",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/arthur-hayes-says-bitcoin-s-break-below-local-low-puts-50-000-in-play-if-nasdaq-keeps-falling/cNbnivXR91o?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
-      "title_zh": "Arthur Hayes 表示，如果纳斯达克继续下跌，比特币跌破当地低点将导致 50,000 美元上涨",
-      "ts": 1795319624
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "CleanSpark is facing pressure as investors react to weaker bitcoin prices, a pending fourth quarter earnings release, and questions around its Texas data center expansion and financing. The key operational tension is between a large, largel",
-      "first_seen": 1795318661,
-      "key": "cleansparkstockslidesonbitcoinweaknessaheadofearnings",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cleanspark-stock-slides-bitcoin-weakness-031019653.html?.tsrc=rss",
-      "reason": "利空词: 下滑、疲弱",
-      "score": -4,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "CleanSpark Stock Slides On Bitcoin Weakness Ahead Of Earnings",
-      "title_zh": "CleanSpark 股价因比特币疲软而下滑",
-      "ts": 1795317019
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 12",
+      "CNBC 头条": "ok 11",
       "CNBC 经济": "ok 23",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -499,6 +495,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T15:26:59+01:00",
-  "updated_unix": 1795357619
+  "updated": "2026-11-22T16:14:56+01:00",
+  "updated_unix": 1795360496
 }
