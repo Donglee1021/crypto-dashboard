@@ -4,6 +4,54 @@
   ],
   "items": [
     {
+      "coins": [],
+      "desc": "Can the perfect track record hold again in 2026?",
+      "first_seen": 1795336677,
+      "key": "thesp500is14for14aftermidtermelectionshereshowidinvestnow",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/22/sp-500-14-for-14-after-midterm-elections-how-id-invest-now/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The S&P 500 Is 14 for 14 After Midterm Elections. Here’s How I’d Invest Now.",
+      "title_zh": "中期选举后，标准普尔 500 指数为 14 比 14。这就是我现在的投资方式。",
+      "ts": 1795335603
+    },
+    {
+      "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Both short and long clusters are within 3% of Ethereum’s current price, so a small move either way could decide which side gets squeezed first.",
+      "first_seen": 1795336677,
+      "key": "ethisonesmalldipawayfromtroublebutanalystcallsethereumsstrengthagainstbitcoininc",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/eth-is-one-small-dip-away-from-trouble-but-analyst-calls-ethereum-s-strength-against-bitcoin-incredibly-positive/cNbnVa7R91t?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "ETH Is One Small Dip Away From Trouble, But Analyst Calls Ethereum’s Strength Against Bitcoin ‘Incredibly Positive’",
+      "title_zh": "以太坊距离麻烦仅一小步，但分析师称以太坊相对于比特币的实力“非常积极”",
+      "ts": 1795334090
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795336677,
+      "key": "5biganalystaimovesnvidiadowngradeanthropicseenasgenerationalcompany",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-downgrade-anthropic-seen-as-generational-company-5043652",
+      "reason": "利空词: 下调评级",
+      "score": -2,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "5 big analyst AI moves: Nvidia downgrade, Anthropic seen as ’generational company’",
+      "title_zh": "分析师 AI 的 5 大举措：Nvidia 降级、Anthropic 被视为“一代公司”",
+      "ts": 1795333485
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -17,7 +65,7 @@
       "source": "Investing.com 加密",
       "tag": "利空",
       "title": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
-      "title_zh": "Bitcoin struggles below $60,000 as mining profits plunge, security risks grow",
+      "title_zh": "随着挖矿利润暴跌、安全风险增加，比特币跌破 60,000 美元",
       "ts": 1795332598
     },
     {
@@ -32,7 +80,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Will economics continue to outweigh geopolitics?",
-      "title_zh": "Will economics continue to outweigh geopolitics?",
+      "title_zh": "经济因素会继续超过地缘政治因素吗？",
       "ts": 1795332421
     },
     {
@@ -49,7 +97,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
-      "title_zh": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
+      "title_zh": "韩国交易所因涉嫌桥接漏洞而停止网络传输",
       "ts": 1795332245
     },
     {
@@ -66,7 +114,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "92-year-old burger chain says Bitcoin fuels 19% sales jump",
-      "title_zh": "92-year-old burger chain says Bitcoin fuels 19% sales jump",
+      "title_zh": "92 年老汉堡连锁店称比特币推动销售额增长 19%",
       "ts": 1795328078
     },
     {
@@ -83,7 +131,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "JPMorgan Says Bitcoin Miners May Be Selling Reserves After BTC Falls $26K Below Mining Cost Estimate: Report",
-      "title_zh": "JPMorgan Says Bitcoin Miners May Be Selling Reserves After BTC Falls $26K Below Mining Cost Estimate: Report",
+      "title_zh": "摩根大通表示，比特币矿商可能会在 BTC 比采矿成本预估低 2.6 万美元后出售储备：报告",
       "ts": 1795327943
     },
     {
@@ -98,7 +146,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
-      "title_zh": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "title_zh": "Chainflip 确认黑客攻击价值 1200 万美元，向攻击者提供 10% 的赏金",
       "ts": 1795325323
     },
     {
@@ -115,7 +163,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Quant Funds Are ‘Shorting’ Bitcoin Below $60K, Jordi Visser Says: Here’s When He’ll Buy More",
-      "title_zh": "Quant Funds Are ‘Shorting’ Bitcoin Below $60K, Jordi Visser Says: Here’s When He’ll Buy More",
+      "title_zh": "Jordi Visser 表示，量化基金正在将比特币“做空”至 6 万美元以下：他将在此时购买更多比特币",
       "ts": 1795323601
     },
     {
@@ -132,7 +180,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
-      "title_zh": "Arthur Hayes Says Bitcoin's Break Below Local Low Puts $50,000 In Play If Nasdaq Keeps Falling",
+      "title_zh": "Arthur Hayes 表示，如果纳斯达克继续下跌，比特币跌破当地低点将导致 50,000 美元上涨",
       "ts": 1795319624
     },
     {
@@ -342,21 +390,6 @@
     },
     {
       "coins": [],
-      "desc": "Here’s what crypto owners should check before their next tax form arrives.",
-      "first_seen": 1795298359,
-      "key": "fidelityflagscostlytaxmistakebeforeyearend",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/investing/fidelity-flags-costly-tax-mistake-before-year-end?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Fidelity flags costly tax mistake before year-end",
-      "title_zh": "富达在年底前指出了代价高昂的税务错误",
-      "ts": 1795296600
-    },
-    {
-      "coins": [],
       "desc": "",
       "first_seen": 1795298359,
       "key": "russiastocksloweratcloseoftrademoexrussiaindexunchanged",
@@ -446,36 +479,6 @@
       "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
       "title_zh": "美国证券交易委员会 (SEC) 称，欺诈者利用虚假加密货币交易所窃取了 3700 万美元",
       "ts": 1795280462
-    },
-    {
-      "coins": [],
-      "desc": "The withdrawal carried a valid signature, which Onchain Lens said points to a possible compromise of the key validators use to approve vault payouts.",
-      "first_seen": 1795279795,
-      "key": "crosschainprotocolchainflipsfliptanks30aftersuspected486millionvaultdrain",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/business/2026/11/21/cross-chain-protocol-chainflip-s-flip-tanks-30-after-suspected-usd4-86-million-vault-drain",
-      "reason": "利多词: 获批",
-      "score": 1,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain",
-      "title_zh": "跨链协议 Chainflip 的 FLIP 在疑似 486 万美元金库流失后下跌 30%",
-      "ts": 1795279260
-    },
-    {
-      "coins": [],
-      "desc": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
-      "first_seen": 1795279795,
-      "key": "anthropicsrecordipocollideswithtechsworstweekonwallstreetsince2020",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-      "title_zh": "Anthropic创纪录的IPO与华尔街自2020年以来科技股最糟糕的一周相撞",
-      "ts": 1795279205
     }
   ],
   "meta": {
@@ -489,13 +492,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 2",
+      "Investing.com 股市": "ok 3",
       "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 18",
+      "Yahoo Finance": "ok 19",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T08:50:11+01:00",
-  "updated_unix": 1795333811
+  "updated": "2026-11-22T09:38:02+01:00",
+  "updated_unix": 1795336682
 }
