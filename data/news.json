@@ -1,6 +1,104 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [],
+      "desc": "After a week headlined by the Anthropic IPO and the long-awaited release of GTA VI, the upcoming five-day stretch should be a bit calmer.",
+      "first_seen": 1795342642,
+      "key": "abatteredstockmarketlooksforthebottomwhattowatchthisweek",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "A battered stock market looks for the bottom: What to watch this week",
+      "title_zh": "A battered stock market looks for the bottom: What to watch this week",
+      "ts": 1795341600
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The CME Group's FedWatch tool showed traders are pricing in an 88.6% chance of a Fed rate hike at its upcoming December meeting, making liquidity tighter.",
+      "first_seen": 1795342642,
+      "key": "thegreatcashgrabiscrashinggoldsilverandbitcoingoldmansachswarnsthestockselloffis",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/why-gold-silver-and-bitcoin-are-crashing-together-the-great-cash-grab/cNbnYXsR91w?.tsrc=rss",
+      "reason": "利空词: 崩跌、抛售、加息、警告",
+      "score": -8,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
+      "title_zh": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
+      "ts": 1795340992
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Here’s what nearly a year of Square data reveals about how Americans actually spend their Bitcoin.",
+      "first_seen": 1795342642,
+      "key": "averageamericanspends13inbitcoinledbycoffee",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/retail/average-american-spends-13-in-bitcoin-led-by-coffee?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Average American spends $13 in Bitcoin, led by coffee",
+      "title_zh": "Average American spends $13 in Bitcoin, led by coffee",
+      "ts": 1795340547
+    },
+    {
+      "coins": [],
+      "desc": "The stock market could decline sharply as persistent inflation and rich valuations fuel investor anxiety.",
+      "first_seen": 1795342642,
+      "key": "thestockmarketsoundsanalarmasinvestorsgetbadnewsaboutpresidentdonaldtrumpseconom",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/22/stock-market-sounds-alarm-bad-news-president-trump-economy/?.tsrc=rss",
+      "reason": "利空词: 下降",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
+      "title_zh": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
+      "ts": 1795340462
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Kraken said all orders were processed correctly and found no evidence of a security breach or compromised accounts.",
+      "first_seen": 1795342642,
+      "key": "bitcoinbrieflydropsto17konkrakenexchangeupholdstrades",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 下跌",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+      "title_zh": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+      "ts": 1795339986
+    },
+    {
+      "coins": [],
+      "desc": "History can be a powerful teaching tool for those willing to listen.",
+      "first_seen": 1795342642,
+      "key": "isastockmarketcrashimminentfortheaidriventrumpbullmarkethistoryweighsinwithanunp",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/22/is-stock-market-crash-imminent-for-ai-driven-trump-bull-market-history-weighs-in-unpleasant-answer/?.tsrc=rss",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
+      "title_zh": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
+      "ts": 1795339562
+    },
     {
       "coins": [],
       "desc": "",
@@ -321,87 +419,6 @@
       "ts": 1795301462
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Nvidia (NASDAQ: $NVDA) plunged 14% on Friday and the Nasdaq Composite lost 5.3%, capping the index's worst week...",
-      "first_seen": 1795303091,
-      "key": "nvidiafalls48frompeakasaiselloffspreadstobitcoinandcrypto",
-      "kind": "macro",
-      "link": "https://www.cryptoprowl.com/releases/nvidia-falls-48-from-peak-as-ai-selloff-spreads-to-bitcoin-and-crypto-8017?.tsrc=rss",
-      "reason": "利空词: 暴跌、下跌、抛售",
-      "score": -7,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Nvidia Falls 48% From Peak as AI Selloff Spreads to Bitcoin and Crypto",
-      "title_zh": "随着人工智能抛售蔓延到比特币和加密货币，英伟达股价从峰值下跌 48%",
-      "ts": 1795301400
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "A pipeline giant gutted its payout and left income investors reeling. A decade later, one number shows whether patience beat the market, but the story behind it hides a catch that could still threaten the dividend.",
-      "first_seen": 1795303091,
-      "key": "williamscompaniesslasheditsdividendin2016hereswhat1000investedthenisworthtoday",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/21/williams-companies-slashed-its-dividend-in-2016-heres-what-1000-invested-then-is-worth-today/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Williams Companies Slashed Its Dividend in 2016. Here’s What $1,000 Invested Then Is Worth Today",
-      "title_zh": "威廉姆斯公司在 2016 年削减了股息。当时投资 1,000 美元现在的价值是多少",
-      "ts": 1795301248
-    },
-    {
-      "coins": [],
-      "desc": "A California investigation raises fresh questions for Americans holding the AI giant through retirement funds.",
-      "first_seen": 1795303091,
-      "key": "nvidiasnewchinathreatcouldreachyour401k",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/retirement/nvidias-new-china-threat-could-reach-your-401k?.tsrc=rss",
-      "reason": "利空词: 调查",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Nvidia's new China threat could reach your 401(k)",
-      "title_zh": "Nvidia 的新中国威胁可能会影响您的 401(k)",
-      "ts": 1795301220
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "A market crash can erase a retiree's nest egg, yet Medicaid's strict look-back rules treat that loss very differently from a gift. One wrong move by his family could turn a bad break into a penalty period with no coverage.",
-      "first_seen": 1795300702,
-      "key": "at74amachinistplannedtopayforhisnursinghomewith150000inbitcoinafterthecrashitswo",
-      "kind": "macro",
-      "link": "https://247wallst.com/personal-finance/2026/11/21/at-74-a-machinist-planned-to-pay-for-his-nursing-home-with-150000-in-bitcoin-after-the-crash-its-worth-about-90000-and-the-loss-will-get-him-onto-medicaid-about-5%c2%bd-months-sooner/?.tsrc=rss",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "At 74, a Machinist Planned to Pay for His Nursing Home With $150,000 in Bitcoin. After the Crash It’s Worth About $90,000, and the Loss Will Get Him Onto Medicaid About 5½ Months Sooner",
-      "title_zh": "74 岁的机械师计划用 15 万美元的比特币支付他的疗养院费用。事故发生后，它的价值约为 90,000 美元，损失将使他提前大约 5.5 个月获得医疗补助",
-      "ts": 1795300051
-    },
-    {
-      "coins": [],
-      "desc": "Investors just watched an AI driven selloff push the S&P 500 into correction territory, as confidence in expensive growth stories took a hit. When sentiment swings this hard, attention often shifts to businesses where the founder still owns",
-      "first_seen": 1795300702,
-      "key": "3founderledstockstoowninnovember2026",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-stocks-own-221107526.html?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "3 Founder Led Stocks To Own In November 2026",
-      "title_zh": "3 名创始人将于 2026 年 11 月持有股票",
-      "ts": 1795299067
-    },
-    {
       "coins": [],
       "desc": "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal.",
       "first_seen": 1795298359,
@@ -462,21 +479,6 @@
       "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "title_zh": "在 18 亿美元的加密货币清算浪潮之后，比特币反弹至 60,000 美元以上",
       "ts": 1795283400
-    },
-    {
-      "coins": [],
-      "desc": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
-      "first_seen": 1795282086,
-      "key": "fraudstersusedfakecryptoexchangestosteal37millionsecalleges",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
-      "title_zh": "美国证券交易委员会 (SEC) 称，欺诈者利用虚假加密货币交易所窃取了 3700 万美元",
-      "ts": 1795280462
     }
   ],
   "meta": {
@@ -491,12 +493,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 0",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 19",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T10:27:26+01:00",
-  "updated_unix": 1795339646
+  "updated": "2026-11-22T11:17:27+01:00",
+  "updated_unix": 1795342647
 }
