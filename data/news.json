@@ -3,6 +3,68 @@
   "items": [
     {
       "coins": [],
+      "desc": "The Dow Jones and Nasdaq had their worst week since March 2020, fueled by Nvidia and Anthropic. A fear gauge is soaring. Good news?",
+      "first_seen": 1795357617,
+      "key": "dowjonesfuturesdueaftermarketsworstweeksincecovidlookfortheseabsolutelosers",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-after.html?.tsrc=rss",
+      "reason": "利多词: 飙升；利空词: 恐慌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dow Jones Futures Due After Market's Worst Week Since Covid; Look For These Absolute Losers",
+      "title_zh": "道琼斯期货到期，这是自新冠疫情以来市场最糟糕的一周；寻找这些绝对的失败者",
+      "ts": 1795356825
+    },
+    {
+      "coins": [],
+      "desc": "Google’s Willow quantum processor beat the classical ceiling in a four-qubit coordination game, revealing a promising hardware test rather than commercial quantum computing.",
+      "first_seen": 1795357617,
+      "key": "googlesquantumchipbeatsclassicallimitsinimpossiblegame",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383743/googles-quantum-chip-beats-classical-limits-in-impossible-game-tests-105-qubits",
+      "reason": "利多词: 超预期",
+      "score": 2,
+      "source": "Decrypt",
+      "tag": "利多",
+      "title": "Google's Quantum Chip Beats Classical Limits in 'Impossible' Game",
+      "title_zh": "谷歌的量子芯片在“不可能”游戏中突破了经典极限",
+      "ts": 1795356062
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Quantum computers can’t break Bitcoin network’s security yet, but Leo Fan warns that upgrading it and moving funds could take longer than expected.",
+      "first_seen": 1795357617,
+      "key": "bitcoinsquantumsecuritychallengeextendstobridgescustodiansandmillionsofcoins",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/tech/2026/11/22/bitcoin-s-quantum-security-challenge-extends-to-bridges-custodians-and-millions-of-coins",
+      "reason": "利空词: 警告",
+      "score": -1,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins",
+      "title_zh": "比特币的量子安全挑战延伸到桥梁、托管人和数百万枚比特币",
+      "ts": 1795356000
+    },
+    {
+      "coins": [],
+      "desc": "Other stocks are in a bear market, which could be bad timing with the crucial holiday shopping period ahead",
+      "first_seen": 1795357617,
+      "key": "stocksareinacorrectionheadingintothethanksgivingholidaywhattobracefornext",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.",
+      "title_zh": "进入感恩节假期，股市出现调整。接下来要准备什么。",
+      "ts": 1795356000
+    },
+    {
+      "coins": [],
       "desc": "",
       "first_seen": 1795354417,
       "key": "saudiarabiastocksloweratcloseoftradetadawulallsharedown195",
@@ -417,66 +479,6 @@
       "title": "CleanSpark Stock Slides On Bitcoin Weakness Ahead Of Earnings",
       "title_zh": "CleanSpark 股价因比特币疲软而下滑",
       "ts": 1795317019
-    },
-    {
-      "coins": [],
-      "desc": "These three stocks are growing fast, but they're expensive.",
-      "first_seen": 1795315537,
-      "key": "3stocksimreadytobuyifthemarketcrashes",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/3-stocks-im-ready-to-buy-if-the-market-crashes/?.tsrc=rss",
-      "reason": "利多词: 买入；利空词: 崩跌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "3 Stocks I'm Ready to Buy if the Market Crashes",
-      "title_zh": "如果市场崩盘，我准备购买 3 只股票",
-      "ts": 1795312381
-    },
-    {
-      "coins": [],
-      "desc": "AI linked stocks just came through a historic rough patch, with the Nasdaq 100 logging its worst week since 2020 and the S&P 500 sliding into correction territory after an AI focused selloff. When markets punish whole themes at once, even h",
-      "first_seen": 1795312446,
-      "key": "3pennystockswithvaluegapsupto81",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-penny-stocks-value-gaps-011025134.html?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "3 Penny Stocks With Value Gaps Up To 81%",
-      "title_zh": "3只价值差距高达81%的细价股",
-      "ts": 1795309825
-    },
-    {
-      "coins": [],
-      "desc": "The right strategy can protect your portfolio against even severe market volatility.",
-      "first_seen": 1795312446,
-      "key": "ifastockmarketcrashiscomingwarrenbuffettsaysthisistheno1moveallinvestorsshouldma",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/if-a-stock-market-crash-is-coming-warren-buffett-says-this-is-the-no-1-move-all-investors-should-make/?.tsrc=rss",
-      "reason": "利空词: 崩跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "If a Stock Market Crash Is Coming, Warren Buffett Says This Is the No. 1 Move All Investors Should Make",
-      "title_zh": "沃伦·巴菲特表示，如果股市崩盘即将来临，这是所有投资者应该采取的第一举措",
-      "ts": 1795308602
-    },
-    {
-      "coins": [],
-      "desc": "\"We expect the equity bull market to continue.\"",
-      "first_seen": 1795315537,
-      "key": "stockmarketcorrectionwhateverwallstreetisbullishon2027andonechiefinvestmentoffic",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-correction-whatever-wall-000217549.html?.tsrc=rss",
-      "reason": "利多词: 飙升、看涨",
-      "score": 4,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stock market correction? Whatever — Wall Street is bullish on 2027, and one chief investment officer sees the S&P 500 soaring 45% to 10,000",
-      "title_zh": "股市调整？不管怎样——华尔街看好 2027 年，一位首席投资官预计标普 500 指数将飙升 45% 至 10,000 点",
-      "ts": 1795305737
     }
   ],
   "meta": {
@@ -491,12 +493,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 1",
+      "MarketWatch": "ok 2",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T14:33:39+01:00",
-  "updated_unix": 1795354419
+  "updated": "2026-11-22T15:26:59+01:00",
+  "updated_unix": 1795357619
 }
