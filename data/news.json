@@ -1,6 +1,38 @@
 {
-  "errors": [],
+  "errors": [
+    "美联储: 失败: TimeoutError: The read operation timed out"
+  ],
   "items": [
+    {
+      "coins": [],
+      "desc": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+      "first_seen": 1795350610,
+      "key": "topwallstreetanalystsfavorthese3dividendstocksforstrongreturns",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "title_zh": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "ts": 1795349636
+    },
+    {
+      "coins": [],
+      "desc": "Elevated options premiums are creating an opportunity in Amazon",
+      "first_seen": 1795350610,
+      "key": "thenasdaqisinfreefallheresonestocktolookat",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "The Nasdaq is in freefall. Here's one stock to look at",
+      "title_zh": "The Nasdaq is in freefall. Here's one stock to look at",
+      "ts": 1795349439
+    },
     {
       "coins": [
         "BTC"
@@ -447,45 +479,13 @@
       "title": "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
       "title_zh": "网络调查涉嫌 100 万美元桥接漏洞，Upbit、Bithumb 冻结转账",
       "ts": 1795287074
-    },
-    {
-      "coins": [],
-      "desc": "The anonymous leaker, Cyberleek, released a 209 GB Xbox build but is withholding the executable that could enable a PC port until its CYBERLEEK token hits $15 million.",
-      "first_seen": 1795284617,
-      "key": "gta6leakerdanglesapcportbehinda15millioncryptopump",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "GTA 6 Leaker Dangles a PC Port Behind a $15 Million Crypto Pump",
-      "title_zh": "GTA 6 泄密者将 PC 端口挂在价值 1500 万美元的加密货币泵后面",
-      "ts": 1795284062
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "The selloff wiped out $1.8 billion in leveraged crypto positions, mostly from bullish bets on rising prices.",
-      "first_seen": 1795293059,
-      "key": "bitcoinreboundsabove60000after18billioncryptoliquidationwave",
-      "kind": "crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open",
-      "reason": "利多词: 反弹、看涨；利空词: 抛售、爆仓（多空相抵）",
-      "score": 0,
-      "source": "CoinDesk",
-      "tag": "中性",
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
-      "title_zh": "在 18 亿美元的加密货币清算浪潮之后，比特币反弹至 60,000 美元以上",
-      "ts": 1795283400
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 12",
+      "CNBC 头条": "ok 13",
       "CNBC 经济": "ok 23",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -496,9 +496,9 @@
       "MarketWatch": "ok 0",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 18",
-      "美联储": "ok 2"
+      "美联储": "失败: TimeoutError: The read operation timed out"
     }
   },
-  "updated": "2026-11-22T12:46:28+01:00",
-  "updated_unix": 1795347988
+  "updated": "2026-11-22T13:30:12+01:00",
+  "updated_unix": 1795350612
 }
