@@ -1,8 +1,53 @@
 {
-  "errors": [
-    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
-  ],
+  "errors": [],
   "items": [
+    {
+      "coins": [],
+      "desc": "Futures loom as Oracle and South Korea try to calm market fears after the stock market worst week since Covid.",
+      "first_seen": 1795371026,
+      "key": "dowjonesfuturesdueasoraclekoreatrytoeasemarketfearslookfortheseabsolutelosers",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss",
+      "reason": "利空词: 恐慌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
+      "title_zh": "道琼斯期货到期，甲骨文、韩国试图缓解市场担忧；寻找这些绝对的失败者",
+      "ts": 1795378333
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Ripple keeps releasing 300 million new tokens every month, and that quietly moves the goalposts for every long-range XRP price target. Two warning signs now test whether the math can ever work, and both are flashing red.",
+      "first_seen": 1795379801,
+      "key": "theonenumberbehindevery5xrpforecastfor2030",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/22/the-one-number-behind-every-5-xrp-forecast-for-2030/?.tsrc=rss",
+      "reason": "利空词: 警告",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "The One Number Behind Every $5 XRP Forecast for 2030",
+      "title_zh": "2030 年每 5 美元 XRP 预测背后的一个数字",
+      "ts": 1795377415
+    },
+    {
+      "coins": [],
+      "desc": "Ingredients for a meaningful recovery are falling into place, but there may be more downside before we get there.",
+      "first_seen": 1795379801,
+      "key": "wallstreetstrategistsseesilverliningforstockmarket",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/b9c4ec7d-2130-3254-b875-74dcc9c56b57/wall-street-strategists-see.html?.tsrc=rss",
+      "reason": "利多词: 回升；利空词: 下跌（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Wall Street Strategists See Silver Lining for Stock Market",
+      "title_zh": "华尔街策略师看到股市的一线希望",
+      "ts": 1795376760
+    },
     {
       "coins": [
         "BTC",
@@ -70,6 +115,21 @@
       "ts": 1795372995
     },
     {
+      "coins": [],
+      "desc": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+      "first_seen": 1795379801,
+      "key": "theselittleknowninvestmentscouldbeamongthebestbargainsinacrash",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "MarketWatch",
+      "tag": "利空",
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "title_zh": "这些鲜为人知的投资可能是股市崩盘时最划算的投资",
+      "ts": 1795371780
+    },
+    {
       "coins": [
         "BTC",
         "ETH"
@@ -116,21 +176,6 @@
       "title": "US seeks answers on Nvidia’s sale of chips to China, Bessent says",
       "title_zh": "贝森特表示，美国就英伟达向中国出售芯片一事寻求答案",
       "ts": 1795370065
-    },
-    {
-      "coins": [],
-      "desc": "Futures loom as Oracle and South Korea try to calm market fears after the stock market worst week since Covid.",
-      "first_seen": 1795371026,
-      "key": "dowjonesfuturesdueasoraclekoreatrytoeasemarketfearslookfortheseabsolutelosers",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss",
-      "reason": "利空词: 恐慌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
-      "title_zh": "道琼斯期货到期，甲骨文、韩国试图缓解市场担忧；寻找这些绝对的失败者",
-      "ts": 1795369904
     },
     {
       "coins": [],
@@ -191,6 +236,21 @@
       "title": "Members of Congress Must Disclose Their Stock Trades. NANC Copies the Democrats’ Buys Into One ETF",
       "title_zh": "国会议员必须披露他们的股票交易。 NANC 将民主党的购买复制到一只 ETF 中",
       "ts": 1795367235
+    },
+    {
+      "coins": [],
+      "desc": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+      "first_seen": 1795379801,
+      "key": "nvidiasturmoilhasmespookedisittimetosellmystocksandbuyrealestate",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "MarketWatch",
+      "tag": "利多",
+      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+      "title_zh": "“英伟达的动荡让我感到害怕”：是时候卖掉我的股票并购买房地产了吗？",
+      "ts": 1795366800
     },
     {
       "coins": [],
@@ -405,72 +465,6 @@
       "title": "A battered stock market looks for the bottom: What to watch this week",
       "title_zh": "遭受重创的股市正在寻找底部：本周值得关注的内容",
       "ts": 1795341600
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "The CME Group's FedWatch tool showed traders are pricing in an 88.6% chance of a Fed rate hike at its upcoming December meeting, making liquidity tighter.",
-      "first_seen": 1795342642,
-      "key": "thegreatcashgrabiscrashinggoldsilverandbitcoingoldmansachswarnsthestockselloffis",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/why-gold-silver-and-bitcoin-are-crashing-together-the-great-cash-grab/cNbnYXsR91w?.tsrc=rss",
-      "reason": "利空词: 崩跌、抛售、加息、警告",
-      "score": -8,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "The Great Cash Grab Is Crashing Gold, Silver And Bitcoin, Goldman Sachs Warns The Stock Selloff Isn't Over",
-      "title_zh": "高盛警告称，现金大抢夺正在摧毁黄金、白银和比特币，股票抛售尚未结束",
-      "ts": 1795340992
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Here’s what nearly a year of Square data reveals about how Americans actually spend their Bitcoin.",
-      "first_seen": 1795342642,
-      "key": "averageamericanspends13inbitcoinledbycoffee",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/retail/average-american-spends-13-in-bitcoin-led-by-coffee?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Average American spends $13 in Bitcoin, led by coffee",
-      "title_zh": "美国人平均花费 13 美元购买比特币，其中咖啡消费最多",
-      "ts": 1795340547
-    },
-    {
-      "coins": [],
-      "desc": "The stock market could decline sharply as persistent inflation and rich valuations fuel investor anxiety.",
-      "first_seen": 1795342642,
-      "key": "thestockmarketsoundsanalarmasinvestorsgetbadnewsaboutpresidentdonaldtrumpseconom",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/22/stock-market-sounds-alarm-bad-news-president-trump-economy/?.tsrc=rss",
-      "reason": "利空词: 下降",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy",
-      "title_zh": "投资者收到有关唐纳德·特朗普总统经济的坏消息，股市拉响警报",
-      "ts": 1795340462
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Kraken said all orders were processed correctly and found no evidence of a security breach or compromised accounts.",
-      "first_seen": 1795377328,
-      "key": "bitcoinbrieflydropsto17konkrakenexchangeupholdstrades",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Cointelegraph",
-      "tag": "利空",
-      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "title_zh": "Kraken 比特币短暂跌至 1.7 万美元，交易所维持交易",
-      "ts": 1795339986
     }
   ],
   "meta": {
@@ -485,12 +479,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
+      "MarketWatch": "ok 2",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 17",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T20:55:29+01:00",
-  "updated_unix": 1795377329
+  "updated": "2026-11-22T21:36:44+01:00",
+  "updated_unix": 1795379804
 }
