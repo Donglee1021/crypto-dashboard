@@ -1,7 +1,5 @@
 {
-  "errors": [
-    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
-  ],
+  "errors": [],
   "items": [
     {
       "coins": [],
@@ -405,21 +403,6 @@
     },
     {
       "coins": [],
-      "desc": "The S&P 500 lost money from 2000 to 2009, but the highest-yielding dividend stocks gained 5.4% a year. Here's what the last tech bust says about yield, and what it doesn't.",
-      "first_seen": 1795303091,
-      "key": "inthelasttechbustthesp500lostmoneyforadecadehistorysaysstockswiththehighestyield",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/21/in-the-last-tech-bust-the-s-and-p-500-lost-money-for-a-decade-history-says-stocks-with-the-highest-yields-gained-5-4-a-year/?.tsrc=rss",
-      "reason": "利多词: 上涨",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "In the Last Tech Bust, the S&P 500 Lost Money for a Decade. History Says Stocks With the Highest Yields Gained 5.4% a Year.",
-      "title_zh": "在上一次科技泡沫破灭中，标准普尔 500 指数连续十年亏损。历史表明，收益率最高的股票每年上涨 5.4%。",
-      "ts": 1795301462
-    },
-    {
-      "coins": [],
       "desc": "Kalshi, which is headquartered in New York, has said the order would shut it down nationwide, though NY's AG said that's not her goal.",
       "first_seen": 1795298359,
       "key": "kalshifacesmondayhearingonnewyorkorderitsayswouldshutdownitsexchangenationwide",
@@ -479,6 +462,21 @@
       "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "title_zh": "在 18 亿美元的加密货币清算浪潮之后，比特币反弹至 60,000 美元以上",
       "ts": 1795283400
+    },
+    {
+      "coins": [],
+      "desc": "The agency says eight Colorado-registered entities, likely run from overseas, posed as legitimate advisers and crypto platforms—even faking SEC certificates and filings—to defraud U.S. investors of more than $37 million.",
+      "first_seen": 1795345422,
+      "key": "fraudstersusedfakecryptoexchangestosteal37millionsecalleges",
+      "kind": "crypto",
+      "link": "https://decrypt.co/383752/fraudsters-fake-crypto-exchanges-steal-37-million-sec",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Decrypt",
+      "tag": "中性",
+      "title": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "title_zh": "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges",
+      "ts": 1795280462
     }
   ],
   "meta": {
@@ -493,12 +491,12 @@
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 3",
-      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
+      "MarketWatch": "ok 0",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T11:17:27+01:00",
-  "updated_unix": 1795342647
+  "updated": "2026-11-22T12:03:48+01:00",
+  "updated_unix": 1795345428
 }
