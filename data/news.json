@@ -392,21 +392,6 @@
     },
     {
       "coins": [],
-      "desc": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
-      "first_seen": 1795282086,
-      "key": "micronandsandiskstocksmightlooklikebargainsbutanalystssaythatsactuallyaredflag",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-      "title_zh": "美光和闪迪的股票可能看起来很便宜，但分析师表示这实际上是一个危险信号",
-      "ts": 1795275300
-    },
-    {
-      "coins": [],
       "desc": "Chainflip's FLIP token dropped 34% in price in the wake of the apparently automated attack, per The Block's price data.",
       "first_seen": 1795277078,
       "key": "chainflipsflipdrops34afterattackerdrains486millionfromvaultwithsuspectedkeycompr",
@@ -429,7 +414,7 @@
       "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "Tech outages are fueling a new doomsday economy",
       "title_zh": "技术中断正在推动新的世界末日经济",
@@ -466,6 +451,21 @@
       "title": "During Wall Street's worst week in over a year, we put money to work. What we're buying",
       "title_zh": "在华尔街一年多来最糟糕的一周里，我们投入了资金。我们要买什么",
       "ts": 1795270924
+    },
+    {
+      "coins": [],
+      "desc": "Anthropic's IPO was a big public market success for the company, but Friday's selloff shows that valuing the AI stock will remain volatile for investors.",
+      "first_seen": 1795308306,
+      "key": "whyanthropicsblockbusteripocouldntescapethestockmarketcorrection",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "reason": "利空词: 抛售",
+      "score": -1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "title_zh": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "ts": 1795270073
     }
   ],
   "meta": {
@@ -479,13 +479,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 37",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 1",
+      "Investing.com 股市": "ok 2",
+      "MarketWatch": "ok 0",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-22T00:18:14+01:00",
-  "updated_unix": 1795303094
+  "updated": "2026-11-22T01:45:06+01:00",
+  "updated_unix": 1795308306
 }
