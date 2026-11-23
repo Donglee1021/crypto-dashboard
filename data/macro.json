@@ -25,11 +25,6 @@
   "fng": [
     {
       "cls": "Neutral",
-      "t": 1792800000,
-      "value": 51
-    },
-    {
-      "cls": "Neutral",
       "t": 1792886400,
       "value": 54
     },
@@ -172,15 +167,20 @@
       "cls": "Extreme Fear",
       "t": 1795305600,
       "value": 11
+    },
+    {
+      "cls": "Extreme Fear",
+      "t": 1795392000,
+      "value": 11
     }
   ],
   "influence": {
     "bias": 0.085,
     "corr": 0.279,
     "corr_label": "弱",
-    "equity_chg": 2.28,
+    "equity_chg": 2.65,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货涨2.3%、VIX上升、美债收益率下降，相关性低，对加密影响有限",
+    "line": "美股休市，纳指期货涨2.6%、VIX上升、美债收益率下降，相关性低，对加密影响有限",
     "session": "closed",
     "stale": false
   },
@@ -234,27 +234,27 @@
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": 1.39,
-      "chg_1d": 1.39,
-      "chg_5d": -5.48,
-      "chg_intraday": 0.12,
-      "last": 7031.5,
+      "chg": 1.96,
+      "chg_1d": 1.96,
+      "chg_5d": -4.95,
+      "chg_intraday": 0.68,
+      "last": 7071.0,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1795390171,
+      "time_unix": 1795392863,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 2.28,
-      "chg_1d": 2.28,
-      "chg_5d": -5.81,
-      "chg_intraday": 0.54,
-      "last": 25700.0,
+      "chg": 2.65,
+      "chg_1d": 2.65,
+      "chg_5d": -5.47,
+      "chg_intraday": 0.9,
+      "last": 25792.25,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1795390174,
+      "time_unix": 1795392863,
       "unit": ""
     },
     "纳斯达克100": {
@@ -286,11 +286,11 @@
       "chg_1d": 0.03,
       "chg_5d": 0.28,
       "chg_intraday": 0.0,
-      "last": 103.844,
+      "last": 103.842,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1795390174,
+      "time_unix": 1795392374,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-23T00:39:36+01:00",
-  "updated_unix": 1795390776
+  "updated": "2026-11-23T01:24:26+01:00",
+  "updated_unix": 1795393466
 }

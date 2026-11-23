@@ -14,7 +14,22 @@
       "tag": "中性",
       "title": "Dow Jones Futures Rise As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
       "title_zh": "道琼斯期货上涨，甲骨文和韩国试图缓解市场担忧；寻找这些绝对的失败者",
-      "ts": 1795389944
+      "ts": 1795392994
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia has lost nearly half its value since Oct. 6. Here is how much of it sits in a $1 million 401(k): about $50,000 in an S&P 500 index fund and roughly $14,000 in a 2030 target-date fund.",
+      "first_seen": 1795393464,
+      "key": "nvidiajustlostnearlyhalfitsvaluea62yearoldwith1millioninansp500indexfundownsabou",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/22/nvidia-just-lost-nearly-half-its-value-a-62-year-old-with-1-million-in-an-sp-500-index-fund-owns-about-50000-of-it-without-buying-a-share/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Nvidia Just Lost Nearly Half Its Value. A 62-Year-Old With $1 Million in an S&P 500 Index Fund Owns About $50,000 of It Without Buying a Share",
+      "title_zh": "英伟达刚刚损失了近一半的价值。一位 62 岁的老人在标准普尔 500 指数基金中拥有 100 万美元，但在不购买股票的情况下拥有约 5 万美元",
+      "ts": 1795390980
     },
     {
       "coins": [],
@@ -82,7 +97,7 @@
       "coins": [
         "BTC"
       ],
-      "desc": "Bitcoin rebounded sharply from its new cycle low, but is $55,110 really the bottom? Ledger investigates new reports of tampered devices in Berlin and the UAE.",
+      "desc": "Bitcoin rebounds sharply from its new cycle low, but is $55,110 really the bottom? Ledger investigates new reports of tampered devices in Berlin and the UAE.",
       "first_seen": 1795388328,
       "key": "willbitcoinsbigreboundholdmoretamperedledgersfoundhodlersdigest",
       "kind": "crypto",
@@ -399,21 +414,6 @@
     },
     {
       "coins": [],
-      "desc": "Short-term volatility isn't necessarily something to be feared.",
-      "first_seen": 1795371026,
-      "key": "thesp500justwhipsawedneararecordhighhereswhyimloweringmyexpectationsnotselling",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/22/sp-500-whipsawed-near-record-high-why-im-lowering-expectations-not-selling/?.tsrc=rss",
-      "reason": "利多词: 创新高；利空词: 恐慌（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "The S&P 500 Just Whipsawed Near a Record High. Here’s Why I’m Lowering My Expectations, Not Selling.",
-      "title_zh": "标准普尔 500 指数刚刚创下历史新高。这就是为什么我要降低期望，而不是出售。",
-      "ts": 1795369581
-    },
-    {
-      "coins": [],
       "desc": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
       "first_seen": 1795379801,
       "key": "nvidiasturmoilhasmespookedisittimetosellmystocksandbuyrealestate",
@@ -491,6 +491,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-23T00:39:35+01:00",
-  "updated_unix": 1795390775
+  "updated": "2026-11-23T01:24:25+01:00",
+  "updated_unix": 1795393465
 }
