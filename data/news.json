@@ -3,6 +3,211 @@
   "items": [
     {
       "coins": [],
+      "desc": "",
+      "first_seen": 1795507160,
+      "key": "analysishuangsnvidiareturnsparksreliefforbatteredaitradebutquestionsremain",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/analysishuangs-stunning-nvidia-return-sparks-relief-for-battered-ai-trade-5046322",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Analysis-Huang’s Nvidia return sparks relief for battered AI trade, but questions remain",
+      "title_zh": "Analysis-Huang’s Nvidia return sparks relief for battered AI trade, but questions remain",
+      "ts": 1795506515
+    },
+    {
+      "coins": [],
+      "desc": "Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
+      "first_seen": 1795507160,
+      "key": "asiannvidiarelatedstocksjumpafterhuangsreturnwithtaiwansnearpricelimits",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+      "reason": "利多词: 跳涨",
+      "score": 2,
+      "source": "CNBC 头条",
+      "tag": "利多",
+      "title": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "title_zh": "Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "ts": 1795506312
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795507160,
+      "key": "usblacklistsalibabasubsidiaryandmegaspeedlinkedtonvidiascandal",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/us-to-blacklist-megaspeed-chip-firm-linked-to-nvidia-scandal-source-says-5046337",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal",
+      "title_zh": "US blacklists Alibaba subsidiary and Megaspeed linked to Nvidia scandal",
+      "ts": 1795506143
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "BlackRock’s IBIT shares gained 4.85% on Monday despite continued Bitcoin ETF withdrawals that pushed November’s net outflows to $4.71 billion.",
+      "first_seen": 1795507160,
+      "key": "bitcoinetfskeepbleedingasblackrocksibitsharesgainnearly5",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利多词: 上涨；利空词: 资金流出（多空相抵）",
+      "score": 1,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+      "title_zh": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+      "ts": 1795506110
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "US crypto ETFs lost about $650 million on the day Huang's Nvidia return lifted stocks, with major funds in the red.",
+      "first_seen": 1795507160,
+      "key": "whosoldbitcoinsnvidiarallytheanswersitsinwallstreetsfunddata",
+      "kind": "macro",
+      "link": "https://beincrypto.com/bitcoin-etf-outflows-huang-return-rally/?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Who Sold Bitcoin's Nvidia Rally? The Answer Sits in Wall Street's Fund Data",
+      "title_zh": "Who Sold Bitcoin's Nvidia Rally? The Answer Sits in Wall Street's Fund Data",
+      "ts": 1795505819
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795501954,
+      "key": "europesearningsboomchallengeswallstreetbutmayprovefleeting",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/europes-earnings-boom-challengeswall-street-but-may-prove-fleeting-5047123",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Europe’s earnings boom challenges Wall Street, but may prove fleeting",
+      "title_zh": "Europe’s earnings boom challenges Wall Street, but may prove fleeting",
+      "ts": 1795505785
+    },
+    {
+      "coins": [],
+      "desc": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
+      "first_seen": 1795490760,
+      "key": "sixkeyquestionsraisedbyjensenhuangsreturntonvidia",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+      "title_zh": "黄仁勋回归英伟达提出的六个关键问题",
+      "ts": 1795504353
+    },
+    {
+      "coins": [],
+      "desc": "Nvidia shares soared more than 30% Monday and had their third-best day on record after the company announced it reinstated Jensen Huang as CEO and president, effective immediately.",
+      "first_seen": 1795498551,
+      "key": "nvidiasharessoarmorethan30afterhuangreinstatedasceo",
+      "kind": "macro",
+      "link": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?.tsrc=rss",
+      "reason": "利多词: 飙升",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+      "title_zh": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+      "ts": 1795503496
+    },
+    {
+      "coins": [],
+      "desc": "Bank of France Governor Emmanuel Moulin told CNBC he still expects growth, pointing to resilience in sectors including defense, aerospace and electricity.",
+      "first_seen": 1795507160,
+      "key": "whyfranceisatriskofrecessionandwhatcouldkeepitoutofone",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html",
+      "reason": "利空词: 禁令、衰退",
+      "score": -3,
+      "source": "CNBC 经济",
+      "tag": "利空",
+      "title": "Why France is at risk of recession — and what could keep it out of one",
+      "title_zh": "Why France is at risk of recession — and what could keep it out of one",
+      "ts": 1795503336
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin price rocketed to the moon and back overnight; its rally disappeared almost as quickly as it arrived. BTC briefly jumped above $64,000 before surrendering its gains and slipping back toward $61,000. Crypto liquidity is still thin ev",
+      "first_seen": 1795507160,
+      "key": "livebitcoinovernightrallyroundtrippedsaylorandstrategydidntflinch",
+      "kind": "macro",
+      "link": "https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、跳涨、上涨",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn’t Flinch",
+      "title_zh": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn’t Flinch",
+      "ts": 1795503259
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Hayes said Anthropic's failure to close higher on the same day showed buyers fading rallies.",
+      "first_seen": 1795507160,
+      "key": "bitcoinandstocksaremovingindifferentdirectionsarthurhayessaysnvidiasrallyisthewo",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/arthur-hayes-nvidia-rally-bitcoin-november-selloff/cNbrzA2R9k3?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、买入",
+      "score": 3,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Bitcoin And Stocks Are Moving In Different Directions: Arthur Hayes Says Nvidia's Rally Is The 'Worst Thing' For Crypto",
+      "title_zh": "Bitcoin And Stocks Are Moving In Different Directions: Arthur Hayes Says Nvidia's Rally Is The 'Worst Thing' For Crypto",
+      "ts": 1795502725
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Investing.com-- Bitcoin fell on Tuesday, hovering close to recent two-year lows as traders largely overlooked cryptocurrencies amid a broader rebound in equity markets.",
+      "first_seen": 1795507160,
+      "key": "bitcoinhoversaround60kamidlittlerelieffromrateregulatoryjitters",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-hovers-around-60k-amid-064423052.html?.tsrc=rss",
+      "reason": "利多词: 反弹",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin hovers around $60k amid little relief from rate, regulatory jitters",
+      "title_zh": "Bitcoin hovers around $60k amid little relief from rate, regulatory jitters",
+      "ts": 1795502663
+    },
+    {
+      "coins": [],
+      "desc": "BBIO gained 6% through Monday. Shares were already up about 4% that day when trading halted ahead of FDA approval for Welgemda, the first U.S. treatment for limb-girdle muscular dystrophy.",
+      "first_seen": 1795507160,
+      "key": "biotechlosesgroundinnovembersmarketslidethese5stocksbuckedtheselloffaslillyabbvi",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/biotech-loses-ground-november-5-stocks-bucked-selloff-lilly-abb-vie-amgen-fell/cNbrzF5R9kd?.tsrc=rss",
+      "reason": "利多词: 上涨、获批；利空词: 下滑、抛售、失守",
+      "score": -4,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Biotech Loses Ground In November’s Market Slide — These 5 Stocks Bucked The Selloff As Lilly, AbbVie And Amgen Fell",
+      "title_zh": "Biotech Loses Ground In November’s Market Slide — These 5 Stocks Bucked The Selloff As Lilly, AbbVie And Amgen Fell",
+      "ts": 1795502515
+    },
+    {
+      "coins": [],
       "desc": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
       "first_seen": 1795498551,
       "key": "jensenhuangistoobigtofireputtingnvidiasgovernanceinfocusanalysts",
@@ -35,21 +240,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795501954,
-      "key": "europesearningsboomchallengeswallstreetbutmayprovefleeting",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/europes-earnings-boom-challengeswall-street-but-may-prove-fleeting-5047123",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Europe’s earnings boom challenges Wall Street, but may prove fleeting",
-      "title_zh": "Europe’s earnings boom challenges Wall Street, but may prove fleeting",
-      "ts": 1795500743
-    },
-    {
-      "coins": [],
       "desc": "U.S. stock futures are edging higher early Tuesday as Wall Street builds on a historic tech-led relief rally triggered by Jensen Huang’s stunning return as CEO of Nvidia Corp. (NASDAQ:NVDA), alongside a sharp rebound across Asian markets. T",
       "first_seen": 1795501954,
       "key": "stockmarketwillsp500openupordowntoday",
@@ -62,21 +252,6 @@
       "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
       "title_zh": "Stock Market: Will S&P 500 Open Up or Down Today?",
       "ts": 1795500637
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795501954,
-      "key": "taiwanstockshigheratcloseoftradetaiwanweightedup899",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/taiwan-stocks-higher-at-close-of-trade-taiwan-weighted-up-899-5047093",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Taiwan stocks higher at close of trade; Taiwan Weighted up 8.99%",
-      "title_zh": "Taiwan stocks higher at close of trade; Taiwan Weighted up 8.99%",
-      "ts": 1795500004
     },
     {
       "coins": [
@@ -94,21 +269,6 @@
       "title": "Here’s what happened in crypto today",
       "title_zh": "Here’s what happened in crypto today",
       "ts": 1795500000
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795501954,
-      "key": "usstockfuturestickhigherafternvidialedwallstreetrally",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750",
-      "reason": "利多词: 反弹/上涨",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "U.S. stock futures tick higher after Nvidia-led Wall Street rally",
-      "title_zh": "U.S. stock futures tick higher after Nvidia-led Wall Street rally",
-      "ts": 1795499641
     },
     {
       "coins": [
@@ -282,21 +442,6 @@
       "ts": 1795494482
     },
     {
-      "coins": [],
-      "desc": "Nvidia shares soared more than 30% Monday and had their third-best day on record after the company announced it reinstated Jensen Huang as CEO and president, effective immediately.",
-      "first_seen": 1795498551,
-      "key": "nvidiasharessoarmorethan30afterhuangreinstatedasceo",
-      "kind": "macro",
-      "link": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?.tsrc=rss",
-      "reason": "利多词: 飙升",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
-      "title_zh": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
-      "ts": 1795494237
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -316,164 +461,24 @@
     {
       "coins": [],
       "desc": "Investing.com -- Most Asian stocks rallied on Tuesday, with Taiwan leading regional gains as Nvidia’s reinstatement of founder Jensen Huang revived enthusiasm for the artificial-intelligence trade following last week’s technology-led sellof",
-      "first_seen": 1795494767,
-      "key": "asianstocksrallyastaiwanleadswith9reboundinaitrade",
+      "first_seen": 1795507160,
+      "key": "asianstocksrallyastaiwansurges9onnvidialedairebound",
       "kind": "macro",
       "link": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-taiwan-leads-040100960.html?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、上涨、反弹",
-      "score": 5,
+      "reason": "利多词: 大涨、反弹/上涨、上涨、反弹",
+      "score": 7,
       "source": "Yahoo Finance",
       "tag": "利多",
-      "title": "Asian stocks rally as Taiwan leads with 9% rebound in AI trade",
-      "title_zh": "Asian stocks rally as Taiwan leads with 9% rebound in AI trade",
+      "title": "Asian stocks rally as Taiwan surges 9% on Nvidia-led AI rebound",
+      "title_zh": "Asian stocks rally as Taiwan surges 9% on Nvidia-led AI rebound",
       "ts": 1795492860
-    },
-    {
-      "coins": [],
-      "desc": "Viewers could find their AI-doppelgangers inserted into the crowd during the Cricket World Cup, or take a leading role in their very own romantic comedy.",
-      "first_seen": 1795490760,
-      "key": "googlewantstomakeyouthestarofyourownaislopmovies",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/google-wants-make-you-star-your-own-ai-slop-movies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Google wants to make you the star of your own AI slop movies",
-      "title_zh": "谷歌想让你成为自己的人工智能电影的明星",
-      "ts": 1795490002
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Hyperscale Data (NYSEAMERICAN:GPUS) reported third-quarter revenue growth of 84% and a narrower net loss as executives outlined plans to convert a Michigan Bitcoin mining facility into an artificial intelligence data center and divest its A",
-      "first_seen": 1795490760,
-      "key": "whathyperscaledatagpussaidonitsq3earningscall",
-      "kind": "macro",
-      "link": "https://www.marketbeat.com/instant-alerts/transcript-what-hyperscale-data-gpus-said-on-its-q3-earnings-call-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "What Hyperscale Data (GPUS) Said on Its Q3 Earnings Call",
-      "title_zh": "超大规模数据 (GPUS) 在第三季度财报电话会议上表示了什么",
-      "ts": 1795489953
-    },
-    {
-      "coins": [],
-      "desc": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
-      "first_seen": 1795490760,
-      "key": "sixkeyquestionsraisedbyjensenhuangsreturntonvidia",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
-      "title_zh": "黄仁勋回归英伟达提出的六个关键问题",
-      "ts": 1795489549
-    },
-    {
-      "coins": [],
-      "desc": "Plaintiff Larry Pearl purchased TerraUSD on Coinbase shortly before the token collapsed and accused Coinbase of misrepresentation.",
-      "first_seen": 1795490760,
-      "key": "californiacourtterminateslawsuitagainstcoinbaseoverterrausdpurchases",
-      "kind": "crypto",
-      "link": "https://www.theblock.co/news/markets/2026-11-23-california-court-terminates-lawsuit-coinbase-terrausd-445448",
-      "reason": "利空词: 诉讼",
-      "score": -2,
-      "source": "The Block",
-      "tag": "利空",
-      "title": "California court terminates lawsuit against Coinbase over TerraUSD purchases",
-      "title_zh": "加州法院终止针对 Coinbase 购买 TerraUSD 的诉讼",
-      "ts": 1795489545
-    },
-    {
-      "coins": [],
-      "desc": "Is it a dead cat bounce? AI stocks jumped 20%+ on Huang's return, yet IREN and Applied Digital sit down 50%+ in a year.",
-      "first_seen": 1795490760,
-      "key": "deadcatbounceaistocksclimb20butirenapplieddigitalstaydown50",
-      "kind": "macro",
-      "link": "https://beincrypto.com/ai-stocks-dead-cat-bounce-iren/?.tsrc=rss",
-      "reason": "利多词: 跳涨、攀升",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dead Cat Bounce? AI Stocks Climb 20%+, but IREN, Applied Digital Stay Down 50%+",
-      "title_zh": "死猫弹跳？ AI 股票上涨 20% 以上，但 IREN、Applied Digital 股票下跌 50% 以上",
-      "ts": 1795489500
-    },
-    {
-      "coins": [],
-      "desc": "Book Four closes EPIC, a body of work on Equities, Properties, Income and Crypto in which every claim is tied to a public document a reader can open and checkSingapore, Singapore--(Newsfile Corp. - November 23, 2026) - Spiking Press, an imp",
-      "first_seen": 1795490760,
-      "key": "drclemenchiangpublishesthelastlinecompletingthefourbookseriesthedisclosedrecord",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/dr-clemen-chiang-publishes-last-030400342.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dr. Clemen Chiang Publishes The Last Line, Completing the Four-Book Series The Disclosed Record",
-      "title_zh": "蒋克莱门博士出版了《最后一句话》，完成了四本书系列《披露的记录》",
-      "ts": 1795489440
-    },
-    {
-      "coins": [],
-      "desc": "The long-time analyst reset his S&P 500 outlook after stocks entered correction territory.",
-      "first_seen": 1795490760,
-      "key": "hecorrectlysaidthesp500wouldfallto7100nowmorganstanleysmikewilsonhasanothergutsy",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/investing/he-correctly-said-the-s-now-morgan-stanleys-mike-wilson-has-another-gutsy-forecast?.tsrc=rss",
-      "reason": "利空词: 下跌",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "He correctly said the S&P 500 would fall to 7100; Now, Morgan Stanley's Mike Wilson has another gutsy forecast",
-      "title_zh": "他正确地预测了标准普尔 500 指数将跌至 7100 点；现在，摩根士丹利的迈克·威尔逊有了另一个大胆的预测",
-      "ts": 1795489380
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "The advisory is a staff opinion that does not create new rules, and crypto still can't meet a separate rule that requires cash or highly liquid securities.",
-      "first_seen": 1795490760,
-      "key": "bitcoinandethereumgetabiggerroleinusderivativesmarketshereswhatthecftcchanged",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-and-ethereum-get-a-bigger-role-in-us-derivatives-markets-here-s-what-the-cftc-changed/cNbrt1fR9jH?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitcoin And Ethereum Get A Bigger Role In US Derivatives Markets: Here’s What The CFTC Changed",
-      "title_zh": "比特币和以太坊在美国衍生品市场发挥更大作用：CFTC 的改变如下",
-      "ts": 1795488668
-    },
-    {
-      "coins": [],
-      "desc": "The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.",
-      "first_seen": 1795487312,
-      "key": "usaddsmegaspeedtotradeblacklistoverexportcontrolconcernsamidnvidiacontroversy",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
-      "title_zh": "由于英伟达争议，美国因出口管制担忧将 Megaspeed 列入贸易黑名单",
-      "ts": 1795487859
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 16",
+      "CNBC 头条": "ok 17",
       "CNBC 经济": "ok 23",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -487,6 +492,6 @@
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-24T07:32:50+01:00",
-  "updated_unix": 1795501970
+  "updated": "2026-11-24T08:59:43+01:00",
+  "updated_unix": 1795507183
 }

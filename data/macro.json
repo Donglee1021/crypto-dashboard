@@ -6,18 +6,18 @@
         "d90": -0.039
       },
       "SPX": {
-        "d30": -0.147,
+        "d30": -0.148,
         "d90": -0.032
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.187,
-        "d90": -0.091
+        "d30": -0.192,
+        "d90": -0.094
       },
       "SPX": {
-        "d30": -0.206,
-        "d90": -0.097
+        "d30": -0.212,
+        "d90": -0.099
       }
     }
   },
@@ -175,12 +175,12 @@
     }
   ],
   "influence": {
-    "bias": 0.076,
-    "corr": 0.17,
+    "bias": 0.083,
+    "corr": 0.173,
     "corr_label": "弱",
-    "equity_chg": 0.13,
+    "equity_chg": 0.24,
     "equity_name": "纳指期货",
-    "line": "美股休市，纳指期货涨0.1%、VIX下降，相关性低，对加密影响有限",
+    "line": "美股休市，纳指期货涨0.2%、VIX下降，相关性低，对加密影响有限",
     "session": "closed",
     "stale": false
   },
@@ -234,27 +234,27 @@
       "unit": ""
     },
     "标普期货 ES": {
-      "chg": 0.16,
-      "chg_1d": 0.16,
-      "chg_5d": -1.26,
-      "chg_intraday": -0.08,
-      "last": 7266.0,
+      "chg": 0.22,
+      "chg_1d": 0.22,
+      "chg_5d": -1.2,
+      "chg_intraday": -0.02,
+      "last": 7270.75,
       "role": "equity_fut",
       "stale": false,
       "symbol": "ES=F",
-      "time_unix": 1795501364,
+      "time_unix": 1795506581,
       "unit": ""
     },
     "纳指期货 NQ": {
-      "chg": 0.13,
-      "chg_1d": 0.13,
-      "chg_5d": -0.86,
-      "chg_intraday": -0.17,
-      "last": 26841.75,
+      "chg": 0.24,
+      "chg_1d": 0.24,
+      "chg_5d": -0.75,
+      "chg_intraday": -0.06,
+      "last": 26871.75,
       "role": "equity_fut",
       "stale": false,
       "symbol": "NQ=F",
-      "time_unix": 1795501370,
+      "time_unix": 1795506581,
       "unit": ""
     },
     "纳斯达克100": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": -0.02,
-      "chg_1d": -0.02,
-      "chg_5d": 0.78,
-      "chg_intraday": -0.01,
-      "last": 104.299,
+      "chg": 0.03,
+      "chg_1d": 0.03,
+      "chg_5d": 0.84,
+      "chg_intraday": 0.05,
+      "last": 104.356,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1795501368,
+      "time_unix": 1795506581,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-24T07:32:51+01:00",
-  "updated_unix": 1795501971
+  "updated": "2026-11-24T08:59:43+01:00",
+  "updated_unix": 1795507183
 }
