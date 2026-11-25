@@ -3,6 +3,21 @@
   "items": [
     {
       "coins": [],
+      "desc": "President Donald Trump said in an interview with the New York Post that he's fine clearing Nvidia's CEO from legal trouble in his affair scandal.",
+      "first_seen": 1795578225,
+      "key": "trumpsaysheswillingtogivenvidiashuangapardondoesntthinkheneedsone",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/policy/2026/11/24/trump-says-he-s-willing-to-give-nvidia-s-huang-a-pardon-doesn-t-think-he-needs-one",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one",
+      "title_zh": "特朗普表示他愿意赦免英伟达的黄仁勋，但认为他不需要赦免",
+      "ts": 1795577720
+    },
+    {
+      "coins": [],
       "desc": "Futures fell after AI stocks tumbled but medicals, retailers and more rose. President Trump mused about an Nvidia stake. Fed inflation data looms.",
       "first_seen": 1795574588,
       "key": "dowjonesfuturesfalltrumpsaysnottoolateforustotakenvidiastake",
@@ -13,8 +28,53 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-      "title_zh": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
-      "ts": 1795574078
+      "title_zh": "道琼斯期货下跌；特朗普称美国收购英伟达股份“还不算太晚”",
+      "ts": 1795577272
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795578225,
+      "key": "eosfalls14inrout",
+      "kind": "crypto",
+      "link": "https://www.investing.com/news/cryptocurrency-news/eos-falls-14-in-rout-5049590",
+      "reason": "利空词: 下跌",
+      "score": -4,
+      "source": "Investing.com 加密",
+      "tag": "利空",
+      "title": "EOS Falls 14% In Rout",
+      "title_zh": "EOS 暴跌 14%",
+      "ts": 1795575303
+    },
+    {
+      "coins": [],
+      "desc": "President Trump's decision to force Nvidia's board to bring back Jensen Huang as CEO is exactly what Beijing, Tehran, and Moscow would want to see.",
+      "first_seen": 1795570830,
+      "key": "opedtrumpsnvidiaboardinterventionputapriceonnationalsecurityouradversarieswillta",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/24/trump-nvidia-jensen-huang-national-security-china-chips.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Op-ed: Trump’s Nvidia board intervention put a price on national security. Our adversaries will take note",
+      "title_zh": "专栏：特朗普对英伟达董事会的干预让国家安全付出了代价。我们的对手会注意到",
+      "ts": 1795575008
+    },
+    {
+      "coins": [],
+      "desc": "Proceeds from the 10% tax would be channeled to a new fund for universal pre-kindergarten for children ages 2 to 4.",
+      "first_seen": 1795578225,
+      "key": "newyorksenatorproposes10taxonpredictionmarketfeestofunduniversalprek",
+      "kind": "crypto",
+      "link": "https://www.theblock.co/news/regulation/2026-11-24-new-york-proposal-prediction-market-tax-446082",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "The Block",
+      "tag": "中性",
+      "title": "New York senator proposes 10% tax on prediction market fees to fund universal pre-K",
+      "title_zh": "纽约参议员提议对预测市场费用征收 10% 的税，为普及学前教育提供资金",
+      "ts": 1795574774
     },
     {
       "coins": [],
@@ -28,7 +88,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
-      "title_zh": "Trump open to pardoning Jensen Huang if needed: NY Post",
+      "title_zh": "纽约邮报：如果需要，特朗普愿意赦免黄仁勋",
       "ts": 1795572585
     },
     {
@@ -45,7 +105,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Strategy (MSTR) Stock Trades At A Discount To Book Value",
-      "title_zh": "Strategy (MSTR) Stock Trades At A Discount To Book Value",
+      "title_zh": "Strategy (MSTR) 股票交易价格低于账面价值",
       "ts": 1795572548
     },
     {
@@ -60,7 +120,7 @@
       "source": "Investing.com 股市",
       "tag": "利空",
       "title": "As chips slide, AI-picked IT stocks remain up 27%-88% – meet the leader",
-      "title_zh": "As chips slide, AI-picked IT stocks remain up 27%-88% – meet the leader",
+      "title_zh": "随着芯片下滑，人工智能精选的 IT 股票仍上涨 27%-88%——与领头羊会面",
       "ts": 1795572038
     },
     {
@@ -77,7 +137,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Ethereum treasury firm sells $43 million in Ether to repay debt",
-      "title_zh": "Ethereum treasury firm sells $43 million in Ether to repay debt",
+      "title_zh": "以太坊财务公司出售 4300 万美元以太币以偿还债务",
       "ts": 1795572000
     },
     {
@@ -92,7 +152,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Trump says he could pardon Jensen Huang, floats U.S. govt stake in Nvidia - NYP",
-      "title_zh": "Trump says he could pardon Jensen Huang, floats U.S. govt stake in Nvidia - NYP",
+      "title_zh": "特朗普表示他可以赦免黄仁勋，并允许美国政府持有英伟达股份 - 纽约时报",
       "ts": 1795571987
     },
     {
@@ -107,7 +167,7 @@
       "source": "CNBC 头条",
       "tag": "利空",
       "title": "SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names",
-      "title_zh": "SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names",
+      "title_zh": "华尔街人工智能抛售波及亚洲科技公司，软银股价下跌 14%",
       "ts": 1795571849
     },
     {
@@ -122,7 +182,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
-      "title_zh": "Wall St futures fall after S&P 500, Nasdaq end lower; inflation data eyed",
+      "title_zh": "华尔街期货跟随标准普尔 500 指数下跌，纳斯达克指数收低；关注通胀数据",
       "ts": 1795570947
     },
     {
@@ -139,7 +199,7 @@
       "source": "Cointelegraph",
       "tag": "中性",
       "title": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
-      "title_zh": "CleanSpark weighs selling more Bitcoin than it mines to de-risk books",
+      "title_zh": "CleanSpark 考虑出售比开采的比特币更多的比特币，以降低书籍风险",
       "ts": 1795570859
     },
     {
@@ -154,23 +214,8 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
-      "title_zh": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal",
+      "title_zh": "在特朗普干预董事会突然逆转后，黄仁勋重新担任英伟达首席执行官",
       "ts": 1795570228
-    },
-    {
-      "coins": [],
-      "desc": "President Trump's decision to force Nvidia's board to bring back Jensen Huang as CEO is exactly what Beijing, Tehran, and Moscow would want to see.",
-      "first_seen": 1795570830,
-      "key": "opedtrumpsnvidiaboardinterventionputapriceonnationalsecurityouradversarieswillta",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/24/trump-nvidia-jensen-huang-national-security-china-chips.html",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "CNBC 头条",
-      "tag": "中性",
-      "title": "Op-ed: Trump’s Nvidia board intervention put a price on national security. Our adversaries will take note",
-      "title_zh": "Op-ed: Trump’s Nvidia board intervention put a price on national security. Our adversaries will take note",
-      "ts": 1795570143
     },
     {
       "coins": [],
@@ -184,7 +229,7 @@
       "source": "Investing.com 股市",
       "tag": "中性",
       "title": "Nvidia’s Huang said he violated code of conduct, source says",
-      "title_zh": "Nvidia’s Huang said he violated code of conduct, source says",
+      "title_zh": "消息人士称，英伟达的黄说他违反了行为准则",
       "ts": 1795569879
     },
     {
@@ -199,7 +244,7 @@
       "source": "Yahoo Finance",
       "tag": "利多",
       "title": "Why Nvidia's rebound may not mean the S&P 500 has bottomed",
-      "title_zh": "Why Nvidia's rebound may not mean the S&P 500 has bottomed",
+      "title_zh": "为什么英伟达的反弹可能并不意味着标准普尔 500 指数已经触底",
       "ts": 1795569790
     },
     {
@@ -214,7 +259,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
-      "title_zh": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "title_zh": "黄仁勋回归英伟达表明中美人工智能竞赛不仅仅关乎芯片",
       "ts": 1795569236
     },
     {
@@ -229,23 +274,8 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Most Stocks Are Losers. Here's How You Can Still Win",
-      "title_zh": "Most Stocks Are Losers. Here's How You Can Still Win",
+      "title_zh": "大多数股票都是亏损的。这是您仍然可以获胜的方法",
       "ts": 1795567300
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795570830,
-      "key": "nvidiaboardshuangreversalraisesdoubtsaboutindependencecriticssay",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-5047621",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia board’s Huang reversal raises doubts about independence, critics say",
-      "title_zh": "Nvidia board’s Huang reversal raises doubts about independence, critics say",
-      "ts": 1795565911
     },
     {
       "coins": [
@@ -261,7 +291,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "What Cleanspark (CLSK) Said on Its Q4 Earnings Call",
-      "title_zh": "What Cleanspark (CLSK) Said on Its Q4 Earnings Call",
+      "title_zh": "Cleanspark (CLSK) 在第四季度财报电话会议上表示了什么",
       "ts": 1795565614
     },
     {
@@ -276,7 +306,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
-      "title_zh": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
+      "title_zh": "由于 Nvidia 的治理问题和新进口关税谈判重新浮现人工智能紧张情绪，标准普尔 500 指数和纳斯达克指数收低 - NVDA、戴尔、TSLA、TGTX 成为焦点",
       "ts": 1795565532
     },
     {
@@ -293,7 +323,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Why Bitcoin's Dominance Over Crypto Could Finally Be Breaking: Helius CEO",
-      "title_zh": "Why Bitcoin's Dominance Over Crypto Could Finally Be Breaking: Helius CEO",
+      "title_zh": "为什么比特币对加密货币的主导地位最终可能被打破：Helius 首席执行官",
       "ts": 1795564560
     },
     {
@@ -310,7 +340,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "What Would It Take for XRP to Reach $100?",
-      "title_zh": "What Would It Take for XRP to Reach $100?",
+      "title_zh": "XRP 需要什么才能达到 100 美元？",
       "ts": 1795564377
     },
     {
@@ -325,7 +355,7 @@
       "source": "Cointelegraph",
       "tag": "利空",
       "title": "Hackers breach CIA intelligence network in latest US cyberattack",
-      "title_zh": "Hackers breach CIA intelligence network in latest US cyberattack",
+      "title_zh": "黑客在美国最新的网络攻击中破坏了中央情报局情报网络",
       "ts": 1795564096
     },
     {
@@ -340,7 +370,7 @@
       "source": "CNBC 头条",
       "tag": "中性",
       "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
-      "title_zh": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+      "title_zh": "黄仁勋告诉员工，英伟达不需要继任计划",
       "ts": 1795562029
     },
     {
@@ -357,7 +387,7 @@
       "source": "Investing.com 加密",
       "tag": "中性",
       "title": "Bitcoin halts three-day win streak, slips to $60k amid hit to risk sentiment",
-      "title_zh": "Bitcoin halts three-day win streak, slips to $60k amid hit to risk sentiment",
+      "title_zh": "风险情绪受到打击，比特币止住三天连涨，跌至 6 万美元",
       "ts": 1795561804
     },
     {
@@ -372,7 +402,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Morgan Stanley sends a strong signal on where stocks are headed",
-      "title_zh": "Morgan Stanley sends a strong signal on where stocks are headed",
+      "title_zh": "摩根士丹利发出了有关股市走向的强烈信号",
       "ts": 1795561620
     },
     {
@@ -389,7 +419,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
-      "title_zh": "In Response to the Turmoil at Nvidia, Bitcoin Drops Below $70,000. Is This a Buy-the-Dip Opportunity?",
+      "title_zh": "为了应对 Nvidia 的动荡，比特币跌破 70,000 美元。这是逢低买入的机会吗？",
       "ts": 1795561262
     },
     {
@@ -404,7 +434,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Stock Market Today, Nov. 24: Bitmine Shares Sink 8.6% as Confidence Wanes",
-      "title_zh": "Stock Market Today, Nov. 24: Bitmine Shares Sink 8.6% as Confidence Wanes",
+      "title_zh": "11 月 24 日今日股市：随着信心减弱，比特矿场股价下跌 8.6%",
       "ts": 1795560972
     },
     {
@@ -422,7 +452,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion",
-      "title_zh": "Crypto Market Today, Nov. 24: Bitcoin Falls Below $60,000 as ETF Outflows Hit a Record $4.7 Billion",
+      "title_zh": "今日加密货币市场，11 月 24 日：ETF 资金流出创纪录的 47 亿美元，比特币跌破 60,000 美元",
       "ts": 1795560400
     },
     {
@@ -437,40 +467,8 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
-      "title_zh": "Update: US Equity Indexes Mixed as Investors Rotate into Defensives Amid Weakening AI Trade",
+      "title_zh": "更新：由于人工智能贸易疲软，投资者转向防御，美国股指涨跌互现",
       "ts": 1795560038
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Employees at both AI labs reportedly question whether their strongest models should ever reach the public, as researchers struggle to keep increasingly capable systems under control during training and testing.",
-      "first_seen": 1795562832,
-      "key": "openaiandanthropicinsidersfeartheirnextaimodelsaretoodangeroustorelease",
-      "kind": "crypto",
-      "link": "https://decrypt.co/383933/openai-and-anthropic-insiders-fear-next-ai-models-too-dangerous",
-      "reason": "利空词: 恐慌",
-      "score": -2,
-      "source": "Decrypt",
-      "tag": "利空",
-      "title": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
-      "title_zh": "OpenAI and Anthropic Insiders Fear Their Next AI Models Are Too Dangerous to Release",
-      "ts": 1795559762
-    },
-    {
-      "coins": [],
-      "desc": "This timing trap leaves little room for error.",
-      "first_seen": 1795562832,
-      "key": "suzeormanwarnsretireesagainstonecostlystockmarketmistake",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/retirement/suze-orman-retirees-stock-market-fear-warning?.tsrc=rss",
-      "reason": "利空词: 警告",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Suze Orman warns retirees against one costly stock market mistake",
-      "title_zh": "Suze Orman warns retirees against one costly stock market mistake",
-      "ts": 1795559580
     }
   ],
   "meta": {
@@ -484,13 +482,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 6",
+      "Investing.com 股市": "ok 5",
       "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 16",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-25T03:43:32+01:00",
-  "updated_unix": 1795574612
+  "updated": "2026-11-25T04:44:01+01:00",
+  "updated_unix": 1795578241
 }
