@@ -2,6 +2,85 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Velocity relaunched in September as a rebuilt version of Drift Protocol, which was attacked by North Korean hackers in April.",
+      "first_seen": 1795585958,
+      "key": "solanadexvelocityhaltstradingoverbugjustmonthsafterrelaunch",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/solana-dex-velocity-halts-transactions-over-bug-coming-2-months-after-relaunch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 被黑",
+      "score": -1,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "title_zh": "Solana DEX Velocity halts trading over bug just months after relaunch",
+      "ts": 1795584775
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795585958,
+      "key": "australiastocksloweratcloseoftradespasx200down039",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-lower-at-close-of-trade-spasx-200-down-039-5049741",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.39%",
+      "title_zh": "Australia stocks lower at close of trade; S&P/ASX 200 down 0.39%",
+      "ts": 1795584603
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "BlackRock says markets overprice Fed hikes. See what its two-hike call and Wednesday's PCE data mean for Bitcoin price.",
+      "first_seen": 1795585958,
+      "key": "blackrocksaysmarketsoverpricefedhikeswillbitcoincatchabreak",
+      "kind": "macro",
+      "link": "https://beincrypto.com/blackrock-fed-hikes-bitcoin-relief/?.tsrc=rss",
+      "reason": "利空词: 加息",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
+      "title_zh": "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
+      "ts": 1795584052
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "CleanSpark lost nearly $1 billion in fiscal 2026 as Bitcoin markdowns hit results while its AI data center takes shape.",
+      "first_seen": 1795585958,
+      "key": "whydidcleansparklosenearly1billioninfiscal2026",
+      "kind": "macro",
+      "link": "https://beincrypto.com/cleanspark-fiscal-2026-loss-bitcoin-ai/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Why Did CleanSpark Lose Nearly $1 Billion in Fiscal 2026?",
+      "title_zh": "Why Did CleanSpark Lose Nearly $1 Billion in Fiscal 2026?",
+      "ts": 1795583980
+    },
+    {
+      "coins": [],
+      "desc": "Derive’s new options on Nvidia, Anthropic, stock indices and oil bring hedging tools to onchain RWA markets.",
+      "first_seen": 1795585958,
+      "key": "cryptotraderscannowhedgenvidiaanthropicandoilbetsonderive",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/25/crypto-traders-can-now-hedge-nvidia-and-oil-bets-on-derive",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "title_zh": "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive",
+      "ts": 1795582642
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -35,36 +114,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795570830,
-      "key": "nvidiashuangsaidheviolatedcodeofconductsourcesays",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-slips-as-investors-assess-risks-surrounding-huangs-return-as-ceo-5047757",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Nvidia’s Huang said he violated code of conduct, source says",
-      "title_zh": "消息人士称，英伟达的黄说他违反了行为准则",
-      "ts": 1795581756
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795582251,
-      "key": "huangsreturntonvidiabringsopenweightaidebatetoforefrontinwashington",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/huangs-return-to-nvidia-brings-openweight-ai-debate-to-forefront-in-washington-5049260",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Huang’s return to Nvidia brings open-weight AI debate to forefront in Washington",
-      "title_zh": "黄仁勋重返英伟达，将开放式人工智能辩论推向华盛顿的前沿",
-      "ts": 1795581741
-    },
-    {
-      "coins": [],
       "desc": "The president’s remarks come days before Jensen Huang is due to face congressional questioning over national security concerns and US chip export controls.",
       "first_seen": 1795582251,
       "key": "trumpwillingtopardonjensenhuangsaysitwontbenecessary",
@@ -87,7 +136,7 @@
       "link": "https://www.cnbc.com/2026/11/25/uae-iran-war-economy-oil.html",
       "reason": "利空词: 禁令",
       "score": -1,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "中性",
       "title": "‘Ready for any storm’: UAE minister optimistic on economy as IMF lifts forecast",
       "title_zh": "“做好应对任何风暴的准备”：随着国际货币基金组织上调预测，阿联酋部长对经济持乐观态度",
@@ -155,21 +204,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795582251,
-      "key": "lemondedetailssuspectednvidiachipdiversionnetworkthroughsoutheastasia",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/le-monde-details-suspected-nvidia-chip-diversion-network-through-southeast-asia-5049654",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Le Monde details suspected Nvidia chip diversion network through Southeast Asia",
-      "title_zh": "《世界报》详细介绍了疑似通过东南亚转移 Nvidia 芯片的网络",
-      "ts": 1795578759
-    },
-    {
-      "coins": [],
       "desc": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
       "first_seen": 1795582251,
       "key": "softbankdrops15aswallstreetaiselloffripplesacrossasiantechnames",
@@ -182,21 +216,6 @@
       "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
       "title_zh": "华尔街人工智能抛售波及亚洲科技公司，软银股价下跌 15%",
       "ts": 1795578723
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795582251,
-      "key": "starbucksweighssaleofjapanbusinessworthseveralbilliondollarsbloomberg",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/starbucks-weighs-sale-of-japan-business-worth-several-billion-dollars--bloomberg-5049634",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Starbucks weighs sale of Japan business worth several billion dollars - Bloomberg",
-      "title_zh": "星巴克考虑出售价值数十亿美元的日本业务 - 彭博社",
-      "ts": 1795577838
     },
     {
       "coins": [],
@@ -378,7 +397,7 @@
       "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
       "reason": "未命中方向关键词",
       "score": 0,
-      "source": "CNBC 金融",
+      "source": "CNBC 头条",
       "tag": "中性",
       "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
       "title_zh": "黄仁勋回归英伟达表明中美人工智能竞赛不仅仅关乎芯片",
@@ -447,21 +466,6 @@
       "title": "What Cleanspark (CLSK) Said on Its Q4 Earnings Call",
       "title_zh": "Cleanspark (CLSK) 在第四季度财报电话会议上表示了什么",
       "ts": 1795565614
-    },
-    {
-      "coins": [],
-      "desc": "The Trump administration is reportedly preparing to roll out new tariffs targeting China and dozens of trading partners.",
-      "first_seen": 1795570830,
-      "key": "sp500nasdaqendlowerasaijittersresurfacewithnvidiasgovernanceissuesandtalksoffres",
-      "kind": "macro",
-      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-as-ai-jitters-resurface-with-nvidia-s-governance-issues-and-talks-of-fresh-import-tariffs-nvda-dell-tsla-tgtx-in-focus/cNbuDhyR9lT?.tsrc=rss",
-      "reason": "利空词: 关税",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus",
-      "title_zh": "由于 Nvidia 的治理问题和新进口关税谈判重新浮现人工智能紧张情绪，标准普尔 500 指数和纳斯达克指数收低 - NVDA、戴尔、TSLA、TGTX 成为焦点",
-      "ts": 1795565532
     }
   ],
   "meta": {
@@ -475,13 +479,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 4",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 2",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 16",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 2"
     }
   },
-  "updated": "2026-11-25T05:50:58+01:00",
-  "updated_unix": 1795582258
+  "updated": "2026-11-25T06:52:42+01:00",
+  "updated_unix": 1795585962
 }
