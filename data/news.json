@@ -3,18 +3,67 @@
   "items": [
     {
       "coins": [],
-      "desc": "The market went on a wild ride before Thanksgiving, but the Dow and Anthropic reversed higher while the Nasdaq and Nvidia came well off lows.",
-      "first_seen": 1795644872,
-      "key": "dowjonesfuturesmarketgoesonwildridenasdaqnvidiaslashlosseswhileanthropicreverses",
+      "desc": "Asia-Pacific markets were set to open higher Thursday, after Wall Street staged a dramatic recovery from session lows overnight.",
+      "first_seen": 1795651349,
+      "key": "asiapacificmarketssetforsubduedopenasinvestorsweighfreshustariffs",
       "kind": "macro",
-      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
-      "reason": "利空词: 亏损",
-      "score": -2,
+      "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "reason": "利多词: 回升；利空词: 关税（多空相抵）",
+      "score": -1,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Asia-Pacific markets set for subdued open as investors weigh fresh U.S. tariffs",
+      "title_zh": "由于投资者权衡美国新关税，亚太市场开盘低迷",
+      "ts": 1795651267
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitcoin miners rushed into AI to escape crypto’s volatility, but now both markets are turning against them, and one stock has lost roughly 70% this year so far.",
+      "first_seen": 1795651349,
+      "key": "bitcoinminersbetbigonainowoneisdown70",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/bitcoin-miners-bet-big-on-ai-now-one-is-down-70?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
       "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
-      "title_zh": "道琼斯期货：市场继续狂飙。纳斯达克、英伟达大幅下跌，而 Anthropic 则反转走高。",
-      "ts": 1795647773
+      "tag": "中性",
+      "title": "Bitcoin miners bet big on AI. Now, one is down 70%",
+      "title_zh": "比特币矿工在人工智能上下了很大的赌注。现在，下降了70%",
+      "ts": 1795650300
+    },
+    {
+      "coins": [],
+      "desc": "Is XRP a good investment for building wealth by 2035? XRP (CRYPTO:XRP), the digital currency linked to Ripple, presents some potential for growth, but its performance over the last five years raises questions about its stability as a long-t",
+      "first_seen": 1795651349,
+      "key": "isxrpagoodinvestmentforbuildingwealthby2035",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/25/is-xrp-a-good-investment-for-building-wealth-by-2035/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Is XRP a Good Investment for Building Wealth by 2035?",
+      "title_zh": "XRP 是到 2035 年创造财富的良好投资吗？",
+      "ts": 1795650170
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Bitwise’s André Dragosch argues Bitcoin bottomed against gold in February and still has room to run.",
+      "first_seen": 1795651349,
+      "key": "goldvsbitcoinanalystrevealswhythetideisturning",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/gold-vs-bitcoin-analyst-reveals-why-the-tide-is-turning?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Gold vs. Bitcoin: Analyst reveals why the tide is turning",
+      "title_zh": "黄金 vs. 比特币：分析师揭示潮流逆转的原因",
+      "ts": 1795648500
     },
     {
       "coins": [
@@ -205,6 +254,21 @@
     },
     {
       "coins": [],
+      "desc": "Seven stocks from a diverse group of industries make our screen of companies increasing buyback programs.",
+      "first_seen": 1795651349,
+      "key": "lookingforbargainsthesesp500companiesareaggressivelybuyingbackstock",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/4e6a065b-848e-36f7-ab73-17a73dde122f/looking-for-bargains%3F-these.html?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Looking for Bargains? These S&P 500 Companies Are Aggressively Buying Back Stock.",
+      "title_zh": "寻找便宜货？这些标准普尔 500 强公司正在积极回购股票。",
+      "ts": 1795644960
+    },
+    {
+      "coins": [],
       "desc": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
       "first_seen": 1795648240,
       "key": "oraclecoreweaveandothertechstocksbouncebackafterselloff",
@@ -281,23 +345,6 @@
       "ts": 1795644352
     },
     {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "A well-known crypto trader says Bitcoin’s selloff is coming from outside crypto and points to the one signal he’s waiting for.",
-      "first_seen": 1795644872,
-      "key": "analystexplainswhybitcoinsnextmovedependsonnasdaq",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/analyst-explains-why-bitcoins-next-move-depends-on-nasdaq?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Analyst explains why Bitcoin’s next move depends on Nasdaq",
-      "title_zh": "分析师解释为什么比特币的下一步走势取决于纳斯达克",
-      "ts": 1795644000
-    },
-    {
       "coins": [],
       "desc": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
       "first_seen": 1795644872,
@@ -326,36 +373,6 @@
       "title": "Switzerland clears 57 jurisdictions for crypto tax data sharing",
       "title_zh": "瑞士批准 57 个司法管辖区允许加密货币税务数据共享",
       "ts": 1795643618
-    },
-    {
-      "coins": [],
-      "desc": "The tech-heavy Nasdaq index fell more than 1,000 points in early trading before clawing back most of the losses.",
-      "first_seen": 1795644872,
-      "key": "stocksturnvolatileasjensenhuangreboundrallyfades",
-      "kind": "macro",
-      "link": "https://www.cbsnews.com/news/stocks-jensen-huang-bounce-ai-tariffs/?.tsrc=rss",
-      "reason": "利多词: 反弹/上涨、反弹；利空词: 亏损",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stocks turn volatile as Jensen Huang rebound rally fades",
-      "title_zh": "随着黄仁勋反弹势头消退，股市开始波动",
-      "ts": 1795643503
-    },
-    {
-      "coins": [],
-      "desc": "The Nasdaq and the S&P 500 pare sharper losses in pre-Thanksgiving trade.",
-      "first_seen": 1795644872,
-      "key": "stockmarkettodaydowswingsintoawinanthropicalmostretakesitsipoprice",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/90407e46-3b17-34e8-8c82-527bf00b63e4/stock-market-today%3A-dow.html?.tsrc=rss",
-      "reason": "利空词: 亏损",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Today: Dow Swings Into A Win; Anthropic Almost Retakes Its IPO Price",
-      "title_zh": "今日股市：道琼斯指数上涨； Anthropic 几乎重新确定其 IPO 价格",
-      "ts": 1795643474
     },
     {
       "coins": [],
@@ -450,23 +467,6 @@
       "title": "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
       "title_zh": "尽管通胀数据粘性，但由于投资者购买债券寻求保护，十年期国债收益率仍下滑",
       "ts": 1795640525
-    },
-    {
-      "coins": [
-        "ETH"
-      ],
-      "desc": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
-      "first_seen": 1795641288,
-      "key": "vancesayshewasassuredjensenhuangwasnotunderdojinvestigation",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
-      "reason": "利空词: 调查",
-      "score": -2,
-      "source": "CNBC 头条",
-      "tag": "利空",
-      "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
-      "title_zh": "万斯表示，他确信黄仁勋没有受到司法部调查",
-      "ts": 1795640408
     }
   ],
   "meta": {
@@ -481,12 +481,12 @@
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 1",
-      "MarketWatch": "ok 6",
+      "MarketWatch": "ok 4",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 12",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-26T00:10:53+01:00",
-  "updated_unix": 1795648253
+  "updated": "2026-11-26T01:02:34+01:00",
+  "updated_unix": 1795651354
 }
