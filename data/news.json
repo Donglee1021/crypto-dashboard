@@ -1,6 +1,53 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [],
+      "desc": "US Senators Elizabeth Warren and Chris Van Hollen, among others, have taken aim at two recent SEC efforts to ease regulatory requirements for the crypto industry.",
+      "first_seen": 1795668153,
+      "key": "senatedemocratsurgesectoscrapcryptotokenizedstockexemptions",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+      "title_zh": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+      "ts": 1795667085
+    },
+    {
+      "coins": [],
+      "desc": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage.",
+      "first_seen": 1795668153,
+      "key": "howtrumpslatesttariffmoveshandindiaanedgeoverrivalasianexporters",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html",
+      "reason": "利多词: 达成协议；利空词: 禁令、关税",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+      "title_zh": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+      "ts": 1795666338
+    },
+    {
+      "coins": [],
+      "desc": "The market went on a wild ride before Thanksgiving, but the Dow and Anthropic reversed higher while the Nasdaq and Nvidia came well off lows.",
+      "first_seen": 1795668153,
+      "key": "dowjonesfuturesriseafternasdaqslasheslossesinwildmarketride",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-after.html?.tsrc=rss",
+      "reason": "利多词: 上升；利空词: 亏损（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
+      "title_zh": "Dow Jones Futures Rise After Nasdaq Slashes Losses In Wild Market Ride",
+      "ts": 1795665992
+    },
     {
       "coins": [],
       "desc": "S&P Global Ratings said Nvidia's credit rating could be cut by one notch as it flagged \"rising\" management and governance risk at the chipmaker.",
@@ -30,21 +77,6 @@
       "title": "Stocks rally in Asia, unrocked by US tariffs",
       "title_zh": "Stocks rally in Asia, unrocked by US tariffs",
       "ts": 1795663098
-    },
-    {
-      "coins": [],
-      "desc": "The market went on a wild ride before Thanksgiving, but the Dow and Anthropic reversed higher while the Nasdaq and Nvidia came well off lows.",
-      "first_seen": 1795655835,
-      "key": "dowjonesfuturesrisemarketgoesonwildrideasnasdaqslasheslosses",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
-      "reason": "利多词: 上升；利空词: 亏损（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
-      "title_zh": "道琼斯期货上涨；纳斯达克大幅下跌，市场狂飙",
-      "ts": 1795662907
     },
     {
       "coins": [],
@@ -107,6 +139,21 @@
       "title": "House Committee advances Strategic Bitcoin Reserve bill with narrow path to passage",
       "title_zh": "House Committee advances Strategic Bitcoin Reserve bill with narrow path to passage",
       "ts": 1795662181
+    },
+    {
+      "coins": [],
+      "desc": "Michael Burry‘s move to a portfolio that is almost entirely long was discussed on financial news just as U.S. stocks reversed off their lows on Wednesday, the ‘Big Short’ investor noted. Timing Of His Portfolio Review Burry told subscribers",
+      "first_seen": 1795668153,
+      "key": "michaelburrysayshisportfoliowasdiscussedaboutthetimethemarketreversedoffitslowsh",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-portfolio-discussed-025825540.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Michael Burry Says His Portfolio Was Discussed 'About the Time the Market Reversed Off Its Lows': He Is 'Temporarily Almost Entirely Long'",
+      "title_zh": "Michael Burry Says His Portfolio Was Discussed 'About the Time the Market Reversed Off Its Lows': He Is 'Temporarily Almost Entirely Long'",
+      "ts": 1795661905
     },
     {
       "coins": [],
@@ -225,7 +272,7 @@
       "link": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
       "reason": "利空词: 衰退",
       "score": -1,
-      "source": "CNBC 头条",
+      "source": "CNBC 金融",
       "tag": "中性",
       "title": "Where the market may be mispricing risk most: AI boom, volatility, high-yield bonds",
       "title_zh": "市场可能对风险最错误定价的领域：人工智能繁荣、波动性、高收益债券",
@@ -245,21 +292,6 @@
       "title": "AI labs likely sitting on cryptography ‘bombshells,’ computer scientist says",
       "title_zh": "计算机科学家表示，人工智能实验室可能坐拥密码学“重磅炸弹”",
       "ts": 1795656800
-    },
-    {
-      "coins": [],
-      "desc": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-      "first_seen": 1795648240,
-      "key": "wearelivinginperiloustimesifnvidiasjensenhuangdictatesyour401kbalance",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-      "title_zh": "如果 Nvidia 的黄仁勋决定你的 401(k) 余额，我们就生活在危险的时代",
-      "ts": 1795655700
     },
     {
       "coins": [
@@ -425,21 +457,6 @@
     },
     {
       "coins": [],
-      "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
-      "first_seen": 1795648240,
-      "key": "ihatethatjensenhuangisbackatnvidiabutilovewhatitsdoneformy401kamiahypocrite",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-      "title_zh": "我讨厌 Jensen Huang 回到 Nvidia，但我喜欢它为我的 401(k) 所做的一切。我是伪君子吗？",
-      "ts": 1795646700
-    },
-    {
-      "coins": [],
       "desc": "Baidu has released the weights of its new high-speed reasoning model, giving developers a commercially usable alternative to proprietary AI services from OpenAI, Google, and Anthropic",
       "first_seen": 1795648240,
       "key": "chinasgooglejustreleaseditsfastnewaimodelforfree",
@@ -452,30 +469,13 @@
       "title": "China's Google Just Released Its Fast New AI Model for Free",
       "title_zh": "中国谷歌刚刚免费发布其快速的新人工智能模型",
       "ts": 1795646289
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1795648240,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1795645993
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 19",
+      "CNBC 头条": "ok 18",
       "CNBC 经济": "ok 25",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -483,12 +483,12 @@
       "Decrypt": "ok 38",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 4",
-      "MarketWatch": "ok 4",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 12",
+      "Yahoo Finance": "ok 13",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-26T04:31:06+01:00",
-  "updated_unix": 1795663866
+  "updated": "2026-11-26T05:42:42+01:00",
+  "updated_unix": 1795668162
 }
