@@ -2,6 +2,66 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "Futures rose on Thanksgiving after a wild market session, with the Nasdaq rallying off lows and Anthropic reversing higher.",
+      "first_seen": 1795735925,
+      "key": "dowjonesfuturesriseonholidaylookforthisbullishmarketsignal",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-on.html?.tsrc=rss",
+      "reason": "利多词: 反弹/上涨、上升、看涨",
+      "score": 5,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures Rise On Holiday; Look For This Bullish Market Signal",
+      "title_zh": "道琼斯期货假期上涨；寻找看涨的市场信号",
+      "ts": 1795734820
+    },
+    {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795735925,
+      "key": "brazilsembraercriticizesnewustariffswarnsofairtravelinflation",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/brazils-embraer-ceo-says-us-aircraft-tariff-will-hurt-airlines-5052544",
+      "reason": "利空词: 关税、警告",
+      "score": -4,
+      "source": "Investing.com 股市",
+      "tag": "利空",
+      "title": "Brazil’s Embraer criticizes new US tariffs, warns of air travel inflation",
+      "title_zh": "巴西航空工业公司批评美国新关税，警告航空旅行通胀",
+      "ts": 1795734022
+    },
+    {
+      "coins": [],
+      "desc": "I think Ferrari, Hilton, and Amer Sports have the brands, the growth runways, and the discipline to outrun the S&P 500 over the next decade.",
+      "first_seen": 1795735925,
+      "key": "predictionthese3consumerstockswillbeatthesp500overthenext10years",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/26/prediction-these-3-consumer-stocks-will-beat-the-sp-500-over-the-next-10-years/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Prediction: These 3 Consumer Stocks Will Beat the S&P 500 Over the Next 10 Years",
+      "title_zh": "预测：这 3 只消费类股票将在未来 10 年内跑赢标准普尔 500 指数",
+      "ts": 1795733402
+    },
+    {
+      "coins": [],
+      "desc": "Netflix’s The Altruist has been slammed for its ‘very racist’ portrayal of CZ. BitMart reportedly has a $319.5 million shortfall and just $1.9M in liquid assets.",
+      "first_seen": 1795735925,
+      "key": "veryracistnetflixsbfseriesbitmarts319mshortfallasiaexpress",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/magazine/very-racist-netflix-sbf-series-bitmarts-319m-shortfall-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "‘Very racist’ Netflix SBF series, BitMart’s $319M shortfall: Asia Express",
+      "title_zh": "“非常种族主义”的 Netflix SBF 系列，BitMart 缺口 3.19 亿美元：Asia Express",
+      "ts": 1795732786
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -405,75 +465,13 @@
       "title": "Abbott Laboratories (ABT) Offers Diversified Healthcare Exposure and Long-Term Growth Potential",
       "title_zh": "雅培 (ABT) 提供多元化的医疗保健业务和长期增长潜力",
       "ts": 1795725363
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795729049,
-      "key": "brazilstockshigheratcloseoftradebovespaup430",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-higher-at-close-of-trade-bovespa-up-430-5052714",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Brazil stocks higher at close of trade; Bovespa up 4.30%",
-      "title_zh": "巴西股市收盘走高；圣保罗证券交易所上涨4.30%",
-      "ts": 1795725004
-    },
-    {
-      "coins": [],
-      "desc": "Japan’s financial regulator is exploring measures to curb illicit finance risks, including potential restrictions on access to DeFi services.",
-      "first_seen": 1795725909,
-      "key": "japanweighstighteroversightofdefiselfcustodialwallets",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/japan-tighter-oversight-defi-self-custodial-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Japan weighs tighter oversight of DeFi, self-custodial wallets",
-      "title_zh": "日本考虑加强对 DeFi、自我托管钱包的监管",
-      "ts": 1795723518
-    },
-    {
-      "coins": [],
-      "desc": "HP's guidance beat consensus by just a few cents, yet buyers piled in while several analysts raised targets and kept their sell ratings. Shrinking cash flow, a thin margin, and a new CEO raise the question of what this price already assumes",
-      "first_seen": 1795725909,
-      "key": "hpstockjusthaditsbestdaysincemayandblewpastwallstreetspricetarget",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/2026/11/26/hp-stock-just-had-its-best-day-since-may-and-blew-past-wall-streets-price-target/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "HP Stock Just Had Its Best Day Since May and Blew Past Wall Street’s Price Target",
-      "title_zh": "惠普股票刚刚经历了五月份以来最好的一天，并超出了华尔街的价格目标",
-      "ts": 1795723337
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin never takes a holiday, and Thanksgiving has marked some of its best and worst entry points. This year's slump looks painfully familiar, so which past turkey-day dip does it echo, and did buyers who followed it ever recover?",
-      "first_seen": 1795725909,
-      "key": "bitcoinspriceeverythanksgivingsince2013",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/26/bitcoins-price-every-thanksgiving-since-2013/?.tsrc=rss",
-      "reason": "利多词: 买入、回升；利空词: 下挫（多空相抵）",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Bitcoin’s Price Every Thanksgiving Since 2013",
-      "title_zh": "自 2013 年以来每个感恩节比特币的价格",
-      "ts": 1795722296
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 15",
+      "CNBC 头条": "ok 16",
       "CNBC 经济": "ok 24",
       "CNBC 金融": "ok 13",
       "CoinDesk": "ok 25",
@@ -483,10 +481,10 @@
       "Investing.com 股市": "ok 7",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-26T23:33:54+01:00",
-  "updated_unix": 1795732434
+  "updated": "2026-11-27T00:32:07+01:00",
+  "updated_unix": 1795735927
 }
