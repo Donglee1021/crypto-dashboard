@@ -2,19 +2,162 @@
   "errors": [],
   "items": [
     {
-      "coins": [],
-      "desc": "Asia-Pacific markets were set to open higher Thursday, after Wall Street staged a dramatic recovery from session lows overnight.",
-      "first_seen": 1795651349,
-      "key": "asiapacificmarketssetforsubduedopenasinvestorsweighfreshustariffs",
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Ryan Watkins, Co-Founder of Syncracy Capital, responds to criticism of Pearl’s $55 million raise and concentrated mining, saying insiders hold about 5% of supply and no launch since Bitcoin can be truly fair. From Unchained, the no-hype res",
+      "first_seen": 1795655835,
+      "key": "onebigdifferencebetweenbitcoinandpearltheresnotruefairlaunchanymore",
       "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-      "reason": "利多词: 回升；利空词: 关税（多空相抵）",
+      "link": "https://unchainedcrypto.com/one-big-difference-between-bitcoin-and-pearl-theres-no-true-fair-launch-anymore/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "One Big Difference Between Bitcoin and Pearl: There’s ‘No True Fair Launch Anymore’",
+      "title_zh": "比特币和珍珠之间的一大区别：“不再有真正的公平发布”",
+      "ts": 1795654845
+    },
+    {
+      "coins": [],
+      "desc": "The market went on a wild ride before Thanksgiving, but the Dow and Anthropic reversed higher while the Nasdaq and Nvidia came well off lows.",
+      "first_seen": 1795655835,
+      "key": "dowjonesfuturesrisemarketgoesonwildrideasnasdaqslasheslosses",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise%3B.html?.tsrc=rss",
+      "reason": "利多词: 上升；利空词: 亏损（多空相抵）",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Dow Jones Futures Rise; Market Goes On Wild Ride As Nasdaq Slashes Losses",
+      "title_zh": "道琼斯期货上涨；纳斯达克大幅下跌，市场狂飙",
+      "ts": 1795654731
+    },
+    {
+      "coins": [],
+      "desc": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
+      "first_seen": 1795655835,
+      "key": "southkorearaisesratestohighestintwoyearsasinflationremainsabovetarget",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
+      "reason": "利空词: 禁令",
       "score": -1,
       "source": "CNBC 头条",
       "tag": "中性",
-      "title": "Asia-Pacific markets set for subdued open as investors weigh fresh U.S. tariffs",
-      "title_zh": "由于投资者权衡美国新关税，亚太市场开盘低迷",
-      "ts": 1795651267
+      "title": "South Korea raises rates to highest in two years, as inflation remains above target",
+      "title_zh": "韩国加息至两年来最高水平，通胀仍高于目标",
+      "ts": 1795654718
+    },
+    {
+      "coins": [],
+      "desc": "Anthropic stock ends Wednesday slightly higher. Is that a signal chip stocks could could back to life soon?",
+      "first_seen": 1795655835,
+      "key": "reviewpreviewathanksgivingreprieve",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/2ce69a58-c424-3671-adc7-fd0cf5ff19a5/review-%26-preview%3A-a.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Review & Preview: A Thanksgiving Reprieve",
+      "title_zh": "回顾与预览：感恩节缓刑",
+      "ts": 1795654500
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The last 12 months delivered an unexpected result for investors.",
+      "first_seen": 1795655835,
+      "key": "ifyouinvested1000ingoldbitcoinorsilverlastthanksgivinghereswhatyoudhavetoday",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/if-you-invested-1000-in-gold-bitcoin-or-silver-last-thanksgiving-heres-what-youd-have-today?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "If you invested $1,000 in gold, Bitcoin or silver last Thanksgiving, here’s what you’d have today",
+      "title_zh": "如果您在去年感恩节投资了 1,000 美元的黄金、比特币或白银，那么您今天就会拥有这些",
+      "ts": 1795652100
+    },
+    {
+      "coins": [],
+      "desc": "Investing.com-- U.S. stock index futures steadied in aftermarket trade on Wednesday with technology stocks remaining skittish after a slowing artificial intelligence trade and strong inflation drove wild swings on Wall Street.",
+      "first_seen": 1795655835,
+      "key": "usstockfuturessteadyafterwhipsawsessiononwallst",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-steady-whipsaw-001343016.html?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "U.S. stock futures steady after whipsaw session on Wall St",
+      "title_zh": "华尔街震荡后美国股指期货持稳",
+      "ts": 1795652023
+    },
+    {
+      "coins": [],
+      "desc": "Automakers in India are poised to sell over 30 million vehicles in the financial year ending March 2027.",
+      "first_seen": 1795655835,
+      "key": "insideindianewsletterroaringeconomyforeigninvestorsreturnandnowrecordautosales",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/26/india-auto-slaes-economy-suzuki-hyundai-toyota.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
+      "title_zh": "印度内部通讯：蓬勃发展的经济、外国投资者的回归以及创纪录的汽车销量",
+      "ts": 1795651936
+    },
+    {
+      "coins": [],
+      "desc": "The Nasdaq 100 briefly touched bear market territory on Wednesday before paring some losses.",
+      "first_seen": 1795655835,
+      "key": "sp500nasdaqendlowerbutdowreboundsastradersrotateoutofainvdaspcxpanwinfocus",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-but-dow-rebounds-as-traders-rotate-out-of-ai-nvda-spcx-panw-in-focus/cNbx21AR9mC?.tsrc=rss",
+      "reason": "利多词: 反弹；利空词: 亏损（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "S&P 500, Nasdaq End Lower But Dow Rebounds As Traders Rotate Out Of AI — NVDA, SPCX, PANW In Focus",
+      "title_zh": "标准普尔 500 指数、纳斯达克指数收低，但道琼斯指数反弹，因为交易员不再关注人工智能——NVDA、SPCX、PANW 成为焦点",
+      "ts": 1795651790
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Here’s what the House bill would do with the government’s Bitcoin.",
+      "first_seen": 1795655835,
+      "key": "newusbilltolockbitcoinfor20years",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/policy/new-u-s-bill-to-lock-bitcoin-for-20-years?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "New U.S. Bill to lock Bitcoin for 20 years",
+      "title_zh": "美国新法案将比特币锁定20年",
+      "ts": 1795651459
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Chainalysis data links euro trading in Bitcoin and tokenized gold to eurozone yields, but the signal has clear limits.",
+      "first_seen": 1795655835,
+      "key": "bitcoinandtokenizedgoldtradingineurosriseswheneurozoneyieldsoutpaceus",
+      "kind": "macro",
+      "link": "https://beincrypto.com/bitcoin-tokenized-gold-euro-bond-yields/?.tsrc=rss",
+      "reason": "利多词: 上升",
+      "score": 4,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Bitcoin and Tokenized Gold Trading in Euros Rises When Eurozone Yields Outpace US",
+      "title_zh": "当欧元区收益率超过美国时，以欧元计价的比特币和代币化黄金交易就会增加",
+      "ts": 1795651320
     },
     {
       "coins": [
@@ -32,21 +175,6 @@
       "title": "Bitcoin miners bet big on AI. Now, one is down 70%",
       "title_zh": "比特币矿工在人工智能上下了很大的赌注。现在，下降了70%",
       "ts": 1795650300
-    },
-    {
-      "coins": [],
-      "desc": "Is XRP a good investment for building wealth by 2035? XRP (CRYPTO:XRP), the digital currency linked to Ripple, presents some potential for growth, but its performance over the last five years raises questions about its stability as a long-t",
-      "first_seen": 1795651349,
-      "key": "isxrpagoodinvestmentforbuildingwealthby2035",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/25/is-xrp-a-good-investment-for-building-wealth-by-2035/?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Is XRP a Good Investment for Building Wealth by 2035?",
-      "title_zh": "XRP 是到 2035 年创造财富的良好投资吗？",
-      "ts": 1795650170
     },
     {
       "coins": [
@@ -81,36 +209,6 @@
       "title": "Bitcoin recovers after hit from ETF outflows, AI rout, and hot U.S. economic data",
       "title_zh": "比特币在受到 ETF 流出、人工智能溃败和美国热门经济数据打击后复苏",
       "ts": 1795647763
-    },
-    {
-      "coins": [],
-      "desc": "A drug maker and a food maker, both of which have attractive yields and strong businesses backing their dividends.",
-      "first_seen": 1795648240,
-      "key": "2bargainstockstobuywith1000innovember",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/25/2-bargain-stocks-to-buy-with-usd1-000-in-november/?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "2 Bargain Stocks to Buy With $1,000 in November",
-      "title_zh": "11 月以 1,000 美元买入的 2 只便宜股票",
-      "ts": 1795646821
-    },
-    {
-      "coins": [],
-      "desc": "The healthcare sector is emerging as an attractive investment opportunity heading into 2027, supported by rising demand for medical services, pharmaceutical innovation, and advances in biotechnology. Growing investment in treatments for chr",
-      "first_seen": 1795648240,
-      "key": "5besthealthcarestockstobuyfor2027",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/healthcare/articles/5-best-healthcare-stocks-buy-224526274.html?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "5 Best Healthcare Stocks To Buy for 2027",
-      "title_zh": "2027 年最值得买入的 5 只医疗保健股票",
-      "ts": 1795646726
     },
     {
       "coins": [],
@@ -176,39 +274,6 @@
     },
     {
       "coins": [],
-      "desc": "Nvidia reaches a $290 million settlement in a 2018 investor lawsuit.",
-      "first_seen": 1795648240,
-      "key": "nvidiasettles8yearoldinvestorsuitfor290m",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/artificial-intelligence/nvidia-settles-8-year-old-investor-suit-for-290m?.tsrc=rss",
-      "reason": "利空词: 诉讼",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Nvidia settles 8-year-old investor suit for $290M",
-      "title_zh": "英伟达以 2.9 亿美元和解长达 8 年的投资者诉讼",
-      "ts": 1795645800
-    },
-    {
-      "coins": [
-        "BTC",
-        "ETH"
-      ],
-      "desc": "Cryptocurrencies edged higher as short covering provided temporary relief, but major ETF withdrawals raise questions about whether the rebound can last.",
-      "first_seen": 1795648240,
-      "key": "cryptomarkettodaynov25bitcoinethereumandsolanaasshortliquidationsfuelfragilerebo",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/25/crypto-market-today-nov-25-bitcoin-ethereum-and-solana-as-short-liquidations-fuel-fragile-rebound/?.tsrc=rss",
-      "reason": "利多词: 反弹；利空词: 爆仓（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Crypto Market Today, Nov. 25: Bitcoin, Ethereum, and Solana as Short Liquidations Fuel Fragile Rebound",
-      "title_zh": "今日加密货币市场，11 月 25 日：比特币、以太坊和 Solana 作为空头清算推动脆弱反弹",
-      "ts": 1795645579
-    },
-    {
-      "coins": [],
       "desc": "",
       "first_seen": 1795648240,
       "key": "moodyssaysnvidiashuangreinstatementeasesuncertaintyratingsunchanged",
@@ -239,36 +304,6 @@
     },
     {
       "coins": [],
-      "desc": "Markets recovered from steep intraday losses as investors returned to select sectors, although persistent inflation and continued weakness in technology stocks left the broader market under pressure.",
-      "first_seen": 1795648240,
-      "key": "stockmarkettodaynov25dowerases1100pointlossaswallstreetstagesdramaticlatedaycome",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/?.tsrc=rss",
-      "reason": "利多词: 回升；利空词: 疲弱、亏损（多空相抵）",
-      "score": -1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
-      "title_zh": "今日股市，11 月 25 日：随着华尔街尾盘戏剧性卷土重来，道指收复 1,100 点跌幅",
-      "ts": 1795645065
-    },
-    {
-      "coins": [],
-      "desc": "Seven stocks from a diverse group of industries make our screen of companies increasing buyback programs.",
-      "first_seen": 1795651349,
-      "key": "lookingforbargainsthesesp500companiesareaggressivelybuyingbackstock",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/4e6a065b-848e-36f7-ab73-17a73dde122f/looking-for-bargains%3F-these.html?.tsrc=rss",
-      "reason": "利多词: 买入",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Looking for Bargains? These S&P 500 Companies Are Aggressively Buying Back Stock.",
-      "title_zh": "寻找便宜货？这些标准普尔 500 强公司正在积极回购股票。",
-      "ts": 1795644960
-    },
-    {
-      "coins": [],
       "desc": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
       "first_seen": 1795648240,
       "key": "oraclecoreweaveandothertechstocksbouncebackafterselloff",
@@ -281,23 +316,6 @@
       "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
       "title_zh": "甲骨文、CoreWeave 和其他科技股在抛售后反弹",
       "ts": 1795644960
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin has shed more than half its value, ETF money is walking out the door, and Wall Street's biggest names set their allocation limits before the crash. Does a rebalance now make you smart or just early?",
-      "first_seen": 1795648240,
-      "key": "howmuchofyourportfolioshouldbeinbitcoinaftera50drop",
-      "kind": "macro",
-      "link": "https://247wallst.com/investing/cryptocurrency/2026/11/25/how-much-of-your-portfolio-should-be-in-bitcoin-after-a-50-drop/?.tsrc=rss",
-      "reason": "利空词: 崩跌、下跌",
-      "score": -3,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "How Much of Your Portfolio Should Be in Bitcoin After a 50% Drop?",
-      "title_zh": "下跌 50% 后，您的投资组合中应该有多少比特币？",
-      "ts": 1795644888
     },
     {
       "coins": [],
@@ -316,36 +334,6 @@
     },
     {
       "coins": [],
-      "desc": "Trading ran well above normal as Nvidia fell on hot inflation data and tariff proposals, today, Nov. 25, 2026.",
-      "first_seen": 1795648240,
-      "key": "stockmarkettodaynov25nvidiaslides39asthemarketconsidershotpceinflationdataandnew",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/?.tsrc=rss",
-      "reason": "利空词: 下滑、关税、通胀过热",
-      "score": -5,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9% as the Market Considers Hot PCE Inflation Data and New Tariff Proposals",
-      "title_zh": "今日股市，11 月 25 日：市场考虑热门 PCE 通胀数据和新关税提案，英伟达股价下跌 3.9%",
-      "ts": 1795644405
-    },
-    {
-      "coins": [],
-      "desc": "SpaceX has secured a landmark regulatory approval that could expand its business beyond rockets and satellite internet.",
-      "first_seen": 1795648240,
-      "key": "stockmarkettodaynov25spacexgetshistoricfccapprovalfor1millionsatellitesisthisits",
-      "kind": "macro",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-spacex-gets-historic-fcc-approval-for-1-million-satellites-is-this-its-next-growth-engine/?.tsrc=rss",
-      "reason": "利多词: 获批",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stock Market Today, Nov. 25: SpaceX Gets Historic FCC Approval for 1 Million Satellites. Is This Its Next Growth Engine?",
-      "title_zh": "今日股市，11 月 25 日：SpaceX 获得 FCC 历史性批准，可发射 100 万颗卫星。这是它的下一个增长引擎吗？",
-      "ts": 1795644352
-    },
-    {
-      "coins": [],
       "desc": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
       "first_seen": 1795644872,
       "key": "liesmanwhygreenspancouldbetonproductivityandwarshneedstohike",
@@ -353,7 +341,7 @@
       "link": "https://www.cnbc.com/2026/11/25/kevin-warsh-greenspan-fed-rates-ai-inflation.html",
       "reason": "利空词: 加息",
       "score": -2,
-      "source": "CNBC 头条",
+      "source": "CNBC 经济",
       "tag": "利空",
       "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike",
       "title_zh": "里斯曼：为什么格林斯潘可以押注于生产率——而沃什需要加息",
@@ -467,13 +455,30 @@
       "title": "10-year Treasury yield slides despite sticky inflation data as investors buy bonds for protection",
       "title_zh": "尽管通胀数据粘性，但由于投资者购买债券寻求保护，十年期国债收益率仍下滑",
       "ts": 1795640525
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+      "first_seen": 1795655835,
+      "key": "vancesayshewasassuredjensenhuangwasnotunderdojinvestigation",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+      "reason": "利空词: 调查",
+      "score": -2,
+      "source": "CNBC 头条",
+      "tag": "利空",
+      "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+      "title_zh": "万斯表示，他确信黄仁勋没有受到司法部调查",
+      "ts": 1795640408
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 17",
+      "CNBC 头条": "ok 19",
       "CNBC 经济": "ok 25",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -483,10 +488,10 @@
       "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 12",
+      "Yahoo Finance": "ok 10",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-26T01:02:34+01:00",
-  "updated_unix": 1795651354
+  "updated": "2026-11-26T02:17:21+01:00",
+  "updated_unix": 1795655841
 }
