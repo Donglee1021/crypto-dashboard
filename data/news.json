@@ -2,6 +2,81 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "",
+      "first_seen": 1795759029,
+      "key": "australiastockshigheratcloseoftradespasx200up080",
+      "kind": "macro",
+      "link": "https://www.investing.com/news/stock-market-news/australia-stocks-higher-at-close-of-trade-spasx-200-up-080-5052929",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Investing.com 股市",
+      "tag": "中性",
+      "title": "Australia stocks higher at close of trade; S&P/ASX 200 up 0.80%",
+      "title_zh": "Australia stocks higher at close of trade; S&P/ASX 200 up 0.80%",
+      "ts": 1795757703
+    },
+    {
+      "coins": [],
+      "desc": "The partnership comes weeks after a third-party data breach exposed hundreds of thousands of customer email addresses belonging to two Japanese crypto exchanges.",
+      "first_seen": 1795759029,
+      "key": "japanscryptosecuritygrouptapssealtospeeduphackresponse",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/japans-crypto-security-group-taps-seal-to-speed-up-hack-response?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利空词: 被黑",
+      "score": -2,
+      "source": "Cointelegraph",
+      "tag": "利空",
+      "title": "Japan’s crypto security group taps SEAL to speed up hack response",
+      "title_zh": "Japan’s crypto security group taps SEAL to speed up hack response",
+      "ts": 1795756956
+    },
+    {
+      "coins": [],
+      "desc": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
+      "first_seen": 1795759029,
+      "key": "chinasfactoriesaregrowingprofitsagainbuttheaiboomispickingthewinners",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "title_zh": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "ts": 1795756555
+    },
+    {
+      "coins": [],
+      "desc": "The vaults that would hold lenders' money are on track to switch on Dec. 9. The loan system that draws from them still needs one more validator to start its own two-week clock.",
+      "first_seen": 1795759029,
+      "key": "rippleslendingplanmovesclosertotappingxrpledgers800millioninstablecoins",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/27/ripple-s-lending-plan-moves-closer-to-tapping-xrp-ledger-s-usd950-million-in-stablecoins",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+      "title_zh": "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins",
+      "ts": 1795755992
+    },
+    {
+      "coins": [],
+      "desc": "Here’s how the day after Thanksgiving will affect trading on Wall Street",
+      "first_seen": 1795759029,
+      "key": "isthestockmarketopenonblackfriday",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "Is the stock market open on Black Friday?",
+      "title_zh": "Is the stock market open on Black Friday?",
+      "ts": 1795755660
+    },
+    {
       "coins": [
         "ETH"
       ],
@@ -52,21 +127,6 @@
     },
     {
       "coins": [],
-      "desc": "",
-      "first_seen": 1795755409,
-      "key": "whyistheaustraliandollarclimbingtoday",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-the-australian-dollar-climbing-today-93CH-5052853",
-      "reason": "利多词: 攀升",
-      "score": 2,
-      "source": "Investing.com 股市",
-      "tag": "利多",
-      "title": "Why is the Australian Dollar climbing today?",
-      "title_zh": "澳元今天为何上涨？",
-      "ts": 1795753475
-    },
-    {
-      "coins": [],
       "desc": "The decision comes after the group met in May in Uzbekistan and identified cross-border digital payments as a new area of cooperation.",
       "first_seen": 1795755409,
       "key": "chinajapansouthkoreaandaseantoformworkinggroupondigitalpaymentscryptoregulation",
@@ -113,21 +173,6 @@
       "ts": 1795753038
     },
     {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795751484,
-      "key": "singaporeyettoconfirmifnvidiahashaltedadvancedchipshipmentsdeputypm",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/singapore-yet-to-confirm-if-nvidia-has-halted-advanced-chip-shipments-deputy-pm-5052834",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Investing.com 股市",
-      "tag": "中性",
-      "title": "Singapore yet to confirm if Nvidia has halted advanced chip shipments- deputy PM",
-      "title_zh": "新加坡尚未确认英伟达是否已停止先进芯片出货——副总理",
-      "ts": 1795751059
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -158,21 +203,6 @@
       "title": "Stocks Are Plunging Right Now. Here's What History Says Investors Should Do.",
       "title_zh": "股票现在正在暴跌。这是历史告诉投资者应该做的事情。",
       "ts": 1795746000
-    },
-    {
-      "coins": [],
-      "desc": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while household consumption has been lagging.",
-      "first_seen": 1795744707,
-      "key": "chinaindustrialprofitsgrowthsurgestoa5monthhighof201inoctober",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
-      "reason": "利多词: 大涨",
-      "score": 2,
-      "source": "CNBC 头条",
-      "tag": "利多",
-      "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
-      "title_zh": "10月份中国工业利润增速飙升至5个月新高20.1%",
-      "ts": 1795745049
     },
     {
       "coins": [],
@@ -278,23 +308,6 @@
       "title": "‘Very racist’ Netflix SBF series, BitMart’s $319M shortfall: Asia Express",
       "title_zh": "“非常种族主义”的 Netflix SBF 系列，BitMart 缺口 3.19 亿美元：Asia Express",
       "ts": 1795732786
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "first_seen": 1795732429,
-      "key": "hereswhathappenedincryptotoday",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Here’s what happened in crypto today",
-      "title_zh": "这是今天加密货币领域发生的事情",
-      "ts": 1795731126
     },
     {
       "coins": [
@@ -453,21 +466,6 @@
       "title": "Jim Cramer sends strong words to stock market investors",
       "title_zh": "吉姆·克莱默向股市投资者发出强硬言论",
       "ts": 1795727220
-    },
-    {
-      "coins": [],
-      "desc": "Self-custody means holding your own crypto instead of trusting an exchange. Here's how it works, the wallets involved and the risks.",
-      "first_seen": 1795729049,
-      "key": "whatisselfcustodyhowtoholdyourowncryptokeys",
-      "kind": "crypto",
-      "link": "https://decrypt.co/resources/what-is-self-custody-how-to-hold-your-own-crypto-keys",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "What Is Self-Custody? How to Hold Your Own Crypto Keys",
-      "title_zh": "什么是自我保管？如何持有自己的加密密钥",
-      "ts": 1795726863
     }
   ],
   "meta": {
@@ -481,13 +479,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 35",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
+      "Investing.com 股市": "ok 1",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 18",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-27T05:56:53+01:00",
-  "updated_unix": 1795755413
+  "updated": "2026-11-27T06:57:13+01:00",
+  "updated_unix": 1795759033
 }
