@@ -175,7 +175,7 @@
     }
   ],
   "influence": {
-    "bias": 0.136,
+    "bias": 0.138,
     "corr": 0.206,
     "corr_label": "弱",
     "equity_chg": 2.55,
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": 0.36,
-      "chg_1d": 0.36,
-      "chg_5d": 0.14,
-      "chg_intraday": 0.21,
-      "last": 104.045,
+      "chg": 0.33,
+      "chg_1d": 0.33,
+      "chg_5d": 0.11,
+      "chg_intraday": 0.18,
+      "last": 104.014,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1795814749,
+      "time_unix": 1795816799,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -310,6 +310,6 @@
     "code": "after",
     "label": "盘后"
   },
-  "updated": "2026-11-27T22:35:53+01:00",
-  "updated_unix": 1795815353
+  "updated": "2026-11-27T23:33:51+01:00",
+  "updated_unix": 1795818831
 }
