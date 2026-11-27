@@ -180,8 +180,8 @@
     "corr_label": "弱",
     "equity_chg": 2.55,
     "equity_name": "纳指期货",
-    "line": "纳指期货涨2.5%、VIX下降、美元走强，相关性低，对加密偏多",
-    "session": "open",
+    "line": "美股休市，纳指期货涨2.5%、VIX下降、美元走强，相关性低，对加密偏多",
+    "session": "after",
     "stale": false
   },
   "markets": {
@@ -282,15 +282,15 @@
       "unit": "%"
     },
     "美元指数 DXY": {
-      "chg": 0.35,
-      "chg_1d": 0.35,
-      "chg_5d": 0.13,
-      "chg_intraday": 0.2,
-      "last": 104.033,
+      "chg": 0.36,
+      "chg_1d": 0.36,
+      "chg_5d": 0.14,
+      "chg_intraday": 0.21,
+      "last": 104.045,
       "role": "dxy",
       "stale": false,
       "symbol": "DX-Y.NYB",
-      "time_unix": 1795811320,
+      "time_unix": 1795814749,
       "unit": ""
     },
     "贝莱德 IBIT": {
@@ -307,9 +307,9 @@
     }
   },
   "session": {
-    "code": "open",
-    "label": "交易中"
+    "code": "after",
+    "label": "盘后"
   },
-  "updated": "2026-11-27T21:38:42+01:00",
-  "updated_unix": 1795811922
+  "updated": "2026-11-27T22:35:53+01:00",
+  "updated_unix": 1795815353
 }
