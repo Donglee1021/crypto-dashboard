@@ -1,6 +1,42 @@
 {
-  "errors": [],
+  "errors": [
+    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
+  ],
   "items": [
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "As prices tanked, blockchain trackers flagged a large outflow of ether from a wallet linked to World Liberty Financial.",
+      "first_seen": 1795858659,
+      "key": "trumplinkedcryptotokenwlfiplunges50torecordlows",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/28/trump-linked-crypto-token-wlfi-plunges-over-50",
+      "reason": "利空词: 暴跌、资金流出",
+      "score": -3,
+      "source": "CoinDesk",
+      "tag": "利空",
+      "title": "Trump-linked crypto token WLFI plunges 50% to record lows",
+      "title_zh": "与特朗普相关的加密代币 WLFI 暴跌 50% 创历史新低",
+      "ts": 1795858371
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Strategy Inc continued to buy Bitcoin despite carrying about US$11.8b in unrealized losses, while redirecting most recent equity capital toward repurchasing its Stretch preferred shares and operating against the backdrop of removal from MSC",
+      "first_seen": 1795858659,
+      "key": "learnwhythebullcaseforstrategymstrcouldchangefollowingbitcoinbuying",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/learn-why-bull-case-strategy-090826309.html?.tsrc=rss",
+      "reason": "利多词: 买入；利空词: 亏损（多空相抵）",
+      "score": 1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Learn Why The Bull Case For Strategy (MSTR) Could Change Following Bitcoin Buying ادامه",
+      "title_zh": "了解为什么牛市策略 (MSTR) 可能会随着比特币购买而改变",
+      "ts": 1795856906
+    },
     {
       "coins": [],
       "desc": "When the Oracle of Omaha speaks, it can pay to listen.",
@@ -13,7 +49,7 @@
       "source": "Yahoo Finance",
       "tag": "利空",
       "title": "If A Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move You Can Make",
-      "title_zh": "If A Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move You Can Make",
+      "title_zh": "沃伦·巴菲特表示，如果股市崩盘即将来临，这是你可以采取的最明智的举措",
       "ts": 1795854000
     },
     {
@@ -30,7 +66,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "There’s ‘A Tourist Element’ To Bitcoin, But True Believers Are Dug In At $60,000, Says Eric Balchunas",
-      "title_zh": "There’s ‘A Tourist Element’ To Bitcoin, But True Believers Are Dug In At $60,000, Says Eric Balchunas",
+      "title_zh": "埃里克·巴尔丘纳斯 (Eric Balchunas) 表示，比特币具有“旅游元素”，但真正的信徒在 6 万美元的价格下就深陷其中",
       "ts": 1795852732
     },
     {
@@ -45,7 +81,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "After an S&P 500 Correction, Your Money Could Double in 4 Years. Stock Market History Shows Reasons for Hope.",
-      "title_zh": "After an S&P 500 Correction, Your Money Could Double in 4 Years. Stock Market History Shows Reasons for Hope.",
+      "title_zh": "标准普尔 500 指数调整后，您的资金可能在 4 年内翻倍。股市历史显示了希望的理由。",
       "ts": 1795852082
     },
     {
@@ -60,7 +96,7 @@
       "source": "Cointelegraph",
       "tag": "利多",
       "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
-      "title_zh": "Binance receives in-principle approval, plans Asia hub in Bhutan",
+      "title_zh": "币安获得原则批准，计划在不丹设立亚洲中心",
       "ts": 1795851780
     },
     {
@@ -77,7 +113,7 @@
       "source": "Yahoo Finance",
       "tag": "中性",
       "title": "Michaël van de Poppe Says Bitcoin Could Hit $100,000 In First Quarter Of 2027",
-      "title_zh": "Michaël van de Poppe Says Bitcoin Could Hit $100,000 In First Quarter Of 2027",
+      "title_zh": "Michaël van de Poppe 表示比特币 2027 年第一季度可能达到 10 万美元",
       "ts": 1795849411
     },
     {
@@ -289,21 +325,6 @@
       "ts": 1795824000
     },
     {
-      "coins": [],
-      "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
-      "first_seen": 1795825255,
-      "key": "ihatethatjensenhuangisbackatnvidiabutilovewhatitsdoneformy401kamiahypocrite",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "MarketWatch",
-      "tag": "中性",
-      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-      "title_zh": "我讨厌 Jensen Huang 回到 Nvidia，但我喜欢它为我的 401(k) 所做的一切。我是伪君子吗？",
-      "ts": 1795822200
-    },
-    {
       "coins": [
         "BTC"
       ],
@@ -444,21 +465,6 @@
     },
     {
       "coins": [],
-      "desc": "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
-      "first_seen": 1795798277,
-      "key": "thesestockssoaredthemostduringawildweekhighlightedbyhuangsreturntonvidia",
-      "kind": "macro",
-      "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
-      "reason": "利多词: 飙升",
-      "score": 2,
-      "source": "MarketWatch",
-      "tag": "利多",
-      "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
-      "title_zh": "这些股票在黄仁勋重返英伟达的疯狂一周中涨幅最大",
-      "ts": 1795810560
-    },
-    {
-      "coins": [],
       "desc": "In a wild, powerful market week, Tesla stock leads new buys. Nvidia's Jensen Huang is heading to Capitol Hill.",
       "first_seen": 1795808421,
       "key": "dowjonesfuturesstockmarketmakesbullishmoveteslaleads7newbuysnvidiasjensenhuanghe",
@@ -485,12 +491,12 @@
       "Decrypt": "ok 35",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "ok 3",
+      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 19",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T09:43:42+01:00",
-  "updated_unix": 1795855422
+  "updated": "2026-11-28T10:37:43+01:00",
+  "updated_unix": 1795858663
 }
