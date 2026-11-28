@@ -5,6 +5,23 @@
       "coins": [
         "BTC"
       ],
+      "desc": "Armstrong said the low of this cycle is still approximately four times the low of the last cycle.",
+      "first_seen": 1795844243,
+      "key": "coinbaseceobrianarmstrongscalesbackbitcoinpredictionstillseesnearly7xupsideby203",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/coinbase-ceo-brian-armstrong-scales-back-bitcoin-prediction-still-sees-nearly-7x-upside-by-2030/cNRRYbqR9Vo?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Coinbase CEO Brian Armstrong Scales Back Bitcoin Prediction, Still Sees Nearly 7x Upside By 2030",
+      "title_zh": "Coinbase 首席执行官布莱恩·阿姆斯特朗 (Brian Armstrong) 下调了比特币预测，但仍认为到 2030 年比特币价格将上涨近 7 倍",
+      "ts": 1795843127
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
       "desc": "In today's newsletter, CryptoQuant says bitcoin price recovery needs USDT supply growth; K33 assesses AI's growing threat to Bitcoin security; and more.",
       "first_seen": 1795840731,
       "key": "bitcoinrecoveryneedsusdtsupplygrowthcryptoquantk33weighsaithreattobitcoinandmore",
@@ -451,23 +468,6 @@
       "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
       "title_zh": "今日股市：指数创下 18 年来最佳感恩节一周纪录",
       "ts": 1795806643
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin’s largest options expiry this month comes as traders increasingly seek protection against further losses, with some hedging against a potential drop to $40,000 before the end of the year.",
-      "first_seen": 1795830534,
-      "key": "7billioninbitcoinoptionsjustexpiredhereswhatitmeans",
-      "kind": "crypto",
-      "link": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
-      "reason": "利空词: 下跌、亏损",
-      "score": -2,
-      "source": "Decrypt",
-      "tag": "利空",
-      "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
-      "title_zh": "70 亿美元的比特币期权刚刚到期：这意味着什么",
-      "ts": 1795803363
     }
   ],
   "meta": {
@@ -484,10 +484,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T05:38:55+01:00",
-  "updated_unix": 1795840735
+  "updated": "2026-11-28T06:37:23+01:00",
+  "updated_unix": 1795844243
 }
