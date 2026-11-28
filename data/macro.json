@@ -2,12 +2,12 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.181,
-        "d90": -0.07
+        "d30": -0.179,
+        "d90": -0.069
       },
       "SPX": {
-        "d30": -0.18,
-        "d90": -0.058
+        "d30": -0.179,
+        "d90": -0.057
       }
     },
     "ETH": {
@@ -176,7 +176,7 @@
   ],
   "influence": {
     "bias": 0.138,
-    "corr": 0.205,
+    "corr": 0.204,
     "corr_label": "弱",
     "equity_chg": 2.55,
     "equity_name": "纳指期货",
@@ -230,7 +230,7 @@
       "role": "equity",
       "stale": false,
       "symbol": "^GSPC",
-      "time_unix": 1795804719,
+      "time_unix": 1795813200,
       "unit": ""
     },
     "标普期货 ES": {
@@ -310,6 +310,6 @@
     "code": "closed",
     "label": "休市"
   },
-  "updated": "2026-11-28T04:36:08+01:00",
-  "updated_unix": 1795836968
+  "updated": "2026-11-28T05:38:56+01:00",
+  "updated_unix": 1795840736
 }
