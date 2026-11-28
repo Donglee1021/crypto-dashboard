@@ -3,6 +3,53 @@
   "items": [
     {
       "coins": [],
+      "desc": "When the Oracle of Omaha speaks, it can pay to listen.",
+      "first_seen": 1795855418,
+      "key": "ifastockmarketcrashiscomingwarrenbuffettsaysthisisthesmartestmoveyoucanmake",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/28/if-a-stock-market-crash-is-coming-warren-buffett-s/?.tsrc=rss",
+      "reason": "利空词: 崩跌",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "If A Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move You Can Make",
+      "title_zh": "If A Stock Market Crash Is Coming, Warren Buffett Says This Is the Smartest Move You Can Make",
+      "ts": 1795854000
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "ETFs have made the crypto industry cleaner and Bitcoin an asset class, Balchunas said.",
+      "first_seen": 1795855418,
+      "key": "theresatouristelementtobitcoinbuttruebelieversareduginat60000saysericbalchunas",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/there-s-a-tourist-element-to-bitcoin-but-true-believers-are-dug-in-at-60-000-says-eric-balchunas/cNRRtBxR9Vv?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "There’s ‘A Tourist Element’ To Bitcoin, But True Believers Are Dug In At $60,000, Says Eric Balchunas",
+      "title_zh": "There’s ‘A Tourist Element’ To Bitcoin, But True Believers Are Dug In At $60,000, Says Eric Balchunas",
+      "ts": 1795852732
+    },
+    {
+      "coins": [],
+      "desc": "Analysis of S&P 500 historical returns shows: the stock market often delivers above-average returns right after its biggest declines.",
+      "first_seen": 1795855418,
+      "key": "afteransp500correctionyourmoneycoulddoublein4yearsstockmarkethistoryshowsreasons",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/28/after-an-s-and-p-500-correction-your-money-could-double-in-4-years-stock-market-history-shows-reasons-for-hope/?.tsrc=rss",
+      "reason": "利空词: 下降",
+      "score": -1,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "After an S&P 500 Correction, Your Money Could Double in 4 Years. Stock Market History Shows Reasons for Hope.",
+      "title_zh": "After an S&P 500 Correction, Your Money Could Double in 4 Years. Stock Market History Shows Reasons for Hope.",
+      "ts": 1795852082
+    },
+    {
+      "coins": [],
       "desc": "The agreement is a milestone in Binance’s effort to expand its presence in Bhutan since launching a national crypto-powered tourism payment system in 2025.",
       "first_seen": 1795852358,
       "key": "binancereceivesinprincipleapprovalplansasiahubinbhutan",
@@ -424,53 +471,6 @@
       "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
       "title_zh": "道琼斯期货：股市看涨，特斯拉引领 7 个新买入； Nvidia 的黄仁勋前往国会山",
       "ts": 1795809269
-    },
-    {
-      "coins": [],
-      "desc": "Stocks Push Higher Despite Rising Bond Yields. Dow and S&P 500 Gain 0.5%",
-      "first_seen": 1795811916,
-      "key": "nasdaqleadsmarketreboundastreasuryyieldshit529atthelongend",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-leads-market-rebound-treasury-195242969.html?.tsrc=rss",
-      "reason": "利多词: 上涨、反弹",
-      "score": 3,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End",
-      "title_zh": "纳斯达克引领市场反弹，长期国债收益率触及 5.29%",
-      "ts": 1795809162
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin is trading below several of its most popular long-term price models, breaking historical support levels that previously helped investors anticipate the cryptocurrency's eventual recovery from prolonged, painful bear markets.",
-      "first_seen": 1795811916,
-      "key": "4scarybitcoinchartsthatsuggestthisbearmarketisdifferent",
-      "kind": "crypto",
-      "link": "https://decrypt.co/384177/bitcoin-4-scary-charts-crypto-winter-bear-market",
-      "reason": "利多词: 回升",
-      "score": 1,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "4 Scary Bitcoin Charts That Suggest This Bear Market Is Different",
-      "title_zh": "4 张可怕的比特币图表表明本次熊市有所不同",
-      "ts": 1795808762
-    },
-    {
-      "coins": [],
-      "desc": "The S&P 500 Index ($SPX ) (SPY ) closed up +1.60% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +1.18%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +2.61%. December E-mini S&P futures (ESZ26 ) rose +1.57%, and",
-      "first_seen": 1795830534,
-      "key": "stockssettlesharplyhigheraschipmakersandaistocksrebound",
-      "kind": "macro",
-      "link": "https://www.barchart.com/story/news/9036669/stocks-settle-sharply-higher-as-chipmakers-and-ai-stocks-rebound?.tsrc=rss",
-      "reason": "利多词: 反弹",
-      "score": 2,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound",
-      "title_zh": "随着芯片制造商和人工智能股票反弹，股票大幅走高",
-      "ts": 1795808008
     }
   ],
   "meta": {
@@ -487,10 +487,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 18",
+      "Yahoo Finance": "ok 19",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T08:52:39+01:00",
-  "updated_unix": 1795852359
+  "updated": "2026-11-28T09:43:42+01:00",
+  "updated_unix": 1795855422
 }
