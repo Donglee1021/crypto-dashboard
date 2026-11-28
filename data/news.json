@@ -2,6 +2,38 @@
   "errors": [],
   "items": [
     {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "The wait was the longest since July and the 69th longest since 2011, and no transaction fee could have sped it up.",
+      "first_seen": 1795825255,
+      "key": "bitcointookthanksgivingoffgoing98minuteswithoutablock",
+      "kind": "macro",
+      "link": "https://www.thestreet.com/crypto/markets/bitcoin-took-thanksgiving-off-going-98-minutes-without-a-block?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Bitcoin took Thanksgiving off, going 98 minutes without a block",
+      "title_zh": "Bitcoin took Thanksgiving off, going 98 minutes without a block",
+      "ts": 1795824000
+    },
+    {
+      "coins": [],
+      "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
+      "first_seen": 1795825255,
+      "key": "ihatethatjensenhuangisbackatnvidiabutilovewhatitsdoneformy401kamiahypocrite",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "title_zh": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "ts": 1795822200
+    },
+    {
       "coins": [],
       "desc": "",
       "first_seen": 1795818817,
@@ -107,6 +139,21 @@
       "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 1.20%",
       "title_zh": "加拿大股市收盘走高；标准普尔/多伦多证券交易所综合指数上涨 1.20%",
       "ts": 1795815004
+    },
+    {
+      "coins": [],
+      "desc": "Meanwhile, the Dow Jones index recorded its best week since October 2022.",
+      "first_seen": 1795825255,
+      "key": "sp500nasdaqendbestweekinoverayearasaioptimismmakescomebackvzantadbetslainfocus",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-best-week-in-over-a-year-as-ai-optimism-makes-comeback/cNb6EtcR9VK?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus",
+      "title_zh": "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus",
+      "ts": 1795814986
     },
     {
       "coins": [],
@@ -413,55 +460,6 @@
       "title": "Update: US Equity Indexes Jump With Treasury Yields as Consumer Discretionary, Technology Top Sector Charts",
       "title_zh": "更新：美国股指随国债收益率上涨，非必需消费品和科技行业位居榜首",
       "ts": 1795803746
-    },
-    {
-      "coins": [],
-      "desc": "Black Friday is a day for bargain hunting and investors were all in.",
-      "first_seen": 1795808421,
-      "key": "stockswrapupbestthanksgivingweekinnearly20years",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/9d2f272a-50a9-3cc9-a48e-5e5329282ac3/stocks-wrap-up-best.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stocks Wrap Up Best Thanksgiving Week in Nearly 20 Years",
-      "title_zh": "股市迎来近 20 年来最好的感恩节一周",
-      "ts": 1795803533
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Bitcoin’s largest options expiry this month comes as traders increasingly seek protection against further losses, with some hedging against a potential drop to $40,000 before the end of the year.",
-      "first_seen": 1795804720,
-      "key": "7billioninbitcoinoptionsjustexpiredhereswhatitmeans",
-      "kind": "crypto",
-      "link": "https://decrypt.co/384154/7-billion-bitcoin-options-just-expired-what-it-means",
-      "reason": "利空词: 下跌、亏损",
-      "score": -2,
-      "source": "Decrypt",
-      "tag": "利空",
-      "title": "$7 Billion in Bitcoin Options Just Expired: Here’s What It Means",
-      "title_zh": "70 亿美元的比特币期权刚刚到期：这意味着什么",
-      "ts": 1795803363
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Brian Armstrong says rising money printing keeps Bitcoin relevant, even as investors rotate into big IPOs.",
-      "first_seen": 1795804720,
-      "key": "coinbaseceoissuesbullishbitcoinpredictionasinflationfearsgrow",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/coinbase-ceo-issues-bullish-bitcoin-warning-as-inflation-fears-grow?.tsrc=rss",
-      "reason": "利多词: 看涨；利空词: 恐慌（多空相抵）",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Coinbase CEO issues bullish Bitcoin prediction as inflation fears grow",
-      "title_zh": "随着通胀担忧加剧，Coinbase 首席执行官发布看涨比特币预测",
-      "ts": 1795803286
     }
   ],
   "meta": {
@@ -476,12 +474,12 @@
       "Decrypt": "ok 35",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 6",
-      "MarketWatch": "ok 2",
+      "MarketWatch": "ok 3",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 16",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T00:29:17+01:00",
-  "updated_unix": 1795822157
+  "updated": "2026-11-28T01:20:58+01:00",
+  "updated_unix": 1795825258
 }
