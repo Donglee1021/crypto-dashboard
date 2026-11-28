@@ -3,6 +3,39 @@
   "items": [
     {
       "coins": [
+        "BTC",
+        "ETH"
+      ],
+      "desc": "Investing.com -- Bitcoin traded below $60,000 on Saturday as mounting ETF outflows and derivatives market volatility overshadowed aggressive accumulation by large holders, raising questions about whether the cryptocurrency is approaching a ",
+      "first_seen": 1795847780,
+      "key": "bitcoinpricefallsbelow60000aswhalesbuydipetfoutflowsmount",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-falls-below-60-062650457.html?.tsrc=rss",
+      "reason": "利多词: 增持、买入；利空词: 下跌、资金流出",
+      "score": -3,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount",
+      "title_zh": "由于鲸鱼买入下跌，ETF 资金流出增加，比特币价格跌破 60,000 美元",
+      "ts": 1795847210
+    },
+    {
+      "coins": [],
+      "desc": "Dangote Refinery’s IPO could value the company at about $47 billion, in what is expected to be Africa’s biggest stock market listing.",
+      "first_seen": 1795847780,
+      "key": "africasrichestmanistakinghismegarefinerypublicinablockbusteripo",
+      "kind": "macro",
+      "link": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CNBC 头条",
+      "tag": "中性",
+      "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+      "title_zh": "非洲首富正在将其大型炼油厂进行重磅IPO",
+      "ts": 1795845601
+    },
+    {
+      "coins": [
         "BTC"
       ],
       "desc": "Armstrong said the low of this cycle is still approximately four times the low of the last cycle.",
@@ -438,43 +471,13 @@
       "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
       "title_zh": "尽管利润缓冲缩小，比特币鲸鱼仍涌入比特币",
       "ts": 1795807380
-    },
-    {
-      "coins": [],
-      "desc": "AI is everywhere, and now it's even jumping into the holiday shopping season, with Meta's Muse set to take over Black Friday shopping for many consumers. On this episode of Market Hang, Wall Street veteran Turney Duff discusses the latest t",
-      "first_seen": 1795811916,
-      "key": "donthavetimetoshopblackfridayaiwilldoitforyou",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/video/dont-have-time-to-shop-black-friday-ai-will-do-it-for-you-191803633.html?.tsrc=rss",
-      "reason": "利多词: 跳涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Don't have time to shop Black Friday? AI will do it for you",
-      "title_zh": "黑色星期五没有时间购物？人工智能会为你做这件事",
-      "ts": 1795807083
-    },
-    {
-      "coins": [],
-      "desc": "The Dow Jones index and the Nasdaq composite rose in Friday's post-Thanksgiving session. Anthropic, SpaceX and Tesla gain.",
-      "first_seen": 1795808421,
-      "key": "stockmarkettodayindexeslogbestthanksgivingweekin18years",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/86a4597f-ee47-3048-ae92-1a56fa4711e5/stock-market-today%3A-indexes.html?.tsrc=rss",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
-      "title_zh": "今日股市：指数创下 18 年来最佳感恩节一周纪录",
-      "ts": 1795806643
     }
   ],
   "meta": {
     "count": 30,
     "kept_previous": false,
     "sources": {
-      "CNBC 头条": "ok 7",
+      "CNBC 头条": "ok 8",
       "CNBC 经济": "ok 24",
       "CNBC 金融": "ok 14",
       "CoinDesk": "ok 25",
@@ -488,6 +491,6 @@
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T06:37:23+01:00",
-  "updated_unix": 1795844243
+  "updated": "2026-11-28T07:36:22+01:00",
+  "updated_unix": 1795847782
 }
