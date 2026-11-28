@@ -2,22 +2,22 @@
   "correlation": {
     "BTC": {
       "NDX": {
-        "d30": -0.18,
-        "d90": -0.069
+        "d30": -0.175,
+        "d90": -0.067
       },
       "SPX": {
-        "d30": -0.179,
-        "d90": -0.057
+        "d30": -0.175,
+        "d90": -0.055
       }
     },
     "ETH": {
       "NDX": {
-        "d30": -0.221,
-        "d90": -0.122
+        "d30": -0.219,
+        "d90": -0.121
       },
       "SPX": {
-        "d30": -0.236,
-        "d90": -0.122
+        "d30": -0.234,
+        "d90": -0.121
       }
     }
   },
@@ -176,20 +176,20 @@
   ],
   "influence": {
     "bias": 0.138,
-    "corr": 0.204,
+    "corr": 0.201,
     "corr_label": "弱",
     "equity_chg": 2.55,
     "equity_name": "纳指期货",
     "line": "美股休市，纳指期货涨2.5%、VIX下降、美元走强，相关性低，对加密偏多",
-    "session": "after",
+    "session": "closed",
     "stale": false
   },
   "markets": {
     "Coinbase": {
       "chg": 3.2,
       "chg_1d": 3.2,
-      "chg_5d": -1.68,
-      "chg_intraday": -1.29,
+      "chg_5d": -3.14,
+      "chg_intraday": 3.2,
       "last": 107.04,
       "role": "crypto_eq",
       "stale": false,
@@ -200,8 +200,8 @@
     "MicroStrategy": {
       "chg": 2.08,
       "chg_1d": 2.08,
-      "chg_5d": -5.24,
-      "chg_intraday": -3.48,
+      "chg_5d": -9.63,
+      "chg_intraday": 2.08,
       "last": 81.62,
       "role": "crypto_eq",
       "stale": false,
@@ -296,8 +296,8 @@
     "贝莱德 IBIT": {
       "chg": -0.62,
       "chg_1d": -0.62,
-      "chg_5d": -3.48,
-      "chg_intraday": -2.43,
+      "chg_5d": -4.24,
+      "chg_intraday": -0.62,
       "last": 33.86,
       "role": "crypto_eq",
       "stale": false,
@@ -307,9 +307,9 @@
     }
   },
   "session": {
-    "code": "after",
-    "label": "盘后"
+    "code": "closed",
+    "label": "休市"
   },
-  "updated": "2026-11-28T01:20:59+01:00",
-  "updated_unix": 1795825259
+  "updated": "2026-11-28T02:48:59+01:00",
+  "updated_unix": 1795830539
 }
