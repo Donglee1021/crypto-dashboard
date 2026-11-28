@@ -3,6 +3,21 @@
   "items": [
     {
       "coins": [],
+      "desc": "A working group will examine enhancing connectivity between domestic digital payment networks and bringing their regulations into more alignment.",
+      "first_seen": 1795865176,
+      "key": "asean3agreesoninitiativetoexplorecryptopaymentscooperation",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/asean3-agrees-on-initiative-to-explore-crypto-payments-cooperation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Cointelegraph",
+      "tag": "中性",
+      "title": "ASEAN+3 agrees on initiative to explore crypto payments cooperation",
+      "title_zh": "东盟+3同意探索加密支付合作倡议",
+      "ts": 1795861860
+    },
+    {
+      "coins": [],
       "desc": "These companies offer a reliable stream of revenue growth.",
       "first_seen": 1795861922,
       "key": "sp500marketcorrection3safestockstobuynow",
@@ -117,16 +132,16 @@
     {
       "coins": [],
       "desc": "The agreement is a milestone in Binance’s effort to expand its presence in Bhutan since launching a national crypto-powered tourism payment system in 2025.",
-      "first_seen": 1795852358,
-      "key": "binancereceivesinprincipleapprovalplansasiahubinbhutan",
+      "first_seen": 1795865176,
+      "key": "binanceplansasiahubinbhutanreceivespreliminaryapproval",
       "kind": "crypto",
       "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "reason": "利多词: 获批",
       "score": 2,
       "source": "Cointelegraph",
       "tag": "利多",
-      "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
-      "title_zh": "币安获得原则批准，计划在不丹设立亚洲中心",
+      "title": "Binance plans Asia hub in Bhutan, receives preliminary approval",
+      "title_zh": "币安计划在不丹设立亚洲中心并获得初步批准",
       "ts": 1795851780
     },
     {
@@ -460,21 +475,6 @@
       "title": "Franklin Templeton makes room for HYPE in crypto index ETF",
       "title_zh": "富兰克林邓普顿在加密指数 ETF 中为 HYPE 腾出空间",
       "ts": 1795814129
-    },
-    {
-      "coins": [],
-      "desc": "The S&P 500 has had a whale of a decade so far. What happens if the artificial, AI-driven, mega-cap momentum finally exhausts itself?",
-      "first_seen": 1795836963,
-      "key": "takethisquicktesttoseehowmuchyoucouldloseifthestockmarketreturnstonormal",
-      "kind": "macro",
-      "link": "https://www.barchart.com/story/news/9037341/take-this-quick-test-to-see-how-much-you-could-lose-if-the-stock-market-returns-to-normal?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Take This Quick Test to See How Much You Could Lose if the Stock Market Returns to 'Normal'",
-      "title_zh": "进行这个快速测试，看看如果股市恢复“正常”，您可能会损失多少",
-      "ts": 1795813787
     }
   ],
   "meta": {
@@ -491,10 +491,10 @@
       "Investing.com 股市": "ok 2",
       "MarketWatch": "ok 3",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 19",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T11:32:04+01:00",
-  "updated_unix": 1795861924
+  "updated": "2026-11-28T12:26:17+01:00",
+  "updated_unix": 1795865177
 }
