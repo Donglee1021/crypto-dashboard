@@ -2,6 +2,38 @@
   "errors": [],
   "items": [
     {
+      "coins": [],
+      "desc": "The agreement is a milestone in Binance’s effort to expand its presence in Bhutan since launching a national crypto-powered tourism payment system in 2025.",
+      "first_seen": 1795852358,
+      "key": "binancereceivesinprincipleapprovalplansasiahubinbhutan",
+      "kind": "crypto",
+      "link": "https://cointelegraph.com/news/binance-receives-in-principle-approval-plans-asia-hub-in-bhutan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "reason": "利多词: 获批",
+      "score": 2,
+      "source": "Cointelegraph",
+      "tag": "利多",
+      "title": "Binance receives in-principle approval, plans Asia hub in Bhutan",
+      "title_zh": "Binance receives in-principle approval, plans Asia hub in Bhutan",
+      "ts": 1795851780
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Van de Poppe dismissed concerns that Bitcoin could be broken by AI or quantum computing.",
+      "first_seen": 1795852358,
+      "key": "michalvandepoppesaysbitcoincouldhit100000infirstquarterof2027",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/michael-van-de-poppe-says-bitcoin-could-hit-100-000-in-first-quarter-of-2027/cNRRruvR9Vs?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Michaël van de Poppe Says Bitcoin Could Hit $100,000 In First Quarter Of 2027",
+      "title_zh": "Michaël van de Poppe Says Bitcoin Could Hit $100,000 In First Quarter Of 2027",
+      "ts": 1795849411
+    },
+    {
       "coins": [
         "BTC",
         "ETH"
@@ -439,38 +471,6 @@
       "title": "Stocks Settle Sharply Higher as Chipmakers and AI Stocks Rebound",
       "title_zh": "随着芯片制造商和人工智能股票反弹，股票大幅走高",
       "ts": 1795808008
-    },
-    {
-      "coins": [],
-      "desc": "(Updates with market moves at the end of the day, and other changes, if any.) US equities rallied",
-      "first_seen": 1795808421,
-      "key": "updateequitiesclimbasdowpostsbiggestweeklyjumpsinceoctober2022",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/equities-climb-dow-posts-biggest-192733253.html?.tsrc=rss",
-      "reason": "利多词: 跳涨、攀升",
-      "score": 4,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Update: Equities Climb as Dow Posts Biggest Weekly Jump Since October 2022",
-      "title_zh": "更新：股市上涨，道指录得自 2022 年 10 月以来最大单周涨幅",
-      "ts": 1795807653
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "CryptoQuant data shows Bitcoin whales are breaking with historical fourth-quarter selling patterns despite a market downturn.",
-      "first_seen": 1795808421,
-      "key": "bitcoinwhalespileintobtcdespiteshrinkingprofitcushion",
-      "kind": "crypto",
-      "link": "https://cointelegraph.com/markets/bitcoin-whales-pile-btc-despite-shrinking-profit-cushion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Cointelegraph",
-      "tag": "中性",
-      "title": "Bitcoin whales pile into BTC despite shrinking profit cushion",
-      "title_zh": "尽管利润缓冲缩小，比特币鲸鱼仍涌入比特币",
-      "ts": 1795807380
     }
   ],
   "meta": {
@@ -491,6 +491,6 @@
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T07:36:22+01:00",
-  "updated_unix": 1795847782
+  "updated": "2026-11-28T08:52:39+01:00",
+  "updated_unix": 1795852359
 }
