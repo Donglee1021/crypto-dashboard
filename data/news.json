@@ -1,8 +1,38 @@
 {
-  "errors": [
-    "MarketWatch: 失败: HTTPError: HTTP Error 400: Bad Request"
-  ],
+  "errors": [],
   "items": [
+    {
+      "coins": [],
+      "desc": "These companies offer a reliable stream of revenue growth.",
+      "first_seen": 1795861922,
+      "key": "sp500marketcorrection3safestockstobuynow",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/28/s-and-p-500-market-correction-3-safe-stocks-to-buy-now/?.tsrc=rss",
+      "reason": "利多词: 买入",
+      "score": 2,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "S&P 500 Market Correction: 3 “Safe” Stocks to Buy Now",
+      "title_zh": "标准普尔 500 指数市场调整：立即购买 3 只“安全”股票",
+      "ts": 1795861322
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "It's an impressive rewards rate, but most cardholders won't earn it.",
+      "first_seen": 1795861922,
+      "key": "newcreditcardsoffering4cashbackinbitcoinarecomingsoondotheydeserveaplaceinyourwa",
+      "kind": "macro",
+      "link": "https://www.fool.com/investing/2026/11/28/new-credit-cards-offering-4-cash-back-in-bitcoin-are-coming-soon-do-they-deserve-a-place-in-your-wallet/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "New Credit Cards Offering 4% Cash Back in Bitcoin Are Coming Soon. Do They Deserve a Place In Your Wallet?",
+      "title_zh": "提供 4% 比特币现金返还的新信用卡即将推出。它们值得在你的钱包里占有一席之地吗？",
+      "ts": 1795861202
+    },
     {
       "coins": [
         "ETH"
@@ -325,6 +355,21 @@
       "ts": 1795824000
     },
     {
+      "coins": [],
+      "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
+      "first_seen": 1795861922,
+      "key": "ihatethatjensenhuangisbackatnvidiabutilovewhatitsdoneformy401kamiahypocrite",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "title_zh": "我讨厌 Jensen Huang 回到 Nvidia，但我喜欢它为我的 401(k) 所做的一切。我是伪君子吗？",
+      "ts": 1795822200
+    },
+    {
       "coins": [
         "BTC"
       ],
@@ -430,53 +475,6 @@
       "title": "Take This Quick Test to See How Much You Could Lose if the Stock Market Returns to 'Normal'",
       "title_zh": "进行这个快速测试，看看如果股市恢复“正常”，您可能会损失多少",
       "ts": 1795813787
-    },
-    {
-      "coins": [],
-      "desc": "Stocks rallied on Friday, giving indexes their best week since 2008.",
-      "first_seen": 1795818817,
-      "key": "reviewpreviewgratitudetrade",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/b4b967f3-ecb0-3cea-89c7-f0d0c38cee92/review-%26-preview%3A-gratitude.html?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Review & Preview: Gratitude Trade",
-      "title_zh": "回顾与预览：感恩贸易",
-      "ts": 1795813200
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "A draft AI-assisted proof of the Riemann Hypothesis renewed worries about the math securing Bitcoin, but K33 says no cryptographic compromise has been demonstrated.",
-      "first_seen": 1795815344,
-      "key": "couldaibreakbitcoinnotyetresearchfirmk33says",
-      "kind": "crypto",
-      "link": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
-      "title_zh": "人工智能能打破比特币吗？研究公司 K33 表示还没有",
-      "ts": 1795812362
-    },
-    {
-      "coins": [],
-      "desc": "In a wild, powerful market week, Tesla stock leads new buys. Nvidia's Jensen Huang is heading to Capitol Hill.",
-      "first_seen": 1795808421,
-      "key": "dowjonesfuturesstockmarketmakesbullishmoveteslaleads7newbuysnvidiasjensenhuanghe",
-      "kind": "macro",
-      "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
-      "reason": "利多词: 看涨、买入",
-      "score": 6,
-      "source": "Yahoo Finance",
-      "tag": "利多",
-      "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
-      "title_zh": "道琼斯期货：股市看涨，特斯拉引领 7 个新买入； Nvidia 的黄仁勋前往国会山",
-      "ts": 1795809269
     }
   ],
   "meta": {
@@ -491,12 +489,12 @@
       "Decrypt": "ok 35",
       "Investing.com 加密": "ok 10",
       "Investing.com 股市": "ok 2",
-      "MarketWatch": "失败: HTTPError: HTTP Error 400: Bad Request",
+      "MarketWatch": "ok 3",
       "The Block": "ok 20",
       "Yahoo Finance": "ok 19",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T10:37:43+01:00",
-  "updated_unix": 1795858663
+  "updated": "2026-11-28T11:32:04+01:00",
+  "updated_unix": 1795861924
 }
