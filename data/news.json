@@ -3,6 +3,104 @@
   "items": [
     {
       "coins": [],
+      "desc": "In a wild, powerful market week, Tesla stock leads new buys. Nvidia's Jensen Huang is heading to Capitol Hill.",
+      "first_seen": 1795872127,
+      "key": "dowjonesfuturesteslaleads7buysafterbullishmarketmovenvidiasjensenhuangoncapitolh",
+      "kind": "macro",
+      "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-tesla.html?.tsrc=rss",
+      "reason": "利多词: 看涨、买入",
+      "score": 6,
+      "source": "Yahoo Finance",
+      "tag": "利多",
+      "title": "Dow Jones Futures: Tesla Leads 7 Buys After Bullish Market Move; Nvidia's Jensen Huang On Capitol Hill",
+      "title_zh": "道琼斯期货：在牛市走势之后，特斯拉领先 7 个买入点； Nvidia 的 Jensen Huang 在国会山",
+      "ts": 1795870951
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "There's rock bottom, and then there's something many layers below that, and that's where bitcoin sentiment is right now.",
+      "first_seen": 1795872127,
+      "key": "bitcoinnotdeliveringthebearmarkethasdigitalassetveteranquestioningbtcsvalue",
+      "kind": "crypto",
+      "link": "https://www.coindesk.com/markets/2026/11/28/bitcoin-not-delivering-the-bear-market-has-digital-asset-veteran-questioning-btc-s-value",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "CoinDesk",
+      "tag": "中性",
+      "title": "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value",
+      "title_zh": "比特币未能兑现：熊市让数字资产资深人士质疑比特币的价值",
+      "ts": 1795870938
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Global M2 money supply fell 0.8% over the past 30 days, signaling deteriorating liquidity conditions across major economies. The US Dollar Index rose 1.8% over…",
+      "first_seen": 1795872127,
+      "key": "globalm2moneysupplycontractsraisingliquidityconcernsforbitcoinandequities",
+      "kind": "macro",
+      "link": "https://www.ccn.com/news/crypto/global-m2-money-supply-bitcoin-equities-liquidity/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "Global M2 Money Supply Contracts, Raising Liquidity Concerns for Bitcoin and Equities",
+      "title_zh": "全球M2货币供应合约，引发对比特币和股票的流动性担忧",
+      "ts": 1795870936
+    },
+    {
+      "coins": [
+        "ETH"
+      ],
+      "desc": "A blockbuster week rescued the S&P 500 from disaster, yet one trading day still decides whether November goes down as a historic stinker. The math demands a move the index has managed only three times in nearly four years.",
+      "first_seen": 1795872127,
+      "key": "onedayleftthesp500needsahugemondaytoavoiditsworstnovembersince2008",
+      "kind": "macro",
+      "link": "https://247wallst.com/investing/2026/11/28/one-day-left-the-sp-500-needs-a-huge-monday-to-avoid-its-worst-november-since-2008/?.tsrc=rss",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "Yahoo Finance",
+      "tag": "中性",
+      "title": "One Day Left: The S&P 500 Needs a Huge Monday to Avoid Its Worst November Since 2008",
+      "title_zh": "还剩一天：标准普尔 500 指数需要一个重要的周一才能避免 2008 年以来最糟糕的 11 月",
+      "ts": 1795869519
+    },
+    {
+      "coins": [],
+      "desc": "Amphenol, CDW, Sensata Technologies and TE Connectivity stood out when an Evercore analyst did a stress test of the hardware-related stocks he covers.",
+      "first_seen": 1795872127,
+      "key": "thesetechstocksmayletyouplaydefensewithoutgivinguponai",
+      "kind": "macro",
+      "link": "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+      "reason": "未命中方向关键词",
+      "score": 0,
+      "source": "MarketWatch",
+      "tag": "中性",
+      "title": "These tech stocks may let you play defense without giving up on AI",
+      "title_zh": "这些科技股可能让你在不放弃人工智能的情况下防守",
+      "ts": 1795869000
+    },
+    {
+      "coins": [
+        "BTC"
+      ],
+      "desc": "Brandt said that Bitcoin is losing its bullish momentum and the days of 20x and 50x gains are over.",
+      "first_seen": 1795872127,
+      "key": "peterbrandtsaysbtcsfouryearcycleisoutthewindowwarnsaslidetothelow30000swouldbeth",
+      "kind": "macro",
+      "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/peter-brandt-says-btc-s-four-year-cycle-is-out-the-window-warns-a-slide-to-the-low-30-000s-would-be-the-doom-of-bitcoin/cNRR69rR9nE?.tsrc=rss",
+      "reason": "利多词: 上涨、看涨；利空词: 下滑、警告",
+      "score": -2,
+      "source": "Yahoo Finance",
+      "tag": "利空",
+      "title": "Peter Brandt Says BTC's Four-Year Cycle Is 'Out The Window,' Warns A Slide To The Low $30,000s Would Be 'The Doom Of Bitcoin'",
+      "title_zh": "彼得·勃兰特 (Peter Brandt) 表示，比特币的四年周期已“过时”，并警告说，跌至 30,000 美元低点将是“比特币的末日”",
+      "ts": 1795868433
+    },
+    {
+      "coins": [],
       "desc": "The Zweig Breadth Thrust fires when the share of NYSE stocks that are rising, averaged over 10 days, jumps from below 40% to above 61.5% within 10 trading days.",
       "first_seen": 1795868061,
       "key": "stocksarechasingararebuysignalasmarketsbraceforapotentialfedhikechartoftheday",
@@ -336,68 +434,6 @@
     },
     {
       "coins": [],
-      "desc": "Wall Street staged a strong comeback as the S&P 500 posted its largest weekly gain in more than a year, with investors returning to battered AI stocks.",
-      "first_seen": 1795840731,
-      "key": "wallstreetstagesmajorcomebackduringthanksgivingshortenedtradingweek",
-      "kind": "macro",
-      "link": "https://www.foxbusiness.com/markets/wall-street-stages-major-comeback-thanksgiving-shortened-trading-week?.tsrc=rss",
-      "reason": "利多词: 上涨",
-      "score": 1,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Wall Street stages major comeback during Thanksgiving-shortened trading week",
-      "title_zh": "华尔街在感恩节缩短的交易周期间大幅卷土重来",
-      "ts": 1795831210
-    },
-    {
-      "coins": [],
-      "desc": "",
-      "first_seen": 1795833584,
-      "key": "ecbofficialssignalfurtherratehikesasinflationremainselevated",
-      "kind": "macro",
-      "link": "https://www.investing.com/news/stock-market-news/ecb-officials-signal-further-rate-hikes-as-inflation-remains-elevated-5054086",
-      "reason": "利空词: 加息",
-      "score": -4,
-      "source": "Investing.com 股市",
-      "tag": "利空",
-      "title": "ECB officials signal further rate hikes as inflation remains elevated",
-      "title_zh": "由于通胀仍然高企，欧洲央行官员暗示将进一步加息",
-      "ts": 1795830011
-    },
-    {
-      "coins": [],
-      "desc": "The stock that's held up best belongs to the slowest grower of the three.",
-      "first_seen": 1795830534,
-      "key": "vanguardsgrowthetfhas3stocksmakingupmorethanathirdofitonly1hasheldupinthetechsel",
-      "kind": "macro",
-      "link": "https://www.fool.com/investing/2026/11/27/vanguard-s-growth-etf-has-3-stocks-making-up-more-than-a-third-of-it-only-1-has-held-up-in-the-tech-sell-off/?.tsrc=rss",
-      "reason": "利空词: 抛售",
-      "score": -2,
-      "source": "Yahoo Finance",
-      "tag": "利空",
-      "title": "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off.",
-      "title_zh": "Vanguard 的成长 ETF 有 3 只股票，占其三分之一以上。只有 1 家公司在科技股抛售中坚守住了。",
-      "ts": 1795828142
-    },
-    {
-      "coins": [
-        "BTC"
-      ],
-      "desc": "Peter Schiff pokes at HODLers as Bitcoin trades about a third lower than a year ago.",
-      "first_seen": 1795830534,
-      "key": "veteraneconomistsaysbitcoinholdershavelittletobragaboutthisthanksgiving",
-      "kind": "macro",
-      "link": "https://www.thestreet.com/crypto/markets/veteran-economist-says-bitcoin-holders-have-little-to-brag-about-this-thanksgiving?.tsrc=rss",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Yahoo Finance",
-      "tag": "中性",
-      "title": "Veteran economist says Bitcoin holders have little to brag about this Thanksgiving",
-      "title_zh": "资深经济学家表示，比特币持有者在这个感恩节没什么可吹嘘的",
-      "ts": 1795825800
-    },
-    {
-      "coins": [],
       "desc": "Doing nothing and maintaining an even temperament is often the work of gods.",
       "first_seen": 1795861922,
       "key": "ihatethatjensenhuangisbackatnvidiabutilovewhatitsdoneformy401kamiahypocrite",
@@ -442,36 +478,6 @@
       "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
       "title_zh": "通货膨胀促使购物者追求价值。这对黑色星期五来说是个好兆头",
       "ts": 1795816857
-    },
-    {
-      "coins": [],
-      "desc": "The ChatGPT maker’s counterclaims flip the script on a dispute Apple started in July, alleging the iPhone maker took its trade secrets and pressured shared hardware suppliers to freeze it out of the AI-device race.",
-      "first_seen": 1795818817,
-      "key": "openaiturnsthetablesonapplewithitsowntradesecrettheftclaims",
-      "kind": "crypto",
-      "link": "https://decrypt.co/384222/openai-countersuit-apple-trade-secret-theft-claims",
-      "reason": "未命中方向关键词",
-      "score": 0,
-      "source": "Decrypt",
-      "tag": "中性",
-      "title": "OpenAI Turns the Tables on Apple With Its Own Trade-Secret Theft Claims",
-      "title_zh": "OpenAI 凭借自己的商业秘密盗窃索赔扭转了苹果的局面",
-      "ts": 1795815963
-    },
-    {
-      "coins": [],
-      "desc": "U.S. consumers face higher food, travel and gift costs in 2026 as inflation and Iran-war energy shocks pressure holiday budgets.",
-      "first_seen": 1795818817,
-      "key": "eventhepriceoftoysisontherisehowamericansarescalingbackholidayplans",
-      "kind": "macro",
-      "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
-      "reason": "利多词: 上升",
-      "score": 2,
-      "source": "CNBC 经济",
-      "tag": "利多",
-      "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
-      "title_zh": "就连玩具的价格也在上涨。美国人如何缩减假期计划",
-      "ts": 1795815941
     }
   ],
   "meta": {
@@ -485,13 +491,13 @@
       "Cointelegraph": "ok 30",
       "Decrypt": "ok 35",
       "Investing.com 加密": "ok 10",
-      "Investing.com 股市": "ok 3",
-      "MarketWatch": "ok 3",
+      "Investing.com 股市": "ok 2",
+      "MarketWatch": "ok 4",
       "The Block": "ok 20",
-      "Yahoo Finance": "ok 17",
+      "Yahoo Finance": "ok 18",
       "美联储": "ok 4"
     }
   },
-  "updated": "2026-11-28T13:14:24+01:00",
-  "updated_unix": 1795868064
+  "updated": "2026-11-28T14:22:13+01:00",
+  "updated_unix": 1795872133
 }
